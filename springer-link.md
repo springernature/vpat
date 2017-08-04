@@ -12,7 +12,7 @@ For more information, contact [onlineservice@springer.com](mailto:onlineservice@
 | Criteria | Supporting features | Remarks and explanations |
 | -------- | ------------------- | ------------------------ |
 | [Section 1194.21 Software Applications and Operating Systems](#section-119421-software-applications-and-operating-systems) |  | |
-| [Section 1194.22 Web-based Internet information and applications](#section-119422-web-based-internet-information-and-applications) |  | Our target standards are [https://www.w3.org/TR/WCAG20/](W3C's Web Content Accessibility Guidelines (WCAG) 2.0) (to level AA).<br>We take accessibility very seriously, and are constantly trying to improve. For instance we’ve developed [http://pa11y.org/](pa11y) - a tool that allows automated accessibility testing. We are using this to monitor our accessibility compliance. |
+| [Section 1194.22 Web-based Internet information and applications](#section-119422-web-based-internet-information-and-applications) |  | Our target standards are [W3C's Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/) (to level AA).<br>We take accessibility very seriously, and are constantly trying to improve. For instance we’ve developed [http://pa11y.org/](pa11y) - a tool that allows automated accessibility testing. We are using this to monitor our accessibility compliance. |
 | [Section 1194.23 Telecommunications Products](#section-119423-telecommunications-products)|  | |
 | [Section 1194.24 Video and Multi-media Products](#section-119424-video-and-multi-media-products)|  | |
 | [Section 1194.25 Self-Contained, Closed Products](#section-119425-self-contained-closed-products)|  | |
