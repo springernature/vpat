@@ -1,4 +1,4 @@
-# <a name="document-top"></a>Springer Link Voluntary Product Accessibility Template (VPAT)
+# <a name="document-top"></a>SpringerLink Voluntary Product Accessibility Template (VPAT)
 
 The data below is valid on the date provided: 4th August 2017.
 
