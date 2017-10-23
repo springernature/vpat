@@ -12,7 +12,7 @@ For more information, contact [info@biomedcentral.com](mailto:info@biomedcentral
 | Criteria | Supporting features | Remarks and explanations |
 | -------- | ------------------- | ------------------------ |
 | [Section 1194.21 Software Applications and Operating Systems](#section-119421-software-applications-and-operating-systems) | Not applicable | |
-| [Section 1194.22 Web-based Internet information and applications](#section-119422-web-based-internet-information-and-applications) | Supports with exceptions | We strive to comply with WCAG 2.0 level AA.<br>We take accessibility very seriously, and are constantly trying to improve.<br>For instance we developed Pa11y - a tool that allows automated accessibility testing. We are using this to continuously monitor our accessibility compliance. |
+| [Section 1194.22 Web-based Internet information and applications](#section-119422-web-based-internet-information-and-applications) | Supports with exceptions | Our target standards are [W3C's Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/) (to level AA).<br>We take accessibility very seriously, and are constantly trying to improve. For instance we’ve developed [pa11y](http://pa11y.org/) - a tool that allows automated accessibility testing. We are using this to monitor our accessibility compliance. |
 | [Section 1194.23 Telecommunications Products](#section-119423-telecommunications-products)| Not applicable | |
 | [Section 1194.24 Video and Multi-media Products](#section-119424-video-and-multi-media-products)| Not applicable | |
 | [Section 1194.25 Self-Contained, Closed Products](#section-119425-self-contained-closed-products)| Not applicable | |
