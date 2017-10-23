@@ -1,6 +1,6 @@
 # <a name="document-top"></a> nature.com (mosaic - journals)<br>Voluntary Product Accessibility Template&reg; (VPAT&trade;)
 
-The data below is valid on the date provided: 26th July 2017.
+The data below is valid on the date provided: 23rd October 2017.
 
 The features and explanations provided below are subject to change and updating at Nature Publishing Group’s discretion.
 
