@@ -6,6 +6,8 @@ For more information, contact [onlineservice@springer.com](mailto:onlineservice@
 
 <em>The features and explanations provided below are subject to change and updating at Springer Nature's discretion.</em>
 
+This VPAT covers all content that can be found at:
+https://link.springer.com
 
 ## Summary
 
