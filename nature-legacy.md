@@ -1,6 +1,6 @@
 # <a name="document-top"></a> nature.com (Legacy)<br>Voluntary Product Accessibility Template&reg; (VPAT&trade;)
 
-The data below is valid on the date provided: 26th July 2017.
+The data below is valid on the date provided: 24th September 2018.
 
 The features and explanations provided below are subject to change and updating at Nature Publishing Group’s discretion.
 
