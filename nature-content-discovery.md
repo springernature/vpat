@@ -1,9 +1,11 @@
-# <a name="document-top"></a> nature.com (mosaic - home|search|subjects)<br>Voluntary Product Accessibility Template&reg; (VPAT&trade;)
+# <a name="document-top"></a> nature.com (content discovery pages)<br>Voluntary Product Accessibility Template&reg; (VPAT&trade;)
 
-The data below is valid on the date provided: 26th July 2017.
+The data below is valid on the date provided: 25th September 2018.
 
 The features and explanations provided below are subject to change and updating at Nature Publishing Group’s discretion.
 
+This VPAT covers all content that can be found at:
+[https://www.nature.com/subject](https://www.nature.com/subject) and [https://www.nature.com/siteindex/](https://www.nature.com/siteindex/)
 
 ## Summary
 
