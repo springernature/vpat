@@ -5,7 +5,7 @@ The data below is valid on the date provided: 25th September 2018.
 The features and explanations provided below are subject to change and updating at Nature Publishing Group’s discretion.
 
 This VPAT covers all content that can be found at:
-[https://www.nature.com/subject](https://www.nature.com/subject) and [https://www.nature.com/siteindex/](https://www.nature.com/siteindex/)
+[https://www.nature.com/subjects](https://www.nature.com/subjects) and [https://www.nature.com/siteindex/](https://www.nature.com/siteindex/)
 
 ## Summary
 
