@@ -1,6 +1,6 @@
 # \!INSERT PRODUCT\! Accessibility Conformance Report
 
-### **VPAT**<sup>®</sup> **Version 2.2 – July 2018**
+### **VPAT**&reg; **Version 2.2 – July 2018**
 
 **Name of Product/Version**: \!INSERT PRODUCT NAME & VERSION NUMBER\!  
 **Product Description**: \!INSERT PRODUCT DESCRIPTION\!  
