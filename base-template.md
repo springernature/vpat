@@ -920,7 +920,7 @@ Notes: This product has not been evaluated for WCAG 2.0 Level AAA conformance.
 
 ## Revised Section 508 Report
 
-### Chapter 3: Functional Performance Criteria (FPC)
+### Chapter 3: [Functional Performance Criteria](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-3-functional-performance-criteria) (FPC)
 
 | **Criteria**                                                   | **Conformance Level** | **Remarks and Explanations** |
 | -------------------------------------------------------------- | --------------------- | ---------------------------- |
@@ -934,11 +934,11 @@ Notes: This product has not been evaluated for WCAG 2.0 Level AAA conformance.
 | 302.8 With Limited Reach and Strength                          |                       |                              |
 | 302.9 With Limited Language, Cognitive, and Learning Abilities |                       |                              |
 
-### Chapter 4: Hardware
+### Chapter 4: [Hardware](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-4-hardware)
 
 Notes: This product is a web software application and is not subject to the requirements of this chapter.
 
-### Chapter 5: Software
+### Chapter 5: [Software](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-5-platforms-and-applications)
 
 | **Criteria**                                                                        | **Conformance Level**                                        | **Remarks and Explanations**        |
 | ----------------------------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------- |
@@ -975,7 +975,7 @@ Notes: This product is a web software application and is not subject to the requ
 | 504.3 Prompts                                                                       |                                                              |                                     |
 | 504.4 Templates                                                                     |                                                              |                                     |
 
-### Chapter 6: Support Documentation and Services
+### Chapter 6: [Support Documentation and Services](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-6-documentation-and-support-services)
 
 Notes: This report covers accessibility conformance for the web product and does not provide Documentation or Support Services.
 
