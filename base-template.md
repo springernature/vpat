@@ -2,7 +2,7 @@
 
 ### **VPAT**&reg; **Version 2.2 – July 2018**
 
-**Name of Product/Version**: \!INSERT PRODUCT NAME & VERSION NUMBER\!  
+**Name of Product/Version**: \!INSERT PRODUCT NAME\! _(we do not version our software)_  
 **Product Description**: \!INSERT PRODUCT DESCRIPTION\!  
 **Date**: \!INSERT DATE LAST EDITED\!  
 **Contact information**: \!INSERT PRODUCT MAIN CONTACT EMAIL\!  
@@ -1079,4 +1079,4 @@ Notes: This product does not provide any relay services, or access for Emergency
 
 ## Legal Disclaimer (Springer Nature)
 
-*Include your company legal disclaimer here*
+This document is provided for information purposes only and the contents hereof are subject to change without notice. Springer Nature  does not warrant that this document is error free, nor does it provide any other warranties or conditions, whether expressed orally or implied in law, including implied warranties and conditions of merchantability or fitness for a particular purpose. Springer Nature specifically disclaims any liability with respect to this document and no contractual obligations are formed either directly or indirectly by this document. Springer Nature further makes no representation concerning the ability of assistive technologies or other products to interoperate with Springer Nature products. This document addresses the named product(s) or platforms only.

@@ -21,7 +21,7 @@ It includes the following standards/guidelines:
 To create a new VPAT for a product, use a *copy* of the [base template](./base-template.md) as a starting point. Ensure that you update the following placeholders within your copied template:
 
 - !INSERT PRODUCT!
-- !INSERT PRODUCT NAME & VERSION NUMBER!  
+- !INSERT PRODUCT NAME!  
 - !INSERT PRODUCT DESCRIPTION!  
 - !INSERT DATE LAST EDITED!  
 - !INSERT PRODUCT MAIN CONTACT EMAIL!
