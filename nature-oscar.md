@@ -2,9 +2,6 @@
 
 The data below is valid on the date provided: 23rd October 2017.
 
-The features and explanations provided below are subject to change and updating at Nature Publishing Group’s discretion.
-
-
 ## Summary
 
 | Criteria | Supporting features | Remarks and explanations |
@@ -154,3 +151,7 @@ Note to 1194.22: The Board interprets paragraphs (a) through (k) of this section
 |(c) Support services for products shall accommodate the communication needs of end-users with disabilities.|Supports|Support is also provided via [web](https://mse.secure.force.com/nature/) and [email](mailto:onlineservice@springernature.com)|
 
 [Return to the top of the document](#document-top)
+
+## Legal Disclaimer (Springer Nature)
+
+This document is provided for information purposes only and the contents hereof are subject to change without notice. Springer Nature does not warrant that this document is error free, nor does it provide any other warranties or conditions, whether expressed orally or implied in law, including implied warranties and conditions of merchantability or fitness for a particular purpose. Springer Nature specifically disclaims any liability with respect to this document and no contractual obligations are formed either directly or indirectly by this document. Springer Nature further makes no representation concerning the ability of assistive technologies or other products to interoperate with Springer Nature products. This document addresses the named product(s) or platforms only.

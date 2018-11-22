@@ -4,8 +4,6 @@ The data below is valid on the date provided: 4th August 2017.
 
 For more information, contact [onlineservice@springer.com](mailto:onlineservice@springer.com).
 
-<em>The features and explanations provided below are subject to change and updating at Springer Nature's discretion.</em>
-
 This VPAT covers all content that can be found at:
 https://link.springer.com
 
@@ -158,4 +156,8 @@ Note to 1194.22: The Board interprets paragraphs (a) through (k) of this section
 | (c) Support services for products shall accommodate the communication needs of end-users with disabilities. | Supports | The page outlining our approach to accessibility can be read by assistive technologies.  Additional information can be requested via email, telephone or post. Details of contact information can be found on the [contact us page](https://link.springer.com/contactus). |
 
 [Return to the top of the document](#document-top)
+
+## Legal Disclaimer (Springer Nature)
+
+This document is provided for information purposes only and the contents hereof are subject to change without notice. Springer Nature does not warrant that this document is error free, nor does it provide any other warranties or conditions, whether expressed orally or implied in law, including implied warranties and conditions of merchantability or fitness for a particular purpose. Springer Nature specifically disclaims any liability with respect to this document and no contractual obligations are formed either directly or indirectly by this document. Springer Nature further makes no representation concerning the ability of assistive technologies or other products to interoperate with Springer Nature products. This document addresses the named product(s) or platforms only.
 
