@@ -850,7 +850,7 @@ See WCAG sections [1.4.1 Use of Color](#use-of-color) and [2.4.7 Focus Visible](
 <tr>
 <td>502.3.13 Modification of Focus Cursor</td>
 <td>Supports</td>
-<td>The pages of this product uses standard HTML elements and cursor controls for user input that may be overriden by assistive technology.</td>
+<td>The pages of this product use standard HTML elements and cursor controls for user input that may be overriden by assistive technology.</td>
 </tr>
 <tr>
 <td>502.3.14 Event Notification</td>
