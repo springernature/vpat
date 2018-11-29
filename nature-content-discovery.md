@@ -178,7 +178,7 @@ We use semantically-correct markup to allow assistive technologies to interpret 
 </ul></td>
 <td>Supports</td>
 <td>
-These pages do not depend solely on sensory characteristics such as shape, size, visual location, orientation, or sound to understand content.  
+The pages of this product do not depend solely on sensory characteristics such as shape, size, visual location, orientation, or sound to understand content.  
 
 Icons may be displayed to control functionality, but adjacent visible text labels or aria-labels are also provided to ensure that relationships are available to Assistive Technologies.
 </td>
@@ -454,7 +454,7 @@ No other components on the pages of this product accept user input.
 </ul></td>
 <td>Supports with exceptions</td>
 <td>
-These pages use semantically-correct markup that meets the HTML5 specification for all interface elements.  
+The pages of this product use semantically-correct markup that meets the HTML5 specification for all interface elements.  
 
 Third party advertising scripts may inject content that omits start and end tags, contains duplicate attributes or contains illegally nested elements. When we become aware of active advertisements with these problems, we immediately take steps to remove that advertisement from our pages.
 </td>
@@ -472,7 +472,7 @@ Third party advertising scripts may inject content that omits start and end tags
 </ul></td>
 <td>Supports with exceptions</td>
 <td>
-These pages use standard HTML and WAI-ARIA attributes to describe the identity, operation, and state of user interface elements to Assistive Technologies.  
+The pages of this product use standard HTML and WAI-ARIA attributes to describe the identity, operation, and state of user interface elements to Assistive Technologies.  
 
 The "manage cookies" privacy centre (third party content) uses an inappropriate aria label of "true" in place of its main heading, and both links and images exist with no accessible name. Additionally, when a screenreader user activates a link on the left hand menu of the Privacy Preference Centre, they are not made aware that the content on the right has updated. We have reported these problems to the vendor. 
 </td>
@@ -565,7 +565,7 @@ Third party advertising scripts may inject non-responsive content that loses or 
 <li>501 (Web)(Software)</li>
 </ul></td>
 <td>Supports with exceptions</td>
-<td>These pages never use images of text to convey information except in the case of [logotypes](https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html) (considered essential per WCAG 2.0) or when the image is [pure decoration](https://www.w3.org/TR/WCAG21/#dfn-pure-decoration).  
+<td>The pages of this product never use images of text to convey information except in the case of [logotypes](https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html) (considered essential per WCAG 2.0) or when the image is [pure decoration](https://www.w3.org/TR/WCAG21/#dfn-pure-decoration).  
 
 Third party advertising scripts may inject images containing images of text.</td>
 </tr>
@@ -743,14 +743,12 @@ Notes: This product is a web software application and is not subject to the requ
 <tr>
 <td>502.2.1 User Control of Accessibility Features</td>
 <td>Not applicable</td>
-<td>These pages are not considered platform software as defined by Section 508. See [E103 Definitions, section E103.4](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E103-definitions).</td>
+<td>This product is not considered platform software as defined by Section 508. See [E103 Definitions, section E103.4](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E103-definitions).</td>
 </tr>
 <tr>
 <td>502.2.2 No Disruption of Accessibility Features</td>
 <td>Not applicable</td>
-<td>These pages have no platform features as defined by Section 508.  
-
-These pages are compatible with operating system and browser accessibility features configured by the user.  
+<td>This product has no platform features as defined by Section 508. The product is compatible with operating system and browser accessibility features configured by the user.  
 
 Third party scripts may inject content that disrupts standard operating and browser accessibility features. See information in WCAG section for complete details. 
 </td>
@@ -773,7 +771,7 @@ See WCAG sections [1.3.1 Info and Relationships](#info-and-relationships) and [4
 <td>502.3.2 Modification of Object Information</td>
 <td></td>
 <td>
-These pages use standard HTML or ARIA object roles for maximum compatibility with assistive technologies.  
+The pages of this product use standard HTML or ARIA object roles for maximum compatibility with assistive technologies.  
 
 See WCAG sections [1.3.1 Info and Relationships](#info-and-relationships) and [4.1.2 Name, Role, Value](#name-role-value) for further detail.
 </td>
@@ -786,12 +784,12 @@ See WCAG sections [1.3.1 Info and Relationships](#info-and-relationships) and [4
 <tr>
 <td>502.3.4 Values</td>
 <td>Supports</td>
-<td>These pages use standard HTML or ARIA object attributes for maximum compatibility with assistive technologies.</td>
+<td>The pages of this product use standard HTML or ARIA object attributes for maximum compatibility with assistive technologies.</td>
 </tr>
 <tr>
 <td>502.3.5 Modification of Values</td>
 <td>Supports</td>
-<td>These pages use standard HTML or ARIA object attributes for maximum compatibility with assistive technologies.</td>
+<td>The pages of this product use standard HTML or ARIA object attributes for maximum compatibility with assistive technologies.</td>
 </tr>
 <tr>
 <td>502.3.6 Label Relationships</td>
@@ -806,7 +804,7 @@ See WCAG sections [2.4.6 Headings and Labels](#headings-and-labels) and [3.3.2 L
 <td>502.3.7 Hierarchical Relationships</td>
 <td>Supports with exceptions</td>
 <td>
-These pages generally use standard HTML to express hierarchy. Third party scripts may inject content that obscures the relationships between components.  
+The pages of this product generally use standard HTML to express hierarchy. Third party scripts may inject content that obscures the relationships between components.  
 
 See WCAG section [1.3.1 Info and Relationships](#info-and-relationships) for further detail.
 </td>
@@ -815,7 +813,7 @@ See WCAG section [1.3.1 Info and Relationships](#info-and-relationships) for fur
 <td>502.3.8 Text</td>
 <td>Supports with exceptions</td>
 <td>
-These pages use standard plain text in HTML.  
+The pages of this product use standard plain text in HTML.  
 
 The "manage cookies" privacy centre (Third party content) uses an inappropriate aria label of "true" in place of its main heading. Some text in the privacy center (e.g. link text) may be present only in a title attribute, and may not be accessible to some assistive technologies.
 </td>
@@ -823,17 +821,17 @@ The "manage cookies" privacy centre (Third party content) uses an inappropriate 
 <tr>
 <td>502.3.9 Modification of Text</td>
 <td>Supports</td>
-<td>These pages use standard HTML for user input.</td>
+<td>The pages of this product use standard HTML for user input.</td>
 </tr>
 <tr>
 <td>502.3.10 List of Actions</td>
 <td>Supports</td>
-<td>These pages use standard HTML or ARIA object attributes for maximum compatibility with assistive technologies.</td>
+<td>The pages of this product use standard HTML or ARIA object attributes for maximum compatibility with assistive technologies.</td>
 </tr>
 <tr>
 <td>502.3.11 Actions on Objects</td>
 <td>Supports with exceptions</td>
-<td>These pages use standard HTML or ARIA object attributes for maximum compatibility with assistive technologies.  
+<td>The pages of this product use standard HTML or ARIA object attributes for maximum compatibility with assistive technologies.  
 
 Some third party scripts may inject content that can't be interacted with easily or at all by keyboard or by some assistive technologies.  
 
@@ -852,13 +850,13 @@ See WCAG sections [1.4.1 Use of Color](#use-of-color) and [2.4.7 Focus Visible](
 <tr>
 <td>502.3.13 Modification of Focus Cursor</td>
 <td>Supports</td>
-<td>These pages uses standard HTML elements and cursor controls for user input that may be overriden by assistive technology.</td>
+<td>The pages of this product uses standard HTML elements and cursor controls for user input that may be overriden by assistive technology.</td>
 </tr>
 <tr>
 <td>502.3.14 Event Notification</td>
 <td>Supports with exceptions</td>
 <td>
-These pages use standard HTML and WAI-ARIA attributes to describe the identity, operation, and state of user interface elements to Assistive Technologies.  
+The pages of this product use standard HTML and WAI-ARIA attributes to describe the identity, operation, and state of user interface elements to Assistive Technologies.  
 
 Some third party scripts may inject content that fails to notify users of changes in state.  
 
@@ -868,7 +866,7 @@ See WCAG sections [1.3.1 Info and Relationships](#info-and-relationships) and [4
 <tr>
 <td>502.4 Platform Accessibility Features</td>
 <td>Not applicable</td>
-<td>These pages are not considered platform software as defined by Section 508. See [E103 Definitions, section E103.4](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E103-definitions).</td>
+<td>This product is not considered platform software as defined by Section 508. See [E103 Definitions, section E103.4](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E103-definitions).</td>
 </tr>
 <tr>
 <td><em><strong>503 Applications</strong></em></td>
@@ -878,7 +876,7 @@ See WCAG sections [1.3.1 Info and Relationships](#info-and-relationships) and [4
 <tr>
 <td>503.2 User Preferences</td>
 <td>Supports</td>
-<td>These pages do not override user selected contrast and color selections and other individual display attributes.</td>
+<td>This product does not override user selected contrast and color selections and other individual display attributes.</td>
 </tr>
 <tr>
 <td>503.3 Alternative User Interfaces</td>
@@ -908,7 +906,7 @@ See WCAG sections [1.3.1 Info and Relationships](#info-and-relationships) and [4
 <tr>
 <td>504.2 Content Creation or Editing (if not authoring tool, enter “not applicable”)</td>
 <td>Not applicable</td>
-<td>These pages are not used as an authoring tool.</td>
+<td>This product is not used as an authoring tool.</td>
 </tr>
 <tr>
 <td>504.2.1 Preservation of Information Provided for Accessibility in Format Conversion</td>
@@ -1006,15 +1004,15 @@ Notes: This product does not include non-web documents and is therefore not subj
 | 11.3.2.16 Modifications of states and properties                                                  | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14                      | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14            |
 | 11.3.2.17 Modifications of values and text                                                        | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.5 and 502.3.9           | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.5 and 502.3.9 |
 | ***11.4 Documented accessibility usage***                                                         | -                                                                                        | -                                                                              |
-| 11.4.1 User control of accessibility features                                                     | Not applicable                                                                           | These pages are not considered platform software as defined by EN 301 549 V1.1.2. See [3.1 Definitions](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=18). |
-| 11.4.2 No disruption of accessibility features                                                    | Not applicable                                                                           | These pages are not considered platform software as defined by EN 301 549 V1.1.2. The product does not impede the user in using accessibility features provided by their operating system and Assistive Technologies. |
-| 11.5 User preferences                                                                             | Supports                                                                                 | These pages use standard HTML and CSS attributes that may be overridden in user-supplied style sheets. |
+| 11.4.1 User control of accessibility features                                                     | Not applicable                                                                           | This product is not considered platform software as defined by EN 301 549 V1.1.2. See [3.1 Definitions](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=18). |
+| 11.4.2 No disruption of accessibility features                                                    | Not applicable                                                                           | This product is not considered platform software as defined by EN 301 549 V1.1.2. The product does not impede the user in using accessibility features provided by their operating system and Assistive Technologies. |
+| 11.5 User preferences                                                                             | Supports                                                                                 | The pages of this product use standard HTML and CSS attributes that may be overridden in user-supplied style sheets. |
 | ***11.6 Authoring tools***                                                                        | -                                                                                        | -                                                                              |
 | ***11.6.1 Content technology***                                                                   | -                                                                                        | -                                                                              |
-| 11.6.2 Accessible content creation (if not authoring tool, enter “not applicable”)                | See [WCAG 2.0](#WCAG) section                                                            | See information in WCAG section                                                |
-| 11.6.3 Preservation of accessibility information in transformations                               | Not applicable                                                                           | These pages are not used as an authoring tool.                                 |
-| 11.6.4 Repair assistance                                                                          | Not applicable                                                                           | These pages are not used as an authoring tool.                                 |
-| 11.6.5 Templates                                                                                  | Not applicable                                                                           | These pages are not used as an authoring tool.                                 |
+| 11.6.2 Accessible content creation (if not authoring tool, enter “not applicable”)                | Not applicable                                                                           | This product is not used as an authoring tool.                                 |
+| 11.6.3 Preservation of accessibility information in transformations                               | Not applicable                                                                           | This product is not used as an authoring tool.                                 |
+| 11.6.4 Repair assistance                                                                          | Not applicable                                                                           | This product is not used as an authoring tool.                                 |
+| 11.6.5 Templates                                                                                  | Not applicable                                                                           | This product is not used as an authoring tool.                                 |
 
 ### Chapter [12: Documentation and Support Services](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=73)
 
