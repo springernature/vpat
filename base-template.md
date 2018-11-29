@@ -56,9 +56,9 @@ Tables 1 and 2 also document conformance with:
 <table>
 <thead>
 <tr>
-<th><strong>Criteria</strong></th>
-<th><strong>Conformance Level </strong></th>
-<th><strong>Remarks and Explanations</strong></th>
+<th scope="col"><strong>Criteria</strong></th>
+<th scope="col"><strong>Conformance Level </strong></th>
+<th scope="col"><strong>Remarks and Explanations</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -940,40 +940,177 @@ Notes: This product is a web software application and is not subject to the requ
 
 ### Chapter 5: [Software](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-5-platforms-and-applications)
 
-| **Criteria**                                                                        | **Conformance Level**                                        | **Remarks and Explanations**        |
-| ----------------------------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------- |
-| 501.1 Scope – Incorporation of WCAG 2.0 AA                                          | See [WCAG 2.0](#WCAG) section                                | See information in WCAG section     |
-| ***502 Interoperability with Assistive Technology***                                | -                                                            | -                                   |
-| 502.2.1 User Control of Accessibility Features                                      |                                                              |                                     |
-| 502.2.2 No Disruption of Accessibility Features                                     |                                                              |                                     |
-| ***502.3 Accessibility Services***                                                  | -                                                            | -                                   |
-| 502.3.1 Object Information                                                          |                                                              |                                     |
-| 502.3.2 Modification of Object Information                                          |                                                              |                                     |
-| 502.3.3 Row, Column, and Headers                                                    |                                                              |                                     |
-| 502.3.4 Values                                                                      |                                                              |                                     |
-| 502.3.5 Modification of Values                                                      |                                                              |                                     |
-| 502.3.6 Label Relationships                                                         |                                                              |                                     |
-| 502.3.7 Hierarchical Relationships                                                  |                                                              |                                     |
-| 502.3.8 Text                                                                        |                                                              |                                     |
-| 502.3.9 Modification of Text                                                        |                                                              |                                     |
-| 502.3.10 List of Actions                                                            |                                                              |                                     |
-| 502.3.11 Actions on Objects                                                         |                                                              |                                     |
-| 502.3.12 Focus Cursor                                                               |                                                              |                                     |
-| 502.3.13 Modification of Focus Cursor                                               |                                                              |                                     |
-| 502.3.14 Event Notification                                                         |                                                              |                                     |
-| 502.4 Platform Accessibility Features                                               |                                                              |                                     |
-| ***503 Applications***                                                              | -                                                            | -                                   |
-| 503.2 User Preferences                                                              |                                                              |                                     |
-| 503.3 Alternative User Interfaces                                                   |                                                              |                                     |
-| ***503.4 User Controls for Captions and Audio Description***                        | -                                                            | -                                   |
-| 503.4.1 Caption Controls                                                            |                                                              |                                     |
-| 503.4.2 Audio Description Controls                                                  |                                                              |                                     |
-| ***504 Authoring Tools***                                                           | -                                                            | -                                   |
-| 504.2 Content Creation or Editing (if not authoring tool, enter “not applicable”)   | See [WCAG 2.0](#WCAG) section                                | See information in WCAG section     |
-| 504.2.1 Preservation of Information Provided for Accessibility in Format Conversion |                                                              |                                     |
-| 504.2.2 PDF Export                                                                  |                                                              |                                     |
-| 504.3 Prompts                                                                       |                                                              |                                     |
-| 504.4 Templates                                                                     |                                                              |                                     |
+<table>
+<thead>
+<tr>
+<th scope="col"><strong>Criteria</strong></th>
+<th scope="col"><strong>Conformance Level</strong></th>
+<th scope="col"><strong>Remarks and Explanations</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>501.1 Scope – Incorporation of WCAG 2.0 AA</td>
+<td>See <a href="#WCAG">WCAG 2.0</a> section</td>
+<td>See information in WCAG section</td>
+</tr>
+<tr>
+<td><em><strong>502 Interoperability with Assistive Technology</strong></em></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>502.2.1 User Control of Accessibility Features</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>502.2.2 No Disruption of Accessibility Features</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><em><strong>502.3 Accessibility Services</strong></em></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>502.3.1 Object Information</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>502.3.2 Modification of Object Information</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>502.3.3 Row, Column, and Headers</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>502.3.4 Values</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>502.3.5 Modification of Values</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>502.3.6 Label Relationships</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>502.3.7 Hierarchical Relationships</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>502.3.8 Text</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>502.3.9 Modification of Text</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>502.3.10 List of Actions</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>502.3.11 Actions on Objects</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>502.3.12 Focus Cursor</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>502.3.13 Modification of Focus Cursor</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>502.3.14 Event Notification</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>502.4 Platform Accessibility Features</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><em><strong>503 Applications</strong></em></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>503.2 User Preferences</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>503.3 Alternative User Interfaces</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><em><strong>503.4 User Controls for Captions and Audio Description</strong></em></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>503.4.1 Caption Controls</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>503.4.2 Audio Description Controls</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><em><strong>504 Authoring Tools</strong></em></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>504.2 Content Creation or Editing (if not authoring tool, enter “not applicable”)</td>
+<td>See <a href="#WCAG">WCAG 2.0</a> section</td>
+<td>See information in WCAG section</td>
+</tr>
+<tr>
+<td>504.2.1 Preservation of Information Provided for Accessibility in Format Conversion</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>504.2.2 PDF Export</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>504.3 Prompts</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>504.4 Templates</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 ### Chapter 6: [Support Documentation and Services](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-6-documentation-and-support-services)
 
@@ -983,19 +1120,19 @@ Notes: This report covers accessibility conformance for the web product and does
 
 ### Chapter 4: [4.2 Functional Performance Statements](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=22) (FPS)
 
-| **Criteria**                                      | **Conformance Level**  | **Remarks and Explanations** |
-| ------------------------------------------------- | ---------------------- | ---------------------------- |
-| 4.2.1 Usage without vision                        |                        |                              |
-| 4.2.2 Usage with limited vision                   |                        |                              |
-| 4.2.3 Usage without perception of colour          |                        |                              |
-| 4.2.4 Usage without hearing                       |                        |                              |
-| 4.2.5 Usage with limited hearing                  |                        |                              |
-| 4.2.6 Usage without vocal capability              |                        |                              |
-| 4.2.7 Usage with limited manipulation or strength |                        |                              |
-| 4.2.8 Usage with limited reach                    |                        |                              |
-| 4.2.9 Minimize photosensitive seizure triggers    |                        |                              |
-| 4.2.10 Usage with limited cognition               |                        |                              |
-| 4.2.11 Privacy                                    |                        |                              |
+| **Criteria**                                      | **Conformance Level**                                                                       | **Remarks and Explanations**                                                                |
+| ------------------------------------------------- | ------------------------------------------------------------------------------------------  | ------------------------------------------------------------------------------------------- |
+| 4.2.1 Usage without vision                        | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.1 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.1 |
+| 4.2.2 Usage with limited vision                   | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.2 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.2 |
+| 4.2.3 Usage without perception of colour          | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.3 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.3 |
+| 4.2.4 Usage without hearing                       | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.4 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.4 |
+| 4.2.5 Usage with limited hearing                  | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.5 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.5 |
+| 4.2.6 Usage without vocal capability              | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.6 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.6 |
+| 4.2.7 Usage with limited manipulation or strength | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.7 and 302.8 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.7 and 302.8 |
+| 4.2.8 Usage with limited reach                    | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.8 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.8 |
+| 4.2.9 Minimize photosensitive seizure triggers    |                        																	  |                                                                                             |
+| 4.2.10 Usage with limited cognition               | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.9 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.9 |
+| 4.2.11 Privacy                                    |                        																	  |                                                                                             |
 
 ### Chapter [5: Generic Requirements](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=23)
 
@@ -1034,40 +1171,40 @@ Notes: This product does not include non-web documents and is therefore not subj
 
 ### Chapter [11: Software](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=53)
 
-| **Criteria**                                                                                      | **Conformance Level**                                        | **Remarks and Explanations**                  |
-| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------- |
-| 11.2.1 Software success criteria (excluding closed functionality)                                 | See [WCAG 2.0](#WCAG) section                                | See information in WCAG section               |
-| 11.2.2 Software success criteria (closed functionality)                                           | See [WCAG 2.0](#WCAG) section                                | See information in WCAG section               |
-| ***11.3 Interoperability with assistive technology***                                             | -                                                            | -                                             |
-| ***11.3.1 Closed functionality (informative)***                                                   | -                                                            | -                                             |
-| ***11.3.2 Accessibility services***                                                               | -                                                            | -                                             |
-| ***11.3.2.1 Platform accessibility service support for software that provides a user interface*** | See 11.3.2.5 through 11.3.2.17                               | See information in 11.3.2.5 through 11.3.2.17 |
-| ***11.3.2.2 Platform accessibility service support for assistive technologies***                  | See 11.3.2.5 through 11.3.2.17                               | See information in 11.3.2.5 through 11.3.2.17 |
-| 11.3.2.3 Use of accessibility services                                                            |                                                              |                                               |
-| 11.3.2.4 Assistive technology                                                                     |                                                              |                                               |
-| 11.3.2.5 Object information                                                                       |                                                              |                                               |
-| 11.3.2.6 Row, column, and headers                                                                 |                                                              |                                               |
-| 11.3.2.7 Values                                                                                   |                                                              |                                               |
-| 11.3.2.8 Label relationships                                                                      |                                                              |                                               |
-| 11.3.2.9 Parent-child relationships                                                               |                                                              |                                               |
-| 11.3.2.10 Text                                                                                    |                                                              |                                               |
-| 11.3.2.11 List of available actions                                                               |                                                              |                                               |
-| 11.3.2.12 Execution of available actions                                                          |                                                              |                                               |
-| 11.3.2.13 Tracking of focus and selection attributes                                              |                                                              |                                               |
-| 11.3.2.14 Modification of focus and selection attributes                                          |                                                              |                                               |
-| 11.3.2.15 Change notification                                                                     |                                                              |                                               |
-| 11.3.2.16 Modifications of states and properties                                                  |                                                              |                                               |
-| 11.3.2.17 Modifications of values and text                                                        |                                                              |                                               |
-| ***11.4 Documented accessibility usage***                                                         | -                                                            | -                                             |
-| 11.4.1 User control of accessibility features                                                     |                                                              |                                               |
-| 11.4.2 No disruption of accessibility features                                                    |                                                              |                                               |
-| 11.5 User preferences                                                                             |                                                              |                                               |
-| ***11.6 Authoring tools***                                                                        | -                                                            | -                                             |
-| ***11.6.1 Content technology***                                                                   | -                                                            | -                                             |
-| 11.6.2 Accessible content creation (if not authoring tool, enter “not applicable”)                | See [WCAG 2.0](#WCAG) section                                | See information in WCAG section               |
-| 11.6.3 Preservation of accessibility information in transformations                               |                                                              |                                               |
-| 11.6.4 Repair assistance                                                                          |                                                              |                                               |
-| 11.6.5 Templates                                                                                  |                                                              |                                               |
+| **Criteria**                                                                                      | **Conformance Level**                                                                    | **Remarks and Explanations**                                                   |
+| ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| 11.2.1 Software success criteria (excluding closed functionality)                                 | See [WCAG 2.0](#WCAG) section                                                            | See information in WCAG section                                                |
+| 11.2.2 Software success criteria (closed functionality)                                           | See [WCAG 2.0](#WCAG) section                                                            | See information in WCAG section                                                |
+| ***11.3 Interoperability with assistive technology***                                             | -                                                                                        | -                                                                              |
+| ***11.3.1 Closed functionality (informative)***                                                   | -                                                                                        | -                                                                              |
+| ***11.3.2 Accessibility services***                                                               | -                                                                                        | -                                                                              |
+| ***11.3.2.1 Platform accessibility service support for software that provides a user interface*** | See 11.3.2.5 through 11.3.2.17                                                           | See information in 11.3.2.5 through 11.3.2.17                                  |
+| ***11.3.2.2 Platform accessibility service support for assistive technologies***                  | See 11.3.2.5 through 11.3.2.17                                                           | See information in 11.3.2.5 through 11.3.2.17                                  |
+| 11.3.2.3 Use of accessibility services                                                            |                                                                                          |                                                                                |
+| 11.3.2.4 Assistive technology                                                                     |                                                                                          |                                                                                |
+| 11.3.2.5 Object information                                                                       | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.1 and 502.3.2           | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.1 and 502.3.2 |
+| 11.3.2.6 Row, column, and headers                                                                 | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.3                       | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.3             |
+| 11.3.2.7 Values                                                                                   | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.4 and 502.3.5           | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.4 and 502.3.5 |
+| 11.3.2.8 Label relationships                                                                      | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.6                       | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.6             |
+| 11.3.2.9 Parent-child relationships                                                               | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.7                       | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.7             |
+| 11.3.2.10 Text                                                                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.8 and 502.3.9           | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.8 and 502.3.9 |
+| 11.3.2.11 List of available actions                                                               | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.10                      | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.10            |
+| 11.3.2.12 Execution of available actions                                                          | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.11                      | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.11            |
+| 11.3.2.13 Tracking of focus and selection attributes                                              | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.12                      | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.12            |
+| 11.3.2.14 Modification of focus and selection attributes                                          | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.13                      | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.13            |
+| 11.3.2.15 Change notification                                                                     | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14                      | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14            |
+| 11.3.2.16 Modifications of states and properties                                                  | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14                      | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14            |
+| 11.3.2.17 Modifications of values and text                                                        | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.5 and 502.3.9           | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.5 and 502.3.9 |
+| ***11.4 Documented accessibility usage***                                                         | -                                                                                        | -                                                                              |
+| 11.4.1 User control of accessibility features                                                     |                                                                                          |                                                                                |
+| 11.4.2 No disruption of accessibility features                                                    |                                                                                          |                                                                                |
+| 11.5 User preferences                                                                             |                                                                                          |                                                                                |
+| ***11.6 Authoring tools***                                                                        | -                                                                                        | -                                                                              |
+| ***11.6.1 Content technology***                                                                   | -                                                                                        | -                                                                              |
+| 11.6.2 Accessible content creation (if not authoring tool, enter “not applicable”)                | See [WCAG 2.0](#WCAG) section                                                            | See information in WCAG section                                                |
+| 11.6.3 Preservation of accessibility information in transformations                               |                                                                                          |                                                                                |
+| 11.6.4 Repair assistance                                                                          |                                                                                          |                                                                                |
+| 11.6.5 Templates                                                                                  |                                                                                          |                                                                                |
 
 ### Chapter [12: Documentation and Support Services](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=73)
 
