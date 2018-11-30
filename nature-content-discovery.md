@@ -234,7 +234,7 @@ All of the pages in this product can be navigated by keyboard alone. Complex ele
 <br><br>
 Third party advertising scripts may inject content that can't be interacted with easily or at all by keyboard.
 <br><br>
-The "manage cookies" privacy centre banner (3rd party content) cannot be interacted with easily by keyboard alone. An alternative static link to the privacy centre is provided in the footer of each page.
+The "manage cookies" privacy centre banner (third party content) cannot be interacted with easily by keyboard alone. An alternative static link to the privacy centre is provided in the footer of each page.
 </td>
 </tr>
 <tr>
@@ -308,7 +308,7 @@ The "manage cookies" privacy centre banner (3rd party content) cannot be interac
 <td>
 We use semantically-correct markup so that Assistive Technology users can recognise elements and move around them accordingly. We make use of ARIA roles to support landmarks. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
-The "manage cookies" privacy centre (3rd party content) does not provide a way for screen reader users to bypass the links in its left hand menu.
+The "manage cookies" privacy centre (third party content) does not provide a way for screen reader users to bypass the links in its left hand menu.
 </td>
 </tr>
 <tr>
@@ -360,7 +360,7 @@ The purpose of each link that we provide can be determined by its descriptive te
 <br><br>
 Third party advertising scripts may inject content that includes links with no accessible text, or poorly-named accessible text.
 <br><br>
-The "manage cookies" privacy centre (3rd party content) displays some links with a title attribute instead of accessible text; the title attribute may not be made available by all Assistive Technologies.
+The "manage cookies" privacy centre (third party content) displays some links with a title attribute instead of accessible text; the title attribute may not be made available by all Assistive Technologies.
 </td>
 </tr>
 <tr>
@@ -596,7 +596,7 @@ Third party advertising scripts may inject images containing images of text.
 <td>
 Our document structure is semantically marked up using headings to create a sequential hierarchy of content. We never use inappropriate heading levels for visual effect. All of the pages of this product use labels on components that require user input. Sometimes headings or labels may be visually hidden but available to Assistive Technologies.
 <br><br>
-The "manage cookies" privacy centre (3rd party content) uses an inappropriate aria label of "true" in place of its main heading. We have reported this problem to the vendor.
+The "manage cookies" privacy centre (third party content) uses an inappropriate aria label of "true" in place of its main heading. We have reported this problem to the vendor.
 </td>
 </tr>
 <tr id="focus-visible">
@@ -704,8 +704,8 @@ Notes: This product has not been evaluated for WCAG 2.0 Level AAA conformance.
 | **Criteria**                                                   | **Conformance Level**    | **Remarks and Explanations** |
 | -------------------------------------------------------------- | ---------------------    | ---------------------------- |
 | 302.1 Without Vision                                           | Partially supports       | The majority of content is marked up for Assistive Technology. Third party scripts may inject content with inadequate accessible alternatives. |
-| 302.2 With Limited Vision                                      | Partially supports	    | Markup is written with support for assistive technology. Text is resizable by the user. Fonts are set as rems and use pixels as a fallback if not supported. The website does not impede the user from zooming into page. Third party scripts may inject content with inadequate accessible alternatives. |
-| 302.3 Without Perception of Color                              | Supports                 | Color perception is not needed to use the website. |
+| 302.2 With Limited Vision                                      | Partially supports	    | Markup is written with support for assistive technology. Text is resizable by the user. Fonts are set as rems and use pixels as a fallback if not supported. The product does not impede the user from zooming into page. Third party scripts may inject content with inadequate accessible alternatives. |
+| 302.3 Without Perception of Color                              | Supports                 | Color perception is not needed to use this product. |
 | 302.4 Without Hearing                                          | Not Applicable	        | Audio is not used in this product. |
 | 302.5 With Limited Hearing                                     | Not Applicable	        | Audio is not used in this product. |
 | 302.6 Without Speech                                           | Not Applicable	        | Speech is not needed to use this product. |
@@ -951,7 +951,7 @@ Notes: This report covers accessibility conformance for the web product and does
 | 4.2.8 Usage with limited reach                    | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.8 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.8 |
 | 4.2.9 Minimize photosensitive seizure triggers    | Supports                                                                                    | The pages of this product do not contain anything that flashes.                             |
 | 4.2.10 Usage with limited cognition               | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.9 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.9 |
-| 4.2.11 Privacy                                    | Supports                                                                                    | Standard HTML and WAI-ARIA attributes are used on these pages. The website does not impede the user from using their own privacy tools when interacting with the content. |
+| 4.2.11 Privacy                                    | Supports                                                                                    | Standard HTML and WAI-ARIA attributes are used on these pages. The product does not impede the user from using their own privacy tools when interacting with the content. |
 
 ### Chapter [5: Generic Requirements](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=23)
 
