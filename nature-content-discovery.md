@@ -452,7 +452,7 @@ No other components on the pages of this product accept user input.
 <td>
 The pages of this product use semantically-correct markup that meets the HTML5 specification for all interface elements.
 <br><br>
-Third party advertising scripts may inject content that omits start and end tags, contains duplicate attributes or contains illegally nested elements. When we become aware of active advertisements with these problems, we immediately take steps to remove that advertisement from our pages.
+Third party advertising scripts may inject content that omits start and end tags, contains duplicate attributes or contains illegally nested elements. When we become aware of active advertisements with these problems, we immediately take steps to remove those advertisements from our pages.
 </td>
 </tr>
 <tr id="name-role-value">
@@ -579,7 +579,7 @@ Third party advertising scripts may inject images containing images of text.
 <li>501 (Web)(Software) – Does not apply to non-web software</li>
 </ul></td>
 <td>Supports</td>
-<td>Users may use the search function or the provided links to access any part of the subject pages. Breadcrumb menus are provided to return users to the index page. The main navigation component can also be used to access the main subject index pages.</td>
+<td>Users may use the search function or the provided links to access any part of this product. Breadcrumb menus are provided to return users to the index page. The main navigation component can also be used to access the main subject index pages.</td>
 </tr>
 <tr id="headings-and-labels">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-descriptive"><strong>2.4.6 Headings and Labels</strong></a> (Level AA)
@@ -646,7 +646,7 @@ Third party advertising scripts may inject components that use a different langu
 <li>501 (Web)(Software) – Does not apply to non-web software</li>
 </ul></td>
 <td>Supports</td>
-<td>These subject pages use the same navigation methods throughout.</td>
+<td>The pages of this product use the same navigation methods throughout.</td>
 </tr>
 <tr>
 <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-functionality"><strong>3.2.4 Consistent Identification</strong></a> (Level AA)
@@ -660,7 +660,7 @@ Third party advertising scripts may inject components that use a different langu
 <li>501 (Web)(Software) – Does not apply to non-web software</li>
 </ul></td>
 <td>Supports</td>
-<td>These subject pages use a unified design style with consistent presentation and functionality.</td>
+<td>The pages of this product use a unified design style with consistent presentation and functionality.</td>
 </tr>
 <tr>
 <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-suggestions"><strong>3.3.3 Error Suggestion</strong></a> (Level AA)
@@ -704,7 +704,7 @@ Notes: This product has not been evaluated for WCAG 2.0 Level AAA conformance.
 | **Criteria**                                                   | **Conformance Level**    | **Remarks and Explanations** |
 | -------------------------------------------------------------- | ---------------------    | ---------------------------- |
 | 302.1 Without Vision                                           | Partially supports       | The majority of content is marked up for Assistive Technology. Third party scripts may inject content with inadequate accessible alternatives. |
-| 302.2 With Limited Vision                                      | Partially supports	    | Markup is written with support for assistive technology. Text is resizable by the user. Fonts are set as rems and use pixels as a fallback if not supported. The product does not impede the user from zooming into page. Third party scripts may inject content with inadequate accessible alternatives. |
+| 302.2 With Limited Vision                                      | Partially supports	    | Markup is written with support for assistive technology. Text is resizable by the user. Fonts are set as rems and use pixels as a fallback if not supported. The product does not impede the user from zooming into page. Third party scripts may inject content with inadequate accessibility support. |
 | 302.3 Without Perception of Color                              | Supports                 | Color perception is not needed to use this product. |
 | 302.4 Without Hearing                                          | Not Applicable	        | Audio is not used in this product. |
 | 302.5 With Limited Hearing                                     | Not Applicable	        | Audio is not used in this product. |
@@ -911,22 +911,22 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 <tr>
 <td>504.2.1 Preservation of Information Provided for Accessibility in Format Conversion</td>
 <td>Not applicable</td>
-<td></td>
+<td>This product is not used as an authoring tool.</td>
 </tr>
 <tr>
 <td>504.2.2 PDF Export</td>
 <td>Not applicable</td>
-<td></td>
+<td>This product is not used as an authoring tool.</td>
 </tr>
 <tr>
 <td>504.3 Prompts</td>
 <td>Not applicable</td>
-<td></td>
+<td>This product is not used as an authoring tool.</td>
 </tr>
 <tr>
 <td>504.4 Templates</td>
 <td>Not applicable</td>
-<td></td>
+<td>This product is not used as an authoring tool.</td>
 </tr>
 </tbody>
 </table>
@@ -990,19 +990,19 @@ Notes: This product does not include non-web documents and is therefore not subj
 | ***11.3.2.2 Platform accessibility service support for assistive technologies***                  | See 11.3.2.5 through 11.3.2.17                                                           | See information in 11.3.2.5 through 11.3.2.17                                  |
 | 11.3.2.3 Use of accessibility services                                                            | Supports                                                                                 | This product supports standard platform accessibility services.                |
 | 11.3.2.4 Assistive technology                                                                     | Not applicable                                                                           | This product is not an assistive technology.                                   |
-| 11.3.2.5 Object information                                                                       | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.1 and 502.3.2           | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.1 and 502.3.2 |
-| 11.3.2.6 Row, column, and headers                                                                 | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.3                       | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.3             |
-| 11.3.2.7 Values                                                                                   | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.4 and 502.3.5           | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.4 and 502.3.5 |
-| 11.3.2.8 Label relationships                                                                      | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.6                       | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.6             |
-| 11.3.2.9 Parent-child relationships                                                               | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.7                       | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.7             |
-| 11.3.2.10 Text                                                                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.8 and 502.3.9           | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.8 and 502.3.9 |
-| 11.3.2.11 List of available actions                                                               | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.10                      | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.10            |
-| 11.3.2.12 Execution of available actions                                                          | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.11                      | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.11            |
-| 11.3.2.13 Tracking of focus and selection attributes                                              | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.12                      | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.12            |
-| 11.3.2.14 Modification of focus and selection attributes                                          | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.13                      | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.13            |
-| 11.3.2.15 Change notification                                                                     | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14                      | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14            |
-| 11.3.2.16 Modifications of states and properties                                                  | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14                      | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14            |
-| 11.3.2.17 Modifications of values and text                                                        | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.5 and 502.3.9           | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.5 and 502.3.9 |
+| 11.3.2.5 Object information                                                                       | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.1 and 502.3.2 |
+| 11.3.2.6 Row, column, and headers                                                                 | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.3             |
+| 11.3.2.7 Values                                                                                   | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.4 and 502.3.5 |
+| 11.3.2.8 Label relationships                                                                      | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.6             |
+| 11.3.2.9 Parent-child relationships                                                               | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.7             |
+| 11.3.2.10 Text                                                                                    | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.8 and 502.3.9 |
+| 11.3.2.11 List of available actions                                                               | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.10            |
+| 11.3.2.12 Execution of available actions                                                          | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.11            |
+| 11.3.2.13 Tracking of focus and selection attributes                                              | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.12            |
+| 11.3.2.14 Modification of focus and selection attributes                                          | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.13            |
+| 11.3.2.15 Change notification                                                                     | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14            |
+| 11.3.2.16 Modifications of states and properties                                                  | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14            |
+| 11.3.2.17 Modifications of values and text                                                        | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.5 and 502.3.9 |
 | ***11.4 Documented accessibility usage***                                                         | -                                                                                        | -                                                                              |
 | 11.4.1 User control of accessibility features                                                     | Not applicable                                                                           | This product is not considered platform software as defined by EN 301 549 V1.1.2. See [3.1 Definitions](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=18). |
 | 11.4.2 No disruption of accessibility features                                                    | Not applicable                                                                           | This product is not considered platform software as defined by EN 301 549 V1.1.2. The product does not impede the user in using accessibility features provided by their operating system and Assistive Technologies. |
