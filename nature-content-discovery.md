@@ -749,7 +749,7 @@ Notes: This product is a web software application and is not subject to the requ
 <td>
 This product has no platform features as defined by Section 508. The product is compatible with operating system and browser accessibility features configured by the user.
 <br><br>
-Third party scripts may inject content that disrupts standard operating and browser accessibility features. See information in WCAG section for complete details.
+Third party scripts may inject content that disrupts standard operating system and browser accessibility features. See information in WCAG section for complete details.
 </td>
 </tr>
 <tr>
@@ -939,19 +939,19 @@ Notes: This report covers accessibility conformance for the web product and does
 
 ### Chapter 4: [4.2 Functional Performance Statements](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=22) (FPS)
 
-| **Criteria**                                      | **Conformance Level**                                                                       | **Remarks and Explanations**                                                                |
-| ------------------------------------------------- | ------------------------------------------------------------------------------------------  | ------------------------------------------------------------------------------------------- |
-| 4.2.1 Usage without vision                        | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.1 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.1 |
-| 4.2.2 Usage with limited vision                   | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.2 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.2 |
-| 4.2.3 Usage without perception of colour          | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.3 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.3 |
-| 4.2.4 Usage without hearing                       | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.4 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.4 |
-| 4.2.5 Usage with limited hearing                  | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.5 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.5 |
-| 4.2.6 Usage without vocal capability              | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.6 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.6 |
-| 4.2.7 Usage with limited manipulation or strength | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.7 and 302.8 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.7 and 302.8 |
-| 4.2.8 Usage with limited reach                    | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.8 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.8 |
-| 4.2.9 Minimize photosensitive seizure triggers    | Supports                                                                                    | The pages of this product do not contain anything that flashes.                             |
-| 4.2.10 Usage with limited cognition               | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.9 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.9 |
-| 4.2.11 Privacy                                    | Supports                                                                                    | Standard HTML and WAI-ARIA attributes are used on these pages. The product does not impede the user from using their own privacy tools when interacting with the content. |
+| **Criteria**                                      | **Conformance Level**                                                            | **Remarks and Explanations**                                                                |
+| ------------------------------------------------- | -------------------------------------------------------------------------------  | ------------------------------------------------------------------------------------------- |
+| 4.2.1 Usage without vision                        | See [Revised Section 508 Report](#chapter-3-functional-performance-criteria-fpc) | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.1 |
+| 4.2.2 Usage with limited vision                   | See [Revised Section 508 Report](#chapter-3-functional-performance-criteria-fpc) | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.2 |
+| 4.2.3 Usage without perception of colour          | See [Revised Section 508 Report](#chapter-3-functional-performance-criteria-fpc) | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.3 |
+| 4.2.4 Usage without hearing                       | See [Revised Section 508 Report](#chapter-3-functional-performance-criteria-fpc) | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.4 |
+| 4.2.5 Usage with limited hearing                  | See [Revised Section 508 Report](#chapter-3-functional-performance-criteria-fpc) | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.5 |
+| 4.2.6 Usage without vocal capability              | See [Revised Section 508 Report](#chapter-3-functional-performance-criteria-fpc) | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.6 |
+| 4.2.7 Usage with limited manipulation or strength | See [Revised Section 508 Report](#chapter-3-functional-performance-criteria-fpc) | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.7 and 302.8 |
+| 4.2.8 Usage with limited reach                    | See [Revised Section 508 Report](#chapter-3-functional-performance-criteria-fpc) | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.8 |
+| 4.2.9 Minimize photosensitive seizure triggers    | Supports                                                                         | The pages of this product do not contain anything that flashes.                             |
+| 4.2.10 Usage with limited cognition               | See [Revised Section 508 Report](#chapter-3-functional-performance-criteria-fpc) | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.9 |
+| 4.2.11 Privacy                                    | Supports                                                                         | Standard HTML and WAI-ARIA attributes are used on these pages. The product does not impede the user from using their own privacy tools when interacting with the content. |
 
 ### Chapter [5: Generic Requirements](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=23)
 
