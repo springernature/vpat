@@ -939,19 +939,19 @@ Notes: This report covers accessibility conformance for the web product and does
 
 ### Chapter 4: [4.2 Functional Performance Statements](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=22) (FPS)
 
-| **Criteria**                                      | **Conformance Level**    | **Remarks and Explanations** |
-| ------------------------------------------------- | ----------------------   | ---------------------------- |
-| 4.2.1 Usage without vision                        | Partially supports       | The majority of content is marked up for Assistive Technology. Third party scripts may inject content with inadequate accessible alternatives. |
-| 4.2.2 Usage with limited vision                   | Partially supports       | Markup is written with support for assistive technology. Text is resizable by the user. Fonts are set as rems and use pixels as a fallback if not supported. The website does not impede the user from zooming into page. Third party scripts may inject content with inadequate accessible alternatives. |
-| 4.2.3 Usage without perception of colour          | Supports                 | Color perception is not needed to use the website. |
-| 4.2.4 Usage without hearing                       | Not Applicable	       | Audio is not used in this product. |
-| 4.2.5 Usage with limited hearing                  | Not Applicable	       | Audio is not used in this product. |
-| 4.2.6 Usage without vocal capability              | Not Applicable	       | Speech is not needed to use this product. |
-| 4.2.7 Usage with limited manipulation or strength | Partially supports       | This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Fine motor control and simultaneous actions are not required to operate these pages. Third party advertising scripts may inject content that is difficult to use without a pointing device. |
-| 4.2.8 Usage with limited reach                    | Partially supports       | This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Third party advertising scripts may inject content that is difficult to use without a pointing device. |
-| 4.2.9 Minimize photosensitive seizure triggers    | Supports                 | The pages of this product do not contain anything that flashes. |
-| 4.2.10 Usage with limited cognition               | Partially supports       | The pages of this product have a consistent presentation with clear labels, titles, and accessible names for controls. Third party scripts may inject content with inconsistent or absent labelling of interface components. |
-| 4.2.11 Privacy                                    | Supports                 | Standard HTML and WAI-ARIA attributes are used on these pages. The website does not impede the user from using their own privacy tools when interacting with the content. |
+| **Criteria**                                      | **Conformance Level**                                                                       | **Remarks and Explanations**                                                                |
+| ------------------------------------------------- | ------------------------------------------------------------------------------------------  | ------------------------------------------------------------------------------------------- |
+| 4.2.1 Usage without vision                        | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.1 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.1 |
+| 4.2.2 Usage with limited vision                   | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.2 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.2 |
+| 4.2.3 Usage without perception of colour          | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.3 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.3 |
+| 4.2.4 Usage without hearing                       | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.4 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.4 |
+| 4.2.5 Usage with limited hearing                  | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.5 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.5 |
+| 4.2.6 Usage without vocal capability              | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.6 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.6 |
+| 4.2.7 Usage with limited manipulation or strength | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.7 and 302.8 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.7 and 302.8 |
+| 4.2.8 Usage with limited reach                    | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.8 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.8 |
+| 4.2.9 Minimize photosensitive seizure triggers    | Supports                                                                                    | The pages of this product do not contain anything that flashes.                             |
+| 4.2.10 Usage with limited cognition               | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.9 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.9 |
+| 4.2.11 Privacy                                    | Supports                                                                                    | Standard HTML and WAI-ARIA attributes are used on these pages. The website does not impede the user from using their own privacy tools when interacting with the content. |
 
 ### Chapter [5: Generic Requirements](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=23)
 
