@@ -74,15 +74,15 @@ Tables 1 and 2 also document conformance with:
 <ul>
 <li>501 (Web)(Software)</li>
 </ul></td>
-<td>Supports with Exceptions</td>
+<td>Partially supports</td>
 <td>
-All images that we supply provide alternate text or descriptions; background images such as icons on user interface elements are identified in text. 
-
-We mark up some images so that they can be ignored by Assistive Technologies if they are [_pure decoration_](https://www.w3.org/TR/WCAG21/#dfn-pure-decoration) (as defined by WCAG 2.0). 
-
-Background images that we supply are always decorative.  
-
-Third party scripts may inject non-text content without text alternatives. These include images in advertising scripts and in the "manage cookies" privacy centre. 
+All images that we supply provide alternate text or descriptions; background images such as icons on user interface elements are identified in text.
+<br><br>
+We mark up some images so that they can be ignored by Assistive Technologies if they are [_pure decoration_](https://www.w3.org/TR/WCAG21/#dfn-pure-decoration) (as defined by WCAG 2.0).
+<br><br>
+Background images that we supply are always decorative.
+<br><br>
+Third party scripts may inject non-text content without text alternatives. These include images in advertising scripts and in the "manage cookies" privacy centre.
 </td>
 </tr>
 <tr>
@@ -138,13 +138,13 @@ Third party scripts may inject non-text content without text alternatives. These
 <ul>
 <li>501 (Web)(Software)</li>
 </ul></td>
-<td>Supports with exceptions</td>
+<td>Partially supports</td>
 <td>
-We use progressive enhancement techniques and semantically-correct markup so that information, structure, and relationships can be understood independent of presentation.  
-
-We make use of ARIA roles to support landmarks, and use ARIA roles and properties when required for more complex functionality such as popup menus and search results updates.  
-
-Third party scripts may inject content with incorrect or absent information about structure and relationships. These include content in advertising scripts and in the "manage cookies" privacy centre. 
+We use progressive enhancement techniques and semantically-correct markup so that information, structure, and relationships can be understood independent of presentation.
+<br><br>
+We make use of ARIA roles to support landmarks, and use ARIA roles and properties when required for more complex functionality such as popup menus and search results updates.
+<br><br>
+Third party scripts may inject content with incorrect or absent information about structure and relationships. These include content in advertising scripts and in the "manage cookies" privacy centre.
 </td>
 </tr>
 <tr>
@@ -160,8 +160,8 @@ Third party scripts may inject content with incorrect or absent information abou
 </ul></td>
 <td>Supports</td>
 <td>
-The meaning of the content in the pages of this product does not depend on the order of the sections.  
-
+The meaning of the content in the pages of this product does not depend on the order of the sections.
+<br><br>
 We use semantically-correct markup to allow assistive technologies to interpret the meaning of content and controls within each section.
 </td>
 </tr>
@@ -178,8 +178,8 @@ We use semantically-correct markup to allow assistive technologies to interpret 
 </ul></td>
 <td>Supports</td>
 <td>
-The pages of this product do not depend solely on sensory characteristics such as shape, size, visual location, orientation, or sound to understand content.  
-
+The pages of this product do not depend solely on sensory characteristics such as shape, size, visual location, orientation, or sound to understand content.
+<br><br>
 Icons may be displayed to control functionality, but adjacent visible text labels or aria-labels are also provided to ensure that relationships are available to Assistive Technologies.
 </td>
 </tr>
@@ -196,9 +196,9 @@ Icons may be displayed to control functionality, but adjacent visible text label
 </ul></td>
 <td>Supports</td>
 <td>
-Colour alone is not used to convey information in the pages of this product.   
-
-Links and icons may use colour to indicate hover or active states. These are supplemented with visible focus rings and/or text decoration underlines and/or luminosity differences per WAI techniques [G183](https://www.w3.org/WAI/WCAG21/Techniques/general/G183) and [C15](https://www.w3.org/WAI/WCAG21/Techniques/css/C15). 
+Colour alone is not used to convey information in the pages of this product.
+<br><br>
+Links and icons may use colour to indicate hover or active states. These are supplemented with visible focus rings and/or text decoration underlines and/or luminosity differences per WAI techniques [G183](https://www.w3.org/WAI/WCAG21/Techniques/general/G183) and [C15](https://www.w3.org/WAI/WCAG21/Techniques/css/C15).
 </td>
 </tr>
 <tr>
@@ -228,13 +228,13 @@ No audio is played on the pages of this product.
 <ul>
 <li>501 (Web)(Software)</li>
 </ul></td>
-<td>Supports with exceptions</td>
+<td>Partially supports</td>
 <td>
-All of the pages in this product can be navigated by keyboard alone. Complex elements like flyout menus can be exited with the <kbd>esc</kbd> key. We also provide skip links for bypassing repetitive navigation elements.   
-
-Third party advertising scripts may inject content that can't be interacted with easily or at all by keyboard.  
-
-The "manage cookies" privacy centre banner (3rd party content) cannot be interacted with easily by keyboard alone. An alternative static link to the privacy centre is provided in the footer of each page. 
+All of the pages in this product can be navigated by keyboard alone. Complex elements like flyout menus can be exited with the <kbd>esc</kbd> key. We also provide skip links for bypassing repetitive navigation elements.
+<br><br>
+Third party advertising scripts may inject content that can't be interacted with easily or at all by keyboard.
+<br><br>
+The "manage cookies" privacy centre banner (3rd party content) cannot be interacted with easily by keyboard alone. An alternative static link to the privacy centre is provided in the footer of each page.
 </td>
 </tr>
 <tr>
@@ -249,9 +249,7 @@ The "manage cookies" privacy centre banner (3rd party content) cannot be interac
 <li>501 (Web)(Software)</li>
 </ul></td>
 <td>Supports</td>
-<td>
-Focus can be moved away from any component on the page using standard keystrokes (<kbd>tab</kbd>, <kbd>shift</kbd>, <kbd>esc</kbd>).
-</td>
+<td>Focus can be moved away from any component on the page using standard keystrokes (<kbd>tab</kbd>, <kbd>shift</kbd>, <kbd>esc</kbd>).</td>
 </tr>
 <tr>
 <td><a href="http://www.w3.org/TR/WCAG20/#time-limits-required-behaviors"><strong>2.2.1 Timing Adjustable</strong></a> (Level A)
@@ -265,9 +263,7 @@ Focus can be moved away from any component on the page using standard keystrokes
 <li>501 (Web)(Software)</li>
 </ul></td>
 <td>Not applicable</td>
-<td>
-No time limits are set by the content in the pages of this product. 
-</td>
+<td>No time limits are set by the content in the pages of this product.</td>
 </tr>
 <tr>
 <td><a href="http://www.w3.org/TR/WCAG20/#time-limits-pause"><strong>2.2.2 Pause, Stop, Hide</strong></a> (Level A)
@@ -308,10 +304,10 @@ No time limits are set by the content in the pages of this product.
 <ul>
 <li>501 (Web)(Software) – Does not apply to non-web software</li>
 </ul></td>
-<td>Supports with exceptions</td>
+<td>Partially supports</td>
 <td>
-We use semantically-correct markup so that Assistive Technology users can recognise elements and move around them accordingly. We make use of ARIA roles to support landmarks. We also provide skip links for bypassing repetitive navigation elements.  
-
+We use semantically-correct markup so that Assistive Technology users can recognise elements and move around them accordingly. We make use of ARIA roles to support landmarks. We also provide skip links for bypassing repetitive navigation elements.
+<br><br>
 The "manage cookies" privacy centre (3rd party content) does not provide a way for screen reader users to bypass the links in its left hand menu.
 </td>
 </tr>
@@ -340,11 +336,11 @@ The "manage cookies" privacy centre (3rd party content) does not provide a way f
 <ul>
 <li>501 (Web)(Software)</li>
 </ul></td>
-<td>Supports with exceptions</td>
+<td>Partially supports</td>
 <td>
-The meaning or operation of the pages in this product is generally unaffected by focus order. The focus order of all page content matches the visual order.  
-
-Third party advertising scripts may inject content where the focus order does not match the visual order. 
+The meaning or operation of the pages in this product is generally unaffected by focus order. The focus order of all page content matches the visual order.
+<br><br>
+Third party advertising scripts may inject content where the focus order does not match the visual order.
 </td>
 </tr>
 <tr id="link-purpose-in-context">
@@ -358,13 +354,13 @@ Third party advertising scripts may inject content where the focus order does no
 <ul>
 <li>501 (Web)(Software)</li>
 </ul></td>
-<td>Supports with exceptions</td>
+<td>Partially supports</td>
 <td>
-The purpose of each link that we provide can be determined by its descriptive text label; linked images or icons have alternative text or similar to provide this description.  
-
-Third party advertising scripts may inject content that includes links with no accessible text, or poorly-named accessible text. 
-
-The "manage cookies" privacy centre (3rd party content) displays some links with a title attribute instead of accessible text; the title attribute may not be made available by all Assistive Technologies. 
+The purpose of each link that we provide can be determined by its descriptive text label; linked images or icons have alternative text or similar to provide this description.
+<br><br>
+Third party advertising scripts may inject content that includes links with no accessible text, or poorly-named accessible text.
+<br><br>
+The "manage cookies" privacy centre (3rd party content) displays some links with a title attribute instead of accessible text; the title attribute may not be made available by all Assistive Technologies.
 </td>
 </tr>
 <tr>
@@ -436,9 +432,9 @@ The "manage cookies" privacy centre (3rd party content) displays some links with
 </ul></td>
 <td>Supports</td>
 <td>
-The main search component in the page banner has a visually hidden label associated with the search input field. The "find a subject" search component on the subjects index page has a visible label.  
-
-No other components on the pages of this product accept user input. 
+The main search component in the page banner has a visually hidden label associated with the search input field. The "find a subject" search component on the subjects index page has a visible label.
+<br><br>
+No other components on the pages of this product accept user input.
 </td>
 </tr>
 <tr>
@@ -452,10 +448,10 @@ No other components on the pages of this product accept user input.
 <ul>
 <li>501 (Web)(Software)</li>
 </ul></td>
-<td>Supports with exceptions</td>
+<td>Partially supports</td>
 <td>
-The pages of this product use semantically-correct markup that meets the HTML5 specification for all interface elements.  
-
+The pages of this product use semantically-correct markup that meets the HTML5 specification for all interface elements.
+<br><br>
 Third party advertising scripts may inject content that omits start and end tags, contains duplicate attributes or contains illegally nested elements. When we become aware of active advertisements with these problems, we immediately take steps to remove that advertisement from our pages.
 </td>
 </tr>
@@ -470,10 +466,10 @@ Third party advertising scripts may inject content that omits start and end tags
 <ul>
 <li>501 (Web)(Software)</li>
 </ul></td>
-<td>Supports with exceptions</td>
+<td>Partially supports</td>
 <td>
-The pages of this product use standard HTML and WAI-ARIA attributes to describe the identity, operation, and state of user interface elements to Assistive Technologies.  
-
+The pages of this product use standard HTML and WAI-ARIA attributes to describe the identity, operation, and state of user interface elements to Assistive Technologies.
+<br><br>
 The "manage cookies" privacy centre (third party content) uses an inappropriate aria label of "true" in place of its main heading, and both links and images exist with no accessible name. Additionally, when a screenreader user activates a link on the left hand menu of the Privacy Preference Centre, they are not made aware that the content on the right has updated. We have reported these problems to the vendor. 
 </td>
 </tr>
@@ -529,10 +525,10 @@ The "manage cookies" privacy centre (third party content) uses an inappropriate 
 <ul>
 <li>501 (Web)(Software)</li>
 </ul></td>
-<td>Supports with exceptions</td>
-<td>All text and images of text supplied by us on the pages of this product have a contrast ratio of at least 4.5:1.  
-
-Third party advertising scripts may inject content with insuffucient contrast. 
+<td>Partially supports</td>
+<td>All text and images of text supplied by us on the pages of this product have a contrast ratio of at least 4.5:1.
+<br><br>
+Third party advertising scripts may inject content with insuffucient contrast.
 </td>
 </tr>
 <tr>
@@ -546,11 +542,11 @@ Third party advertising scripts may inject content with insuffucient contrast.
 <ul>
 <li>501 (Web)(Software)</li>
 </ul></td>
-<td>Supports with exceptions</td>
+<td>Partially supports</td>
 <td>
-All text on the pages of this product supplied by us can be resized up to 400% without loss of information or functionality.  
-
-Third party advertising scripts may inject non-responsive content that loses or obscures information when text is resized. 
+All text on the pages of this product supplied by us can be resized up to 400% without loss of information or functionality.
+<br><br>
+Third party advertising scripts may inject non-responsive content that loses or obscures information when text is resized.
 </td>
 </tr>
 <tr>
@@ -564,10 +560,12 @@ Third party advertising scripts may inject non-responsive content that loses or 
 <ul>
 <li>501 (Web)(Software)</li>
 </ul></td>
-<td>Supports with exceptions</td>
-<td>The pages of this product never use images of text to convey information except in the case of [logotypes](https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html) (considered essential per WCAG 2.0) or when the image is [pure decoration](https://www.w3.org/TR/WCAG21/#dfn-pure-decoration).  
-
-Third party advertising scripts may inject images containing images of text.</td>
+<td>Partially supports</td>
+<td>
+The pages of this product never use images of text to convey information except in the case of [logotypes](https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html) (considered essential per WCAG 2.0) or when the image is [pure decoration](https://www.w3.org/TR/WCAG21/#dfn-pure-decoration).
+<br><br>
+Third party advertising scripts may inject images containing images of text.
+</td>
 </tr>
 <tr>
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-mult-loc"><strong>2.4.5 Multiple Ways</strong></a> (Level AA)
@@ -594,11 +592,11 @@ Third party advertising scripts may inject images containing images of text.</td
 <ul>
 <li>501 (Web)(Software)</li>
 </ul></td>
-<td>Supports with exceptions</td>
+<td>Partially supports</td>
 <td>
-Our document structure is semantically marked up using headings to create a sequential hierarchy of content. We never use inappropriate heading levels for visual effect. All of the pages of this product use labels on components that require user input. Sometimes headings or labels may be visually hidden but available to Assistive Technologies.   
-
-The "manage cookies" privacy centre (3rd party content) uses an inappropriate aria label of "true" in place of its main heading. We have reported this problem to the vendor. 
+Our document structure is semantically marked up using headings to create a sequential hierarchy of content. We never use inappropriate heading levels for visual effect. All of the pages of this product use labels on components that require user input. Sometimes headings or labels may be visually hidden but available to Assistive Technologies.
+<br><br>
+The "manage cookies" privacy centre (3rd party content) uses an inappropriate aria label of "true" in place of its main heading. We have reported this problem to the vendor.
 </td>
 </tr>
 <tr id="focus-visible">
@@ -612,11 +610,11 @@ The "manage cookies" privacy centre (3rd party content) uses an inappropriate ar
 <ul>
 <li>501 (Web)(Software)</li>
 </ul></td>
-<td>Supports with exceptions</td>
+<td>Partially supports</td>
 <td>
-We provide high-visibility yellow focus rings on all focusable elements. Some items (such as links) may use changes in text-decoration to indicate focus in addition to the focus ring.  
-
-Third party advertising scripts may inject components that remove focus styles. 
+We provide high-visibility yellow focus rings on all focusable elements. Some items (such as links) may use changes in text-decoration to indicate focus in addition to the focus ring.
+<br><br>
+Third party advertising scripts may inject components that remove focus styles.
 </td>
 </tr>
 <tr>
@@ -630,10 +628,10 @@ Third party advertising scripts may inject components that remove focus styles.
 <ul>
 <li>501 (Web)(Software)</li>
 </ul></td>
-<td>Supports with exceptions</td>
-<td>All components on the pages of this product supplied by us use the same language defined in the HTML lang attribute, therefore Language of Parts is not applicable for the majority of this product.  
-
-Third party advertising scripts may inject components that use a different language to the page content - for example a targeted advertisment may use the native language of the user. These may not be marked up with a separate language attribute. 
+<td>Partially supports</td>
+<td>All components on the pages of this product supplied by us use the same language defined in the HTML lang attribute, therefore Language of Parts is not applicable for the majority of this product.
+<br><br>
+Third party advertising scripts may inject components that use a different language to the page content - for example a targeted advertisment may use the native language of the user. These may not be marked up with a separate language attribute.
 </td>
 </tr>
 <tr>
@@ -705,15 +703,15 @@ Notes: This product has not been evaluated for WCAG 2.0 Level AAA conformance.
 
 | **Criteria**                                                   | **Conformance Level**    | **Remarks and Explanations** |
 | -------------------------------------------------------------- | ---------------------    | ---------------------------- |
-| 302.1 Without Vision                                           | Supports with exceptions | The majority of content is marked up for Assistive Technology. Third party scripts may inject content with inadequate accessible alternatives. |
-| 302.2 With Limited Vision                                      | Supports with Exceptions	| Markup is written with support for assistive technology. Text is resizable by the user. Fonts are set as rems and use pixels as a fallback if not supported. The website does not impede the user from zooming into page. Third party scripts may inject content with inadequate accessible alternatives. |
+| 302.1 Without Vision                                           | Partially supports       | The majority of content is marked up for Assistive Technology. Third party scripts may inject content with inadequate accessible alternatives. |
+| 302.2 With Limited Vision                                      | Partially supports	    | Markup is written with support for assistive technology. Text is resizable by the user. Fonts are set as rems and use pixels as a fallback if not supported. The website does not impede the user from zooming into page. Third party scripts may inject content with inadequate accessible alternatives. |
 | 302.3 Without Perception of Color                              | Supports                 | Color perception is not needed to use the website. |
 | 302.4 Without Hearing                                          | Not Applicable	        | Audio is not used in this product. |
 | 302.5 With Limited Hearing                                     | Not Applicable	        | Audio is not used in this product. |
 | 302.6 Without Speech                                           | Not Applicable	        | Speech is not needed to use this product. |
-| 302.7 With Limited Manipulation                                | Supports with exceptions | This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Fine motor control and simultaneous actions are not required to operate this product. Third party advertising scripts may inject content that is difficult to use without a pointing device. |
-| 302.8 With Limited Reach and Strength                          | Supports with exceptions | This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Third party advertising scripts may inject content that is difficult to use without a pointing device. |
-| 302.9 With Limited Language, Cognitive, and Learning Abilities | Supports with exceptions | The pages of this product have a consistent presentation with clear labels, titles, and accessible names for controls. Third party scripts may inject content with inconsistent or absent labelling of interface components. |
+| 302.7 With Limited Manipulation                                | Partially supports       | This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Fine motor control and simultaneous actions are not required to operate this product. Third party advertising scripts may inject content that is difficult to use without a pointing device. |
+| 302.8 With Limited Reach and Strength                          | Partially supports       | This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Third party advertising scripts may inject content that is difficult to use without a pointing device. |
+| 302.9 With Limited Language, Cognitive, and Learning Abilities | Partially supports       | The pages of this product have a consistent presentation with clear labels, titles, and accessible names for controls. Third party scripts may inject content with inconsistent or absent labelling of interface components. |
 
 ### Chapter 4: [Hardware](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-4-hardware)
 
@@ -748,9 +746,10 @@ Notes: This product is a web software application and is not subject to the requ
 <tr>
 <td>502.2.2 No Disruption of Accessibility Features</td>
 <td>Not applicable</td>
-<td>This product has no platform features as defined by Section 508. The product is compatible with operating system and browser accessibility features configured by the user.  
-
-Third party scripts may inject content that disrupts standard operating and browser accessibility features. See information in WCAG section for complete details. 
+<td>
+This product has no platform features as defined by Section 508. The product is compatible with operating system and browser accessibility features configured by the user.
+<br><br>
+Third party scripts may inject content that disrupts standard operating and browser accessibility features. See information in WCAG section for complete details.
 </td>
 </tr>
 <tr>
@@ -760,10 +759,10 @@ Third party scripts may inject content that disrupts standard operating and brow
 </tr>
 <tr>
 <td>502.3.1 Object Information</td>
-<td>Supports with exceptions</td>
+<td>Partially supports</td>
 <td>
-Object role, state(s), properties, boundary, name, and description are generally programmatically determinable.  
-
+Object role, state(s), properties, boundary, name, and description are generally programmatically determinable.
+<br><br>
 See WCAG sections [1.3.1 Info and Relationships](#info-and-relationships) and [4.1.2 Name, Role, Value](#name-role-value) for further detail.
 </td>
 </tr>
@@ -771,8 +770,8 @@ See WCAG sections [1.3.1 Info and Relationships](#info-and-relationships) and [4
 <td>502.3.2 Modification of Object Information</td>
 <td></td>
 <td>
-The pages of this product use standard HTML or ARIA object roles for maximum compatibility with assistive technologies.  
-
+The pages of this product use standard HTML or ARIA object roles for maximum compatibility with assistive technologies.
+<br><br>
 See WCAG sections [1.3.1 Info and Relationships](#info-and-relationships) and [4.1.2 Name, Role, Value](#name-role-value) for further detail.
 </td>
 </tr>
@@ -795,26 +794,26 @@ See WCAG sections [1.3.1 Info and Relationships](#info-and-relationships) and [4
 <td>502.3.6 Label Relationships</td>
 <td>Supports</td>
 <td>
-All of the pages in this product use labels on components that require user input.  
-
+All of the pages in this product use labels on components that require user input.
+<br><br>
 See WCAG sections [2.4.6 Headings and Labels](#headings-and-labels) and [3.3.2 Labels or Instructions](#labels-or-instructions) for further detail.
 </td>
 </tr>
 <tr>
 <td>502.3.7 Hierarchical Relationships</td>
-<td>Supports with exceptions</td>
+<td>Partially supports</td>
 <td>
-The pages of this product generally use standard HTML to express hierarchy. Third party scripts may inject content that obscures the relationships between components.  
-
+The pages of this product generally use standard HTML to express hierarchy. Third party scripts may inject content that obscures the relationships between components.
+<br><br>
 See WCAG section [1.3.1 Info and Relationships](#info-and-relationships) for further detail.
 </td>
 </tr>
 <tr>
 <td>502.3.8 Text</td>
-<td>Supports with exceptions</td>
+<td>Partially supports</td>
 <td>
-The pages of this product use standard plain text in HTML.  
-
+The pages of this product use standard plain text in HTML.
+<br><br>
 The "manage cookies" privacy centre (Third party content) uses an inappropriate aria label of "true" in place of its main heading. Some text in the privacy center (e.g. link text) may be present only in a title attribute, and may not be accessible to some assistive technologies.
 </td>
 </tr>
@@ -830,20 +829,21 @@ The "manage cookies" privacy centre (Third party content) uses an inappropriate 
 </tr>
 <tr>
 <td>502.3.11 Actions on Objects</td>
-<td>Supports with exceptions</td>
-<td>The pages of this product use standard HTML or ARIA object attributes for maximum compatibility with assistive technologies.  
-
-Some third party scripts may inject content that can't be interacted with easily or at all by keyboard or by some assistive technologies.  
-
+<td>Partially supports</td>
+<td>
+The pages of this product use standard HTML or ARIA object attributes for maximum compatibility with assistive technologies.
+<br><br>
+Some third party scripts may inject content that can't be interacted with easily or at all by keyboard or by some assistive technologies.
+<br><br>
 See WCAG section [2.1.1 Keyboard](#keyboard) for further detail.
 </td>
 </tr>
 <tr>
 <td>502.3.12 Focus Cursor</td>
-<td>Supports with exceptions</td>
+<td>Partially supports</td>
 <td>
-We provide focus styles on all focusable elements. Third party advertising scripts may inject components that remove focus styles.  
-
+We provide focus styles on all focusable elements. Third party advertising scripts may inject components that remove focus styles.
+<br><br>
 See WCAG sections [1.4.1 Use of Color](#use-of-color) and [2.4.7 Focus Visible](#focus-visible) for further detail.
 </td>
 </tr>
@@ -854,12 +854,12 @@ See WCAG sections [1.4.1 Use of Color](#use-of-color) and [2.4.7 Focus Visible](
 </tr>
 <tr>
 <td>502.3.14 Event Notification</td>
-<td>Supports with exceptions</td>
+<td>Partially supports</td>
 <td>
-The pages of this product use standard HTML and WAI-ARIA attributes to describe the identity, operation, and state of user interface elements to Assistive Technologies.  
-
-Some third party scripts may inject content that fails to notify users of changes in state.  
-
+The pages of this product use standard HTML and WAI-ARIA attributes to describe the identity, operation, and state of user interface elements to Assistive Technologies.
+<br><br>
+Some third party scripts may inject content that fails to notify users of changes in state.
+<br><br>
 See WCAG sections [1.3.1 Info and Relationships](#info-and-relationships) and [4.1.2 Name, Role, Value](#name-role-value) for further detail.
 </td>
 </tr>
@@ -941,16 +941,16 @@ Notes: This report covers accessibility conformance for the web product and does
 
 | **Criteria**                                      | **Conformance Level**    | **Remarks and Explanations** |
 | ------------------------------------------------- | ----------------------   | ---------------------------- |
-| 4.2.1 Usage without vision                        | Supports with exceptions | The majority of content is marked up for Assistive Technology. Third party scripts may inject content with inadequate accessible alternatives. |
-| 4.2.2 Usage with limited vision                   | Supports with Exceptions | Markup is written with support for assistive technology. Text is resizable by the user. Fonts are set as rems and use pixels as a fallback if not supported. The website does not impede the user from zooming into page. Third party scripts may inject content with inadequate accessible alternatives. |
+| 4.2.1 Usage without vision                        | Partially supports       | The majority of content is marked up for Assistive Technology. Third party scripts may inject content with inadequate accessible alternatives. |
+| 4.2.2 Usage with limited vision                   | Partially supports       | Markup is written with support for assistive technology. Text is resizable by the user. Fonts are set as rems and use pixels as a fallback if not supported. The website does not impede the user from zooming into page. Third party scripts may inject content with inadequate accessible alternatives. |
 | 4.2.3 Usage without perception of colour          | Supports                 | Color perception is not needed to use the website. |
 | 4.2.4 Usage without hearing                       | Not Applicable	       | Audio is not used in this product. |
 | 4.2.5 Usage with limited hearing                  | Not Applicable	       | Audio is not used in this product. |
 | 4.2.6 Usage without vocal capability              | Not Applicable	       | Speech is not needed to use this product. |
-| 4.2.7 Usage with limited manipulation or strength | Supports with exceptions | This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Fine motor control and simultaneous actions are not required to operate these pages. Third party advertising scripts may inject content that is difficult to use without a pointing device. |
-| 4.2.8 Usage with limited reach                    | Supports with exceptions | This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Third party advertising scripts may inject content that is difficult to use without a pointing device. |
+| 4.2.7 Usage with limited manipulation or strength | Partially supports       | This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Fine motor control and simultaneous actions are not required to operate these pages. Third party advertising scripts may inject content that is difficult to use without a pointing device. |
+| 4.2.8 Usage with limited reach                    | Partially supports       | This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Third party advertising scripts may inject content that is difficult to use without a pointing device. |
 | 4.2.9 Minimize photosensitive seizure triggers    | Supports                 | The pages of this product do not contain anything that flashes. |
-| 4.2.10 Usage with limited cognition               | Supports with exceptions | The pages of this product have a consistent presentation with clear labels, titles, and accessible names for controls. Third party scripts may inject content with inconsistent or absent labelling of interface components. |
+| 4.2.10 Usage with limited cognition               | Partially supports       | The pages of this product have a consistent presentation with clear labels, titles, and accessible names for controls. Third party scripts may inject content with inconsistent or absent labelling of interface components. |
 | 4.2.11 Privacy                                    | Supports                 | Standard HTML and WAI-ARIA attributes are used on these pages. The website does not impede the user from using their own privacy tools when interacting with the content. |
 
 ### Chapter [5: Generic Requirements](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=23)
