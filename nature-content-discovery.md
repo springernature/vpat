@@ -78,7 +78,7 @@ Tables 1 and 2 also document conformance with:
 <td>
 All images that we supply provide alternate text or descriptions; background images such as icons on user interface elements are identified in text.
 <br><br>
-We mark up some images so that they can be ignored by Assistive Technologies if they are [_pure decoration_](https://www.w3.org/TR/WCAG21/#dfn-pure-decoration) (as defined by WCAG 2.0).
+We mark up some images so that they can be ignored by Assistive Technologies if they are <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration"><i>pure decoration</i></a> (as defined by WCAG 2.0).
 <br><br>
 Background images that we supply are always decorative.
 <br><br>
@@ -198,7 +198,7 @@ Icons may be displayed to control functionality, but adjacent visible text label
 <td>
 Colour alone is not used to convey information in the pages of this product.
 <br><br>
-Links and icons may use colour to indicate hover or active states. These are supplemented with visible focus rings and/or text decoration underlines and/or luminosity differences per WAI techniques [G183](https://www.w3.org/WAI/WCAG21/Techniques/general/G183) and [C15](https://www.w3.org/WAI/WCAG21/Techniques/css/C15).
+Links and icons may use colour to indicate hover or active states. These are supplemented with visible focus rings and/or text decoration underlines and/or luminosity differences per WAI techniques <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G183">G183</a> and <a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C15">C15</a>.
 </td>
 </tr>
 <tr>
@@ -562,7 +562,7 @@ Third party advertising scripts may inject non-responsive content that loses or 
 </ul></td>
 <td>Partially supports</td>
 <td>
-The pages of this product never use images of text to convey information except in the case of [logotypes](https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html) (considered essential per WCAG 2.0) or when the image is [pure decoration](https://www.w3.org/TR/WCAG21/#dfn-pure-decoration).
+The pages of this product never use images of text to convey information except in the case of <a href="https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">logotypes</a> (considered essential per WCAG 2.0) or when the image is <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration">pure decoration</a>.
 <br><br>
 Third party advertising scripts may inject images containing images of text.
 </td>
@@ -741,7 +741,7 @@ Notes: This product is a web software application and is not subject to the requ
 <tr>
 <td>502.2.1 User Control of Accessibility Features</td>
 <td>Not applicable</td>
-<td>This product is not considered platform software as defined by Section 508. See [E103 Definitions, section E103.4](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E103-definitions).</td>
+<td>This product is not considered platform software as defined by Section 508. See <a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E103-definitions">E103 Definitions, section E103.4</a>.</td>
 </tr>
 <tr>
 <td>502.2.2 No Disruption of Accessibility Features</td>
@@ -763,7 +763,7 @@ Third party scripts may inject content that disrupts standard operating and brow
 <td>
 Object role, state(s), properties, boundary, name, and description are generally programmatically determinable.
 <br><br>
-See WCAG sections [1.3.1 Info and Relationships](#info-and-relationships) and [4.1.2 Name, Role, Value](#name-role-value) for further detail.
+See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships</a> and <a href="#name-role-value">4.1.2 Name, Role, Value</a> for further detail.
 </td>
 </tr>
 <tr>
@@ -772,7 +772,7 @@ See WCAG sections [1.3.1 Info and Relationships](#info-and-relationships) and [4
 <td>
 The pages of this product use standard HTML or ARIA object roles for maximum compatibility with assistive technologies.
 <br><br>
-See WCAG sections [1.3.1 Info and Relationships](#info-and-relationships) and [4.1.2 Name, Role, Value](#name-role-value) for further detail.
+See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships</a> and <a href="#name-role-value">4.1.2 Name, Role, Value</a> for further detail.
 </td>
 </tr>
 <tr>
@@ -796,7 +796,7 @@ See WCAG sections [1.3.1 Info and Relationships](#info-and-relationships) and [4
 <td>
 All of the pages in this product use labels on components that require user input.
 <br><br>
-See WCAG sections [2.4.6 Headings and Labels](#headings-and-labels) and [3.3.2 Labels or Instructions](#labels-or-instructions) for further detail.
+See WCAG sections <a href="#headings-and-labels">2.4.6 Headings and Labels</a> and <a href="#labels-or-instructions">3.3.2 Labels or Instructions</a> for further detail.
 </td>
 </tr>
 <tr>
@@ -805,7 +805,7 @@ See WCAG sections [2.4.6 Headings and Labels](#headings-and-labels) and [3.3.2 L
 <td>
 The pages of this product generally use standard HTML to express hierarchy. Third party scripts may inject content that obscures the relationships between components.
 <br><br>
-See WCAG section [1.3.1 Info and Relationships](#info-and-relationships) for further detail.
+See WCAG section <a href="#info-and-relationships">1.3.1 Info and Relationships</a> for further detail.
 </td>
 </tr>
 <tr>
@@ -835,7 +835,7 @@ The pages of this product use standard HTML or ARIA object attributes for maximu
 <br><br>
 Some third party scripts may inject content that can't be interacted with easily or at all by keyboard or by some assistive technologies.
 <br><br>
-See WCAG section [2.1.1 Keyboard](#keyboard) for further detail.
+See WCAG section <a href="#keyboard">2.1.1 Keyboard</a> for further detail.
 </td>
 </tr>
 <tr>
@@ -844,7 +844,7 @@ See WCAG section [2.1.1 Keyboard](#keyboard) for further detail.
 <td>
 We provide focus styles on all focusable elements. Third party advertising scripts may inject components that remove focus styles.
 <br><br>
-See WCAG sections [1.4.1 Use of Color](#use-of-color) and [2.4.7 Focus Visible](#focus-visible) for further detail.
+See WCAG sections <a href="#use-of-color">1.4.1 Use of Color</a> and <a href="#focus-visible">2.4.7 Focus Visible</a> for further detail.
 </td>
 </tr>
 <tr>
@@ -860,13 +860,13 @@ The pages of this product use standard HTML and WAI-ARIA attributes to describe 
 <br><br>
 Some third party scripts may inject content that fails to notify users of changes in state.
 <br><br>
-See WCAG sections [1.3.1 Info and Relationships](#info-and-relationships) and [4.1.2 Name, Role, Value](#name-role-value) for further detail.
+See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships</a> and <a href="#name-role-value">4.1.2 Name, Role, Value</a> for further detail.
 </td>
 </tr>
 <tr>
 <td>502.4 Platform Accessibility Features</td>
 <td>Not applicable</td>
-<td>This product is not considered platform software as defined by Section 508. See [E103 Definitions, section E103.4](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E103-definitions).</td>
+<td>This product is not considered platform software as defined by Section 508. See <a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E103-definitions">E103 Definitions, section E103.4</a>.</td>
 </tr>
 <tr>
 <td><em><strong>503 Applications</strong></em></td>
