@@ -5,7 +5,7 @@
 **Name of Product/Version**: \!INSERT PRODUCT NAME\! _(we do not version our software)_  
 **Product Description**: \!INSERT PRODUCT DESCRIPTION\!  
 **Date**: \!INSERT DATE LAST EDITED\!  
-**Contact information**: \!INSERT PRODUCT MAIN CONTACT EMAIL\!  
+**Contact information**: accessibility@springernature.com
 **Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature using a combination of static analysis tools and manual testing with assistive technologies.  
 
 ## Applicable Standards/Guidelines
