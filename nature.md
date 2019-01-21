@@ -206,7 +206,7 @@ We make use of ARIA roles to support landmarks, and use ARIA roles and propertie
 <br><br>
 Some complex functionality may omit required ARIA roles, states, or attributes, or abuse ARIA markup and techniques. We are actively working to find and repair these problems. 
 <br><br>
-Third party scripts may inject content with incorrect or absent information about structure and relationships. These include content in advertising scripts, in Disqus commenting widgets, and in the "manage cookies" privacy centre.
+Third party scripts may inject content with incorrect or absent information about structure and relationships. These include content in advertising scripts, in Disqus commenting widgets, and in the "manage cookies" privacy centre, among others.
 </td>
 </tr>
 <tr>
@@ -815,7 +815,7 @@ Other third party scripts, including the Disqus commenting widget, may present i
 <td>
 All text and images of text supplied by us on the pages of this product have a contrast ratio of at least 4.5:1.
 <br><br>
-Third party advertising scripts may inject content with insuffucient contrast.
+Third party advertising scripts may inject content with insufficient contrast.
 </td>
 </tr>
 <tr>
@@ -951,7 +951,7 @@ Some pages (e.g. some payment or "my account" pages) use default focus rings onl
 <br><br>
 Pages that use older designs may use default focus rings only. We are in the process of transferring all content from the older designs to the design currently used across the majority of Nature.com; when this process is complete, the high-visibility focus ring will be the default. 
 <br><br>
-Third party advertising scripts may inject components that remove focus styles.
+Third party scripts, including advertising, may inject components that remove focus styles.
 </td>
 </tr>
 <tr>
@@ -978,7 +978,7 @@ Third party advertising scripts may inject components that remove focus styles.
 <br><br>
 Editorial content or published papers may include text in languages other than that defined in the HTML <code>lang</code> attribute. We currently have no method of confirming the inclusion - or not - of appropriate lang attributes for pieces of text that may use a different language to the main document. 
 <br><br>
-Third party advertising scripts may inject components that use a different language to the page content - for example a targeted advertisment may use the native language of the user. These may not be marked up with a separate <code>lang</code> attribute.
+Third party scripts may inject components that use a different language to the page content - for example a targeted advertisment or file presented in a file viewer may use the native language of the user. These may not be marked up with a separate <code>lang</code> attribute.
 </td>
 </tr>
 <tr>
