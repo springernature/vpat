@@ -4,7 +4,7 @@
 
 **Name of Product/Version**: Nature.com _(we do not version our software)_  
 **Product Description**: 
-Nature.com publishes peer-reviewed research, reviews and news across a number of journals. This report refers entirely to the accessibility of _licensed_ content published at the top level domain of <a href="http://www.nature.com">www.nature.com</a>, including journal and magazine content.  
+Nature.com publishes peer-reviewed research, reviews and news across a number of journals. This report refers entirely to the accessibility of editorial, journal, and magazine content published at the top level domain of <a href="http://www.nature.com">www.nature.com</a>, including informational pages, and to content found at idp.nature.com and payment.nature.com (for account management and subscription and payment management respectively). Content located at <a href="http://www.nature.com/subjects">http://www.nature.com/subjects</a> is covered in a <a href="https://github.com/springernature/vpat/blob/master/nature-content-discovery.md">separate VPAT</a>. 
 **Date**: 21st January 2019  
 **Contact information**: accessibility@springernature.com  
 **Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature using a combination of static analysis tools and manual testing with assistive technologies.  
@@ -82,7 +82,7 @@ Tables 1 and 2 also document conformance with:
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 With rare exceptions, most images that we supply provide alternative text, or descriptions, or figure captions. We may use WAI-ARIA techniques to link some complex images with their descriptions if alternative text is unable to provide adequate context. We are working towards full support.  
 <br><br>
@@ -114,7 +114,7 @@ Third party scripts may inject non-text content without text alternatives. These
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supported</td>
+<td>Partially Supports</td>
 <td>
 Nature.com has a diverse mix of multimedia content, both self-hosted and hosted on third party sites. Video-only content is generally used to support text-based content. 
 <br><br>
@@ -142,7 +142,7 @@ We currently have no method of confirming the inclusion - or not - of adequate m
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supported</td>
+<td>Partially Supports</td>
 <td>
 Nature.com has a diverse mix of multimedia content, both self-hosted and hosted on third party sites. Captions and/or transcripts may be provided for some pre-recorded content, but we currently have no method of confirming the inclusion - or not - of transcripts or captions. 
 </td>
@@ -166,7 +166,7 @@ Nature.com has a diverse mix of multimedia content, both self-hosted and hosted 
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supported</td>
+<td>Partially Supports</td>
 <td>
 Nature.com has a diverse mix of multimedia content, both self-hosted and hosted on third party sites. Audio description is not generally used across our content, but some media may provide media alternatives such as text descriptions of video content. 
 <br><br>
@@ -192,7 +192,7 @@ We currently have no method of confirming the inclusion - or not - of adequate m
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 We generally use progressive enhancement techniques and semantically-correct markup so that information, structure, and relationships can be understood independent of presentation.
 <br><br>
@@ -254,7 +254,7 @@ We use semantically-correct markup to allow assistive technologies to interpret 
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 The pages of this product do not depend solely on sensory characteristics such as shape, size, visual location, orientation, or sound to understand content.
 <br><br>
@@ -282,7 +282,7 @@ Some complex images supplied by research authors may rely on sensory characteris
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 Colour alone is not used to convey information in the pages of this product.
 <br><br>
@@ -310,7 +310,7 @@ Some complex images supplied by research authors may rely on colour as the only 
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 Content supplied by us does not play automatically. All audio files supplied by us, either hosted on our own platform or through a third party, has mechanisms for pausing, stopping, and controlling volume. 
 <br><br>
@@ -337,7 +337,7 @@ Third party advertisements may load video and audio that automatically starts, a
 <li>602.3 (Support Docs)</li>
 </ul></td>
 <td>
-Partially supports
+Partially Supports
 </td>
 <td>
 The majority of components in Nature.com can be navigated by keyboard alone. Complex elements like flyout menus can be exited with the <kbd>esc</kbd> key. We also provide skip links for bypassing repetitive navigation elements.
@@ -368,7 +368,7 @@ Other types of third party content such as JavaScript-based file viewers, commen
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 Keyboard trapping inside components on Nature.com pages is fairly rare, and in most cases should be managed appropriately, allowing focus to be moved away from any component using standard keystrokes (<kbd>tab</kbd>, <kbd>shift</kbd>, <kbd>esc</kbd>). 
 <br><br>
@@ -416,7 +416,7 @@ Third party content such as modal dialogs or the Disqus commenting widget may tr
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 Any moving, blinking or scrolling content on Nature.com generally does not start automatically, and is complemented by controls that allow users to pause or otherwise stop the content. Moving images in the form of gifs may not meet this criteria. 
 <br><br>
@@ -466,7 +466,7 @@ Third party advertising scripts may inject content that automatically moves or b
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs) – Does not apply to non-web docs</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 We use semantically-correct markup so that Assistive Technology users can recognise elements and move around them accordingly. We make use of ARIA roles to support landmarks. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
@@ -492,7 +492,7 @@ The "manage cookies" privacy centre (third party content) does not provide a way
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 Most of the pages on Nature.com have unique page titles that describe the purpose of the page. 
 <br><br>
@@ -518,7 +518,7 @@ Some pages (e.g in checkout flows) do not have unique page titles at every stage
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 The meaning or operation of the pages on Nature.com is generally unaffected by focus order. The focus order of all page content matches the visual order.
 <br><br>
@@ -544,7 +544,7 @@ Third party scripts including advertising scripts, the Disqus commenting widget,
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 Generally, the purpose of each link that we provide can be determined by its descriptive text label; linked images or icons have alternative text or similar to provide this context. 
 <br><br>
@@ -574,7 +574,7 @@ The "manage cookies" privacy centre (third party content) displays some links wi
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 The majority of the pages in this product use the language attribute on the HTML element to specify the default language of a page. Some (e.g some pages in checkout flows) do not. We are actively working to repair these problems. 
 </td>
@@ -642,7 +642,7 @@ The majority of the pages in this product use the language attribute on the HTML
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 Where user input errors are automatically detected in our own software, the items that are in error are identified to the user with warning text adjacent to the input field. We do not rely on visual characteristics alone (e.g. colour) to indicate user input errors. 
 <br><br>
@@ -668,7 +668,7 @@ Third party scripts including the Disqus commenting widget, or other widgets tha
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 Generally, visible and appropriately associated labels are provided for input fields. In some cases, a visually-hidden label may be provided instead (e.g. the main search component in the page banner). 
 <br><br>
@@ -696,7 +696,7 @@ In rare cases, input fields may use only placeholder text as instruction, withou
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 The pages of this product generally use semantically-correct markup that meets the HTML5 specification for interface elements.
 <br><br>
@@ -724,7 +724,7 @@ Third party advertising scripts may inject content that omits start and end tags
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 The pages of this product generally use standard HTML and WAI-ARIA attributes to describe the identity, operation, and state of user interface elements to Assistive Technologies.
 <br><br>
@@ -789,7 +789,7 @@ Other third party scripts, including the Disqus commenting widget, may present i
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Not supported</td>
+<td>Does Not Support</td>
 <td>We do not generally provide audio description for prerecorded video. A limited form of audio description may be provided for some pre-recorded content, but we currently have no method of confirming the inclusion - or not - of audio description. </td>
 </tr>
 <tr>
@@ -811,7 +811,7 @@ Other third party scripts, including the Disqus commenting widget, may present i
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 All text and images of text supplied by us on the pages of this product have a contrast ratio of at least 4.5:1.
 <br><br>
@@ -837,7 +837,7 @@ Third party advertising scripts may inject content with insuffucient contrast.
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 All text on the pages of this product supplied by us can be resized up to 400% without loss of information or functionality.
 <br><br>
@@ -863,7 +863,7 @@ Third party advertising scripts may inject non-responsive content that loses or 
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 Editorial content and published papers may include complex images that contain images of text. In most cases these images are used to supplement the text content they appear alongside. In some cases (e.g. charts, graphs, or maps, among others), the text content presented alongside may be insufficient to explain the contents of the image. 
 <br><br>
@@ -911,7 +911,7 @@ Third party advertising scripts may inject images containing images of text.
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 Our document structure is semantically marked up using headings to create a sequential hierarchy of content. Sometimes headings or labels may be visually hidden but available to Assistive Technologies.
 <br><br>
@@ -943,7 +943,7 @@ Other third party scripts, including survey or customer services widgets, may in
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 Generally, we provide high-visibility yellow focus rings on all focusable elements. Some items (such as links) may use changes in text-decoration to indicate focus in addition to the focus ring.
 <br><br>
@@ -973,7 +973,7 @@ Third party advertising scripts may inject components that remove focus styles.
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Does not support</td>
+<td>Does Not Support</td>
 <td>All components on the pages of this product supplied by us as part of dynamic templates use the same language defined in the HTML <code>lang</code> attribute, therefore Language of Parts is not applicable for the majority of this product.
 <br><br>
 Editorial content or published papers may include text in languages other than that defined in the HTML <code>lang</code> attribute. We currently have no method of confirming the inclusion - or not - of appropriate lang attributes for pieces of text that may use a different language to the main document. 
@@ -1000,7 +1000,7 @@ Third party advertising scripts may inject components that use a different langu
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs) – Does not apply to non-web docs</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 The Nature.com website contains content that is rendered in a number of different, inconsistent designs. The designs often have dramatically different navigation methods, within the same collections of pages. Supplementary content, such as informational pages adjunct to journal and editorial content, is more likely to be affected. 
 <br><br>
@@ -1028,7 +1028,7 @@ Pages that deal with sensitive information (including payment pages and "my acco
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs) – Does not apply to non-web docs</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 The Nature.com website contains content that is rendered in a number of different, inconsistent designs, within the same collections of pages. Supplementary content, such as informational pages adjunct to journal and editorial content, is more likely to be affected. 
 <br><br>
@@ -1056,7 +1056,7 @@ Pages that deal with sensitive information (including payment pages and "my acco
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 Where user input errors are automatically detected in our own software, the items that are in error are identified to the user with warning text adjacent to the input field. Unless it would present a risk to security, the warning text describes the error and what the user should do to correct it. 
 <br><br>
@@ -1098,15 +1098,15 @@ Notes: This product has not been evaluated for WCAG 2.0 Level AAA conformance.
 
 | **Criteria**                                                   | **Conformance Level**    | **Remarks and Explanations** |
 | -------------------------------------------------------------- | ---------------------    | ---------------------------- |
-| 302.1 Without Vision                                           | Partially supports       | The majority of content is marked up for Assistive Technology. Third party scripts may inject content with inadequate accessible alternatives. |
-| 302.2 With Limited Vision                                      | Partially supports	    | Markup is written with support for assistive technology. Text is resizable by the user. Fonts are set as rems and use pixels as a fallback if not supported. The product does not impede the user from zooming into page. Third party scripts may inject content with inadequate accessibility support. |
+| 302.1 Without Vision                                           | Partially Supports       | The majority of content is marked up for Assistive Technology. Third party scripts may inject content with inadequate accessible alternatives. |
+| 302.2 With Limited Vision                                      | Partially Supports	    | Markup is written with support for assistive technology. Text is resizable by the user. Fonts are set as rems and use pixels as a fallback if not supported. The product does not impede the user from zooming into page. Third party scripts may inject content with inadequate accessibility support. |
 | 302.3 Without Perception of Color                              | Supports                 | Color perception is not needed to use this product. |
-| 302.4 Without Hearing                                          | Partially supports       | Some but not all audio is supported by captions or transcripts.  |
-| 302.5 With Limited Hearing                                     | Partially supports       | Some but not all audio is supported by captions or transcripts.  |
+| 302.4 Without Hearing                                          | Partially Supports       | Some but not all audio is supported by captions or transcripts.  |
+| 302.5 With Limited Hearing                                     | Partially Supports       | Some but not all audio is supported by captions or transcripts.  |
 | 302.6 Without Speech                                           | Not Applicable	        | Speech is not needed to use this product. |
-| 302.7 With Limited Manipulation                                | Partially supports       | This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Fine motor control and simultaneous actions are not required to operate this product. Third party scripts may inject content that is difficult to use without a pointing device. |
-| 302.8 With Limited Reach and Strength                          | Partially supports       | This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Third party scripts may inject content that is difficult to use without a pointing device. |
-| 302.9 With Limited Language, Cognitive, and Learning Abilities | Partially supports       | The pages of this product generally have a consistent presentation with clear labels, titles, and accessible names for controls. Third party scripts may inject content with inconsistent or absent labelling of interface components. |
+| 302.7 With Limited Manipulation                                | Partially Supports       | This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Fine motor control and simultaneous actions are not required to operate this product. Third party scripts may inject content that is difficult to use without a pointing device. |
+| 302.8 With Limited Reach and Strength                          | Partially Supports       | This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Third party scripts may inject content that is difficult to use without a pointing device. |
+| 302.9 With Limited Language, Cognitive, and Learning Abilities | Partially Supports       | The pages of this product generally have a consistent presentation with clear labels, titles, and accessible names for controls. Third party scripts may inject content with inconsistent or absent labelling of interface components. |
 
 ### Chapter 4: [Hardware](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-4-hardware)
 
@@ -1135,12 +1135,12 @@ Notes: This product is a web software application and is not subject to the requ
 </tr>
 <tr>
 <td>502.2.1 User Control of Accessibility Features</td>
-<td>Not applicable</td>
+<td>Not Applicable</td>
 <td>This product is not considered platform software as defined by Section 508. See <a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E103-definitions">E103 Definitions, section E103.4</a>.</td>
 </tr>
 <tr>
 <td>502.2.2 No Disruption of Accessibility Features</td>
-<td>Not applicable</td>
+<td>Not Applicable</td>
 <td>
 This product has no platform features as defined by Section 508. The product is compatible with operating system and browser accessibility features configured by the user.
 <br><br>
@@ -1154,7 +1154,7 @@ Third party scripts may inject content that disrupts standard operating system a
 </tr>
 <tr>
 <td>502.3.1 Object Information</td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 Object role, state(s), properties, boundary, name, and description are generally programmatically determinable.
 <br><br>
@@ -1163,7 +1163,7 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 </tr>
 <tr>
 <td>502.3.2 Modification of Object Information</td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 The pages of this product use standard HTML or ARIA object roles for maximum compatibility with assistive technologies.
 <br><br>
@@ -1172,7 +1172,7 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 </tr>
 <tr>
 <td>502.3.3 Row, Column, and Headers</td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 Data tables in original research or editorial content may not be marked up with adequate table header information.
 <br><br>
@@ -1191,7 +1191,7 @@ Data tables in dynamic templates are rare, but where they do appear, they are ma
 </tr>
 <tr>
 <td>502.3.6 Label Relationships</td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 Generally, the pages in this product use labels on components that require user input. Some exceptions exist. 
 <br><br>
@@ -1200,7 +1200,7 @@ See WCAG sections <a href="#headings-and-labels">2.4.6 Headings and Labels</a> a
 </tr>
 <tr>
 <td>502.3.7 Hierarchical Relationships</td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 The pages of this product generally use standard HTML to express hierarchy. Third party scripts may inject content that obscures the relationships between components.
 <br><br>
@@ -1209,7 +1209,7 @@ See WCAG section <a href="#info-and-relationships">1.3.1 Info and Relationships<
 </tr>
 <tr>
 <td>502.3.8 Text</td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 The pages of this product use standard plain text in HTML.
 <br><br>
@@ -1230,7 +1230,7 @@ Original research or editorial content may contain images of text without adequa
 </tr>
 <tr>
 <td>502.3.11 Actions on Objects</td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 The pages of this product use standard HTML or ARIA object attributes for maximum compatibility with assistive technologies.
 <br><br>
@@ -1241,7 +1241,7 @@ See WCAG section <a href="#keyboard">2.1.1 Keyboard</a> for further detail.
 </tr>
 <tr>
 <td>502.3.12 Focus Cursor</td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 We provide focus styles on all focusable elements. Third party scripts may inject components that remove focus styles or alter focus in a way that makes them difficult to perceive by all users.
 <br><br>
@@ -1255,7 +1255,7 @@ See WCAG sections <a href="#use-of-color">1.4.1 Use of Color</a> and <a href="#f
 </tr>
 <tr>
 <td>502.3.14 Event Notification</td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>
 The pages of this product use standard HTML and WAI-ARIA attributes to describe the identity, operation, and state of user interface elements to Assistive Technologies.
 <br><br>
@@ -1268,7 +1268,7 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 </tr>
 <tr>
 <td>502.4 Platform Accessibility Features</td>
-<td>Not applicable</td>
+<td>Not Applicable</td>
 <td>This product is not considered platform software as defined by Section 508. See <a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E103-definitions">E103 Definitions, section E103.4</a>.</td>
 </tr>
 <tr>
@@ -1283,7 +1283,7 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 </tr>
 <tr>
 <td>503.3 Alternative User Interfaces</td>
-<td>Not applicable</td>
+<td>Not Applicable</td>
 <td>We do not provide any alternative user interface for this product that functions as assistive technology.</td>
 </tr>
 <tr>
@@ -1293,12 +1293,12 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 </tr>
 <tr>
 <td>503.4.1 Caption Controls</td>
-<td>Partially supports</td>
+<td>Partially Supports</td>
 <td>Not all video content provides captions. Where captions are provided, the controls for adjusting those captions are found at the same menu level as the user controls for volume or program selection.</td>
 </tr>
 <tr>
 <td>503.4.2 Audio Description Controls</td>
-<td>Does not support</td>
+<td>Does Not Support</td>
 <td>Audio description is not generally used across our content.</td>
 </tr>
 <tr>
@@ -1308,27 +1308,27 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 </tr>
 <tr>
 <td>504.2 Content Creation or Editing (if not authoring tool, enter “not applicable”)</td>
-<td>Not applicable</td>
+<td>Not Applicable</td>
 <td>This product is not used as an authoring tool.</td>
 </tr>
 <tr>
 <td>504.2.1 Preservation of Information Provided for Accessibility in Format Conversion</td>
-<td>Not applicable</td>
+<td>Not Applicable</td>
 <td>This product is not used as an authoring tool.</td>
 </tr>
 <tr>
 <td>504.2.2 PDF Export</td>
-<td>Not applicable</td>
+<td>Not Applicable</td>
 <td>This product is not used as an authoring tool.</td>
 </tr>
 <tr>
 <td>504.3 Prompts</td>
-<td>Not applicable</td>
+<td>Not Applicable</td>
 <td>This product is not used as an authoring tool.</td>
 </tr>
 <tr>
 <td>504.4 Templates</td>
-<td>Not applicable</td>
+<td>Not Applicable</td>
 <td>This product is not used as an authoring tool.</td>
 </tr>
 </tbody>
@@ -1371,13 +1371,13 @@ Notes:
 | **Criteria**                                         | **Conformance Level**               | **Remarks and Explanations**        |
 | ---------------------------------------------------- | ----------------------------------- | ----------------------------------- |
 | ***7.1 Caption processing technology***              | -                                   | -                                   |
-| 7.1.1 Captioning playback                            | Partially supports                  | Some but not all audio is supported by captions. Where captions are available, the user can choose whether or not to display them. |
-| 7.1.2 Captioning synchronization                     | Partially supports                  | Some but not all audio is supported by captions. Where captions are available, they are synchronised with the audio. |
-| 7.1.3 Preservation of captioning                     | Partially supports                  | Some but not all audio is supported by captions. Where captions are available, we do not override the appearance of the default caption display. |
-| 7.2.1 Audio description playback                     | Does not support                    | Audio description is not generally used across our content. |
-| 7.2.2 Audio description synchronization              | Does not support                    | Audio description is not generally used across our content. |
-| 7.2.3 Preservation of audio description              | Does not support                    | Audio description is not generally used across our content. |
-| 7.3 User controls for captions and audio description | Partially supports                  | Audio description is not generally used across our content. Some but not all audio is supported by captions. Where captions are available, the mechanism for selecting them is presented at the same level as other playback controls. |
+| 7.1.1 Captioning playback                            | Partially Supports                  | Some but not all audio is supported by captions. Where captions are available, the user can choose whether or not to display them. |
+| 7.1.2 Captioning synchronization                     | Partially Supports                  | Some but not all audio is supported by captions. Where captions are available, they are synchronised with the audio. |
+| 7.1.3 Preservation of captioning                     | Partially Supports                  | Some but not all audio is supported by captions. Where captions are available, we do not override the appearance of the default caption display. |
+| 7.2.1 Audio description playback                     | Does Not Support                    | Audio description is not generally used across our content. |
+| 7.2.2 Audio description synchronization              | Does Not Support                    | Audio description is not generally used across our content. |
+| 7.2.3 Preservation of audio description              | Does Not Support                    | Audio description is not generally used across our content. |
+| 7.3 User controls for captions and audio description | Partially Supports                  | Audio description is not generally used across our content. Some but not all audio is supported by captions. Where captions are available, the mechanism for selecting them is presented at the same level as other playback controls. |
 
 ### Chapter [8: Hardware](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=32)
 
@@ -1403,7 +1403,7 @@ Notes: This product does not include non-web documents and is therefore not subj
 | ***11.3.2.1 Platform accessibility service support for software that provides a user interface*** | See 11.3.2.5 through 11.3.2.17                                                           | See information in 11.3.2.5 through 11.3.2.17                                  |
 | ***11.3.2.2 Platform accessibility service support for assistive technologies***                  | See 11.3.2.5 through 11.3.2.17                                                           | See information in 11.3.2.5 through 11.3.2.17                                  |
 | 11.3.2.3 Use of accessibility services                                                            | Supports                                                                                 | This product supports standard platform accessibility services.                |
-| 11.3.2.4 Assistive technology                                                                     | Not applicable                                                                           | This product is not an assistive technology.                                   |
+| 11.3.2.4 Assistive technology                                                                     | Not Applicable                                                                           | This product is not an assistive technology.                                   |
 | 11.3.2.5 Object information                                                                       | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.1 and 502.3.2 |
 | 11.3.2.6 Row, column, and headers                                                                 | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.3             |
 | 11.3.2.7 Values                                                                                   | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.4 and 502.3.5 |
@@ -1418,15 +1418,15 @@ Notes: This product does not include non-web documents and is therefore not subj
 | 11.3.2.16 Modifications of states and properties                                                  | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14            |
 | 11.3.2.17 Modifications of values and text                                                        | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.5 and 502.3.9 |
 | ***11.4 Documented accessibility usage***                                                         | -                                                                                        | -                                                                              |
-| 11.4.1 User control of accessibility features                                                     | Not applicable                                                                           | This product is not considered platform software as defined by EN 301 549 V1.1.2. See [3.1 Definitions](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=18). |
-| 11.4.2 No disruption of accessibility features                                                    | Not applicable                                                                           | This product is not considered platform software as defined by EN 301 549 V1.1.2. The product does not impede the user in using accessibility features provided by their operating system and Assistive Technologies. |
+| 11.4.1 User control of accessibility features                                                     | Not Applicable                                                                           | This product is not considered platform software as defined by EN 301 549 V1.1.2. See [3.1 Definitions](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=18). |
+| 11.4.2 No disruption of accessibility features                                                    | Not Applicable                                                                           | This product is not considered platform software as defined by EN 301 549 V1.1.2. The product does not impede the user in using accessibility features provided by their operating system and Assistive Technologies. |
 | 11.5 User preferences                                                                             | Supports                                                                                 | The pages of this product use standard HTML and CSS attributes that may be overridden in user-supplied style sheets. |
 | ***11.6 Authoring tools***                                                                        | -                                                                                        | -                                                                              |
 | ***11.6.1 Content technology***                                                                   | -                                                                                        | -                                                                              |
-| 11.6.2 Accessible content creation (if not authoring tool, enter “not applicable”)                | Not applicable                                                                           | This product is not used as an authoring tool.                                 |
-| 11.6.3 Preservation of accessibility information in transformations                               | Not applicable                                                                           | This product is not used as an authoring tool.                                 |
-| 11.6.4 Repair assistance                                                                          | Not applicable                                                                           | This product is not used as an authoring tool.                                 |
-| 11.6.5 Templates                                                                                  | Not applicable                                                                           | This product is not used as an authoring tool.                                 |
+| 11.6.2 Accessible content creation (if not authoring tool, enter “not applicable”)                | Not Applicable                                                                           | This product is not used as an authoring tool.                                 |
+| 11.6.3 Preservation of accessibility information in transformations                               | Not Applicable                                                                           | This product is not used as an authoring tool.                                 |
+| 11.6.4 Repair assistance                                                                          | Not Applicable                                                                           | This product is not used as an authoring tool.                                 |
+| 11.6.5 Templates                                                                                  | Not Applicable                                                                           | This product is not used as an authoring tool.                                 |
 
 ### Chapter [12: Documentation and Support Services](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=73)
 
