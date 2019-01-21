@@ -4,7 +4,7 @@
 
 **Name of Product/Version**: Nature.com _(we do not version our software)_  
 **Product Description**: 
-Nature.com publishes peer-reviewed research, reviews and news across a number of journals. This report refers entirely to the accessibility of editorial, journal, and magazine content published at the top level domain of <a href="http://www.nature.com">www.nature.com</a>, including informational pages, and to content found at idp.nature.com and payment.nature.com (for account management and subscription and payment management respectively). Content located at <a href="http://www.nature.com/subjects">http://www.nature.com/subjects</a> is covered in a <a href="https://github.com/springernature/vpat/blob/master/nature-content-discovery.md">separate VPAT</a>.  
+Nature.com publishes peer-reviewed research, reviews and news across a number of journals. This report refers entirely to the accessibility of editorial, journal, and magazine content published at the top level domain of <a href="http://www.nature.com">www.nature.com</a>, including informational pages, and to all content found at idp.nature.com and payment.nature.com (for account management and subscription and payment management respectively). Content located at <a href="http://www.nature.com/subjects">http://www.nature.com/subjects</a> is covered in a <a href="https://github.com/springernature/vpat/blob/master/nature-content-discovery.md">separate VPAT</a>.  
 **Date**: 21st January 2019  
 **Contact information**: accessibility@springernature.com  
 **Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature using a combination of static analysis tools and manual testing with assistive technologies.  
@@ -92,7 +92,7 @@ We mark up some images so that they can be ignored by Assistive Technologies if 
 <br><br>
 The Nature subscription pages at <a href="https://www.nature.com/nature/subscribe">https://www.nature.com/nature/subscribe</a> currently contain SVG images without text alternatives, and decorative SVG images that are not marked up to be ignored by Assistive Technologies. We are actively working to repair these problems. 
 <br><br>
-Third party scripts may inject non-text content without text alternatives. These include images in advertising scripts, in Disqus commenting widgets, and in the "manage cookies" privacy centre. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
+Third party scripts may inject non-text content without text alternatives. These include images in advertising scripts, in Disqus commenting widgets, and in the OneTrust "manage cookies" privacy centre. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
 </td>
 </tr>
 <tr>
@@ -206,7 +206,7 @@ We make use of ARIA roles to support landmarks, and use ARIA roles and propertie
 <br><br>
 Some complex functionality may omit required ARIA roles, states, or attributes, or abuse ARIA markup and techniques. We are actively working to find and repair these problems. 
 <br><br>
-Third party scripts may inject content with incorrect or absent information about structure and relationships. These include content in advertising scripts, in Disqus commenting widgets, and in the "manage cookies" privacy centre, among others.
+Third party scripts may inject content with incorrect or absent information about structure and relationships. These include content in advertising scripts, in Disqus commenting widgets, and in the OneTrust "manage cookies" privacy centre, among others.
 </td>
 </tr>
 <tr>
@@ -344,9 +344,9 @@ The majority of components in Nature.com can be navigated by keyboard alone. Com
 <br><br>
 Third party advertising scripts may inject content that can't be interacted with easily or at all by keyboard.
 <br><br>
-The "manage cookies" privacy centre banner (third party content) cannot be interacted with easily by keyboard alone. An alternative static link to the privacy centre is provided in the footer of each page.
+The OneTrust "manage cookies" privacy centre banner (third party content) cannot be interacted with easily by keyboard alone. An alternative static link to the privacy centre is provided in the footer of each page.
 <br><br>
-Other types of third party content such as JavaScript-based file viewers, commenting systems, or customer services widgets may be difficult to use with keyboard alone. Where we know of deficiencies, we have contacted third party suppliers to request repairs. Additionally, where possible, we aim to provide equivalent alternatives to problematic content. 
+Other types of third party content such as JavaScript-based file viewers (e.g. Figshare), commenting systems, or customer services widgets may be difficult to use with keyboard alone. Where we know of deficiencies, we have contacted third party suppliers to request repairs. Additionally, where possible, we aim to provide equivalent alternatives to problematic content. 
 </td>
 </tr>
 <tr>
@@ -470,7 +470,7 @@ Third party advertising scripts may inject content that automatically moves or b
 <td>
 We use semantically-correct markup so that Assistive Technology users can recognise elements and move around them accordingly. We make use of ARIA roles to support landmarks. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
-The "manage cookies" privacy centre (third party content) does not provide a way for screen reader users to bypass the links in its left hand menu.
+The OneTrust "manage cookies" privacy centre (third party content) does not provide a way for screen reader users to bypass the links in its left hand menu.
 </td>
 </tr>
 <tr>
@@ -552,7 +552,7 @@ In research articles, anchor links that refer to same-page supplementary figures
 <br><br>
 Third party scripts including advertising scripts, the Disqus commenting widget, or survey or customer services widgets (among others), may inject content that includes links with no accessible text, or poorly-named accessible text. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
 <br><br>
-The "manage cookies" privacy centre (third party content) displays some links with a title attribute instead of accessible text; the title attribute may not be made available by all Assistive Technologies.
+The OneTrust "manage cookies" privacy centre (third party content) displays some links with a title attribute instead of accessible text; the title attribute may not be made available by all Assistive Technologies.
 </td>
 </tr>
 <tr>
@@ -730,7 +730,7 @@ The pages of this product generally use standard HTML and WAI-ARIA attributes to
 <br><br>
 In some cases, ARIA attributes have been omitted where they are required when client user agent support for a standard HTML5 feature is poor (e.g. in the "for individuals/post docs/students" disclosure area on subscription pages). In other cases ARIA roles or attributes may be misused in ways that cause elements to have misleading semantics. We are actively working to find and repair these problems. 
 <br><br>
-The "manage cookies" privacy centre (third party content) uses an inappropriate aria label of "true" in place of its main heading, and both links and images exist with no accessible name. Additionally, when a screenreader user activates a link on the left hand menu of the Privacy Preference Centre, they are not made aware that the content on the right has updated. We have reported these problems to the vendor. 
+The OneTrust "manage cookies" privacy centre (third party content) uses an inappropriate aria label of "true" in place of its main heading, and both links and images exist with no accessible name. Additionally, when a screenreader user activates a link on the left hand menu of the Privacy Preference Centre, they are not made aware that the content on the right has updated. We have reported these problems to the vendor. 
 <br><br>
 Other third party scripts, including the Disqus commenting widget, may present interactive elements such as tooltips that lack adequate names and roles, making them difficult for screen reader users to access. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
 </td>
@@ -919,7 +919,7 @@ Nature magazine and a limited number of journals publish editorial content from 
 <br><br>
 Some parts of the product (e.g. some payment and "my account" pages) use inappropriate heading levels for visual effect. We are actively working to repair these problems. 
 <br><br>
-The "manage cookies" privacy centre (third party content) uses an inappropriate aria label of "true" in place of its main heading. We have reported this problem to the vendor.
+The OneTrust "manage cookies" privacy centre (third party content) uses an inappropriate aria label of "true" in place of its main heading. We have reported this problem to the vendor.
 <br><br>
 Other third party scripts, including survey or customer services widgets, may inject content with inadequate or inappropriate headings or labels. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
 </td>
@@ -978,7 +978,7 @@ Third party scripts, including advertising, may inject components that remove fo
 <br><br>
 Editorial content or published papers may include text in languages other than that defined in the HTML <code>lang</code> attribute. We currently have no method of confirming the inclusion - or not - of appropriate lang attributes for pieces of text that may use a different language to the main document. 
 <br><br>
-Third party scripts may inject components that use a different language to the page content - for example a targeted advertisment or file presented in a file viewer may use the native language of the user. These may not be marked up with a separate <code>lang</code> attribute.
+Third party scripts may inject components that use a different language to the page content - for example a targeted advertisement or file presented in a file viewer (e.g. Figshare) may use the native language of the user. These may not be marked up with a separate <code>lang</code> attribute.
 </td>
 </tr>
 <tr>
@@ -1213,7 +1213,7 @@ See WCAG section <a href="#info-and-relationships">1.3.1 Info and Relationships<
 <td>
 The pages of this product use standard plain text in HTML.
 <br><br>
-The "manage cookies" privacy centre (Third party content) uses an inappropriate aria label of "true" in place of its main heading. Some text in the privacy center (e.g. link text) may be present only in a title attribute, and may not be accessible to some assistive technologies.
+The OneTrust "manage cookies" privacy centre (Third party content) uses an inappropriate aria label of "true" in place of its main heading. Some text in the privacy center (e.g. link text) may be present only in a title attribute, and may not be accessible to some assistive technologies.
 <br><br>
 Original research or editorial content may contain images of text without adequate programmatically determinable alternatives. 
 </td>
