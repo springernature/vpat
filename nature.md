@@ -63,7 +63,7 @@ Tables 1 and 2 also document conformance with:
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#text-equiv-all"><strong>1.1.1 Non-text Content</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -95,7 +95,7 @@ The Nature subscription pages at <a href="https://www.nature.com/nature/subscrib
 Third party scripts may inject non-text content without text alternatives. These include images in advertising scripts, in Disqus commenting widgets, and in the OneTrust "manage cookies" privacy centre. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
 </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-av-only-alt"><strong>1.2.1 Audio-only and Video-only (Prerecorded)</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -123,7 +123,7 @@ Audio-only content may be used to support text-based content. Audio-only content
 We currently have no method of confirming the inclusion - or not - of adequate media alternatives or transcripts. 	
 </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-captions"><strong>1.2.2 Captions (Prerecorded)</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -147,7 +147,7 @@ We currently have no method of confirming the inclusion - or not - of adequate m
 Nature.com has a diverse mix of multimedia content, both self-hosted and hosted on third party sites. Captions and/or transcripts may be provided for some pre-recorded content, but we currently have no method of confirming the inclusion - or not - of transcripts or captions. 
 </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-audio-desc"><strong>1.2.3 Audio Description or Media Alternative (Prerecorded)</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -173,7 +173,7 @@ Nature.com has a diverse mix of multimedia content, both self-hosted and hosted 
 We currently have no method of confirming the inclusion - or not - of adequate media alternatives.
 </td>
 </tr>
-<tr id="info-and-relationships">
+<tr id="info-and-relationships" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#content-structure-separation-programmatic"><strong>1.3.1 Info and Relationships</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -209,7 +209,7 @@ Some complex functionality may omit required ARIA roles, states, or attributes, 
 Third party scripts may inject content with incorrect or absent information about structure and relationships. These include content in advertising scripts, in Disqus commenting widgets, and in the OneTrust "manage cookies" privacy centre, among others.
 </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#content-structure-separation-sequence"><strong>1.3.2 Meaningful Sequence</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -235,7 +235,7 @@ The meaning of the content in the pages of Nature.com does not depend on the ord
 We use semantically-correct markup to allow assistive technologies to interpret the meaning of content and controls within each section.
 </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><strong><a href="http://www.w3.org/TR/WCAG20/#content-structure-separation-understanding">1.3.3 Sensory Characteristics</a></strong> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -263,7 +263,7 @@ Icons may be displayed to control functionality, but adjacent visible text label
 Some complex images supplied by research authors may rely on sensory characteristics to be understood. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content. 
 </td>
 </tr>
-<tr id="use-of-color">
+<tr id="use-of-color" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-without-color"><strong>1.4.1 Use of Color</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -291,7 +291,7 @@ Links and icons may use colour to indicate hover or active states. These are sup
 Some complex images supplied by research authors may rely on colour as the only visual means of understanding information. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content. 
 </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-dis-audio"><strong>1.4.2 Audio Control</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -312,12 +312,12 @@ Some complex images supplied by research authors may rely on colour as the only 
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Content supplied by us does not play automatically. All audio files supplied by us, either hosted on our own platform or through a third party, has mechanisms for pausing, stopping, and controlling volume. 
+Content supplied by us does not play automatically. All audio files supplied by us, either hosted on our own platform or through a third party, have mechanisms for pausing, stopping, and controlling volume. 
 <br><br>
 Third party advertisements may load video and audio that automatically starts, and may not provide adequate controls for pausing, stopping, and/or controlling volume. When we become aware of active advertisements with these problems, we immediately take steps to remove those advertisements from our pages.
 </td>
 </tr>
-<tr id="keyboard">
+<tr id="keyboard" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#keyboard-operation-keyboard-operable"><strong>2.1.1 Keyboard</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -349,7 +349,7 @@ The OneTrust "manage cookies" privacy centre banner (third party content) cannot
 Other types of third party content such as JavaScript-based file viewers (e.g. Figshare), commenting systems, or customer services widgets may be difficult to use with keyboard alone. Where we know of deficiencies, we have contacted third party suppliers to request repairs. Additionally, where possible, we aim to provide equivalent alternatives to problematic content. 
 </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#keyboard-operation-trapping"><strong>2.1.2 No Keyboard Trap</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -375,7 +375,7 @@ Keyboard trapping inside components on Nature.com pages is fairly rare, and in m
 Third party content such as modal dialogs or the Disqus commenting widget may trap focus and provide inadequate methods of escaping. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
 </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#time-limits-required-behaviors"><strong>2.2.1 Timing Adjustable</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -397,7 +397,7 @@ Third party content such as modal dialogs or the Disqus commenting widget may tr
 <td>Not applicable</td>
 <td>No time limits are set by the content in the pages of this product.</td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#time-limits-pause"><strong>2.2.2 Pause, Stop, Hide</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -425,7 +425,7 @@ Automatically updating information is rare on Nature.com. The Disqus commenting 
 Third party advertising scripts may inject content that automatically moves or blinks and lasts more than five seconds, without providing a mechanism to pause, stop, or hide that content. 
 </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#seizure-does-not-violate"><strong>2.3.1 Three Flashes or Below Threshold</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -447,7 +447,7 @@ Third party advertising scripts may inject content that automatically moves or b
 <td>Supports</td>
 <td>The pages of this product do not contain anything that flashes.</td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-skip"><strong>2.4.1 Bypass Blocks</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -473,7 +473,7 @@ We use semantically-correct markup so that Assistive Technology users can recogn
 The OneTrust "manage cookies" privacy centre (third party content) does not provide a way for screen reader users to bypass the links in its left hand menu.
 </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-title"><strong>2.4.2 Page Titled</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -499,7 +499,7 @@ Most of the pages on Nature.com have unique page titles that describe the purpos
 Some pages (e.g in checkout flows) do not have unique page titles at every stage in a process. We are actively working to find and repair these problems. 
 </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-order"><strong>2.4.3 Focus Order</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -525,7 +525,7 @@ The meaning or operation of the pages on Nature.com is generally unaffected by f
 Third party scripts including advertising scripts, the Disqus commenting widget, or survey or customer services widgets (among others), may inject content where the focus order does not match the visual order. The operation and meaning of these components should be unaffected by the focus order. 
 </td>
 </tr>
-<tr id="link-purpose-in-context">
+<tr id="link-purpose-in-context" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-refs"><strong>2.4.4 Link Purpose (In Context)</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -555,7 +555,7 @@ Third party scripts including advertising scripts, the Disqus commenting widget,
 The OneTrust "manage cookies" privacy centre (third party content) displays some links with a title attribute instead of accessible text; the title attribute may not be made available by all Assistive Technologies.
 </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#meaning-doc-lang-id"><strong>3.1.1 Language of Page</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -579,7 +579,7 @@ The OneTrust "manage cookies" privacy centre (third party content) displays some
 The majority of the pages in this product use the language attribute on the HTML element to specify the default language of a page. Some (e.g some pages in checkout flows) do not. We are actively working to repair these problems. 
 </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-receive-focus"><strong>3.2.1 On Focus</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -601,7 +601,7 @@ The majority of the pages in this product use the language attribute on the HTML
 <td>Supports</td>
 <td>Components in the interface of the pages of this product that receive focus do not initiate a change of context.</td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-unpredictable-change"><strong>3.2.2 On Input</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -623,7 +623,7 @@ The majority of the pages in this product use the language attribute on the HTML
 <td>Supports</td>
 <td>Changing the setting of any user interface component does not automatically cause a change of context on any of the pages of this product.</td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-identified"><strong>3.3.1 Error Identification</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -649,7 +649,7 @@ Where user input errors are automatically detected in our own software, the item
 Third party scripts including the Disqus commenting widget, or other widgets that accept user input, may automatically detect errors but fail to present the errors to users in text. They may rely on visual characteristics alone to indicate user input errors, or place error text in locations that are difficult for screen reader users to access. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
 </td>
 </tr>
-<tr id="labels-or-instructions">
+<tr id="labels-or-instructions" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-cues"><strong>3.3.2 Labels or Instructions</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -677,7 +677,7 @@ Instructions such as those that explain mandatory fields may be absent or only p
 In rare cases, input fields may use only placeholder text as instruction, without associated labels or ARIA descriptions. We are actively working to find and repair these problems. 
 </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#ensure-compat-parses"><strong>4.1.1 Parsing</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -705,7 +705,7 @@ Nature magazine and a limited number of journals publish editorial content from 
 Third party advertising scripts may inject content that omits start and end tags, contains duplicate attributes or contains illegally nested elements. When we become aware of active advertisements with these problems, we immediately take steps to remove those advertisements from our pages.
 </td>
 </tr>
-<tr id="name-role-value">
+<tr id="name-role-value" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#ensure-compat-rsv"><strong>4.1.2 Name, Role, Value</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -749,7 +749,7 @@ Other third party scripts, including the Disqus commenting widget, may present i
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-real-time-captions"><strong>1.2.4 Captions (Live)</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -771,6 +771,7 @@ Other third party scripts, including the Disqus commenting widget, may present i
 <td>Not Applicable</td>
 <td>We do not publish live video.</td>
 </tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-audio-desc-only"><strong>1.2.5 Audio Description (Prerecorded)</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -792,7 +793,7 @@ Other third party scripts, including the Disqus commenting widget, may present i
 <td>Does Not Support</td>
 <td>We do not generally provide audio description for prerecorded video. A limited form of audio description may be provided for some pre-recorded content, but we currently have no method of confirming the inclusion - or not - of audio description. </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast"><strong>1.4.3 Contrast (Minimum)</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -818,7 +819,7 @@ All text and images of text supplied by us on the pages of this product have a c
 Third party advertising scripts may inject content with insufficient contrast.
 </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale"><strong>1.4.4 Resize text</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -844,7 +845,7 @@ All text on the pages of this product supplied by us can be resized up to 400% w
 Third party advertising scripts may inject non-responsive content that loses or obscures information when text is resized.
 </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-presentation"><strong>1.4.5 Images of Text</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -870,7 +871,7 @@ Editorial content and published papers may include complex images that contain i
 Third party advertising scripts may inject images containing images of text.
 </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-mult-loc"><strong>2.4.5 Multiple Ways</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -892,7 +893,7 @@ Third party advertising scripts may inject images containing images of text.
 <td>Supports</td>
 <td>Users may use the search function or the provided links to access any part of this product. Breadcrumb menus are provided to return users to the index page. The main navigation component can also be used to access the main subject index pages.</td>
 </tr>
-<tr id="headings-and-labels">
+<tr id="headings-and-labels" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-descriptive"><strong>2.4.6 Headings and Labels</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -924,7 +925,7 @@ The OneTrust "manage cookies" privacy centre (third party content) uses an inapp
 Other third party scripts, including survey or customer services widgets, may inject content with inadequate or inappropriate headings or labels. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
 </td>
 </tr>
-<tr id="focus-visible">
+<tr id="focus-visible" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-visible"><strong>2.4.7 Focus Visible</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -954,7 +955,7 @@ Pages that use older designs may use default focus rings only. We are in the pro
 Third party scripts, including advertising, may inject components that remove focus styles.
 </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#meaning-other-lang-id"><strong>3.1.2 Language of Parts</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -981,7 +982,7 @@ Editorial content or published papers may include text in languages other than t
 Third party scripts may inject components that use a different language to the page content - for example a targeted advertisement or file presented in a file viewer (e.g. Figshare) may use the native language of the user. These may not be marked up with a separate <code>lang</code> attribute.
 </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-locations"><strong>3.2.3 Consistent Navigation</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -1009,7 +1010,7 @@ We are in the process of transferring all content from the older designs to the 
 Pages that deal with sensitive information (including payment pages and "my account" pages) have an intentionally stripped-down design, and do not share the same navigation system as the main site. The navigation of each of these sets of pages is internally consistent. 
 </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-functionality"><strong>3.2.4 Consistent Identification</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -1037,7 +1038,7 @@ We are in the process of transferring all content from the older designs to the 
 Pages that deal with sensitive information (including payment pages and "my account" pages) have an intentionally stripped-down design. The presentation of each of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site. 
 </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-suggestions"><strong>3.3.3 Error Suggestion</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -1063,7 +1064,7 @@ Where user input errors are automatically detected in our own software, the item
 Third party scripts including the Disqus commenting widget, or other widgets that accept user input, may automatically detect errors but fail to present the errors to users in ways that they can perceive. They may rely on visual characteristics alone to indicate user input errors, or place error text in locations that are difficult for screen reader users to access. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
 </td>
 </tr>
-<tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-reversible"><strong>3.3.4 Error Prevention (Legal, Financial, Data)</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
