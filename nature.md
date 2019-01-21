@@ -340,7 +340,7 @@ Third party advertisements may load video and audio that automatically starts, a
 Partially supports
 </td>
 <td>
-The majority of components in nature.com can be navigated by keyboard alone. Complex elements like flyout menus can be exited with the <kbd>esc</kbd> key. We also provide skip links for bypassing repetitive navigation elements.
+The majority of components in Nature.com can be navigated by keyboard alone. Complex elements like flyout menus can be exited with the <kbd>esc</kbd> key. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
 Third party advertising scripts may inject content that can't be interacted with easily or at all by keyboard.
 <br><br>
@@ -370,7 +370,7 @@ Other types of third party content such as JavaScript-based file viewers, commen
 </ul></td>
 <td>Partially supports</td>
 <td>
-Keyboard trapping inside components on nature.com pages is fairly rare, and in most cases should be managed appropriately, allowing focus to be moved away from any component using standard keystrokes (<kbd>tab</kbd>, <kbd>shift</kbd>, <kbd>esc</kbd>). 
+Keyboard trapping inside components on Nature.com pages is fairly rare, and in most cases should be managed appropriately, allowing focus to be moved away from any component using standard keystrokes (<kbd>tab</kbd>, <kbd>shift</kbd>, <kbd>esc</kbd>). 
 <br><br>
 Third party content such as modal dialogs or the Disqus commenting widget may trap focus and provide inadequate methods of escaping. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
 </td>
