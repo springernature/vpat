@@ -814,7 +814,9 @@ Other third party scripts, including the Disqus commenting widget, may present i
 </ul></td>
 <td>Partially Supports</td>
 <td>
-All text and images of text supplied by us on the pages of this product have a contrast ratio of at least 4.5:1.
+Generally, all text and images of text supplied by us on the pages of this product have a contrast ratio of at least 4.5:1.
+<br><br>
+Some small print text in page footers may have insufficient contrast. Additionally, some placeholder text (e.g. on payment pages) may have insufficient contrast. We are actively working to find and repair these problems. 
 <br><br>
 Third party advertising scripts may inject content with insufficient contrast.
 </td>
@@ -1084,7 +1086,7 @@ Third party scripts including the Disqus commenting widget, or other widgets tha
 <li>602.3 (Support Docs)</li>
 </ul></td>
 <td>Supports</td>
-<td>Payment pages have a checkout flow that include a verification step. There, the user must confirm that their choices are correct before they may enter their payment details. At this stage they may return to a previous step to make corrections, cancel, or abandon the process.</td>
+<td>The payment pages checkout flow includes a pre-payment verification page. The user must confirm that their choices are correct on the verification page before they may enter their payment details. At this stage they may return to a previous step to make corrections, cancel, or abandon the process.</td>
 </tr>
 </tbody>
 </table>
