@@ -56,13 +56,13 @@ Tables 1 and 2 also document conformance with:
 <table>
 <thead>
 <tr>
-<th scope="col"><strong>Criteria</strong></th>
-<th scope="col"><strong>Conformance Level </strong></th>
-<th scope="col"><strong>Remarks and Explanations</strong></th>
+<th><strong>Criteria</strong></th>
+<th><strong>Conformance Level </strong></th>
+<th><strong>Remarks and Explanations</strong></th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr id="non-text-content" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#text-equiv-all"><strong>1.1.1 Non-text Content</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -84,7 +84,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="audio-only-and-video-only-prerecorded" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-av-only-alt"><strong>1.2.1 Audio-only and Video-only (Prerecorded)</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -106,7 +106,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="captions-prerecorded" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-captions"><strong>1.2.2 Captions (Prerecorded)</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -128,7 +128,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="audio-description-or-media-alternative-prerecorded" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-audio-desc"><strong>1.2.3 Audio Description or Media Alternative (Prerecorded)</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -150,7 +150,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="info-and-relationships" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#content-structure-separation-programmatic"><strong>1.3.1 Info and Relationships</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -172,7 +172,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="meaningful-sequence" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#content-structure-separation-sequence"><strong>1.3.2 Meaningful Sequence</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -194,7 +194,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="sensory-characteristics" valign="top">
 <td><strong><a href="http://www.w3.org/TR/WCAG20/#content-structure-separation-understanding">1.3.3 Sensory Characteristics</a></strong> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -216,7 +216,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="use-of-color" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-without-color"><strong>1.4.1 Use of Color</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -238,7 +238,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="audio-control" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-dis-audio"><strong>1.4.2 Audio Control</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -260,7 +260,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="keyboard" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#keyboard-operation-keyboard-operable"><strong>2.1.1 Keyboard</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -282,7 +282,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="no-keyboard-trap" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#keyboard-operation-trapping"><strong>2.1.2 No Keyboard Trap</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -304,7 +304,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="timing-adjustable" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#time-limits-required-behaviors"><strong>2.2.1 Timing Adjustable</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -326,7 +326,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="pause-stop-hide" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#time-limits-pause"><strong>2.2.2 Pause, Stop, Hide</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -348,7 +348,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="three-flashes-or-below-threshold" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#seizure-does-not-violate"><strong>2.3.1 Three Flashes or Below Threshold</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -370,7 +370,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="bypass-blocks" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-skip"><strong>2.4.1 Bypass Blocks</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -392,7 +392,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="page-titled" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-title"><strong>2.4.2 Page Titled</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -414,7 +414,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="focus-order" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-order"><strong>2.4.3 Focus Order</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -436,7 +436,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="link-purpose-in-context" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-refs"><strong>2.4.4 Link Purpose (In Context)</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -458,7 +458,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="language-of-page" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#meaning-doc-lang-id"><strong>3.1.1 Language of Page</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -480,7 +480,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="on-focus" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-receive-focus"><strong>3.2.1 On Focus</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -502,7 +502,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="on-input" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-unpredictable-change"><strong>3.2.2 On Input</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -524,7 +524,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="error-identification" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-identified"><strong>3.3.1 Error Identification</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -546,7 +546,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="labels-or-instructions" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-cues"><strong>3.3.2 Labels or Instructions</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -568,7 +568,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="parsing" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#ensure-compat-parses"><strong>4.1.1 Parsing</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -590,7 +590,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="name-role-value" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#ensure-compat-rsv"><strong>4.1.2 Name, Role, Value</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -626,7 +626,7 @@ Tables 1 and 2 also document conformance with:
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr id="captions-live" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-real-time-captions"><strong>1.2.4 Captions (Live)</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -648,6 +648,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
+<tr id="audio-description-prerecorded" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-audio-desc-only"><strong>1.2.5 Audio Description (Prerecorded)</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -669,7 +670,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="contrast-minimum" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast"><strong>1.4.3 Contrast (Minimum)</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -691,7 +692,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="resize-text" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale"><strong>1.4.4 Resize text</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -713,7 +714,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="images-of-text" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-presentation"><strong>1.4.5 Images of Text</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -735,7 +736,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="multiple-ways" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-mult-loc"><strong>2.4.5 Multiple Ways</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -757,7 +758,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="headings-and-labels" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-descriptive"><strong>2.4.6 Headings and Labels</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -779,7 +780,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="focus-visible" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-visible"><strong>2.4.7 Focus Visible</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -801,7 +802,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="language-of-parts" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#meaning-other-lang-id"><strong>3.1.2 Language of Parts</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -823,7 +824,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="consistent-navigation" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-locations"><strong>3.2.3 Consistent Navigation</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -845,7 +846,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="consistent-identification" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-functionality"><strong>3.2.4 Consistent Identification</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -867,7 +868,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="error-suggestion" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-suggestions"><strong>3.3.3 Error Suggestion</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -889,7 +890,7 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr>
+<tr id="error-prevention-legal-financial-data" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-reversible"><strong>3.3.4 Error Prevention (Legal, Financial, Data)</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
