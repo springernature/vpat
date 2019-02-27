@@ -6,7 +6,7 @@
 **Product Description**: SpringerLink provides researchers with access to scientific documents from journals, books, series, protocols, reference works and proceedings. This report refers entirely to the accessibility of all content published at the subdomain link.springer.com, including informational pages, and all content found at checkout.springer.com.  
 **Date**: 27 February 2019  
 **Contact information**: accessibility@springernature.com  
-**Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature using a combination of static analysis tools and manual testing with assistive technologies.  
+**Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature using a combination of static analysis tools and manual testing with Assistive Technologies.  
 
 ## Applicable Standards/Guidelines
 
@@ -115,7 +115,7 @@ Third party scripts may inject non-text content without text alternatives. These
 </ul></td>
 <td>Partially Supports</td>
 <td>
-SpringerLink presents multimedia content through the 3rd party MovingImage platform, or by providing links to download video files in various formats. 
+SpringerLink presents multimedia content through the third party MovingImage platform, or by providing links to download video files in various formats. 
 <br><br>
 Video-only and audio-only content is generally used to support text-based content. 
 <br><br>
@@ -143,11 +143,11 @@ We currently have no method of confirming the inclusion - or not - of adequate m
 </ul></td>
 <td>Partially supports</td>
 <td>
-SpringerLink presents multimedia content through the 3rd party MovingImage platform, or by providing links to download video files in various formats. 
+SpringerLink presents multimedia content through the third party MovingImage platform, or by providing links to download video files in various formats. 
 <br><br>
 Captions and/or transcripts maybe be provided for some pre-recorded content in journals, books, series, protocols, reference works or proceedings, but we currently have no method of confirming the inclusion - or not - of transcripts or captions. 
 <br><br>
-"Springer Nature Video" learning content published at link.springer.com/video uses the 3rd party MovingImage platform, and is provided alongside both captions and transcripts. 
+"Springer Nature Video" learning content published at link.springer.com/video uses the third party MovingImage platform, and is provided alongside both captions and transcripts. 
 </td>
 </tr>
 <tr id="audio-description-or-media-alternative-prerecorded" valign="top">
@@ -171,7 +171,7 @@ Captions and/or transcripts maybe be provided for some pre-recorded content in j
 </ul></td>
 <td>Partially Supports</td>
 <td>
-SpringerLink presents multimedia content through the 3rd party MovingImage platform, or by providing links to download video files in various formats. 
+SpringerLink presents multimedia content through the third party MovingImage platform, or by providing links to download video files in various formats. 
 <br><br>
 Audio description is not generally used across our content, but some media may be presented alongside media alternatives such as text descriptions of video content. 
 <br><br>
@@ -201,13 +201,13 @@ We currently have no method of confirming the inclusion - or not - of adequate m
 <td>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Pages rendered in the *older* design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) may use unsemantic markup, including inadequate, misleading, or incorrectly-applied landmarks. Some UI controls (e.g. "next" and "previous" pagination controls on search results pages) lack accessible names. Pages may omit level one headings. 
+Pages rendered in the <strong>older</strong> design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) may use unsemantic markup, including inadequate, misleading, or incorrectly-applied landmarks. Some UI controls (e.g. "next" and "previous" pagination controls on search results pages) lack accessible names. Pages may omit level one headings. 
 <br><br>
-On pages rendered in the *newer* design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries), we generally use progressive enhancement techniques and semantically-correct markup so that information, structure, and relationships can be understood independently of presentation.
+On pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries), we generally use progressive enhancement techniques and semantically-correct markup so that information, structure, and relationships can be understood independently of presentation.
 <br><br>
 We make use of ARIA roles to support landmarks, and use ARIA roles and properties when required for more complex functionality such as popup menus and dialogs. 
 <br><br>
-Some complex functionality may omit required ARIA roles, states, or attributes, or abuse ARIA markup and techniques. We are actively working to find and repair these problems. 
+Some complex functionality may omit required ARIA roles, states, or attributes, or misuse ARIA markup and techniques. We are actively working to find and repair these problems. 
 <br><br>
 Multiple landmarks of the same type without unique labels are used on pages rendered in both designs. 
 <br><br>
@@ -267,9 +267,9 @@ The pages found at link.springer.com generally do not depend solely on sensory c
 <br><br>
 Icons may be displayed to control functionality. Adjacent visible text labels or aria-labels may also provided to ensure that relationships are available to Assistive Technologies. 
 <br><br>
-Some icons (e.g. "next" and "previous" pagination controls on search results pages) in the *older* design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) lack accessible names. Users who are unable to perceive these icons by their sensory characteristics may be unable to use these controls. We are in the process of transferring all content from the older design to the newer design, which will remove the reliance on sensory characteristics for understanding. 
+Some icons (e.g. "next" and "previous" pagination controls on search results pages) in the <strong>older</strong> design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) lack accessible names. Users who are unable to perceive these icons by their sensory characteristics may be unable to use these controls. We are in the process of transferring all content from the older design to the newer design, which will remove the reliance on sensory characteristics for understanding. 
 <br><br>
-Some complex images supplied by authors may rely on sensory characteristics to be understood. Examples may include images of charts, graphs, diagrams, or maps. Generally, these images are used to supplement text content. 
+Some complex images in journals, books, series, protocols, reference works and proceedings may rely on sensory characteristics to be understood. Examples may include images of charts, graphs, diagrams, or maps. Generally, these images are used to supplement text content. 
 <br><br>
 Images found at checkout.springer.com that are used to convey meaning (e.g. images to signify which credit cards we accept) are not supplemented with text and cannot be perceived by users of Assistive Technology. 
 <br><br>
@@ -301,7 +301,7 @@ Colour alone is generally not used to convey information in the pages of this pr
 <br><br>
 Links and icons may use colour to indicate hover or active states. These are supplemented with visible focus rings and/or background colours and/or text decoration underlines and/or luminosity differences per WAI techniques <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G183">G183</a> and <a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C15">C15</a>.
 <br><br>
-Some complex images supplied by research authors may rely on colour as the only visual means of understanding information. Examples may include images of charts, graphs, diagrams or maps. Generally, these images are used to supplement text content. 
+Some complex images in journals, books, series, protocols, reference works and proceedings may rely on colour as the only visual means of understanding information. Examples may include images of charts, graphs, diagrams or maps. Generally, these images are used to supplement text content. 
 </td>
 </tr>
 <tr id="audio-control" valign="top">
@@ -327,7 +327,7 @@ Some complex images supplied by research authors may rely on colour as the only 
 <td>
 Content supplied by us does not play automatically. 
 <br><br>
-All video with audio hosted through the 3rd party MovingImage platform has a mechanism for pausing, stopping, and controlling volume. 
+All video with audio hosted through the third party MovingImage platform has a mechanism for pausing, stopping, and controlling volume. 
 <br><br>
 We do not support the playing of audio only directly on our pages. Audio files hosted by us are supplied as downloadable files only, for use in the users' own media player. 
 <br><br>
@@ -371,7 +371,7 @@ Pages located at checkout.springer.com contain custom interactive components mar
 <br><br>
 Third party advertising scripts may inject content that cannot be interacted with easily or at all by keyboard.
 <br><br>
-The OneTrust "manage cookies" privacy centre banner (third party content) cannot be interacted with easily by keyboard alone. An alternative static link to the privacy centre is provided in the footer of each page.
+The third party OneTrust "manage cookies" privacy centre banner cannot be interacted with easily by keyboard alone. An alternative static link to the privacy centre is provided in the footer of each page.
 <br><br>
 The Freshdesk customer services widget cannot be interacted with easily by keyboard alone. We are actively working to solve this problem. Additionally, we have provided alternate means of accessing customer services on our "Contact Us" page, including a contact email address, a support ticket system, and helpdesk telephone numbers. 
 <br><br>
@@ -549,9 +549,9 @@ The meaning and/or operation of content on SpringerLink is generally unaffected 
 <br><br>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Some pages rendered in the *older* design may contain components where some items in the focus order do not match the visual order (for example the "date published" filtering on search results pages). 
+Some pages rendered in the <strong>older</strong> design may contain components where some items in the focus order do not match the visual order (for example the "date published" filtering on search results pages). 
 <br><br>
-On pages rendered in the *newer* design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries), the focus order of page content matches the visual order.
+On pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries), the focus order of page content matches the visual order.
 <br><br>
 Some pages located at checkout.springer.com contain components where the focus order does not match the visual order (for example the "terms" link on the registration page visually appears at the bottom of the registration form, but appears directly after the page header in the source/focus order).
 <br><br>
@@ -615,9 +615,9 @@ The OneTrust "manage cookies" privacy centre (third party content) displays some
 <td>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Pages rendered in the *older* design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) may be switched by the user between English and German. These pages use the language attribute on the HTML element to indicate which language is being used as the default language of a page. 
+Pages rendered in the <strong>older</strong> design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) may be switched by the user between English and German. These pages use the language attribute on the HTML element to indicate which language is being used as the default language of a page. 
 <br><br>
-Pages rendered in the *newer* design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries) are presented only in English, with the correct language attribute applied to the HTML element. 
+Pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries) are presented only in English, with the correct language attribute applied to the HTML element. 
 <br><br>
 Pages located at checkout.springer.com may also be switched by the user between English and German. These pages use the language attribute on the HTML element, but incorrectly present the default language of the page as English at all times (i.e. even when the user selects German). 
 </td>
@@ -717,9 +717,9 @@ User account pages located at link.springer.com/account and pages located at che
 <td>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Pages rendered in the *older* design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) generally display visible and appropriately associated labels for input fields. Exceptions include the pagination number field on advanced search results pages and in the main search component in the page banner, both of which omit any label or ARIA description, and use only placeholder text as instruction. We are actively working to find and repair these problems.  
+Pages rendered in the <strong>older</strong> design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) generally display visible and appropriately associated labels for input fields. Exceptions include the pagination number field on advanced search results pages and in the main search component in the page banner, both of which omit any label or ARIA description, and use only placeholder text as instruction. We are actively working to find and repair these problems.  
 <br><br>
-Pages rendered in the *newer* design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries) generally display visible and appropriately associated labels for input fields. 
+Pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries) generally display visible and appropriately associated labels for input fields. 
 <br><br>
 Instructions such as those that explain mandatory fields may be absent or only present at the end of forms. (e.g. some payment information pages). Additional instructions for specific input fields may not be adequately associated (e.g. with aria-describedby) with the fields they describe. We are actively working to find and repair these problems. 
 </td>
@@ -747,11 +747,11 @@ Instructions such as those that explain mandatory fields may be absent or only p
 <td>
 Most of the pages found at link.springer.com generally use semantically-correct markup that meets the HTML5 specification for interface elements.
 <br><br>
-Where errors exist, they are usually minor, such as the presence of invalid <code>alt</code> and <code>src</code> attributes in SVG image nodes (ignored by user agents). There are some instances of incorrectly-nested elements (e.g. "[flow content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content)" wrapped in "[phrasing content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Phrasing_content)").
+Where errors exist, they are usually minor, such as the presence of invalid <code>alt</code> and <code>src</code> attributes in SVG image nodes (ignored by user agents). There are some instances of incorrectly-nested elements (e.g. "<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content">flow content</a>" wrapped in "<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Phrasing_content">phrasing content</a>").
 <br><br> 
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Pages rendered in the *older* design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) have a slightly higher volume of parsing errors, which include more problematic errors such as <code>li</code> elements outside of <code>ul</code> elements and duplicate IDs, that may interfere with the ability of assistive technology to correctly identify some components. 
+Pages rendered in the <strong>older</strong> design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) have a slightly higher volume of parsing errors, which include more problematic errors such as <code>li</code> elements outside of <code>ul</code> elements and duplicate IDs, that may interfere with the ability of Assistive Technology to correctly identify some components. 
 <br><br>
 Ancillary static pages (e.g. the pages linked to at the footer of each page, such as Terms and Conditions, Legal Information, and Accessibility, among others) are hand-built in HTML, without the use of a dynamic templating system. Hand-built content may contain unclosed or illegally nested elements. When we become aware of content with these problems, we immediately take steps to repair the HTML.
 <br><br>
@@ -874,13 +874,13 @@ Other third party scripts, including the Freshdesk customer services widget, may
 <td>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Pages rendered in the *older* design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) use gradient background images that do not meet minimum contrast requirements between the text and one or more of the gradient background colours. 
+Pages rendered in the <strong>older</strong> design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) use gradient background images that do not meet minimum contrast requirements between the text and one or more of the gradient background colours. 
 <br><br>
 There are limited instances of promotional/call-to-action content (e.g. the "New books and journals are available every day" box on the homepage of link.springer.com) with poor contrast ratio.
 <br><br>
 Images of product covers (e.g. journals, books displayed on the homepage of link.springer.com) may contain text that does not meet WCAG AA contrast guidelines. On the homepage, these images are supplemented with visible text labels (but the text is triggered by mouse-dependent event handlers, and their visibility cannot be toggled by the keyboard). 
 <br><br>
-Pages rendered in the *newer* design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries) meet WCAG AA contrast ratio requirements. 
+Pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries) meet WCAG AA contrast ratio requirements. 
 <br><br>
 Most text and images of text in the newer design have a contrast ratio of at least 4.5:1. Links generally fall slightly short of WCAG AA requirements, with a contrast ratio of 4.3:1. 
 <br><br>
@@ -912,13 +912,13 @@ Third party advertising scripts may inject content with insufficient contrast.
 <td>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Pages rendered in the *older* design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) can generally be resized without assistive technology up to 200 percent without loss of content or functionality. 
+Pages rendered in the <strong>older</strong> design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) can generally be resized without Assistive Technology up to 200 percent without loss of content or functionality. 
 <br><br>
 The flyout "search" and "menu" components in the header of the older design have fixed positions which may prevent users browsing with high magnification from being able to scroll through the page while the components are open. In the case of the "menu" component, only some of the menu can be used at high magnfication, with the lower items cut off-screen. 
 <br><br>
-Pages rendered in the *newer* design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries) can be resized without assistive technology up to 400 percent without loss of content or functionality. 
+Pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries) can be resized without Assistive Technology up to 400 percent without loss of content or functionality. 
 <br><br>
-Pages located at checkout.springer.com are not fully responsive and require horizontal scrolling at 200 percent magnification in order to read all content. Some footer menu items are removed for users browsing at high magnification, including the link to the Order FAQ. Users browsing with high magnification will be unable to access this content without returning to the main Springer website (_not_ the SpringerLink website). 
+Pages located at checkout.springer.com are not fully responsive and require horizontal scrolling at 200 percent magnification in order to read all content. Some footer menu items are removed for users browsing at high magnification, including the link to the Order FAQ. Users browsing with high magnification will be unable to access this content without returning to the main Springer website (<em>not</em> the SpringerLink website). 
 <br><br>
 Third party advertising scripts may inject non-responsive content that loses or obscures information when text is resized.
 </td>
@@ -978,7 +978,7 @@ The SpringerLink website contains content that is rendered in two separate desig
 <br><br>
 The flyout "menu" component in the header of the older design has a fixed position which may prevent users browsing with high magnification from being able to access all items in the menu. 
 <br><br>
-On pages located at checkout.springer.com, some footer menu items are removed for users browsing at high magnification, including the link to the Order FAQ. Users browsing with high magnification will be unable to access this content without returning to the main Springer website (_not_ the SpringerLink website). 
+On pages located at checkout.springer.com, some footer menu items are removed for users browsing at high magnification, including the link to the Order FAQ. Users browsing with high magnification will be unable to access this content without returning to the main Springer website (<em>not</em> the SpringerLink website). 
 </td>
 </tr>
 <tr id="headings-and-labels" valign="top">
@@ -1004,13 +1004,13 @@ On pages located at checkout.springer.com, some footer menu items are removed fo
 <td>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Pages rendered in the *older* design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) may incorrectly use label elements for other purposes (e.g. for error messages on account management pages), omit labels for some functionality (e.g. the pagination number field on advanced search results pages and the text input for the main search component in the page banner). 
+Pages rendered in the <strong>older</strong> design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) may incorrectly use label elements for other purposes (e.g. for error messages on account management pages), omit labels for some functionality (e.g. the pagination number field on advanced search results pages and the text input for the main search component in the page banner). 
 <br><br>
 Level one headings are omitted on some pages (e.g. search results pages). Other pages have multiple level one headings (e.g. static ancillary pages such as link.springer.com/termsandconditions). 
 <br><br>
 We are actively working to find and repair these problems.  
 <br><br>
-Pages rendered in the *newer* design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries) use correctly-structured headings and generally display visible and appropriately associated labels for input fields. 
+Pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries) use correctly-structured headings and generally display visible and appropriately associated labels for input fields. 
 <br><br>
 Pages found at checkout.springer.com omit or use inappropriate headings and heading levels, including the use of unsemantic headings for visual effect, skipping heading levels, and providing empty headings. Pages at this location also misapply HTML elements (e.g. label elements used for error messages), which may make it difficult for users of Assistive Technology to understand the structure and purpose of individual components. 
 <br><br>
@@ -1042,9 +1042,9 @@ The Freshdesk customer services widget injects controls with inadequate labels, 
 <td>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Pages rendered in the *older* design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) use default browser focus rings only for interactive components. 
+Pages rendered in the <strong>older</strong> design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) use default browser focus rings only for interactive components. 
 <br><br>
-Pages rendered in the *newer* design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries) use highly-visible focus styles, including yellow focus rings or yellow backgrounds.
+Pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries) use highly-visible focus styles, including yellow focus rings or yellow backgrounds.
 <br><br>
 Third party scripts, including advertising, may inject components that remove focus styles.
 </td>
@@ -1070,7 +1070,7 @@ Third party scripts, including advertising, may inject components that remove fo
 </ul></td>
 <td>Does Not Support</td>
 <td>
-Content in journals, books, series, protocols, reference works or proceedings may include text in languages other than that defined in the HTML <code>lang</code> attribute. We currently have no method of confirming the inclusion - or not - of appropriate lang attributes for pieces of text that may use a different language to the main document. 
+Content in journals, books, series, protocols, reference works or proceedings may include or be completely composed of text in languages other than that defined in the HTML <code>lang</code> attribute. We currently have no method of confirming the inclusion - or not - of appropriate lang attributes for pieces of text that may use a different language to the main document. 
 <br><br>
 Titles in the cart at checkout.springer.com may be in multiple languages. The correct <code>lang</code> attribute for titles in a language different to that of the overall document is omitted. 
 <br><br>
@@ -1100,13 +1100,13 @@ Third party scripts may inject components that use a different language to the p
 <td>
 The SpringerLink website contains content that is rendered in two separate, inconsistent designs. The designs have different navigation methods, within the same collections of pages. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Pages rendered in the *older* design are currently Journals, Book Series, and ancillary pages such as search, indexes, and account management. 
+Pages rendered in the <strong>older</strong> design are currently Journals, Book Series, and ancillary pages such as search, indexes, and account management. 
 <br><br>
-Pages rendered in the *newer* design are currently Articles, Chapters, Books, Reference Works, and Reference Work Entries. 
+Pages rendered in the <strong>newer</strong> design are currently Articles, Chapters, Books, Reference Works, and Reference Work Entries. 
 <br><br>
 When the transfer process is complete, the navigation methods between designs will be broadly consistent. 
 <br><br>
-Pages located at checkout.springer.com deal with with sensitive information and have an intentionally stripped-down design, and do not share the same navigation system as the main site. The navigation of each of these sets of pages is internally consistent. 
+Pages located at checkout.springer.com deal with with sensitive information and have an intentionally stripped-down design, and do not share the same navigation system as the main site. The navigation of this set of pages is internally consistent. 
 </td>
 </tr>
 <tr id="consistent-identification" valign="top">
@@ -1132,13 +1132,13 @@ Pages located at checkout.springer.com deal with with sensitive information and 
 <td>
 The SpringerLink website contains content that is rendered in two separate, inconsistent designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Pages rendered in the *older* design are currently Journals, Book Series, and ancillary pages such as search, indexes, and account management. 
+Pages rendered in the <strong>older</strong> design are currently Journals, Book Series, and ancillary pages such as search, indexes, and account management. 
 <br><br>
-Pages rendered in the *newer* design are currently Articles, Chapters, Books, Reference Works, and Reference Work Entries. 
+Pages rendered in the <strong>newer</strong> design are currently Articles, Chapters, Books, Reference Works, and Reference Work Entries. 
 <br><br>
 When the transfer process is complete, content will use a unified design style with consistent presentation and functionality.
 <br><br>
-Pages located at checkout.springer.com deal with with sensitive information and have an intentionally stripped-down design. The presentation of each of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site. 
+Pages located at checkout.springer.com deal with with sensitive information and have an intentionally stripped-down design. The presentation of this set of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site. 
 </td>
 </tr>
 <tr id="error-suggestion" valign="top">
@@ -1166,7 +1166,7 @@ Where user input errors are automatically detected in our own software, the item
 <br><br>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Pages rendered in the *older* design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) use label elements to hold error messages. Some Assistive Technology may not make these labels and their error content available to their users. 
+Pages rendered in the <strong>older</strong> design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) use label elements to hold error messages. Some Assistive Technology may not make these labels and their error content available to their users. 
 <br><br>
 Pages located at checkout.springer.com also use label elements to hold error messages, and some Assistive Technology may not make these labels and their error content available to their users. 
 </td>
@@ -1191,7 +1191,7 @@ Pages located at checkout.springer.com also use label elements to hold error mes
 <li>602.3 (Support Docs)</li>
 </ul></td>
 <td>Supports</td>
-<td>Payment pages have a checkout flow that include a verification step. There, the user must confirm that their choices are correct before they may enter their payment details. At this stage they may return to a previous step to make corrections, cancel, or abandon the process.</td>
+<td>Payment pages have a checkout flow that includes a verification step. There, the user must confirm that their choices are correct before they may enter their payment details. At this stage they may return to a previous step to make corrections, cancel, or abandon the process.</td>
 </tr>
 </tbody>
 </table>
@@ -1209,7 +1209,7 @@ Notes: See [WCAG section](#wcag-20-report) for full details.
 | **Criteria**                                                   | **Conformance Level**    | **Remarks and Explanations** |
 | -------------------------------------------------------------- | ---------------------    | ---------------------------- |
 | 302.1 Without Vision                                           | Partially Supports       | The majority of content is marked up for Assistive Technology. Some pages and interactive components may be difficult to use. Third party scripts may inject content with inadequate accessible alternatives. |
-| 302.2 With Limited Vision                                      | Partially Supports	    | Markup is written with support for assistive technology. Text is resizable by the user. Fonts are set as rems and use pixels as a fallback if not supported. The product does not impede the user from zooming into page. Some functionality may be difficult to use at high magnification. Third party scripts may inject content with inadequate accessibility support. |
+| 302.2 With Limited Vision                                      | Partially Supports	    | Markup is written with support for Assistive Technology. Text is resizable by the user. The product does not impede the user from zooming into page. Some functionality may be difficult to use at high magnification. Third party scripts may inject content with inadequate accessibility support. |
 | 302.3 Without Perception of Color                              | Supports                 | Color perception is not needed to use this product. |
 | 302.4 Without Hearing                                          | Partially Supports       | Some but not all audio is supported by captions or transcripts.  |
 | 302.5 With Limited Hearing                                     | Partially Supports       | Some but not all audio is supported by captions or transcripts.  |
@@ -1277,7 +1277,7 @@ See WCAG sections <a href="#non-text-content">1.1.1 Non-text Content</a>, <a hre
 <td>502.3.2 Modification of Object Information</td>
 <td>Partially Supports</td>
 <td>
-The pages of this product use standard HTML or ARIA object roles for maximum compatibility with assistive technologies, with some exceptions.
+The pages of this product use standard HTML or ARIA object roles for maximum compatibility with Assistive Technologies, with some exceptions.
 <br><br>
 See WCAG sections <a href="#non-text-content">1.1.1 Non-text Content</a>, <a href="#info-and-relationships">1.3.1 Info and Relationships</a>, <a href="#sensory-characteristics">1.3.3 Sensory Characteristics</a>, <a href="#link-purpose-in-context">2.4.4 Link Purpose (In Context)</a>, <a href="#labels-or-instructions">3.3.2 Labels or Instructions</a>, <a href="#parsing">4.1.1 Parsing</a>, <a href="#name-role-value">4.1.2 Name, Role, Value</a>, <a href="#contrast-minimum">1.4.3 Contrast (Minimum)</a>, and <a href="#headings-and-labels">2.4.6 Headings and Labels</a> for further detail.
 </td>
@@ -1294,12 +1294,12 @@ Data tables in dynamic templates are rare, but where they do appear, they are ma
 <tr>
 <td>502.3.4 Values</td>
 <td>Supports</td>
-<td>The pages of this product use standard HTML or ARIA object attributes for maximum compatibility with assistive technologies.</td>
+<td>The pages of this product use standard HTML or ARIA object attributes for maximum compatibility with Assistive Technologies.</td>
 </tr>
 <tr>
 <td>502.3.5 Modification of Values</td>
 <td>Supports</td>
-<td>The pages of this product use standard HTML or ARIA object attributes for maximum compatibility with assistive technologies.</td>
+<td>The pages of this product use standard HTML or ARIA object attributes for maximum compatibility with Assistive Technologies.</td>
 </tr>
 <tr>
 <td>502.3.6 Label Relationships</td>
@@ -1321,10 +1321,11 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 </tr>
 <tr>
 <td>502.3.8 Text</td>
+<td>Partially Supports</td>
 <td>
 The pages of this product use standard plain text in HTML.
 <br><br>
-The OneTrust "manage cookies" privacy centre (Third party content) uses an inappropriate aria label of "true" in place of its main heading. Some text in the privacy center (e.g. link text) may be present only in a title attribute, and may not be accessible to some assistive technologies.
+The OneTrust "manage cookies" privacy centre (Third party content) uses an inappropriate aria label of "true" in place of its main heading. Some text in the privacy center (e.g. link text) may be present only in a title attribute, and may not be accessible to some Assistive Technologies.
 <br><br>
 Content in journals, books, series, protocols, reference works or proceedings may contain images of text without adequate programmatically determinable alternatives. 
 </td>
@@ -1337,13 +1338,13 @@ Content in journals, books, series, protocols, reference works or proceedings ma
 <tr>
 <td>502.3.10 List of Actions</td>
 <td>Supports</td>
-<td>The pages of this product use standard HTML or ARIA object attributes for maximum compatibility with assistive technologies.</td>
+<td>The pages of this product use standard HTML or ARIA object attributes for maximum compatibility with Assistive Technologies.</td>
 </tr>
 <tr>
 <td>502.3.11 Actions on Objects</td>
 <td>Partially Supports</td>
 <td>
-The pages of this product use standard HTML or ARIA object attributes for maximum compatibility with assistive technologies. Some content, including that injected by third party scripts, cannot be interacted with easily or at all by keyboard or by other assistive technologies. 
+The pages of this product use standard HTML or ARIA object attributes for maximum compatibility with Assistive Technologies. Some content, including that injected by third party scripts, cannot be interacted with easily or at all by keyboard or by other Assistive Technologies. 
 <br><br>
 See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships</a>, and <a href="#keyboard">2.1.1 Keyboard</a> for further detail. 
 </td>
@@ -1360,7 +1361,7 @@ See WCAG sections <a href="#use-of-color">1.4.1 Use of Color</a> and <a href="#f
 <tr>
 <td>502.3.13 Modification of Focus Cursor</td>
 <td>Supports</td>
-<td>The pages of this product use standard HTML elements and cursor controls for user input that may be overriden by assistive technology.</td>
+<td>The pages of this product use standard HTML elements and cursor controls for user input that may be overriden by Assistive Technology.</td>
 </tr>
 <tr>
 <td>502.3.14 Event Notification</td>
@@ -1393,7 +1394,7 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 <tr>
 <td>503.3 Alternative User Interfaces</td>
 <td>Not Applicable</td>
-<td>We do not provide any alternative user interface for this product that functions as assistive technology.</td>
+<td>We do not provide any alternative user interface for this product that functions as Assistive Technology.</td>
 </tr>
 <tr>
 <td><em><strong>503.4 User Controls for Captions and Audio Description</strong></em></td>
@@ -1467,7 +1468,7 @@ Notes: This report covers accessibility conformance for the web product and does
 
 ### Chapter [5: Generic Requirements](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=23)
 
-Notes: This product supports standard web assistive technologies and is therefore not subject to the Closed Functionality criteria described in this chapter.
+Notes: This product supports standard web Assistive Technologies and is therefore not subject to the Closed Functionality criteria described in this chapter.
 
 ### Chapter [6: ICT with Two-Way Voice Communication](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=28) 
 
@@ -1507,13 +1508,13 @@ Notes: This product does not include non-web documents and is therefore not subj
 | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | 11.2.1 Software success criteria (excluding closed functionality)                                 | See [WCAG 2.0](#WCAG) section                                                            | See information in WCAG section                                                |
 | 11.2.2 Software success criteria (closed functionality)                                           | See [WCAG 2.0](#WCAG) section                                                            | See information in WCAG section                                                |
-| ***11.3 Interoperability with assistive technology***                                             | -                                                                                        | -                                                                              |
+| ***11.3 Interoperability with Assistive Technology***                                             | -                                                                                        | -                                                                              |
 | ***11.3.1 Closed functionality (informative)***                                                   | -                                                                                        | -                                                                              |
 | ***11.3.2 Accessibility services***                                                               | -                                                                                        | -                                                                              |
 | ***11.3.2.1 Platform accessibility service support for software that provides a user interface*** | See 11.3.2.5 through 11.3.2.17                                                           | See information in 11.3.2.5 through 11.3.2.17                                  |
-| ***11.3.2.2 Platform accessibility service support for assistive technologies***                  | See 11.3.2.5 through 11.3.2.17                                                           | See information in 11.3.2.5 through 11.3.2.17                                  |
+| ***11.3.2.2 Platform accessibility service support for Assistive Technologies***                  | See 11.3.2.5 through 11.3.2.17                                                           | See information in 11.3.2.5 through 11.3.2.17                                  |
 | 11.3.2.3 Use of accessibility services                                                            | Supports                                                                                 | This product supports standard platform accessibility services.                |
-| 11.3.2.4 Assistive technology                                                                     | Not Applicable                                                                           | This product is not an assistive technology.                                   |
+| 11.3.2.4 Assistive Technology                                                                     | Not Applicable                                                                           | This product is not an Assistive Technology.                                   |
 | 11.3.2.5 Object information                                                                       | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.1 and 502.3.2 |
 | 11.3.2.6 Row, column, and headers                                                                 | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.3             |
 | 11.3.2.7 Values                                                                                   | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.4 and 502.3.5 |
@@ -1548,4 +1549,4 @@ Notes: This product does not provide any relay services, or access for Emergency
 
 ## Legal Disclaimer (Springer Nature)
 
-This document is provided for information purposes only and the contents hereof are subject to change without notice. Springer Nature does not warrant that this document is error free, nor does it provide any other warranties or conditions, whether expressed orally or implied in law, including implied warranties and conditions of merchantability or fitness for a particular purpose. Springer Nature specifically disclaims any liability with respect to this document and no contractual obligations are formed either directly or indirectly by this document. Springer Nature further makes no representation concerning the ability of assistive technologies or other products to interoperate with Springer Nature products. This document addresses the named product(s) or platforms only.
+This document is provided for information purposes only and the contents hereof are subject to change without notice. Springer Nature does not warrant that this document is error free, nor does it provide any other warranties or conditions, whether expressed orally or implied in law, including implied warranties and conditions of merchantability or fitness for a particular purpose. Springer Nature specifically disclaims any liability with respect to this document and no contractual obligations are formed either directly or indirectly by this document. Springer Nature further makes no representation concerning the ability of Assistive Technologies or other products to interoperate with Springer Nature products. This document addresses the named product(s) or platforms only.
