@@ -1106,7 +1106,7 @@ Pages rendered in the <strong>newer</strong> design are currently Articles, Chap
 <br><br>
 When the transfer process is complete, the navigation methods between designs will be broadly consistent. 
 <br><br>
-Pages located at checkout.springer.com deal with with sensitive information and have an intentionally stripped-down design, and do not share the same navigation system as the main site. The navigation of this set of pages is internally consistent. 
+Pages located at checkout.springer.com deal with sensitive information and have an intentionally stripped-down design, and do not share the same navigation system as the main site. The navigation of this set of pages is internally consistent. 
 </td>
 </tr>
 <tr id="consistent-identification" valign="top">
@@ -1138,7 +1138,7 @@ Pages rendered in the <strong>newer</strong> design are currently Articles, Chap
 <br><br>
 When the transfer process is complete, content will use a unified design style with consistent presentation and functionality.
 <br><br>
-Pages located at checkout.springer.com deal with with sensitive information and have an intentionally stripped-down design. The presentation of this set of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site. 
+Pages located at checkout.springer.com deal with sensitive information and have an intentionally stripped-down design. The presentation of this set of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site. 
 </td>
 </tr>
 <tr id="error-suggestion" valign="top">
@@ -1209,7 +1209,7 @@ Notes: See [WCAG section](#wcag-20-report) for full details.
 | **Criteria**                                                   | **Conformance Level**    | **Remarks and Explanations** |
 | -------------------------------------------------------------- | ---------------------    | ---------------------------- |
 | 302.1 Without Vision                                           | Partially Supports       | The majority of content is marked up for Assistive Technology. Some pages and interactive components may be difficult to use. Third party scripts may inject content with inadequate accessible alternatives. |
-| 302.2 With Limited Vision                                      | Partially Supports	    | Markup is written with support for Assistive Technology. Text is resizable by the user. The product does not impede the user from zooming into page. Some functionality may be difficult to use at high magnification. Third party scripts may inject content with inadequate accessibility support. |
+| 302.2 With Limited Vision                                      | Partially Supports	    | Markup is written with support for Assistive Technology. Text is resizable by the user. The product does not impede the user from zooming into the page. Some functionality may be difficult to use at high magnification. Third party scripts may inject content with inadequate accessibility support. |
 | 302.3 Without Perception of Color                              | Supports                 | Color perception is not needed to use this product. |
 | 302.4 Without Hearing                                          | Partially Supports       | Some but not all audio is supported by captions or transcripts.  |
 | 302.5 With Limited Hearing                                     | Partially Supports       | Some but not all audio is supported by captions or transcripts.  |
