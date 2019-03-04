@@ -201,9 +201,9 @@ We currently have no method of confirming the inclusion - or not - of adequate m
 <td>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Pages rendered in the <strong>older</strong> design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) may use unsemantic markup, including inadequate, misleading, or incorrectly-applied landmarks. Some UI controls (e.g. "next" and "previous" pagination controls on search results pages) lack accessible names. Pages may omit level one headings. 
+Pages rendered in the <strong>older</strong> design (currently Journals, and ancillary pages such as search, indexes, and account management) may use unsemantic markup, including inadequate, misleading, or incorrectly-applied landmarks. Some UI controls (e.g. "next" and "previous" pagination controls on search results pages) lack accessible names. Pages may omit level one headings. 
 <br><br>
-On pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries), we generally use progressive enhancement techniques and semantically-correct markup so that information, structure, and relationships can be understood independently of presentation.
+On pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Book Series, Reference Works, and Reference Work Entries), we generally use progressive enhancement techniques and semantically-correct markup so that information, structure, and relationships can be understood independently of presentation.
 <br><br>
 We make use of ARIA roles to support landmarks, and use ARIA roles and properties when required for more complex functionality such as popup menus and dialogs. 
 <br><br>
@@ -267,7 +267,7 @@ The pages found at link.springer.com generally do not depend solely on sensory c
 <br><br>
 Icons may be displayed to control functionality. Adjacent visible text labels or ARIA labels may also be provided to ensure that relationships are available to Assistive Technologies. 
 <br><br>
-Some icons (e.g. "next" and "previous" pagination controls on search results pages) in the <strong>older</strong> design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) lack accessible names. Users who are unable to perceive these icons by their sensory characteristics may be unable to use these controls. We are in the process of transferring all content from the older design to the newer design, which will remove the reliance on sensory characteristics for understanding. 
+Some icons (e.g. "next" and "previous" pagination controls on search results pages) in the <strong>older</strong> design (currently Journals, and ancillary pages such as search, indexes, and account management) lack accessible names. Users who are unable to perceive these icons by their sensory characteristics may be unable to use these controls. We are in the process of transferring all content from the older design to the newer design, which will remove the reliance on sensory characteristics for understanding. 
 <br><br>
 Some complex images in journals, books, series, protocols, reference works and proceedings may rely on sensory characteristics to be understood. Examples may include images of charts, graphs, diagrams, or maps. Generally, these images are used to supplement text content. 
 <br><br>
@@ -551,7 +551,7 @@ The SpringerLink website contains content that is rendered in two separate desig
 <br><br>
 Some pages rendered in the <strong>older</strong> design may contain components where some items in the focus order do not match the visual order (for example the "date published" filtering on search results pages). 
 <br><br>
-On pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries), the focus order of page content matches the visual order.
+On pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Book Series, Reference Works, and Reference Work Entries), the focus order of page content matches the visual order.
 <br><br>
 Some pages located at checkout.springer.com contain components where the focus order does not match the visual order (for example the "terms" link on the registration page visually appears at the bottom of the registration form, but appears directly after the page header in the source/focus order).
 <br><br>
@@ -615,9 +615,9 @@ The OneTrust "manage cookies" privacy centre (third party content) displays some
 <td>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Pages rendered in the <strong>older</strong> design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) may be switched by the user between English and German. These pages use the language attribute on the HTML element to indicate which language is being used as the default language of a page. 
+Pages rendered in the <strong>older</strong> design (currently Journals, and ancillary pages such as search, indexes, and account management) may be switched by the user between English and German. These pages use the language attribute on the HTML element to indicate which language is being used as the default language of a page. 
 <br><br>
-Pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries) are presented only in English, with the correct language attribute applied to the HTML element. 
+Pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Book Series, Reference Works, and Reference Work Entries) are presented only in English, with the correct language attribute applied to the HTML element. 
 <br><br>
 Pages located at checkout.springer.com may also be switched by the user between English and German. These pages use the language attribute on the HTML element, but incorrectly present the default language of the page as English at all times (i.e. even when the user selects German). 
 </td>
@@ -717,9 +717,9 @@ User account pages located at link.springer.com/account and pages located at che
 <td>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Pages rendered in the <strong>older</strong> design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) generally display visible and appropriately associated labels for input fields. Exceptions include the pagination number field on advanced search results pages and in the main search component in the page banner, both of which omit any label or ARIA description, and use only placeholder text as instruction. We are actively working to find and repair these problems.  
+Pages rendered in the <strong>older</strong> design (currently Journals, and ancillary pages such as search, indexes, and account management) generally display visible and appropriately associated labels for input fields. Exceptions include the pagination number field on advanced search results pages and in the main search component in the page banner, both of which omit any label or ARIA description, and use only placeholder text as instruction. We are actively working to find and repair these problems.  
 <br><br>
-Pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries) generally display visible and appropriately associated labels for input fields. 
+Pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Book Series, Reference Works, and Reference Work Entries) generally display visible and appropriately associated labels for input fields. 
 <br><br>
 Instructions such as those that explain mandatory fields may be absent or only present at the end of forms. (e.g. some payment information pages). Additional instructions for specific input fields may not be adequately associated (e.g. with aria-describedby) with the fields they describe. We are actively working to find and repair these problems. 
 </td>
@@ -751,7 +751,7 @@ Where errors exist, they are usually minor, such as the presence of invalid <cod
 <br><br> 
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Pages rendered in the <strong>older</strong> design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) have a slightly higher volume of parsing errors, which include more problematic errors such as <code>li</code> elements outside of <code>ul</code> elements and duplicate IDs, that may interfere with the ability of Assistive Technology to correctly identify some components. 
+Pages rendered in the <strong>older</strong> design (currently Journals, and ancillary pages such as search, indexes, and account management) have a slightly higher volume of parsing errors, which include more problematic errors such as <code>li</code> elements outside of <code>ul</code> elements and duplicate IDs, that may interfere with the ability of Assistive Technology to correctly identify some components. 
 <br><br>
 Ancillary static pages (e.g. the pages linked to at the footer of each page, such as Terms and Conditions, Legal Information, and Accessibility, among others) are hand-built in HTML, without the use of a dynamic templating system. Hand-built content may contain unclosed or illegally nested elements. When we become aware of content with these problems, we immediately take steps to repair the HTML.
 <br><br>
@@ -874,13 +874,13 @@ Other third party scripts, including the Freshdesk customer services widget, may
 <td>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Pages rendered in the <strong>older</strong> design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) use gradient background images that do not meet minimum contrast requirements between the text and one or more of the gradient background colours. 
+Pages rendered in the <strong>older</strong> design (currently Journals, and ancillary pages such as search, indexes, and account management) use gradient background images that do not meet minimum contrast requirements between the text and one or more of the gradient background colours. 
 <br><br>
 There are limited instances of promotional/call-to-action content (e.g. the "New books and journals are available every day" box on the homepage of link.springer.com) with poor contrast ratio.
 <br><br>
 Images of product covers (e.g. journals, books displayed on the homepage of link.springer.com) may contain text that does not meet WCAG AA contrast guidelines. On the homepage, these images are supplemented with visible text labels (but the text is triggered by mouse-dependent event handlers, and their visibility cannot be toggled by the keyboard). 
 <br><br>
-Pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries) meet WCAG AA contrast ratio requirements. 
+Pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Book Series, Reference Works, and Reference Work Entries) meet WCAG AA contrast ratio requirements. 
 <br><br>
 Most text and images of text in the newer design have a contrast ratio of at least 4.5:1. Links generally fall slightly short of WCAG AA requirements, with a contrast ratio of 4.3:1. 
 <br><br>
@@ -912,11 +912,11 @@ Third party advertising scripts may inject content with insufficient contrast.
 <td>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Pages rendered in the <strong>older</strong> design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) can generally be resized without Assistive Technology up to 200 percent without loss of content or functionality. 
+Pages rendered in the <strong>older</strong> design (currently Journals, and ancillary pages such as search, indexes, and account management) can generally be resized without Assistive Technology up to 200 percent without loss of content or functionality. 
 <br><br>
 The flyout "search" and "menu" components in the header of the older design have fixed positions which may prevent users browsing with high magnification from being able to scroll through the page while the components are open. In the case of the "menu" component, only some of the menu can be used at high magnification, with the lower items cut off-screen. 
 <br><br>
-Pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries) can be resized without Assistive Technology up to 400 percent without loss of content or functionality. 
+Pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Book Series, Reference Works, and Reference Work Entries) can be resized without Assistive Technology up to 400 percent without loss of content or functionality. 
 <br><br>
 Pages located at checkout.springer.com are not fully responsive and require horizontal scrolling at 200 percent magnification in order to read all content. Some footer menu items are removed for users browsing at high magnification, including the link to the Order FAQ. Users browsing with high magnification will be unable to access this content without returning to the main Springer website (<em>not</em> the SpringerLink website). 
 <br><br>
@@ -1004,13 +1004,13 @@ On pages located at checkout.springer.com, some footer menu items are removed fo
 <td>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Pages rendered in the <strong>older</strong> design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) may incorrectly use label elements for other purposes (e.g. for error messages on account management pages), omit labels for some functionality (e.g. the pagination number field on advanced search results pages and the text input for the main search component in the page banner). 
+Pages rendered in the <strong>older</strong> design (currently Journals, and ancillary pages such as search, indexes, and account management) may incorrectly use label elements for other purposes (e.g. for error messages on account management pages), omit labels for some functionality (e.g. the pagination number field on advanced search results pages and the text input for the main search component in the page banner). 
 <br><br>
 Level one headings are omitted on some pages (e.g. search results pages). Other pages have multiple level one headings (e.g. static ancillary pages such as link.springer.com/termsandconditions). 
 <br><br>
 We are actively working to find and repair these problems.  
 <br><br>
-Pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries) use correctly-structured headings and generally display visible and appropriately associated labels for input fields. 
+Pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Book Series, Reference Works, and Reference Work Entries) use correctly-structured headings and generally display visible and appropriately associated labels for input fields. 
 <br><br>
 Pages found at checkout.springer.com omit or use inappropriate headings and heading levels, including the use of unsemantic headings for visual effect, skipping heading levels, and providing empty headings. Pages at this location also misapply HTML elements (e.g. label elements used for error messages), which may make it difficult for users of Assistive Technology to understand the structure and purpose of individual components. 
 <br><br>
@@ -1042,9 +1042,9 @@ The Freshdesk customer services widget injects controls with inadequate labels, 
 <td>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Pages rendered in the <strong>older</strong> design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) use default browser focus rings only for interactive components. 
+Pages rendered in the <strong>older</strong> design (currently Journals, and ancillary pages such as search, indexes, and account management) use default browser focus rings only for interactive components. 
 <br><br>
-Pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Reference Works, and Reference Work Entries) use highly-visible focus styles, including yellow focus rings or yellow backgrounds.
+Pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Book Series, Reference Works, and Reference Work Entries) use highly-visible focus styles, including yellow focus rings or yellow backgrounds.
 <br><br>
 Third party scripts, including advertising, may inject components that remove focus styles.
 </td>
@@ -1100,9 +1100,9 @@ Third party scripts may inject components that use a different language to the p
 <td>
 The SpringerLink website contains content that is rendered in two separate, inconsistent designs. The designs have different navigation methods, within the same collections of pages. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Pages rendered in the <strong>older</strong> design are currently Journals, Book Series, and ancillary pages such as search, indexes, and account management. 
+Pages rendered in the <strong>older</strong> design are currently Journals, and ancillary pages such as search, indexes, and account management. 
 <br><br>
-Pages rendered in the <strong>newer</strong> design are currently Articles, Chapters, Books, Reference Works, and Reference Work Entries. 
+Pages rendered in the <strong>newer</strong> design are currently Articles, Chapters, Books, Book Series, Reference Works, and Reference Work Entries. 
 <br><br>
 When the transfer process is complete, the navigation methods between designs will be broadly consistent. 
 <br><br>
@@ -1132,9 +1132,9 @@ Pages located at checkout.springer.com deal with sensitive information and have 
 <td>
 The SpringerLink website contains content that is rendered in two separate, inconsistent designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Pages rendered in the <strong>older</strong> design are currently Journals, Book Series, and ancillary pages such as search, indexes, and account management. 
+Pages rendered in the <strong>older</strong> design are currently Journals, and ancillary pages such as search, indexes, and account management. 
 <br><br>
-Pages rendered in the <strong>newer</strong> design are currently Articles, Chapters, Books, Reference Works, and Reference Work Entries. 
+Pages rendered in the <strong>newer</strong> design are currently Articles, Chapters, Books, Book Series, Reference Works, and Reference Work Entries. 
 <br><br>
 When the transfer process is complete, content will use a unified design style with consistent presentation and functionality.
 <br><br>
@@ -1166,7 +1166,7 @@ Where user input errors are automatically detected in our own software, the item
 <br><br>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-Pages rendered in the <strong>older</strong> design (currently Journals, Book Series, and ancillary pages such as search, indexes, and account management) use label elements to hold error messages. Some Assistive Technology may not make these labels and their error content available to their users. 
+Pages rendered in the <strong>older</strong> design (currently Journals, and ancillary pages such as search, indexes, and account management) use label elements to hold error messages. Some Assistive Technology may not make these labels and their error content available to their users. 
 <br><br>
 Pages located at checkout.springer.com also use label elements to hold error messages, and some Assistive Technology may not make these labels and their error content available to their users. 
 </td>
