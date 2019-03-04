@@ -363,7 +363,7 @@ Mouse-dependent event handlers are used to display detailed information about th
 <br><br>
 Content contained inside tab interfaces (e.g. tables of contents in Books) cannot be operated by keyboard alone. We are actively working to repair these problems.  
 <br><br>
-Video content located at link.springer.com/video/ can generally be operated without the use of a mouse, but some video functions (including turning on closed captions) cannot be operated by keyboard alone. Additionally, keyboard users are unable to toggle between the "details" and "transcript" tabs below the video. We are actively working to repair these problems.  
+Video content located at link.springer.com/video can generally be operated without the use of a mouse, but some video functions (including turning on closed captions) cannot be operated by keyboard alone. Additionally, keyboard users are unable to toggle between the "details" and "transcript" tabs below the video. We are actively working to repair these problems.  
 <br><br>
 Mouse-dependent event handlers are used to display detailed information about sales tax for purchases at checkout.springer.com, although the subtotals and totals are displayed to all users at all times. 
 <br><br>
@@ -521,8 +521,12 @@ The OneTrust "manage cookies" privacy centre (third party content) does not prov
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Supports</td>
-<td>SpringerLink pages have unique page titles that describe the purpose of the page.</td>
+<td>Partially Supports</td>
+<td>
+SpringerLink pages mostly have unique page titles that describe the purpose of the page.
+<br><br>
+Where multiple versions of the same content exist (e.g. in original research with a separate updated version), the page titles do not differentiate between versions. 
+</td>
 </tr>
 <tr id="focus-order" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-order"><strong>2.4.3 Focus Order</strong></a> (Level A)
@@ -689,7 +693,7 @@ Pages located at checkout.springer.com may also be switched by the user between 
 <td>
 Where user input errors are automatically detected in our own software, the items that are in error are identified to the user with warning text adjacent to the input field. We do not rely on visual characteristics alone (e.g. colour) to indicate user input errors. 
 <br><br>
-In some parts of the site, we additionally use an aria-describedby property to associate error messages with invalid fields.
+In some parts of the site, we additionally use an <code>aria-describedby</code> property to associate error messages with invalid fields.
 <br><br>
 User account pages located at link.springer.com/account and pages located at checkout.springer.com unsemantically identify errors in label elements, which may be problematic for some types of Assistive Technology. 
 </td>
@@ -721,7 +725,7 @@ Pages rendered in the <strong>older</strong> design (currently Journals, and anc
 <br><br>
 Pages rendered in the <strong>newer</strong> design (currently Articles, Chapters, Books, Book Series, Reference Works, and Reference Work Entries) generally display visible and appropriately associated labels for input fields. 
 <br><br>
-Instructions such as those that explain mandatory fields may be absent or only present at the end of forms. (e.g. some payment information pages). Additional instructions for specific input fields may not be adequately associated (e.g. with aria-describedby) with the fields they describe. We are actively working to find and repair these problems. 
+Instructions such as those that explain mandatory fields may be absent or only present at the end of forms. (e.g. some payment information pages). Additional instructions for specific input fields may not be adequately associated (e.g. with <code>aria-describedby</code>) with the fields they describe. We are actively working to find and repair these problems. 
 </td>
 </tr>
 <tr id="parsing" valign="top">
@@ -1070,7 +1074,7 @@ Third party scripts, including advertising, may inject components that remove fo
 </ul></td>
 <td>Does Not Support</td>
 <td>
-Content in journals, books, series, protocols, reference works or proceedings may include or be completely composed of text in languages other than that defined in the HTML <code>lang</code> attribute. We currently have no method of confirming the inclusion - or not - of appropriate lang attributes for pieces of text that may use a different language to the main document. 
+Content in journals, books, series, protocols, reference works or proceedings may include or be completely composed of text in languages other than that defined in the HTML <code>lang</code> attribute. We currently have no method of confirming the inclusion - or not - of appropriate <code>lang</code> attributes for pieces of text that may use a different language to the main document. 
 <br><br>
 Titles in the cart at checkout.springer.com may be in multiple languages. The correct <code>lang</code> attribute for titles in a language different to that of the overall document is omitted. 
 <br><br>
@@ -1325,7 +1329,7 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 <td>
 The pages of this product use standard plain text in HTML.
 <br><br>
-The third party OneTrust "manage cookies" privacy centre uses an inappropriate ARIA label of "true" in place of its main heading. Some text in the privacy centre (e.g. link text) may be present only in a title attribute, and may not be accessible to some Assistive Technologies.
+The third party OneTrust "manage cookies" privacy centre uses an inappropriate ARIA label of "true" in place of its main heading. Some text in the privacy centre (e.g. link text) may be present only in a <code>title</code> attribute, and may not be accessible to some Assistive Technologies.
 <br><br>
 Content in journals, books, series, protocols, reference works or proceedings may contain images of text without adequate programmatically determinable alternatives. 
 </td>
