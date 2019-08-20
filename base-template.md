@@ -1,6 +1,6 @@
 # \!INSERT PRODUCT\! Accessibility Conformance Report
 
-### **VPAT**&reg; **Version 2.2 – July 2018**
+### **VPAT**&reg; **Version 2.3 (revised) – April 2019**
 
 **Name of Product/Version**: \!INSERT PRODUCT NAME\! _(we do not version our software)_  
 **Product Description**: \!INSERT PRODUCT DESCRIPTION\!  
@@ -23,11 +23,15 @@ This report covers the degree of conformance for the following accessibility sta
 <td nowrap>Level A &nbsp; – &nbsp; <strong>Yes</strong><br>Level AA &nbsp; – &nbsp; <strong>Yes</strong><br>Level AAA &nbsp; – &nbsp; <strong>No</strong></td>
 </tr>
 <tr>
-<td><a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines">Revised Section 508 standards</a> as published by the U.S. Access Board in the Federal Register on January 18, 2017<br><a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/corrections-to-the-ict-final-rule">Corrections to the ICT Final Rule</a> as published by the US Access Board in the Federal Register on January 22, 2018</td>
+<td>Web Content Accessibility Guidelines 2.1, at <a href="https://www.w3.org/TR/WCAG21">https://www.w3.org/TR/WCAG21</a></td>
+<td nowrap>Level A &nbsp; – &nbsp; <strong>Yes</strong><br>Level AA &nbsp; – &nbsp; <strong>Yes</strong><br>Level AAA &nbsp; – &nbsp; <strong>No</strong></td>
+</tr>
+<tr>
+<td><a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines">Revised Section 508 standards</a> published January 18, 2017 and corrected January 22, 2018 </td>
 <td nowrap><strong>Yes</strong></td>
 </tr>
 <tr>
-<td>EN 301 549 Accessibility requirements suitable for public procurement of ICT products and services in Europe, - V1.1.2 (2015-04) at <a href="http://mandate376.standards.eu/standard">http://mandate376.standards.eu/standard</a></td>
+<td>EN 301 549 Accessibility requirements suitable for public procurement of ICT products and services in Europe, - V2.1.2 (2018-08) at <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf</a></td>
 <td nowrap><strong>Yes</strong></td>
 </tr>
 </tbody>
@@ -46,10 +50,10 @@ The terms used in the Conformance Level information are defined as follows:
 ## WCAG 2.0 Report
 
 Tables 1 and 2 also document conformance with:
-- EN 301 549: Chapter 9 - Web, Chapter 10 - Non-Web documents, Section 11.2.1- Non-Web Software (excluding closed functionality), and Section 11.2.2 - Non-Web Software (closed functionality).
+- EN 301 549:  Chapter 9 - Web, Sections 10.1-10.4 of Chapter 10 - Non-Web documents, and Sections 11.1-11.4 and 11.8.2 of Chapter 11 - Non-Web Software (open and closed functionality), and Sections 12.1.2 and 12.2.4 of Chapter 12 – Documentation
 - Revised Section 508: Chapter 5 – 501.1 Scope, 504.2 Content Creation or Editing, and Chapter 6 – 602.3 Electronic Support Documentation.
 
-**Note**: When reporting on conformance with the WCAG 2.0 Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the [WCAG 2.0 Conformance Requirements](https://www.w3.org/TR/WCAG20/#conformance-reqs).
+**Note**: When reporting on conformance with the WCAG 2.x Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the [WCAG 2.0 Conformance Requirements](https://www.w3.org/TR/WCAG20/#conformance-reqs).
 
 ### Table 1: Success Criteria, Level A
 
@@ -67,11 +71,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.1 (Web)</li>
-<li>10.2.1 (non-web document)</li>
-<li>11.2.1.1 (Software)</li>
-<li>11.2.2.1 (Closed Functionality Software)</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.1.1 (Web)</li>
+<li>10.1.1.1 (non-web document)</li>
+<li>11.1.1.1.1 (Open Functionality Software)</li>
+<li>11.1.1.1.2 (Closed Functionality Software)</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -89,11 +93,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.2 (Web)</li>
-<li>10.2.2 (non-web document)</li>
-<li>11.2.1.2 (Software)</li>
-<li>11.2.2.2.1 and 11.2.2.2.2 (Closed Software)</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.2.1 (Web)</li>
+<li>10.1.2.1 (non-web document)</li>
+<li>11.1.2.1.1 (Open Functionality Software)</li>
+<li>11.1.2.1.2.1 and 11.1.2.1.2.2 (Closed Software)</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -111,11 +115,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.3 (Web)</li>
-<li>10.2.3 (non-web document)</li>
-<li>11.2.1.3 (Software)</li>
-<li>11.2.2.3 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.2.2 (Web)</li>
+<li>10.1.2.2 (non-web document)</li>
+<li>11.1.2.2 (Open Functionality Software)</li>
+<li>11.1.2.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -133,11 +137,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.4 (Web)</li>
-<li>10.2.4 (non-web document)</li>
-<li>11.2.1.4 (Software)</li>
-<li>11.2.2.4 (Closed Software)</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.2.3 (Web)</li>
+<li>10.1.2.3 (non-web document)</li>
+<li>11.1.2.3.1 (Open Functionality Software)</li>
+<li>11.1.2.3.2 (Closed Software)</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -155,11 +159,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.7 (Web)</li>
-<li>10.2.7 (non-web document)</li>
-<li>11.2.1.7 (Software)</li>
-<li>11.2.2.7 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.3.1 (Web)</li>
+<li>10.1.3.1 (non-web document)</li>
+<li>11.1.3.1.1 (Open Functionality Software)</li>
+<li>11.1.3.1.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -177,11 +181,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.8 (Web)</li>
-<li>10.2.8 (non-web document)</li>
-<li>11.2.1.8 (Software)</li>
-<li>11.2.2.8 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.3.2 (Web)</li>
+<li>10.1.3.2 (non-web document)</li>
+<li>11.1.3.2.1 (Open Functionality Software)</li>
+<li>11.1.3.2.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -199,11 +203,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.9 (Web)</li>
-<li>10.2.9 (non-web document)</li>
-<li>11.2.1.9 (Software)</li>
-<li>11.2.2.9 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.3.3 (Web)</li>
+<li>10.1.3.3 (non-web document)</li>
+<li>11.1.3.3 (Open Functionality Software)</li>
+<li>11.1.3.3 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -221,11 +225,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.10 (Web)</li>
-<li>10.2.10 (non-web document)</li>
-<li>11.2.1.10 (Software)</li>
-<li>11.2.2.10 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.4.1 (Web)</li>
+<li>10.1.4.1 (non-web document)</li>
+<li>11.1.4.1 (Open Functionality Software)</li>
+<li>11.1.4.1 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -243,11 +247,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.11 (Web)</li>
-<li>10.2.11 (non-web document)</li>
-<li>11.2.1.11 (Software)</li>
-<li>11.2.2.11 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.4.2 (Web)</li>
+<li>10.1.4.2 (non-web document)</li>
+<li>11.1.4.2 (Open Functionality Software)</li>
+<li>11.1.4.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -265,11 +269,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.15 (Web)</li>
-<li>10.2.15 (non-web document)</li>
-<li>11.2.1.15 (Software)</li>
-<li>11.2.2.15 (Closed Software)</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.1.1 (Web)</li>
+<li>10.2.1.1 (non-web document)</li>
+<li>11.2.1.1.1 (Open Functionality Software)</li>
+<li>11.2.1.1.2 (Closed Software)</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -287,11 +291,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.16 (Web)</li>
-<li>10.2.16 (non-web document)</li>
-<li>11.2.1.16 (Software)</li>
-<li>11.2.2.16 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.1.2 (Web)</li>
+<li>10.2.1.2 (non-web document)</li>
+<li>11.2.1.2 (Open Functionality Software)</li>
+<li>11.2.1.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -304,16 +308,34 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
-<tr id="timing-adjustable" valign="top">
-<td><a href="http://www.w3.org/TR/WCAG20/#time-limits-required-behaviors"><strong>2.2.1 Timing Adjustable</strong></a> (Level A)
+<tr id="character-key-shortcuts" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#character-key-shortcuts"><strong>2.1.4 Character Key Shortcuts</strong></a> (Level A 2.1 only)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.17 (Web)</li>
-<li>10.2.17 (non-web document)</li>
-<li>11.2.1.17 (Software)</li>
-<li>11.2.2.17 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.1.4 (Web)</li>
+<li>10.2.1.4 (non-web document)</li>
+<li>11.2.1.4.1 (Open Functionality Software)</li>
+<li>11.2.1.4.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
+<tr id="timing-adjustable" valign="top">
+<td><a href="http://www.w3.org/TR/WCAG20/#time-limits-required-behaviors"><strong>2.2.1 Timing Adjustable</strong></a> (Level A 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.2.2.1 (Web)</li>
+<li>10.2.2.1 (non-web document)</li>
+<li>11.2.2.1 (Open Functionality Software)</li>
+<li>11.2.2.1 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -331,11 +353,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.18 (Web)</li>
-<li>10.2.18 (non-web document)</li>
-<li>11.2.1.18 (Software)</li>
-<li>11.2.2.18 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.2.2 (Web)</li>
+<li>10.2.2.2 (non-web document)</li>
+<li>11.2.2.2 (Open Functionality Software)</li>
+<li>11.2.2.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -353,11 +375,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.19 (Web)</li>
-<li>10.2.19 (non-web document)</li>
-<li>11.2.1.19 (Software)</li>
-<li>11.2.2.19 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.3.1 (Web)</li>
+<li>10.2.3.1 (non-web document)</li>
+<li>11.2.3.1 (Open Functionality Software)</li>
+<li>11.2.3.1 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -375,11 +397,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.20 (Web)</li>
-<li>10.2.20 (non-web document) – Does not apply</li>
-<li>11.2.1.20 (Software) – Does not apply</li>
-<li>11.2.2.20 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.4.1 (Web)</li>
+<li>10.2.4.1 (non-web document) – Does not apply</li>
+<li>11.2.4.1 (Open Functionality Software) – Does not apply</li>
+<li>11.2.4.1 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -397,11 +419,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.21 (Web)</li>
-<li>10.2.21 (non-web document)</li>
-<li>11.2.1.21 (Software) - Does not apply</li>
-<li>11.2.2.21 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.4.2 (Web)</li>
+<li>10.2.4.2 (non-web document)</li>
+<li>11.2.4.2 (Open Functionality Software) - Does not apply</li>
+<li>11.2.4.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -419,11 +441,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.22 (Web)</li>
-<li>10.2.22 (non-web document)</li>
-<li>11.2.1.22 (Software)</li>
-<li>11.2.2.22 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.4.3 (Web)</li>
+<li>10.2.4.3 (non-web document)</li>
+<li>11.2.4.3 (Open Functionality Software)</li>
+<li>11.2.4.3 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -441,11 +463,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.23 (Web)</li>
-<li>10.2.23 (non-web document)</li>
-<li>11.2.1.23 (Software)</li>
-<li>11.2.2.23 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.4.4 (Web)</li>
+<li>10.2.4.4 (non-web document)</li>
+<li>11.2.4.4 (Open Functionality Software)</li>
+<li>11.2.4.4 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -458,16 +480,88 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
+<tr id="pointer-gestures" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#pointer-gestures"><strong>2.5.1 Pointer Gestures</strong></a> (Level A 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.2.5.1 (Web)</li>
+<li>10.2.5.1 (non-web document)</li>
+<li>11.2.5.1 (Open Functionality Software)</li>
+<li>11.2.5.1 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
+<tr id="pointer-cancellation" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#pointer-gestures"><strong>2.5.2 Pointer Cancellation</strong></a> (Level A 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.2.5.2 (Web)</li>
+<li>10.2.5.2 (non-web document)</li>
+<li>11.2.5.2 (Open Functionality Software)</li>
+<li>11.2.5.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
+<tr id="label-in-name" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#label-in-name"><strong>2.5.3 Label in Name</strong></a> (Level A 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.2.5.3 (Web)</li>
+<li>10.2.5.3 (non-web document)</li>
+<li>10.2.5.3 (Open Functionality Software)</li>
+<li>11.2.5.3 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
+<tr id="motion-actuation" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#motion-actuation"><strong>2.5.4 Motion Actuation</strong></a> (Level A 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.2.5.4 (Web)</li>
+<li>10.2.5.4 (non-web document)</li>
+<li>11.2.5.4 (Open Functionality Software)</li>
+<li>11.2.5.4 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
 <tr id="language-of-page" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#meaning-doc-lang-id"><strong>3.1.1 Language of Page</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.27 (Web)</li>
-<li>10.2.27 (non-web document)</li>
-<li>11.2.1.27 (Software)</li>
-<li>11.2.2.27 (Closed Software)</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.3.1.1 (Web)</li>
+<li>10.3.1.1 (non-web document)</li>
+<li>11.3.1.1.1 (Open Functionality Software)</li>
+<li>11.3.1.1.2 (Closed Software)</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -485,11 +579,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.29 (Web)</li>
-<li>10.2.29 (non-web document)</li>
-<li>11.2.1.29 (Software)</li>
-<li>11.2.2.29 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.3.2.1 (Web)</li>
+<li>10.3.2.1 (non-web document)</li>
+<li>11.3.2.1 (Open Functionality Software)</li>
+<li>11.3.2.1 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -507,11 +601,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.30 (Web)</li>
-<li>10.2.30 (non-web document)</li>
-<li>11.2.1.30 (Software)</li>
-<li>11.2.2.30 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.3.2.2 (Web)</li>
+<li>10.3.2.2 (non-web document)</li>
+<li>11.3.2.2 (Open Functionality Software)</li>
+<li>11.3.2.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -529,11 +623,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.33 (Web)</li>
-<li>10.2.33 (non-web document)</li>
-<li>11.2.1.33 (Software)</li>
-<li>11.2.2.33 (Closed Software)</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.3.3.1 (Web)</li>
+<li>10.3.3.1 (non-web document)</li>
+<li>11.3.3.1.1 (Open Functionality Software)</li>
+<li>11.3.3.1.2 (Closed Software)</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -551,11 +645,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.34 (Web)</li>
-<li>10.2.34 (non-web document)</li>
-<li>11.2.1.34 (Software)</li>
-<li>11.2.2.34 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.3.3.2 (Web)</li>
+<li>10.3.3.2 (non-web document)</li>
+<li>11.3.3.2 (Open Functionality Software)</li>
+<li>11.3.3.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -573,11 +667,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.37 (Web)</li>
-<li>10.2.37 (non-web document)</li>
-<li>11.2.1.37 (Software)</li>
-<li>11.2.2.37 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.4.1.1 (Web)</li>
+<li>10.4.1.1 (non-web document)</li>
+<li>11.4.1.1.1 (Open Functionality Software)</li>
+<li>11.4.1.1.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -595,11 +689,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.38 (Web)</li>
-<li>10.2.38 (non-web document)</li>
-<li>11.2.1.38 (Software)</li>
-<li>11.2.2.38 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.4.1.2 (Web)</li>
+<li>10.4.1.2 (non-web document)</li>
+<li>11.4.1.2.1 (Open Functionality Software)</li>
+<li>11.4.1.2.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -631,11 +725,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.5 (Web)</li>
-<li>10.2.5 (non-web document)</li>
-<li>11.2.1.5 (Software)</li>
-<li>11.2.2.5 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.2.4 (Web)</li>
+<li>10.1.2.4 (non-web document)</li>
+<li>11.1.2.4 (Open Functionality Software)</li>
+<li>11.1.2.4 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -653,11 +747,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.6 (Web)</li>
-<li>10.2.6 (non-web document)</li>
-<li>11.2.1.6 (Software)</li>
-<li>11.2.2.6 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.2.5 (Web)</li>
+<li>10.1.2.5 (non-web document)</li>
+<li>11.1.2.5 (Open Functionality Software)</li>
+<li>11.1.2.5 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -670,16 +764,52 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
+<tr id="orientation" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#orientation"><strong>1.3.4 Orientation</strong></a> (Level AA 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.1.3.4 (Web)</li>
+<li>10.1.3.4 (non-web document)</li>
+<li>11.1.3.4 (Open Functionality Software)</li>
+<li>11.1.3.4 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
+<tr id="identify-input-purpose" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#identify-input-purpose"><strong>1.3.5 Identify Input Purpose</strong></a> (Level AA 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.1.3.5 (Web)</li>
+<li>10.1.3.5 (non-web document)</li>
+<li>11.1.3.5 (Open Functionality Software)</li>
+<li>11.1.3.5 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
 <tr id="contrast-minimum" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast"><strong>1.4.3 Contrast (Minimum)</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.12 (Web)</li>
-<li>10.2.12 (non-web document)</li>
-<li>11.2.1.12 (Software)</li>
-<li>11.2.2.12 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.4.3 (Web)</li>
+<li>10.1.4.3 (non-web document)</li>
+<li>11.1.4.3 (Open Functionality Software)</li>
+<li>11.1.4.3 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -697,11 +827,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.13 (Web)</li>
-<li>10.2.13 (non-web document)</li>
-<li>11.2.1.13 (Software)</li>
-<li>11.2.2.13 (Closed Software)</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.4.4 (Web)</li>
+<li>10.1.4.4 (non-web document)</li>
+<li>11.1.4.4.1 (Open Functionality Software)</li>
+<li>11.1.4.4.2 (Closed Software)</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -719,11 +849,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.14 (Web)</li>
-<li>10.2.14 (non-web document)</li>
-<li>11.2.1.14 (Software)</li>
-<li>11.2.2.14 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.4.5 (Web)</li>
+<li>10.1.4.5 (non-web document)</li>
+<li>11.1.4.5.1 (Open Functionality Software)</li>
+<li>11.1.4.5.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -736,16 +866,88 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
+<tr id="reflow" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#reflow"><strong>1.4.10 Reflow</strong></a> (Level AA 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.1.4.10 (Web)</li>
+<li>10.1.4.10 (non-web document)</li>
+<li>11.1.4.10.1 (Open Functionality Software)</li>
+<li>11.1.4.10.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
+<tr id="non-text-contrast" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#non-text-contrast"><strong>1.4.11 Non-text Contrast</strong></a> (Level AA 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.1.4.11 (Web)</li>
+<li>10.1.4.11 (non-web document)</li>
+<li>11.1.4.11 (Open Functionality Software)</li>
+<li>11.1.4.11 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
+<tr id="text-spacing" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#text-spacing"><strong>1.4.12 Text Spacing</strong></a> (Level AA 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.1.4.12 (Web)</li>
+<li>10.1.4.12 (non-web document)</li>
+<li>11.1.4.12 (Open Functionality Software)</li>
+<li>11.1.4.12 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
+<tr id="content-on-hover-or-focus" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus"><strong>1.4.13 Content on Hover or Focus</strong></a> (Level AA 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.1.4.13 (Web)</li>
+<li>10.1.4.13 (non-web document)</li>
+<li>11.1.4.13 (Open Functionality Software)</li>
+<li>11.1.4.13 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
 <tr id="multiple-ways" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-mult-loc"><strong>2.4.5 Multiple Ways</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.24 (Web)</li>
-<li>10.2.24 (non-web document) – Does not apply</li>
-<li>11.2.1.24 (Software) – Does not apply</li>
-<li>11.2.2.24 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.4.5 (Web)</li>
+<li>10.2.4.5 (non-web document) – Does not apply</li>
+<li>11.2.4.5 (Open Functionality Software) – Does not apply</li>
+<li>11.2.4.5 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -763,11 +965,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.25 (Web)</li>
-<li>10.2.25 (non-web document)</li>
-<li>11.2.1.25 (Software)</li>
-<li>11.2.2.25 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.4.6  (Web)</li>
+<li>10.2.4.6 (non-web document)</li>
+<li>11.2.4.6 (Open Functionality Software)</li>
+<li>11.2.4.6 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -785,11 +987,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.26 (Web)</li>
-<li>10.2.26 (non-web document)</li>
-<li>11.2.1.26 (Software)</li>
-<li>11.2.2.26 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.4.7 (Web)</li>
+<li>10.2.4.7 (non-web document)</li>
+<li>11.2.4.7 (Open Functionality Software)</li>
+<li>11.2.4.7 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -807,11 +1009,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.28 (Web)</li>
-<li>10.2.28 (non-web document)</li>
-<li>11.2.1.28 (Software) – Does not apply</li>
-<li>11.2.2.28 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.3.1.2 (Web)</li>
+<li>10.3.1.2 (non-web document)</li>
+<li>11.3.1.2 (Open Functionality Software) – Does not apply</li>
+<li>11.3.1.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -829,11 +1031,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.31 (Web)</li>
-<li>10.2.31 (non-web document) – Does not apply</li>
-<li>11.2.1.31 (Software) – Does not apply</li>
-<li>11.2.2.31 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.3.2.3 (Web)</li>
+<li>10.3.2.3 (non-web document) – Does not apply</li>
+<li>11.3.2.3 (Open Functionality Software) – Does not apply</li>
+<li>11.3.2.3 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -851,11 +1053,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.32 (Web)</li>
-<li>10.2.32 (non-web document) – Does not apply</li>
-<li>11.2.1.32 (Software) – Does not apply</li>
-<li>11.2.2.32 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.3.2.4 (Web)</li>
+<li>10.3.2.4 (non-web document) – Does not apply</li>
+<li>11.3.2.4 (Open Functionality Software) – Does not apply</li>
+<li>11.3.2.4 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -873,11 +1075,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.35 (Web)</li>
-<li>10.2.35 (non-web document)</li>
-<li>11.2.1.35 (Software)</li>
-<li>11.2.2.35 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.3.3.3 (Web)</li>
+<li>10.3.3.3 (non-web document)</li>
+<li>11.3.3.3 (Open Functionality Software)</li>
+<li>11.3.3.3 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -895,11 +1097,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.36 (Web)</li>
-<li>10.2.36 (non-web document)</li>
-<li>11.2.1.36 (Software)</li>
-<li>11.2.2.36 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.3.3.4 (Web)</li>
+<li>10.3.3.4 (non-web document)</li>
+<li>11.3.3.4 (Open Functionality Software)</li>
+<li>11.3.3.4 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -909,6 +1111,24 @@ Tables 1 and 2 also document conformance with:
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
+<tr id="status-messages" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#status-messages"><strong>4.1.3 Status Messages</strong></a> (Level AA 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.4.1.3 (Web)</li>
+<li>10.4.1.3 (non-web document)</li>
+<li>11.4.1.3 (Open Functionality Software)</li>
+<li>11.4.1.3 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
