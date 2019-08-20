@@ -31,7 +31,7 @@ This report covers the degree of conformance for the following accessibility sta
 <td nowrap><strong>Yes</strong></td>
 </tr>
 <tr>
-<td>EN 301 549 Accessibility requirements suitable for public procurement of ICT products and services in Europe, - V2.1.2 (2018-08) at <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf</a></td>
+<td>EN 301 549 Accessibility requirements suitable for public procurement of ICT products and services in Europe, - V2.1.2 (2018-08) at <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">https://www.etsi.org/[...]/en_301549v020102p.pdf</a></td>
 <td nowrap><strong>Yes</strong></td>
 </tr>
 </tbody>
