@@ -4,8 +4,8 @@
 
 **Name of Product/Version**: Nature.com _(we do not version our software)_  
 **Product Description**: 
-Nature.com publishes peer-reviewed research, reviews and news across a number of journals. This report refers entirely to the accessibility of editorial, journal, and magazine content published at the top level domain of <a href="http://www.nature.com">www.nature.com</a>, including informational pages, and to all content found at idp.nature.com and payment.nature.com (for account management and subscription and payment management respectively). Content located at <a href="http://www.nature.com/subjects">http://www.nature.com/subjects</a> is covered in a <a href="https://github.com/springernature/vpat/blob/master/nature-content-discovery.md">separate VPAT</a>.  
-**Date**: 21st January 2019  
+Nature.com publishes peer-reviewed research, reviews and news across a number of journals. This report refers entirely to the accessibility of editorial, journal, and magazine content published at the top level domain of <a href="http://www.nature.com">www.nature.com</a>, including informational pages, and to all content found at idp.nature.com and payment.nature.com (for account management and subscription and payment management respectively).  
+**Date**: 12th September 2019  
 **Contact information**: accessibility@springernature.com  
 **Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature using a combination of static analysis tools and manual testing with assistive technologies.  
 
@@ -868,7 +868,9 @@ Third party advertising scripts may inject non-responsive content that loses or 
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Editorial content and published papers may include complex images that contain images of text. In most cases these images are used to supplement the text content they appear alongside. In some cases (e.g. charts, graphs, or maps, among others), the text content presented alongside may be insufficient to explain the contents of the image. 
+Outside of editoral content managed by content management system (CMS), published books and papers, and third party scripts, the pages of this product do not use images of text to convey information except in the case of <a href="https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">logotypes</a> (considered essential per WCAG 2.0) or when the image is <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration">pure decoration</a>.
+<br><br>
+CMS content and published books and papers may include complex images that contain images of text. In most cases these images are used to supplement the text content they appear alongside. In some cases (e.g. charts, graphs, or maps, among others), the text content presented alongside may be insufficient to explain the contents of the image. 
 <br><br>
 Third party advertising scripts may inject images containing images of text.
 </td>
