@@ -2,6 +2,9 @@
 
 The data below is valid on the date provided: 29th June 2017.
 
+This VPAT covers all content that can be found at:
+[https://www.springeropen.com](https://www.springeropen.com)
+
 For more information, contact [info@springeropen.com](mailto:info@springeropen.com).
 
 ## Summary

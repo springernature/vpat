@@ -2,6 +2,9 @@
 
 The data below is valid on the date provided: 28th June 2017.
 
+This VPAT covers all content that can be found at:
+[https://www.biomedcentral.com](https://www.biomedcentral.com)
+
 For more information, contact [info@biomedcentral.com](mailto:info@biomedcentral.com).
 
 ## Summary
