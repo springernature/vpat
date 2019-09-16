@@ -54,4 +54,3 @@ then add your product to the list below.
 - [SpringerOpen](./springeropen.md)
 - [SpringerLink](./springerlink.md)
 - [Nature](./nature.md)
-- [Nature (Content Discovery)](./nature-content-discovery.md)
