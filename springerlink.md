@@ -3,7 +3,7 @@
 ### **VPAT**&reg; **Version 2.2 – July 2018**
 
 **Name of Product/Version**: SpringerLink _(we do not version our software)_  
-**Product Description**: SpringerLink provides researchers with access to scientific documents from journals, books, series, protocols, reference works and proceedings. This report refers entirely to the accessibility of all web content published at the subdomain link.springer.com, including informational pages, and all web content found at checkout.springer.com and order.springer.com.  
+**Product Description**: SpringerLink provides researchers with access to scientific documents from journals, books, series, protocols, reference works and proceedings. This report refers entirely to the accessibility of all web documents published at the subdomain link.springer.com, including informational pages, and all web documents found at checkout.springer.com and order.springer.com.  
 **Date**: 1 October 2019  
 **Contact information**: accessibility@springernature.com  
 **Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature using a combination of static analysis tools and manual testing with Assistive Technologies.  
