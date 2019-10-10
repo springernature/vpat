@@ -4,7 +4,7 @@
 
 **Name of Product/Version**: SpringerLink _(we do not version our software)_  
 **Product Description**: SpringerLink provides researchers with access to scientific documents from journals, books, series, protocols, reference works and proceedings. This report refers entirely to the accessibility of all web documents published at the subdomains link.springer.com and rd.springer.com (both subdomains are referred to as link.springer.com throughout this report), including informational pages, and all web documents found at checkout.springer.com and order.springer.com.  
-**Date**: 1 October 2019  
+**Date**: 10 October 2019  
 **Contact information**: accessibility@springernature.com  
 **Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature using a combination of static analysis tools and manual testing with Assistive Technologies.  
 
