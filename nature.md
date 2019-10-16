@@ -4,7 +4,7 @@
 
 **Name of Product/Version**: Nature.com _(we do not version our software)_  
 **Product Description**: 
-Nature.com publishes peer-reviewed research, reviews and news across a number of journals. This report refers entirely to the accessibility of editorial, journal, and magazine content published at the top level domain of <a href="http://www.nature.com">www.nature.com</a>, including informational pages, and to all content found at idp.nature.com and payment.nature.com (for account management and subscription and payment management respectively).  
+Nature.com publishes peer-reviewed research, reviews and news across a number of journals. This report refers entirely to the accessibility of editorial, journal, and magazine web content published at the top level domain of <a href="http://www.nature.com">www.nature.com</a>, including informational pages, and to all web content found at idp.nature.com and payment.nature.com (for account management and subscription and payment management respectively).  
 **Date**: 15th October 2019  
 **Contact information**: accessibility@springernature.com  
 **Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature using a combination of static analysis tools and manual testing with assistive technologies.  
