@@ -258,7 +258,7 @@ We use semantically-correct markup to allow assistive technologies to interpret 
 <td>
 The pages of this product do not depend solely on sensory characteristics such as shape, size, visual location, orientation, or sound to understand content.
 <br><br>
-Icons may be displayed to control functionality, but adjacent visible text labels or WAI-ARIA-labels are also provided to ensure that relationships are available to Assistive Technologies.
+Icons may be displayed to control functionality, but adjacent visible text labels or WAI-ARIA labels are also provided to ensure that relationships are available to Assistive Technologies.
 <br><br>
 Some complex images supplied by research authors may rely on sensory characteristics to be understood. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content. 
 </td>
