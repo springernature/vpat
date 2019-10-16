@@ -5,7 +5,7 @@
 **Name of Product/Version**: Nature.com _(we do not version our software)_  
 **Product Description**: 
 Nature.com publishes peer-reviewed research, reviews and news across a number of journals. This report refers entirely to the accessibility of editorial, journal, and magazine content published at the top level domain of <a href="http://www.nature.com">www.nature.com</a>, including informational pages, and to all content found at idp.nature.com and payment.nature.com (for account management and subscription and payment management respectively).  
-**Date**: 12th September 2019  
+**Date**: 15th October 2019  
 **Contact information**: accessibility@springernature.com  
 **Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature using a combination of static analysis tools and manual testing with assistive technologies.  
 
@@ -202,9 +202,9 @@ Articles or supplementary pages ("about this journal", help pages etc.) may use 
 <br><br>
 Some parts of the checkout flow and the "My Account" pages contain unsemantic markup, including out-of-sequence headings and and incorrectly-applied landmarks. We are actively working to find and repair these problems. 
 <br><br>
-We make use of ARIA roles to support landmarks, and use ARIA roles and properties when required for more complex functionality such as popup menus and dialogs. 
+We make use of WAI-ARIA roles to support landmarks, and use WAI-ARIA roles and properties when required for more complex functionality such as popup menus and dialogs. 
 <br><br>
-Some complex functionality may omit required ARIA roles, states, or attributes, or abuse ARIA markup and techniques. We are actively working to find and repair these problems. 
+Some complex functionality may omit required WAI-ARIA roles, states, or attributes, or abuse WAI-ARIA markup and techniques. We are actively working to find and repair these problems. 
 <br><br>
 Third party scripts may inject content with incorrect or absent information about structure and relationships. These include content in advertising scripts, in Disqus commenting widgets, and in the OneTrust "manage cookies" privacy centre, among others.
 </td>
@@ -258,7 +258,7 @@ We use semantically-correct markup to allow assistive technologies to interpret 
 <td>
 The pages of this product do not depend solely on sensory characteristics such as shape, size, visual location, orientation, or sound to understand content.
 <br><br>
-Icons may be displayed to control functionality, but adjacent visible text labels or aria-labels are also provided to ensure that relationships are available to Assistive Technologies.
+Icons may be displayed to control functionality, but adjacent visible text labels or WAI-ARIA-labels are also provided to ensure that relationships are available to Assistive Technologies.
 <br><br>
 Some complex images supplied by research authors may rely on sensory characteristics to be understood. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content. 
 </td>
@@ -468,7 +468,7 @@ Third party advertising scripts may inject content that automatically moves or b
 </ul></td>
 <td>Partially Supports</td>
 <td>
-We use semantically-correct markup so that Assistive Technology users can recognise elements and move around them accordingly. We make use of ARIA roles to support landmarks. We also provide skip links for bypassing repetitive navigation elements.
+We use semantically-correct markup so that Assistive Technology users can recognise elements and move around them accordingly. We make use of WAI-ARIA roles to support landmarks. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
 The OneTrust "manage cookies" privacy centre (third party content) does not provide a way for screen reader users to bypass the links in its left hand menu.
 </td>
@@ -548,7 +548,7 @@ Third party scripts including advertising scripts, the Disqus commenting widget,
 <td>
 Generally, the purpose of each link that we provide can be determined by its descriptive text label; linked images or icons have alternative text or similar to provide this context. 
 <br><br>
-In research articles, anchor links that refer to same-page supplementary figures or tables may have insufficient context in their link text. Repetitive links (e.g. "show more" or "view all" type links in lists of content) may not be differentiated from each other. In limited cases we may support poor link text with the use of ARIA labels. We are actively working to repair these problems. 
+In research articles, anchor links that refer to same-page supplementary figures or tables may have insufficient context in their link text. Repetitive links (e.g. "show more" or "view all" type links in lists of content) may not be differentiated from each other. In limited cases we may support poor link text with the use of WAI-ARIA labels. We are actively working to repair these problems. 
 <br><br>
 Third party scripts including advertising scripts, the Disqus commenting widget, or survey or customer services widgets (among others), may inject content that includes links with no accessible text, or poorly-named accessible text. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
 <br><br>
@@ -646,6 +646,8 @@ The majority of the pages in this product use the language attribute on the HTML
 <td>
 Where user input errors are automatically detected in our own software, the items that are in error are identified to the user with warning text adjacent to the input field. We do not rely on visual characteristics alone (e.g. colour) to indicate user input errors. 
 <br><br>
+Pages located at payment.nature.com rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states. 
+<br><br>
 Third party scripts including the Disqus commenting widget, or other widgets that accept user input, may automatically detect errors but fail to present the errors to users in text. They may rely on visual characteristics alone to indicate user input errors, or place error text in locations that are difficult for screen reader users to access. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
 </td>
 </tr>
@@ -672,9 +674,9 @@ Third party scripts including the Disqus commenting widget, or other widgets tha
 <td>
 Generally, visible and appropriately associated labels are provided for input fields. In some cases, a visually-hidden label may be provided instead (e.g. the main search component in the page banner). 
 <br><br>
-Instructions such as those that explain mandatory fields may be absent or only present at the end of forms. (e.g. some payment information pages). Instructions for specific input fields may not be adequately associated (e.g. with ARIA) with the fields they describe. We are actively working to find and repair these problems. 
+Instructions such as those that explain mandatory fields may be absent or only present at the end of forms. (e.g. some payment information pages). Instructions for specific input fields may not be adequately associated (e.g. with WAI-ARIA) with the fields they describe. We are actively working to find and repair these problems. 
 <br><br>
-In rare cases, input fields may use only placeholder text as instruction, without associated labels or ARIA descriptions. We are actively working to find and repair these problems. 
+In rare cases, input fields may use only placeholder text as instruction, without associated labels or WAI-ARIA descriptions. We are actively working to find and repair these problems. 
 </td>
 </tr>
 <tr valign="top">
@@ -728,9 +730,9 @@ Third party advertising scripts may inject content that omits start and end tags
 <td>
 The pages of this product generally use standard HTML and WAI-ARIA attributes to describe the identity, operation, and state of user interface elements to Assistive Technologies.
 <br><br>
-In some cases, ARIA attributes have been omitted where they are required when client user agent support for a standard HTML5 feature is poor (e.g. in the "for individuals/post docs/students" disclosure area on subscription pages). In other cases ARIA roles or attributes may be misused in ways that cause elements to have misleading semantics. We are actively working to find and repair these problems. 
+In some cases, WAI-ARIA attributes have been omitted where they are required when client user agent support for a standard HTML5 feature is poor (e.g. in the "for individuals/post docs/students" disclosure area on subscription pages). In other cases WAI-ARIA roles or attributes may be misused in ways that cause elements to have misleading semantics. We are actively working to find and repair these problems. 
 <br><br>
-The OneTrust "manage cookies" privacy centre (third party content) uses an inappropriate aria label of "true" in place of its main heading, and both links and images exist with no accessible name. Additionally, when a screenreader user activates a link on the left hand menu of the Privacy Preference Centre, they are not made aware that the content on the right has updated. We have reported these problems to the vendor. 
+The OneTrust "manage cookies" privacy centre (third party content) uses an inappropriate WAI-ARIA label of "true" in place of its main heading, and both links and images exist with no accessible name. Additionally, when a screenreader user activates a link on the left hand menu of the Privacy Preference Centre, they are not made aware that the content on the right has updated. We have reported these problems to the vendor. 
 <br><br>
 Other third party scripts, including the Disqus commenting widget, may present interactive elements such as tooltips that lack adequate names and roles, making them difficult for screen reader users to access. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
 </td>
@@ -924,7 +926,7 @@ Nature magazine and a limited number of journals publish editorial content from 
 <br><br>
 Some parts of the product (e.g. some payment and "my account" pages) use inappropriate heading levels for visual effect. We are actively working to repair these problems. 
 <br><br>
-The OneTrust "manage cookies" privacy centre (third party content) uses an inappropriate aria label of "true" in place of its main heading. We have reported this problem to the vendor.
+The OneTrust "manage cookies" privacy centre (third party content) uses an inappropriate WAI-ARIA label of "true" in place of its main heading. We have reported this problem to the vendor.
 <br><br>
 Other third party scripts, including survey or customer services widgets, may inject content with inadequate or inappropriate headings or labels. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
 </td>
@@ -981,9 +983,9 @@ Third party scripts, including advertising, may inject components that remove fo
 <td>Does Not Support</td>
 <td>All components on the pages of this product supplied by us as part of dynamic templates use the same language defined in the HTML <code>lang</code> attribute, therefore Language of Parts is not applicable for the majority of this product.
 <br><br>
-Editorial content or published papers may include text in languages other than that defined in the HTML <code>lang</code> attribute. We currently have no method of confirming the inclusion - or not - of appropriate lang attributes for pieces of text that may use a different language to the main document. 
+Editorial content or published papers may include text in languages other than that defined in the HTML <code>lang</code> attribute. We currently have no method of confirming the inclusion - or not - of appropriate lang attributes for pieces of text in content that may use a different language to the main document. 
 <br><br>
-Third party scripts may inject components that use a different language to the page content - for example a targeted advertisement or file presented in a file viewer (e.g. Figshare) may use the native language of the user. These may not be marked up with a separate <code>lang</code> attribute.
+Third party scripts may inject components that use a different language to the main document - for example a targeted advertisement or file presented in a file viewer (e.g. Figshare) may use the native language of the user. These may not be marked up with a separate <code>lang</code> attribute.
 </td>
 </tr>
 <tr valign="top">
@@ -1170,7 +1172,7 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 <td>502.3.2 Modification of Object Information</td>
 <td>Partially Supports</td>
 <td>
-The pages of this product use standard HTML or ARIA object roles for maximum compatibility with assistive technologies.
+The pages of this product use standard HTML or WAI-ARIA object roles for maximum compatibility with assistive technologies.
 <br><br>
 See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships</a> and <a href="#name-role-value">4.1.2 Name, Role, Value</a> for further detail.
 </td>
@@ -1187,12 +1189,12 @@ Data tables in dynamic templates are rare, but where they do appear, they are ma
 <tr>
 <td>502.3.4 Values</td>
 <td>Supports</td>
-<td>The pages of this product use standard HTML or ARIA object attributes for maximum compatibility with assistive technologies.</td>
+<td>The pages of this product use standard HTML or WAI-ARIA object attributes for maximum compatibility with assistive technologies.</td>
 </tr>
 <tr>
 <td>502.3.5 Modification of Values</td>
 <td>Supports</td>
-<td>The pages of this product use standard HTML or ARIA object attributes for maximum compatibility with assistive technologies.</td>
+<td>The pages of this product use standard HTML or WAI-ARIA object attributes for maximum compatibility with assistive technologies.</td>
 </tr>
 <tr>
 <td>502.3.6 Label Relationships</td>
@@ -1218,7 +1220,7 @@ See WCAG section <a href="#info-and-relationships">1.3.1 Info and Relationships<
 <td>
 The pages of this product use standard plain text in HTML.
 <br><br>
-The OneTrust "manage cookies" privacy centre (Third party content) uses an inappropriate aria label of "true" in place of its main heading. Some text in the privacy center (e.g. link text) may be present only in a title attribute, and may not be accessible to some assistive technologies.
+The OneTrust "manage cookies" privacy centre (Third party content) uses an inappropriate WAI-ARIA label of "true" in place of its main heading. Some text in the privacy center (e.g. link text) may be present only in a title attribute, and may not be accessible to some assistive technologies.
 <br><br>
 Original research or editorial content may contain images of text without adequate programmatically determinable alternatives. 
 </td>
@@ -1231,13 +1233,13 @@ Original research or editorial content may contain images of text without adequa
 <tr>
 <td>502.3.10 List of Actions</td>
 <td>Supports</td>
-<td>The pages of this product use standard HTML or ARIA object attributes for maximum compatibility with assistive technologies.</td>
+<td>The pages of this product use standard HTML or WAI-ARIA object attributes for maximum compatibility with assistive technologies.</td>
 </tr>
 <tr>
 <td>502.3.11 Actions on Objects</td>
 <td>Partially Supports</td>
 <td>
-The pages of this product use standard HTML or ARIA object attributes for maximum compatibility with assistive technologies.
+The pages of this product use standard HTML or WAI-ARIA object attributes for maximum compatibility with assistive technologies.
 <br><br>
 Some third party scripts may inject content that can't be interacted with easily or at all by keyboard or by some assistive technologies.
 <br><br>
