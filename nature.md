@@ -6,7 +6,7 @@
 **Product Description**: 
 Nature.com publishes peer-reviewed research, reviews and news across a number of journals. This report refers entirely to the accessibility of editorial, journal, and magazine web documents published at the top level domain of <a href="http://www.nature.com">www.nature.com</a>, including informational pages, and to all web documents found at idp.nature.com and payment.nature.com (for account management and subscription and payment management respectively).  
 **Date**: 22nd October 2019  
-**Contact information**: accessibility@springernature.com  
+**Contact information**: Please contact your Institutional Sales representative.  
 **Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature using a combination of static analysis tools and manual testing with assistive technologies.  
 
 ## Applicable Standards/Guidelines
