@@ -57,7 +57,7 @@ Tables 1 and 2 also document conformance with:
 
 ### Table 1: Success Criteria, Level A
 
-<table>
+<table id="WCAG">
 <thead>
 <tr>
 <th><strong>Criteria</strong></th>
