@@ -45,7 +45,7 @@ The terms used in the Conformance Level information are defined as follows:
 - **Partially Supports**: Some functionality of the product does not meet the criterion.
 - **Does Not Support**: The majority of product functionality does not meet the criterion.
 - **Not Applicable**: The criterion is not relevant to the product.
-- **Not Evaluated**: The product has not been evaluated against the criterion. This can be used only in WCAG 2.0 Level AAA.
+- **Not Evaluated**: The product has not been evaluated against the criterion. This can be used only in WCAG 2.1 Level AAA.
 
 ## WCAG 2.1 Report
 
@@ -71,11 +71,11 @@ Tables 1 and 2 also document conformance with:
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.1 (Web)</li>
-<li>10.2.1 (non-web document)</li>
-<li>11.2.1.1 (Software)</li>
-<li>11.2.2.1 (Closed Functionality Software)</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.1.1 (Web)</li>
+<li>10.1.1.1 (non-web document)</li>
+<li>11.1.1.1.1 (Open Functionality Software)</li>
+<li>11.1.1.1.2 (Closed Functionality Software)</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -91,7 +91,7 @@ Most in-line images supplied in article content provide alternative text, or des
 <br><br>
 Some images, such as icons on user interface elements, are known to have inadequate or missing text alternatives. We are actively working to find and repair these problems. 
 <br><br>
-We mark up some images so that they can be ignored by Assistive Technologies if they are <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration"><i>pure decoration</i></a> (as defined by WCAG 2.0).
+We mark up some images so that they can be ignored by Assistive Technologies if they are <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration"><i>pure decoration</i></a> (as defined by WCAG 2.1).
 <br><br>
 The SpringerLink checkout process pages are rendered in two separate designs. We are in the process of transferring all content from the older design (located at checkout.springer.com) to the newer design (located at order.springer.com, and active for chapter and article purchases only). 
 <br><br>
@@ -107,11 +107,11 @@ Third party scripts may inject non-text content without text alternatives. These
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.2 (Web)</li>
-<li>10.2.2 (non-web document)</li>
-<li>11.2.1.2 (Software)</li>
-<li>11.2.2.2.1 and 11.2.2.2.2 (Closed Software)</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.2.1 (Web)</li>
+<li>10.1.2.1 (non-web document)</li>
+<li>11.1.2.1.1 (Open Functionality Software)</li>
+<li>11.1.2.1.2.1 and 11.1.2.1.2.2 (Closed Software)</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -135,11 +135,11 @@ We currently have no method of confirming the inclusion - or not - of adequate m
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.3 (Web)</li>
-<li>10.2.3 (non-web document)</li>
-<li>11.2.1.3 (Software)</li>
-<li>11.2.2.3 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.2.2 (Web)</li>
+<li>10.1.2.2 (non-web document)</li>
+<li>11.1.2.2 (Open Functionality Software)</li>
+<li>11.1.2.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -163,11 +163,11 @@ Captions and/or transcripts maybe be provided for some pre-recorded content in j
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.4 (Web)</li>
-<li>10.2.4 (non-web document)</li>
-<li>11.2.1.4 (Software)</li>
-<li>11.2.2.4 (Closed Software)</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.2.3 (Web)</li>
+<li>10.1.2.3 (non-web document)</li>
+<li>11.1.2.3.1 (Open Functionality Software)</li>
+<li>11.1.2.3.2 (Closed Software)</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -191,11 +191,11 @@ We currently have no method of confirming the inclusion - or not - of adequate m
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.7 (Web)</li>
-<li>10.2.7 (non-web document)</li>
-<li>11.2.1.7 (Software)</li>
-<li>11.2.2.7 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.3.1 (Web)</li>
+<li>10.1.3.1 (non-web document)</li>
+<li>11.1.3.1.1 (Open Functionality Software)</li>
+<li>11.1.3.1.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -237,11 +237,11 @@ Third party scripts may inject content with incorrect or absent information abou
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.8 (Web)</li>
-<li>10.2.8 (non-web document)</li>
-<li>11.2.1.8 (Software)</li>
-<li>11.2.2.8 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.3.2 (Web)</li>
+<li>10.1.3.2 (non-web document)</li>
+<li>11.1.3.2.1 (Open Functionality Software)</li>
+<li>11.1.3.2.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -261,11 +261,11 @@ The meaning of the content in the pages of SpringerLink does not depend on the o
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.9 (Web)</li>
-<li>10.2.9 (non-web document)</li>
-<li>11.2.1.9 (Software)</li>
-<li>11.2.2.9 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.3.3 (Web)</li>
+<li>10.1.3.3 (non-web document)</li>
+<li>11.1.3.3 (Open Functionality Software)</li>
+<li>11.1.3.3 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -295,11 +295,11 @@ The Freshdesk customer services widget uses background images without text equiv
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.10 (Web)</li>
-<li>10.2.10 (non-web document)</li>
-<li>11.2.1.10 (Software)</li>
-<li>11.2.2.10 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.4.1 (Web)</li>
+<li>10.1.4.1 (non-web document)</li>
+<li>11.1.4.1 (Open Functionality Software)</li>
+<li>11.1.4.1 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -323,11 +323,11 @@ Some complex images in journals, books, series, protocols, reference works and p
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.11 (Web)</li>
-<li>10.2.11 (non-web document)</li>
-<li>11.2.1.11 (Software)</li>
-<li>11.2.2.11 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.4.2 (Web)</li>
+<li>10.1.4.2 (non-web document)</li>
+<li>11.1.4.2 (Open Functionality Software)</li>
+<li>11.1.4.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -353,11 +353,11 @@ Third party advertisements may load video and audio that automatically starts, a
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.15 (Web)</li>
-<li>10.2.15 (non-web document)</li>
-<li>11.2.1.15 (Software)</li>
-<li>11.2.2.15 (Closed Software)</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.1.1 (Web)</li>
+<li>10.2.1.1 (non-web document)</li>
+<li>11.2.1.1.1 (Open Functionality Software)</li>
+<li>11.2.1.1.2 (Closed Software)</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -401,11 +401,11 @@ Where we know of deficiencies in third party functionality, we have contacted th
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.16 (Web)</li>
-<li>10.2.16 (non-web document)</li>
-<li>11.2.1.16 (Software)</li>
-<li>11.2.2.16 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.1.2 (Web)</li>
+<li>10.2.1.2 (non-web document)</li>
+<li>11.2.1.2 (Open Functionality Software)</li>
+<li>11.2.1.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -422,16 +422,34 @@ Keyboard trapping inside components on SpringerLink pages is fairly rare, and in
 Modal dialogs (including those generated by third party scripts) may trap focus and provide inadequate methods of escaping. Where we know of deficiencies, we are actively working on repairs of our own, and with third party vendors where required.
 </td>
 </tr>
+<tr id="character-key-shortcuts" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#character-key-shortcuts"><strong>2.1.4 Character Key Shortcuts</strong></a> (Level A 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.2.1.4 (Web)</li>
+<li>10.2.1.4 (non-web document)</li>
+<li>11.2.1.4.1 (Open Functionality Software)</li>
+<li>11.2.1.4.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
 <tr id="timing-adjustable" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#time-limits-required-behaviors"><strong>2.2.1 Timing Adjustable</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.17 (Web)</li>
-<li>10.2.17 (non-web document)</li>
-<li>11.2.1.17 (Software)</li>
-<li>11.2.2.17 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.2.1 (Web)</li>
+<li>10.2.2.1 (non-web document)</li>
+<li>11.2.2.1 (Open Functionality Software)</li>
+<li>11.2.2.1 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -449,11 +467,11 @@ Modal dialogs (including those generated by third party scripts) may trap focus 
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.18 (Web)</li>
-<li>10.2.18 (non-web document)</li>
-<li>11.2.1.18 (Software)</li>
-<li>11.2.2.18 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.2.2 (Web)</li>
+<li>10.2.2.2 (non-web document)</li>
+<li>11.2.2.2 (Open Functionality Software)</li>
+<li>11.2.2.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -475,11 +493,11 @@ Third party advertising scripts may inject content that automatically moves or b
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.19 (Web)</li>
-<li>10.2.19 (non-web document)</li>
-<li>11.2.1.19 (Software)</li>
-<li>11.2.2.19 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.3.1 (Web)</li>
+<li>10.2.3.1 (non-web document)</li>
+<li>11.2.3.1 (Open Functionality Software)</li>
+<li>11.2.3.1 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -497,11 +515,11 @@ Third party advertising scripts may inject content that automatically moves or b
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.20 (Web)</li>
-<li>10.2.20 (non-web document) – Does not apply</li>
-<li>11.2.1.20 (Software) – Does not apply</li>
-<li>11.2.2.20 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.4.1 (Web)</li>
+<li>10.2.4.1 (non-web document) – Does not apply</li>
+<li>11.2.4.1 (Open Functionality Software) – Does not apply</li>
+<li>11.2.4.1 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -525,11 +543,11 @@ The OneTrust "manage cookies" privacy centre (third party content) does not prov
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.21 (Web)</li>
-<li>10.2.21 (non-web document)</li>
-<li>11.2.1.21 (Software) - Does not apply</li>
-<li>11.2.2.21 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.4.2 (Web)</li>
+<li>10.2.4.2 (non-web document)</li>
+<li>11.2.4.2 (Open Functionality Software) - Does not apply</li>
+<li>11.2.4.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -551,11 +569,11 @@ Where multiple versions of the same content exist (e.g. in original research wit
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.22 (Web)</li>
-<li>10.2.22 (non-web document)</li>
-<li>11.2.1.22 (Software)</li>
-<li>11.2.2.22 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.4.3 (Web)</li>
+<li>10.2.4.3 (non-web document)</li>
+<li>11.2.4.3 (Open Functionality Software)</li>
+<li>11.2.4.3 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -587,11 +605,11 @@ Third party scripts including advertising scripts or customer services widgets (
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.23 (Web)</li>
-<li>10.2.23 (non-web document)</li>
-<li>11.2.1.23 (Software)</li>
-<li>11.2.2.23 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.4.4 (Web)</li>
+<li>10.2.4.4 (non-web document)</li>
+<li>11.2.4.4 (Open Functionality Software)</li>
+<li>11.2.4.4 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -616,16 +634,88 @@ Third party scripts including advertising scripts or customer services widgets (
 The OneTrust "manage cookies" privacy centre (third party content) displays some links with a title attribute instead of accessible text; the title attribute may not be made available by all Assistive Technologies.
 </td>
 </tr>
+<tr id="pointer-gestures" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#pointer-gestures"><strong>2.5.1 Pointer Gestures</strong></a> (Level A 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.2.5.1 (Web)</li>
+<li>10.2.5.1 (non-web document)</li>
+<li>11.2.5.1 (Open Functionality Software)</li>
+<li>11.2.5.1 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
+<tr id="pointer-cancellation" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#pointer-gestures"><strong>2.5.2 Pointer Cancellation</strong></a> (Level A 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.2.5.2 (Web)</li>
+<li>10.2.5.2 (non-web document)</li>
+<li>11.2.5.2 (Open Functionality Software)</li>
+<li>11.2.5.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
+<tr id="label-in-name" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#label-in-name"><strong>2.5.3 Label in Name</strong></a> (Level A 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.2.5.3 (Web)</li>
+<li>10.2.5.3 (non-web document)</li>
+<li>10.2.5.3 (Open Functionality Software)</li>
+<li>11.2.5.3 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
+<tr id="motion-actuation" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#motion-actuation"><strong>2.5.4 Motion Actuation</strong></a> (Level A 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.2.5.4 (Web)</li>
+<li>10.2.5.4 (non-web document)</li>
+<li>11.2.5.4 (Open Functionality Software)</li>
+<li>11.2.5.4 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
 <tr id="language-of-page" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#meaning-doc-lang-id"><strong>3.1.1 Language of Page</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.27 (Web)</li>
-<li>10.2.27 (non-web document)</li>
-<li>11.2.1.27 (Software)</li>
-<li>11.2.2.27 (Closed Software)</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.3.1.1 (Web)</li>
+<li>10.3.1.1 (non-web document)</li>
+<li>11.3.1.1.1 (Open Functionality Software)</li>
+<li>11.3.1.1.2 (Closed Software)</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -651,11 +741,11 @@ Pages located at checkout.springer.com may also be switched by the user between 
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.29 (Web)</li>
-<li>10.2.29 (non-web document)</li>
-<li>11.2.1.29 (Software)</li>
-<li>11.2.2.29 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.3.2.1 (Web)</li>
+<li>10.3.2.1 (non-web document)</li>
+<li>11.3.2.1 (Open Functionality Software)</li>
+<li>11.3.2.1 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -673,11 +763,11 @@ Pages located at checkout.springer.com may also be switched by the user between 
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.30 (Web)</li>
-<li>10.2.30 (non-web document)</li>
-<li>11.2.1.30 (Software)</li>
-<li>11.2.2.30 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.3.2.2 (Web)</li>
+<li>10.3.2.2 (non-web document)</li>
+<li>11.3.2.2 (Open Functionality Software)</li>
+<li>11.3.2.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -695,11 +785,11 @@ Pages located at checkout.springer.com may also be switched by the user between 
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.33 (Web)</li>
-<li>10.2.33 (non-web document)</li>
-<li>11.2.1.33 (Software)</li>
-<li>11.2.2.33 (Closed Software)</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.3.3.1 (Web)</li>
+<li>10.3.3.1 (non-web document)</li>
+<li>11.3.3.1.1 (Open Functionality Software)</li>
+<li>11.3.3.1.2 (Closed Software)</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -725,11 +815,11 @@ Pages located at order.springer.com rely solely on built-in browser error checki
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.34 (Web)</li>
-<li>10.2.34 (non-web document)</li>
-<li>11.2.1.34 (Software)</li>
-<li>11.2.2.34 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.3.3.2 (Web)</li>
+<li>10.3.3.2 (non-web document)</li>
+<li>11.3.3.2 (Open Functionality Software)</li>
+<li>11.3.3.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -755,11 +845,11 @@ Instructions such as those that explain mandatory fields may be absent or only p
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.37 (Web)</li>
-<li>10.2.37 (non-web document)</li>
-<li>11.2.1.37 (Software)</li>
-<li>11.2.2.37 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.4.1.1 (Web)</li>
+<li>10.4.1.1 (non-web document)</li>
+<li>11.4.1.1.1 (Open Functionality Software)</li>
+<li>11.4.1.1.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -793,11 +883,11 @@ Third party advertising scripts may inject content that omits start and end tags
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.38 (Web)</li>
-<li>10.2.38 (non-web document)</li>
-<li>11.2.1.38 (Software)</li>
-<li>11.2.2.38 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.4.1.2 (Web)</li>
+<li>10.4.1.2 (non-web document)</li>
+<li>11.4.1.2.1 (Open Functionality Software)</li>
+<li>11.4.1.2.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -839,11 +929,11 @@ Other third party scripts, including the Freshdesk customer services widget, may
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.5 (Web)</li>
-<li>10.2.5 (non-web document)</li>
-<li>11.2.1.5 (Software)</li>
-<li>11.2.2.5 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.2.4 (Web)</li>
+<li>10.1.2.4 (non-web document)</li>
+<li>11.1.2.4 (Open Functionality Software)</li>
+<li>11.1.2.4 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -861,11 +951,11 @@ Other third party scripts, including the Freshdesk customer services widget, may
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.6 (Web)</li>
-<li>10.2.6 (non-web document)</li>
-<li>11.2.1.6 (Software)</li>
-<li>11.2.2.6 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.2.5 (Web)</li>
+<li>10.1.2.5 (non-web document)</li>
+<li>11.1.2.5 (Open Functionality Software)</li>
+<li>11.1.2.5 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -879,16 +969,52 @@ Other third party scripts, including the Freshdesk customer services widget, may
 <td>We do not generally provide audio description for prerecorded video. A limited form of audio description may be provided for some pre-recorded content, but we currently have no method of confirming the inclusion - or not - of audio description.
 </td>
 </tr>
+<tr id="orientation" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#orientation"><strong>1.3.4 Orientation</strong></a> (Level AA 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.1.3.4 (Web)</li>
+<li>10.1.3.4 (non-web document)</li>
+<li>11.1.3.4 (Open Functionality Software)</li>
+<li>11.1.3.4 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
+<tr id="identify-input-purpose" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#identify-input-purpose"><strong>1.3.5 Identify Input Purpose</strong></a> (Level AA 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.1.3.5 (Web)</li>
+<li>10.1.3.5 (non-web document)</li>
+<li>11.1.3.5 (Open Functionality Software)</li>
+<li>11.1.3.5 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
 <tr id="contrast-minimum" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast"><strong>1.4.3 Contrast (Minimum)</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.12 (Web)</li>
-<li>10.2.12 (non-web document)</li>
-<li>11.2.1.12 (Software)</li>
-<li>11.2.2.12 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.4.3 (Web)</li>
+<li>10.1.4.3 (non-web document)</li>
+<li>11.1.4.3 (Open Functionality Software)</li>
+<li>11.1.4.3 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -922,11 +1048,11 @@ Third party advertising scripts may inject content with insufficient contrast.
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.13 (Web)</li>
-<li>10.2.13 (non-web document)</li>
-<li>11.2.1.13 (Software)</li>
-<li>11.2.2.13 (Closed Software)</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.4.4 (Web)</li>
+<li>10.1.4.4 (non-web document)</li>
+<li>11.1.4.4.1 (Open Functionality Software)</li>
+<li>11.1.4.4.2 (Closed Software)</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -956,11 +1082,11 @@ Third party advertising scripts may inject non-responsive content that loses or 
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.14 (Web)</li>
-<li>10.2.14 (non-web document)</li>
-<li>11.2.1.14 (Software)</li>
-<li>11.2.2.14 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.1.4.5 (Web)</li>
+<li>10.1.4.5 (non-web document)</li>
+<li>11.1.4.5.1 (Open Functionality Software)</li>
+<li>11.1.4.5.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -979,16 +1105,88 @@ Images of product covers (e.g. journals or books displayed on the homepage of li
 Third party advertising scripts may inject images containing images of text.
 </td>
 </tr>
+<tr id="reflow" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#reflow"><strong>1.4.10 Reflow</strong></a> (Level AA 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.1.4.10 (Web)</li>
+<li>10.1.4.10 (non-web document)</li>
+<li>11.1.4.10.1 (Open Functionality Software)</li>
+<li>11.1.4.10.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
+<tr id="non-text-contrast" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#non-text-contrast"><strong>1.4.11 Non-text Contrast</strong></a> (Level AA 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.1.4.11 (Web)</li>
+<li>10.1.4.11 (non-web document)</li>
+<li>11.1.4.11 (Open Functionality Software)</li>
+<li>11.1.4.11 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
+<tr id="text-spacing" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#text-spacing"><strong>1.4.12 Text Spacing</strong></a> (Level AA 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.1.4.12 (Web)</li>
+<li>10.1.4.12 (non-web document)</li>
+<li>11.1.4.12 (Open Functionality Software)</li>
+<li>11.1.4.12 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
+<tr id="content-on-hover-or-focus" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus"><strong>1.4.13 Content on Hover or Focus</strong></a> (Level AA 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.1.4.13 (Web)</li>
+<li>10.1.4.13 (non-web document)</li>
+<li>11.1.4.13 (Open Functionality Software)</li>
+<li>11.1.4.13 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
 <tr id="multiple-ways" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-mult-loc"><strong>2.4.5 Multiple Ways</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.24 (Web)</li>
-<li>10.2.24 (non-web document) – Does not apply</li>
-<li>11.2.1.24 (Software) – Does not apply</li>
-<li>11.2.2.24 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.4.5 (Web)</li>
+<li>10.2.4.5 (non-web document) – Does not apply</li>
+<li>11.2.4.5 (Open Functionality Software) – Does not apply</li>
+<li>11.2.4.5 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -1014,11 +1212,11 @@ On pages located at checkout.springer.com, some footer menu items are removed fo
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.25 (Web)</li>
-<li>10.2.25 (non-web document)</li>
-<li>11.2.1.25 (Software)</li>
-<li>11.2.2.25 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.4.6  (Web)</li>
+<li>10.2.4.6 (non-web document)</li>
+<li>11.2.4.6 (Open Functionality Software)</li>
+<li>11.2.4.6 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -1052,11 +1250,11 @@ The Freshdesk customer services widget injects controls with inadequate labels, 
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.26 (Web)</li>
-<li>10.2.26 (non-web document)</li>
-<li>11.2.1.26 (Software)</li>
-<li>11.2.2.26 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.2.4.7 (Web)</li>
+<li>10.2.4.7 (non-web document)</li>
+<li>11.2.4.7 (Open Functionality Software)</li>
+<li>11.2.4.7 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -1084,11 +1282,11 @@ Third party scripts, including advertising, may inject components that remove fo
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.28 (Web)</li>
-<li>10.2.28 (non-web document)</li>
-<li>11.2.1.28 (Software) – Does not apply</li>
-<li>11.2.2.28 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.3.1.2 (Web)</li>
+<li>10.3.1.2 (non-web document)</li>
+<li>11.3.1.2 (Open Functionality Software) – Does not apply</li>
+<li>11.3.1.2 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -1112,11 +1310,11 @@ Third party scripts may inject components that use a different language to the p
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.31 (Web)</li>
-<li>10.2.31 (non-web document) – Does not apply</li>
-<li>11.2.1.31 (Software) – Does not apply</li>
-<li>11.2.2.31 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.3.2.3 (Web)</li>
+<li>10.3.2.3 (non-web document) – Does not apply</li>
+<li>11.3.2.3 (Open Functionality Software) – Does not apply</li>
+<li>11.3.2.3 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -1144,11 +1342,11 @@ Pages located at checkout.springer.com and order.springer.com are rendered in tw
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.32 (Web)</li>
-<li>10.2.32 (non-web document) – Does not apply</li>
-<li>11.2.1.32 (Software) – Does not apply</li>
-<li>11.2.2.32 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.3.2.4 (Web)</li>
+<li>10.3.2.4 (non-web document) – Does not apply</li>
+<li>11.3.2.4 (Open Functionality Software) – Does not apply</li>
+<li>11.3.2.4 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -1176,11 +1374,11 @@ Pages located at checkout.springer.com and order.springer.com are rendered in tw
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.35 (Web)</li>
-<li>10.2.35 (non-web document)</li>
-<li>11.2.1.35 (Software)</li>
-<li>11.2.2.35 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.3.3.3 (Web)</li>
+<li>10.3.3.3 (non-web document)</li>
+<li>11.3.3.3 (Open Functionality Software)</li>
+<li>11.3.3.3 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -1208,11 +1406,11 @@ Pages located at order.springer.com rely solely on built-in browser error checki
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
-<li>9.2.36 (Web)</li>
-<li>10.2.36 (non-web document)</li>
-<li>11.2.1.36 (Software)</li>
-<li>11.2.2.36 (Closed Software) – Does not apply</li>
-<li>11.6.2 (Authoring Tool)</li>
+<li>9.3.3.4 (Web)</li>
+<li>10.3.3.4 (non-web document)</li>
+<li>11.3.3.4 (Open Functionality Software)</li>
+<li>11.3.3.4 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
@@ -1225,12 +1423,30 @@ Pages located at order.springer.com rely solely on built-in browser error checki
 <td>Supports</td>
 <td>Payment pages at checkout.springer.com and order.springer.com have a checkout flow that includes a verification step. There, the user must confirm that their choices are correct before they may enter their payment details. At this stage they may return to a previous step to make corrections, cancel, or abandon the process.</td>
 </tr>
+<tr id="status-messages" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG21/#status-messages"><strong>4.1.3 Status Messages</strong></a> (Level AA 2.1 only)
+<br><br>Also applies to:<br><br>
+<em>EN 301 549 Criteria</em>
+<ul>
+<li>9.4.1.3 (Web)</li>
+<li>10.4.1.3 (non-web document)</li>
+<li>11.4.1.3 (Open Functionality Software)</li>
+<li>11.4.1.3 (Closed Software) – Does not apply</li>
+<li>11.8.2 (Authoring Tool)</li>
+<li>12.1.2 (Product Docs)</li>
+<li>12.2.4 (Support Docs)</li>
+</ul>
+<em>Revised Section 508 - does not apply</em>
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
 </tbody>
 </table>
 
 ### Table 3: Success Criteria, Level AAA
 
-Notes: This product has not been evaluated for WCAG 2.0 Level AAA conformance.
+Notes: This product has not been evaluated for WCAG 2.1 Level AAA conformance.
 
 ## Revised Section 508 Report
 
@@ -1268,8 +1484,8 @@ Notes: See [WCAG section](#wcag-20-report) for full details.
 </thead>
 <tbody>
 <tr>
-<td>501.1 Scope – Incorporation of WCAG 2.0 AA</td>
-<td>See <a href="#WCAG">WCAG 2.0</a> section</td>
+<td>501.1 Scope – Incorporation of WCAG 2.1 AA</td>
+<td>See <a href="#WCAG">WCAG 2.1</a> section</td>
 <td>See information in WCAG section</td>
 </tr>
 <tr>
@@ -1527,7 +1743,7 @@ Notes: This product is a web software application and is not subject to the requ
 
 ### Chapter [9: Web](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=39)
 
-Notes: Please see [WCAG 2.0 section](#wcag-2.0-report).
+Notes: Please see [WCAG 2.1 section](#WCAG).
 
 ### Chapter [10: Non-web Documents](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=43)
 
@@ -1538,8 +1754,8 @@ Notes: This product does not include non-web documents and is therefore not subj
 
 | **Criteria**                                                                                      | **Conformance Level**                                                                    | **Remarks and Explanations**                                                   |
 | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| 11.2.1 Software success criteria (excluding closed functionality)                                 | See [WCAG 2.0](#WCAG) section                                                            | See information in WCAG section                                                |
-| 11.2.2 Software success criteria (closed functionality)                                           | See [WCAG 2.0](#WCAG) section                                                            | See information in WCAG section                                                |
+| 11.2.1 Software success criteria (excluding closed functionality)                                 | See [WCAG 2.1](#WCAG) section                                                            | See information in WCAG section                                                |
+| 11.2.2 Software success criteria (closed functionality)                                           | See [WCAG 2.1](#WCAG) section                                                            | See information in WCAG section                                                |
 | ***11.3 Interoperability with Assistive Technology***                                             | -                                                                                        | -                                                                              |
 | ***11.3.1 Closed functionality (informative)***                                                   | -                                                                                        | -                                                                              |
 | ***11.3.2 Accessibility services***                                                               | -                                                                                        | -                                                                              |
