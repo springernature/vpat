@@ -1,10 +1,10 @@
 # SpringerLink Accessibility Conformance Report
 
-### **VPAT**&reg; **Version 2.2 – July 2018**
+### **VPAT**&reg; **Version 2.3 (revised) – April 2019**
 
 **Name of Product/Version**: SpringerLink _(we do not version our software)_  
 **Product Description**: SpringerLink provides researchers with access to scientific documents from journals, books, series, protocols, reference works and proceedings. This report refers entirely to the accessibility of all web documents published at the subdomains link.springer.com and rd.springer.com (both subdomains are referred to as link.springer.com throughout this report), including informational pages, and all web documents found at checkout.springer.com and order.springer.com.  
-**Date**: 10 October 2019  
+**Date**: 7 January 2020  
 **Contact information**: Please contact your Institutional Sales representative.  
 **Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature using a combination of static analysis tools and manual testing with Assistive Technologies.  
 
@@ -23,11 +23,15 @@ This report covers the degree of conformance for the following accessibility sta
 <td nowrap>Level A &nbsp; – &nbsp; <strong>Yes</strong><br>Level AA &nbsp; – &nbsp; <strong>Yes</strong><br>Level AAA &nbsp; – &nbsp; <strong>No</strong></td>
 </tr>
 <tr>
-<td><a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines">Revised Section 508 standards</a> as published by the U.S. Access Board in the Federal Register on January 18, 2017<br><a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/corrections-to-the-ict-final-rule">Corrections to the ICT Final Rule</a> as published by the US Access Board in the Federal Register on January 22, 2018</td>
+<td>Web Content Accessibility Guidelines 2.1, at <a href="https://www.w3.org/TR/WCAG21">https://www.w3.org/TR/WCAG21</a></td>
+<td nowrap>Level A &nbsp; – &nbsp; <strong>Yes</strong><br>Level AA &nbsp; – &nbsp; <strong>Yes</strong><br>Level AAA &nbsp; – &nbsp; <strong>No</strong></td>
+</tr>
+<tr>
+<td><a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines">Revised Section 508 standards</a> published January 18, 2017 and corrected January 22, 2018 </td>
 <td nowrap><strong>Yes</strong></td>
 </tr>
 <tr>
-<td>EN 301 549 Accessibility requirements suitable for public procurement of ICT products and services in Europe, - V1.1.2 (2015-04) at <a href="http://mandate376.standards.eu/standard">http://mandate376.standards.eu/standard</a></td>
+<td>EN 301 549 Accessibility requirements suitable for public procurement of ICT products and services in Europe, - V2.1.2 (2018-08) at <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">https://www.etsi.org/[...]/en_301549v020102p.pdf</a></td>
 <td nowrap><strong>Yes</strong></td>
 </tr>
 </tbody>
@@ -43,13 +47,13 @@ The terms used in the Conformance Level information are defined as follows:
 - **Not Applicable**: The criterion is not relevant to the product.
 - **Not Evaluated**: The product has not been evaluated against the criterion. This can be used only in WCAG 2.0 Level AAA.
 
-## WCAG 2.0 Report
+## WCAG 2.1 Report
 
 Tables 1 and 2 also document conformance with:
-- EN 301 549: Chapter 9 - Web, Chapter 10 - Non-Web documents, Section 11.2.1- Non-Web Software (excluding closed functionality), and Section 11.2.2 - Non-Web Software (closed functionality).
+- EN 301 549:  Chapter 9 - Web, Sections 10.1-10.4 of Chapter 10 - Non-Web documents, and Sections 11.1-11.4 and 11.8.2 of Chapter 11 - Non-Web Software (open and closed functionality), and Sections 12.1.2 and 12.2.4 of Chapter 12 – Documentation
 - Revised Section 508: Chapter 5 – 501.1 Scope, 504.2 Content Creation or Editing, and Chapter 6 – 602.3 Electronic Support Documentation.
 
-**Note**: When reporting on conformance with the WCAG 2.0 Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the [WCAG 2.0 Conformance Requirements](https://www.w3.org/TR/WCAG20/#conformance-reqs).
+**Note**: When reporting on conformance with the WCAG 2.x Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the [WCAG 2.1 Conformance Requirements](https://www.w3.org/TR/WCAG21/#conformance-reqs).
 
 ### Table 1: Success Criteria, Level A
 
