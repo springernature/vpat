@@ -649,8 +649,8 @@ The OneTrust "manage cookies" privacy centre (third party content) displays some
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td><!-- INSERT CONTENT HERE --></td>
-<td><!-- INSERT CONTENT HERE --></td>
+<td>Not Applicable</td>
+<td>This product does not contain any functionality that uses multipoint or path-based gestures for operation.</td>
 </tr>
 <tr id="pointer-cancellation" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#pointer-gestures"><strong>2.5.2 Pointer Cancellation</strong></a> (Level A 2.1 only)
@@ -667,8 +667,8 @@ The OneTrust "manage cookies" privacy centre (third party content) displays some
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td><!-- INSERT CONTENT HERE --></td>
-<td><!-- INSERT CONTENT HERE --></td>
+<td>Supports</td>
+<td>All functionality that can be operated using a single pointer can also be cancelled using standard browser and operating system methods.</td>
 </tr>
 <tr id="label-in-name" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#label-in-name"><strong>2.5.3 Label in Name</strong></a> (Level A 2.1 only)
@@ -685,8 +685,14 @@ The OneTrust "manage cookies" privacy centre (third party content) displays some
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td><!-- INSERT CONTENT HERE --></td>
-<td><!-- INSERT CONTENT HERE --></td>
+<td>Partially Supports</td>
+<td>
+In most cases where controls contain visible text, that text is also the label for the control, with limited exceptions. 
+<br><br>
+Images of product covers (e.g. journals, books displayed on the homepage of link.springer.com) used as links may contain text that does not meet this criterion. On the homepage, these images are supplemented with visible text labels (but the text is triggered by mouse-dependent event handlers, and their visibility cannot be toggled by the keyboard).
+<br><br>
+In pages rendered in all designs, some controls without text but with high recognisability (e.g. "next" and "previous" pagination controls on search results pages, the "play" button on the video player at link.springer.com/video) have inadequate or absent accessible names. 
+</td>
 </tr>
 <tr id="motion-actuation" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#motion-actuation"><strong>2.5.4 Motion Actuation</strong></a> (Level A 2.1 only)
@@ -703,8 +709,8 @@ The OneTrust "manage cookies" privacy centre (third party content) displays some
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td><!-- INSERT CONTENT HERE --></td>
-<td><!-- INSERT CONTENT HERE --></td>
+<td>Not Applicable</td>
+<td>This product does not contain any functionality that can be operated by device motion or user motion.</td>
 </tr>
 <tr id="language-of-page" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#meaning-doc-lang-id"><strong>3.1.1 Language of Page</strong></a> (Level A)
@@ -984,8 +990,8 @@ Other third party scripts, including the Freshdesk customer services widget, may
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td><!-- INSERT CONTENT HERE --></td>
-<td><!-- INSERT CONTENT HERE --></td>
+<td>Supports</td>
+<td>The SpringerLink website does not contain any content that restricts its view and operation to a single display orientation, such as portrait or landscape.</td>
 </tr>
 <tr id="identify-input-purpose" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#identify-input-purpose"><strong>1.3.5 Identify Input Purpose</strong></a> (Level AA 2.1 only)
@@ -1002,8 +1008,8 @@ Other third party scripts, including the Freshdesk customer services widget, may
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td><!-- INSERT CONTENT HERE --></td>
-<td><!-- INSERT CONTENT HERE --></td>
+<td>Does not support</td>
+<td>A limited number of form fields may have autocomplete values that allow the field purpose to be determined programmatically, but we have not widely implemented this functionality.</td>
 </tr>
 <tr id="contrast-minimum" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast"><strong>1.4.3 Contrast (Minimum)</strong></a> (Level AA)
@@ -1120,8 +1126,14 @@ Third party advertising scripts may inject images containing images of text.
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td><!-- INSERT CONTENT HERE --></td>
-<td><!-- INSERT CONTENT HERE --></td>
+<td>Supports</td>
+<td>All parts of this product are responsive. Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:
+	<ul>
+		<li>Vertical scrolling content at a width equivalent to 320 CSS pixels;</li>
+		<li>Horizontal scrolling content at a height equivalent to 256 CSS pixels.</li>
+	</ul>
+Except for parts of the content which require two-dimensional layout for usage or meaning (including, but not limited to, data tables, images, charts, and diagrams).
+</td>
 </tr>
 <tr id="non-text-contrast" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#non-text-contrast"><strong>1.4.11 Non-text Contrast</strong></a> (Level AA 2.1 only)
@@ -1138,8 +1150,14 @@ Third party advertising scripts may inject images containing images of text.
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td><!-- INSERT CONTENT HERE --></td>
-<td><!-- INSERT CONTENT HERE --></td>
+<td>Partially Supports</td>
+<td>
+The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
+<br><br>
+Pages rendered in the <strong>older</strong> design (currently Journals, and ancillary pages such as search, indexes, and account management) contain user interface icons that do not meet minimum contrast requirements for non-text content. 
+<br><br>
+Some complex non-text images in journals, books, series, protocols, reference works and proceedings may have insufficient contrast. Examples may include images of charts, graphs, diagrams, or maps. Generally, these images are used to supplement text content.
+</td>
 </tr>
 <tr id="text-spacing" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#text-spacing"><strong>1.4.12 Text Spacing</strong></a> (Level AA 2.1 only)
@@ -1156,8 +1174,12 @@ Third party advertising scripts may inject images containing images of text.
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td><!-- INSERT CONTENT HERE --></td>
-<td><!-- INSERT CONTENT HERE --></td>
+<td>Partially Supports</td>
+<td>
+No loss of content or functionality occurs by setting the text spacing properties specified by this criterion anywhere in this product, except for the search results page where a collision may occur between some of the filters. 
+<br><br>
+The search results page is rendered in an older design - we are in the process of transferring this content from the older design to the newer design which will pass this criterion. 
+</td>
 </tr>
 <tr id="content-on-hover-or-focus" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus"><strong>1.4.13 Content on Hover or Focus</strong></a> (Level AA 2.1 only)
@@ -1174,8 +1196,12 @@ Third party advertising scripts may inject images containing images of text.
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td><!-- INSERT CONTENT HERE --></td>
-<td><!-- INSERT CONTENT HERE --></td>
+<td>Does Not Support</td>
+<td>
+The search results page contains three tooltip components that toggle visibility on both hover and focus events. The tooltip components do not meet the Dismissable, Hoverable, or Persistent requirements specified by this criterion.
+<br><br>
+No other examples of components that trigger visibility of additional information on hover or focus exist in the pages of this product. 
+</td>
 </tr>
 <tr id="multiple-ways" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-mult-loc"><strong>2.4.5 Multiple Ways</strong></a> (Level AA)
