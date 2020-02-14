@@ -592,11 +592,15 @@ The OneTrust "manage cookies" privacy centre (third party content) displays some
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td>Not Applicable</td>
-<td>This product does not contain any functionality that uses multipoint or path-based gestures for operation.</td>
+<td>Supports</td>
+<td>This product generally does not contain any functionality that uses multipoint or path-based gestures for operation.
+<br>
+<br>
+Special feature content may use multipoint gestures for functionality such as pan and zoom controls. Alternatives to multipoint gestures are provided, including single point and keyboard controls. For complex functionality, simple instructions may be provided to explain the available options. 
+</td>
 </tr>
 <tr id="pointer-cancellation" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#pointer-gestures"><strong>2.5.2 Pointer Cancellation</strong></a> (Level A 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#pointer-cancellation"><strong>2.5.2 Pointer Cancellation</strong></a> (Level A 2.1 only)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -628,8 +632,10 @@ The OneTrust "manage cookies" privacy centre (third party content) displays some
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td></td>
-<td></td>
+<td>Partially Supports</td>
+<td>
+In most cases where controls contain visible text, that text is also the label for the control. Some third party scripts may inject content that does not meet this criterion. Supplementary pages (such as special features or marketing pages) may fail to meet this criterion. 
+</td>
 </tr>
 <tr id="motion-actuation" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#motion-actuation"><strong>2.5.4 Motion Actuation</strong></a> (Level A 2.1 only)
