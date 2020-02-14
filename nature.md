@@ -92,7 +92,7 @@ With rare exceptions, most images that we supply provide alternative text, or de
 <br><br>
 Background images such as icons on user interface elements are generally identified with text labels. These may be visible, visually-hidden, or supplied using WAI-ARIA techniques.
 <br><br>
-We mark up some images so that they can be ignored by Assistive Technologies if they are <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration"><i>pure decoration</i></a> (as defined by WCAG 2.0).
+We mark up some images so that they can be ignored by Assistive Technologies if they are <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration"><i>pure decoration</i></a> (as defined by WCAG 2.1).
 <br><br>
 The Nature subscription pages at <a href="https://www.nature.com/nature/subscribe">https://www.nature.com/nature/subscribe</a> currently contain SVG images without text alternatives, and decorative SVG images that are not marked up to be ignored by Assistive Technologies. We are actively working to repair these problems. 
 <br><br>
@@ -491,8 +491,6 @@ Third party advertising scripts may inject content that automatically moves or b
 <td>Partially Supports</td>
 <td>
 We use semantically-correct markup so that Assistive Technology users can recognise elements and move around them accordingly. We make use of WAI-ARIA roles to support landmarks. We also provide skip links for bypassing repetitive navigation elements.
-<br><br>
-The OneTrust "manage cookies" privacy centre (third party content) does not provide a way for screen reader users to bypass the links in its left hand menu.
 </td>
 </tr>
 <tr valign="top">
@@ -832,7 +830,7 @@ The pages of this product generally use standard HTML and WAI-ARIA attributes to
 <br><br>
 In some cases, WAI-ARIA attributes have been omitted where they are required when client user agent support for a standard HTML5 feature is poor (e.g. in the "for individuals/post docs/students" disclosure area on subscription pages). In other cases WAI-ARIA roles or attributes may be misused in ways that cause elements to have misleading semantics. We are actively working to find and repair these problems. 
 <br><br>
-The OneTrust "manage cookies" privacy centre (third party content) uses an inappropriate WAI-ARIA label of "true" in place of its main heading, and both links and images exist with no accessible name. Additionally, when a screenreader user activates a link on the left hand menu of the Privacy Preference Centre, they are not made aware that the content on the right has updated. We have reported these problems to the vendor. 
+The OneTrust "manage cookies" privacy centre (third party content) uses an inappropriate WAI-ARIA label of "true" in place of its main heading, and both links and images exist with no accessible name.
 <br><br>
 Other third party scripts, including the Disqus commenting widget, may present interactive elements such as tooltips that lack adequate names and roles, making them difficult for screen reader users to access. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
 </td>
@@ -932,7 +930,7 @@ Other third party scripts, including the Disqus commenting widget, may present i
 <td>
 A limited number of form fields may have autocomplete values that allow the field purpose to be determined programmatically, but we have not widely implemented this functionality.
 <br><br>
-Some fields, including those on the login and registration forms, have the <pre>autocomplete="off"</pre> property set. Users whose technology respects this property may be unable to fill form fields automatically. 
+Some fields, including those on the login and registration forms, have the <code>autocomplete="off"</code> property set. Users whose technology respects this property may be unable to fill form fields automatically. 
 </td>
 </tr>
 <tr valign="top">
@@ -1010,7 +1008,7 @@ Third party advertising scripts may inject non-responsive content that loses or 
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Outside of editoral content managed by content management system (CMS), published books and papers, and third party scripts, the pages of this product do not use images of text to convey information except in the case of <a href="https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">logotypes</a> (considered essential per WCAG 2.0) or when the image is <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration">pure decoration</a>.
+Outside of editoral content managed by content management system (CMS), published books and papers, and third party scripts, the pages of this product do not use images of text to convey information except in the case of <a href="https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">logotypes</a> (considered essential per WCAG 2.1) or when the image is <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration">pure decoration</a>.
 <br><br>
 CMS content and published books and papers may include complex images that contain images of text. In most cases these images are used to supplement the text content they appear alongside. In some cases (e.g. charts, graphs, or maps, among others), the text content presented alongside may be insufficient to explain the contents of the image. 
 <br><br>
@@ -1168,7 +1166,7 @@ Generally, we provide high-visibility yellow focus rings on all focusable elemen
 <br><br>
 Some pages (e.g. some payment or "my account" pages) use default focus rings only. In some of these pages, the default focus ring has been removed from input elements and replaced with a different focus style that provides inadequate visibility. We are actively working to repair these problems; the high-visibility focus ring across the majority of Nature.com is intended to be the default. 
 <br><br>
-Pages that use older designs may use default focus rings only. We are in the process of transferring all content from the older designs to the design currently used across the majority of Nature.com; when this process is complete, the high-visibility focus ring will be the default. 
+Pages that use older designs may use default focus rings only. 
 <br><br>
 Third party scripts, including advertising, may inject components that remove focus styles.
 </td>
@@ -1221,9 +1219,7 @@ Third party scripts may inject components that use a different language to the m
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The Nature.com website contains content that is rendered in a number of different, inconsistent designs. The designs often have dramatically different navigation methods, within the same collections of pages. Supplementary content, such as informational pages adjunct to journal and editorial content, is more likely to be affected. 
-<br><br>
-We are in the process of transferring all content from the older designs to the design currently used across the majority of Nature.com; when this process is complete, the navigation methods will be broadly consistent. 
+The Nature.com website contains content that is rendered in a number of different, inconsistent designs. The designs may have dramatically different navigation methods, within the same collections of pages. Supplementary content, such as informational pages adjunct to journal and editorial content, is more likely to be affected. 
 <br><br>
 Pages that deal with sensitive information (including payment pages and "my account" pages) have an intentionally stripped-down design, and do not share the same navigation system as the main site. The navigation of each of these sets of pages is internally consistent. 
 </td>
@@ -1250,8 +1246,6 @@ Pages that deal with sensitive information (including payment pages and "my acco
 <td>Partially Supports</td>
 <td>
 The Nature.com website contains content that is rendered in a number of different, inconsistent designs, within the same collections of pages. Supplementary content, such as informational pages adjunct to journal and editorial content, is more likely to be affected. 
-<br><br>
-We are in the process of transferring all content from the older designs to the design currently used across the majority of Nature.com; when this process is complete, all editorial, supplementary, and journal content will use a unified design style with consistent presentation and functionality.
 <br><br>
 Pages that deal with sensitive information (including payment pages and "my account" pages) have an intentionally stripped-down design. The presentation of each of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site. 
 </td>
