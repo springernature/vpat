@@ -5,7 +5,7 @@
 **Name of Product/Version**: Nature.com _(we do not version our software)_  
 **Product Description**: 
 Nature.com publishes peer-reviewed research, reviews and news across a number of journals. This report refers entirely to the accessibility of editorial, journal, and magazine web documents published at the top level domain of <a href="http://www.nature.com">www.nature.com</a>, including informational pages, and to all web documents found at idp.nature.com and payment.nature.com (for account management and subscription and payment management respectively).  
-**Date**: 22nd October 2019  
+**Date**: 18th February 2020  
 **Contact information**: Please contact your Institutional Sales representative.  
 **Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature using a combination of static analysis tools and manual testing with assistive technologies.  
 
@@ -1031,7 +1031,10 @@ Third party advertising scripts may inject images containing images of text.
 <em>Revised Section 508 - does not apply</em>
 </td>
 <td>Supports</td>
-<td>All parts of this product are responsive. Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions per the specifications in this criterion.</td>
+<td>All parts of this product are responsive. Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions per the specifications in this criterion.
+<br><br>
+Third party scripts (e.g. advertising, customer services widgets) may inject content that fails to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
+</td>
 </tr>
 <tr id="non-text-contrast" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#non-text-contrast"><strong>1.4.11 Non-text Contrast</strong></a> (Level AA 2.1 only)
@@ -1048,8 +1051,14 @@ Third party advertising scripts may inject images containing images of text.
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td></td>
-<td></td>
+<td>Partially Supports</td>
+<td>
+The visual presentation of User Interface Components in this product generally have a contrast ratio of at least 3:1 against adjacent color(s). 
+<br><br>
+Graphical Objects (e.g. charts, graphs, or maps, among others) supplied by authors may have inadequate contrast.
+<br><br>
+Third party content (e.g. advertising, customer services widgets) may inject non-text elements with inadequate contrast. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
+</td>
 </tr>
 <tr id="text-spacing" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#text-spacing"><strong>1.4.12 Text Spacing</strong></a> (Level AA 2.1 only)
@@ -1066,8 +1075,11 @@ Third party advertising scripts may inject images containing images of text.
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td></td>
-<td></td>
+<td>Supports</td>
+<td>No loss of content or functionality occurs by setting the text spacing properties specified by this criterion anywhere in this product.
+<br><br>
+Third party content (e.g. advertising, customer services widgets) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
+</td>
 </tr>
 <tr id="content-on-hover-or-focus" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus"><strong>1.4.13 Content on Hover or Focus</strong></a> (Level AA 2.1 only)
@@ -1084,8 +1096,15 @@ Third party advertising scripts may inject images containing images of text.
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td></td>
-<td></td>
+<td>Supports</td>
+<td>Additional content that becomes visible on hover is rare in this product. 
+<br><br>
+Magazine (not journal) articles include a tooltip on hovering over an author byline that does not meet this criterion. The tooltip displays non-vital information and access to it is not necessary to operate the "show more" functionality, which is mouse and keyboard activated. 
+<br><br>
+Additional content that becomes visible on focus is not used in this product. 
+<br><br>
+Third party content (e.g. advertising, customer services widgets) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
+</td>
 </tr>
 <tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-mult-loc"><strong>2.4.5 Multiple Ways</strong></a> (Level AA)
@@ -1313,8 +1332,8 @@ Third party scripts including the Disqus commenting widget, or other widgets tha
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td></td>
-<td></td>
+<td>Does not support</td>
+<td>Status messages that do not receive focus are presented in text. These are generally not marked up with programmatic roles to indicate their purpose.</td>
 </tr>
 </tbody>
 </table>
