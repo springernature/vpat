@@ -346,7 +346,7 @@ Partially Supports
 <td>
 The majority of components in Nature.com can be navigated by keyboard alone. Complex elements like flyout menus can be exited with the <kbd>esc</kbd> key. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
-Third party advertising scripts may inject content that can't be interacted with easily or at all by keyboard.
+Third party advertising scripts may inject content that cannot be interacted with easily or at all by keyboard.
 <br><br>
 The OneTrust "manage cookies" privacy centre banner (third party content) cannot be interacted with easily by keyboard alone. An alternative static link to the privacy centre is provided in the footer of each page.
 <br><br>
@@ -1053,7 +1053,7 @@ Third party scripts (e.g. advertising, customer services widgets) may inject con
 </td>
 <td>Partially Supports</td>
 <td>
-The visual presentation of User Interface Components in this product generally have a contrast ratio of at least 3:1 against adjacent color(s). 
+The visual presentation of User Interface Components in this product have a contrast ratio of at least 3:1 against adjacent color(s). 
 <br><br>
 Graphical Objects (e.g. charts, graphs, or maps, among others) supplied by authors may have inadequate contrast.
 <br><br>
@@ -1484,7 +1484,7 @@ Original research or editorial content may contain images of text without adequa
 <td>
 The pages of this product use standard HTML or WAI-ARIA object attributes for maximum compatibility with assistive technologies.
 <br><br>
-Some third party scripts may inject content that can't be interacted with easily or at all by keyboard or by some assistive technologies.
+Some third party scripts may inject content that cannot be interacted with easily or at all by keyboard or by some assistive technologies.
 <br><br>
 See WCAG section <a href="#keyboard">2.1.1 Keyboard</a> for further detail.
 </td>
