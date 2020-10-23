@@ -99,7 +99,7 @@ The <strong>old</strong> checkout design at checkout.springer.com presents inlin
 <br><br>
  The <strong>new</strong> checkout design at order.springer.com resolves all of the issues noted above in the old checkout design.
 <br><br>
-Third party scripts may inject non-text content without text alternatives. These include images in advertising scripts, and in the OneTrust "manage cookies" privacy centre. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
+Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These include images in advertising scripts, and in the OneTrust "manage cookies" privacy centre. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
 </td>
 </tr>
 <tr id="audio-only-and-video-only-prerecorded" valign="top">
@@ -389,8 +389,6 @@ All components on pages located at order.springer.com can be operated by keyboar
 <br><br>
 Third party advertising scripts may inject content that cannot be interacted with easily or at all by keyboard.
 <br><br>
-The third party OneTrust "manage cookies" privacy centre banner cannot be interacted with easily by keyboard alone. An alternative static link to the privacy centre is provided in the footer of each page.
-<br><br>
 The Freshdesk customer services widget cannot be interacted with easily by keyboard alone. We are actively working to solve this problem. Additionally, we have provided alternate means of accessing customer services on our "Contact Us" page, including a contact email address, a support ticket system, and helpdesk telephone numbers. 
 <br><br>
 Where we know of deficiencies in third party functionality, we have contacted third party suppliers to request repairs or are actively seeking solutions. Additionally, where possible, we aim to provide equivalent alternatives to problematic content. 
@@ -534,8 +532,6 @@ Third party advertising scripts may inject content that automatically moves or b
 The pages found at link.springer.com generally use semantically-correct markup so that Assistive Technology users can recognise elements and move around them accordingly. We make use of WAI-ARIA roles to support landmarks. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
 Pages located at both checkout.springer.com and order.springer.com have landmarks present. Some are duplicated without unique labels. Some landmarks found at checkout.springer.com are malformed, and may be difficult to use. 
-<br><br>
-The OneTrust "manage cookies" privacy centre (third party content) does not provide a way for screen reader users to bypass the links in its left hand menu.
 </td>
 </tr>
 <tr id="page-titled" valign="top">
@@ -630,8 +626,6 @@ In articles, anchor links that refer to same-page supplementary figures or table
 Images located at checkout.springer.com lack accessible text, and do not provide adequate context when they are used as links. These issues are resolved in the new version of the checkout process design at order.springer.com; we are in the process of transferring all checkout content to the new design. 
 <br><br>
 Third party scripts including advertising scripts or customer services widgets (among others), may inject content that includes links with no accessible text, or poorly-named accessible text. Where we know of deficiencies, we have contacted third party suppliers to request repairs or are actively seeking solutions. Additionally, where possible, we aim to provide equivalent alternatives to problematic content.
-<br><br>
-The OneTrust "manage cookies" privacy centre (third party content) displays some links with a title attribute instead of accessible text; the title attribute may not be made available by all Assistive Technologies.
 </td>
 </tr>
 <tr id="pointer-gestures" valign="top">
@@ -910,8 +904,6 @@ The pages found at link.springer.com generally use standard HTML and WAI-ARIA at
 In some cases, WAI-ARIA attributes have been omitted where they would be helpful (e.g. no status update is triggered on the "date published" popup component on advanced search pages). In other cases WAI-ARIA roles or attributes may be misused in ways that cause elements to have misleading semantics. We are actively working to find and repair these problems. 
 <br><br>
 Pages located at checkout.springer.com contain elements without accessible names (e.g. links, images), incorrectly-applied semantics (e.g. semantic headings used for visual effect only, malformed WAI-ARIA landmarks, labels used in incorrect contexts, data tables not marked up as tables, lists not marked up as lists, custom interactive components not marked up in a way that can be used by Assistive Technology), and missing elements or WAI-ARIA attributes (e.g. form fields without labels, step counters and flyout menus without WAI-ARIA markup). 
-<br><br>
-The OneTrust "manage cookies" privacy centre (third party content) uses an inappropriate WAI-ARIA label of "true" in place of its main heading, and both links and images exist with no accessible name. Additionally, when a screen reader user activates a link on the left hand menu of the Privacy Preference Centre, they are not made aware that the content on the right has updated. We have reported these problems to the vendor. 
 <br><br>
 Other third party scripts, including the Freshdesk customer services widget, may present elements that lack adequate names and roles, making them difficult for screen reader users to access. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
 </td>
@@ -1260,8 +1252,6 @@ Pages rendered in the <strong>newer</strong> design (currently Articles, Chapter
 <br><br>
 Pages found at checkout.springer.com omit or use inappropriate headings and heading levels, including the use of unsemantic headings for visual effect, skipping heading levels, and providing empty headings. Pages at this location also misapply HTML elements (e.g. label elements used for error messages), which may make it difficult for users of Assistive Technology to understand the structure and purpose of individual components. These issues are resolved in the new version of the checkout process design at order.springer.com; we are in the process of transferring all checkout content to the new design. 
 <br><br>
-The OneTrust "manage cookies" privacy centre (third party content) uses an inappropriate WAI-ARIA label of "true" in place of its main heading. We have reported this problem to the vendor.
-<br><br>
 The Freshdesk customer services widget injects controls with inadequate labels, making it difficult or impossible to use the controls with Assistive Technology. We are actively working to solve this problem. Additionally, we have provided alternate means of accessing customer services on our "Contact Us" page, including a contact email address, a support ticket system, and helpdesk telephone numbers.
 </td>
 </tr>
@@ -1592,8 +1582,6 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 <td>Partially Supports</td>
 <td>
 The pages of this product use standard plain text in HTML.
-<br><br>
-The third party OneTrust "manage cookies" privacy centre uses an inappropriate WAI-ARIA label of "true" in place of its main heading. Some text in the privacy centre (e.g. link text) may be present only in a <code>title</code> attribute, and may not be accessible to some Assistive Technologies.
 <br><br>
 Content in journals, books, series, protocols, reference works or proceedings may contain images of text without adequate programmatically determinable alternatives. 
 </td>
