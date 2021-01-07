@@ -1,12 +1,12 @@
-# Nature Accessibility Conformance Report
+# Nature Accessibility Conformance Report International Edition
+(Based on VPAT® Version 2.4)
 
-### **VPAT**&reg; **Version 2.3 (revised) – April 2019**
-
+**Report Date**: 7th January 2021  
 **Name of Product/Version**: Nature.com _(we do not version our software)_  
 **Product Description**: 
 Nature.com publishes peer-reviewed research, reviews and news across a number of journals. This report refers entirely to the accessibility of editorial, journal, and magazine web documents published at the top level domain of <a href="http://www.nature.com">www.nature.com</a>, including informational pages, and to all web documents found at idp.nature.com and payment.nature.com (for account management and subscription and payment management respectively).  
-**Date**: 23rd October 2020  
 **Contact information**: Please contact your Institutional Sales representative.  
+**Notes**:  
 **Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature using a combination of static analysis tools and manual testing with assistive technologies.  
 
 ## Applicable Standards/Guidelines
@@ -32,7 +32,7 @@ This report covers the degree of conformance for the following accessibility sta
 <td nowrap><strong>Yes</strong></td>
 </tr>
 <tr>
-<td>EN 301 549 Accessibility requirements suitable for public procurement of ICT products and services in Europe, - V2.1.2 (2018-08) at <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">https://www.etsi.org/[...]/en_301549v020102p.pdf</a></td>
+<td>EN 301 549 Accessibility requirements suitable for public procurement of ICT products and services in Europe, - V3.1.1 (2019-11) at <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf">https://www.etsi.org/[...]/en_301549v030101p.pdf</a></td>
 <td nowrap><strong>Yes</strong></td>
 </tr>
 </tbody>
