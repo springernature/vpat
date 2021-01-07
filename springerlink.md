@@ -93,13 +93,13 @@ Some images, such as icons on user interface elements, are known to have inadequ
 <br><br>
 We mark up some images so that they can be ignored by Assistive Technologies if they are <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration"><i>pure decoration</i></a> (as defined by WCAG 2.1).
 <br><br>
-The SpringerLink checkout process pages are rendered in two separate designs. We are in the process of transferring all content from the older design (located at checkout.springer.com) to the newer design (located at order.springer.com, and active for chapter and article purchases only). 
+The SpringerLink checkout process pages are rendered in two separate designs. We are in the process of transferring all content from the older design (located at checkout.springer.com) to the newer design (located at order.springer.com). 
 <br><br>
-The <strong>old</strong> checkout design at checkout.springer.com presents inline images with no alternative text. Background images that are used to convey meaning (e.g. images to signify which credit cards we accept) are not supplemented with text and cannot be perceived by users of Assistive Technology. Icon fonts are used in these pages that are not hidden from Assistive Technology; in some user agents, these may be inappropriately announced (e.g. the "cart" icon on the checkout button). The "remove from cart" button has no accessible name and cannot be understood by users of Assistive Technology. 
+The <strong>old</strong> checkout design at checkout.springer.com presents inline images with no alternative text. Background images that are used to convey meaning (e.g. images to signify which credit cards we accept) are not supplemented with text or accessible names and cannot be perceived by users of Assistive Technology. Icon fonts are used in these pages that are not hidden from Assistive Technology; in some user agents, these may be inappropriately announced (e.g. the "cart" icon on the checkout button). The "remove from cart" button has no accessible name and cannot be understood by users of Assistive Technology. 
 <br><br>
- The <strong>new</strong> checkout design at order.springer.com resolves all of the issues noted above in the old checkout design.
+ The <strong>new</strong> checkout design at order.springer.com resolves all of the issues noted above.
 <br><br>
-Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These include images in advertising scripts, and in the OneTrust "manage cookies" privacy centre. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
+Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These may include images in advertising scripts, and in the OneTrust "manage cookies" privacy centre. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr id="audio-only-and-video-only-prerecorded" valign="top">
@@ -123,7 +123,7 @@ Third party scripts may inject non-text content without text alternatives, or wi
 </ul></td>
 <td>Partially Supports</td>
 <td>
-SpringerLink presents multimedia content through the third party MovingImage platform, or by providing links to download video files in various formats. 
+SpringerLink offers multimedia content through the third party MovingImage platform, or as downloadable video files in various formats. 
 <br><br>
 Video-only and audio-only content are generally used to support text-based content. 
 <br><br>
@@ -151,11 +151,11 @@ We currently have no method of confirming the inclusion - or not - of adequate m
 </ul></td>
 <td>Partially supports</td>
 <td>
-SpringerLink presents multimedia content through the third party MovingImage platform, or by providing links to download video files in various formats. 
+SpringerLink offers multimedia content through the third party MovingImage platform, or as downloadable video files in various formats. 
 <br><br>
 Captions and/or transcripts maybe be provided for some pre-recorded content in journals, books, series, protocols, reference works or proceedings, but we currently have no method of confirming the inclusion - or not - of transcripts or captions. 
 <br><br>
-"Springer Nature Video" learning content published at link.springer.com/video uses the third party MovingImage platform, and is provided alongside both captions and transcripts. 
+"Springer Nature Video" learning content published at link.springer.com/video uses the third party MovingImage platform. Both captions and transcripts are available. 
 </td>
 </tr>
 <tr id="audio-description-or-media-alternative-prerecorded" valign="top">
@@ -179,7 +179,7 @@ Captions and/or transcripts maybe be provided for some pre-recorded content in j
 </ul></td>
 <td>Partially Supports</td>
 <td>
-SpringerLink presents multimedia content through the third party MovingImage platform, or by providing links to download video files in various formats. 
+SpringerLink offers multimedia content through the third party MovingImage platform, or as downloadable video files in various formats.
 <br><br>
 Audio description is not generally used across our content, but some media may be presented alongside media alternatives such as text descriptions of video content. 
 <br><br>
@@ -225,11 +225,11 @@ Pages found at both checkout.springer.com and order.springer.com omit or use ina
 <br><br>
 Pages found at checkout.springer.com misapply HTML elements (e.g. label elements used for error messages), which may make it difficult for users of Assistive Technology to understand the structure and purpose of individual components. Some landmarks are incorrectly duplicated. 
 <br><br>
-Pages found at order.springer.com use form fields that rely solely on built-in browser error checking, which can lead to error messages being unavailable for users with older browser technology, or assistive technology that doesn't support these features. 
+Pages found at order.springer.com use form fields that rely solely on built-in browser error checking, which can lead to error messages being unavailable for users with older browser technology, or Assistive Technology that doesn't support these features. 
 <br><br>
 Some custom interactive components found at checkout.springer.com are marked up unsemantically, which prevents them from being used by keyboard alone and from being recognised by Assistive Technology (e.g. the "login" and language selection components at the top of each page).
 <br><br>
-Third party scripts may inject content with incorrect or absent information about structure and relationships. These include content in advertising scripts, in the Freshdesk customer services widget, and in the OneTrust "manage cookies" privacy centre, among others.
+Third party scripts may inject content with incorrect or absent information about structure and relationships. These may include content in advertising scripts, in the Freshdesk customer services widget, and in the OneTrust "manage cookies" privacy centre, among others.
 </td>
 </tr>
 <tr id="meaningful-sequence" valign="top">
@@ -253,7 +253,7 @@ Third party scripts may inject content with incorrect or absent information abou
 </ul></td>
 <td>Supports</td>
 <td>
-The meaning of the content in the pages of SpringerLink does not depend on the order of the sections.
+The meaning of the content on the pages of SpringerLink does not depend on the order of the sections.
 </td>
 </tr>
 <tr id="sensory-characteristics" valign="top">
@@ -279,7 +279,7 @@ The meaning of the content in the pages of SpringerLink does not depend on the o
 <td>
 The pages found at link.springer.com generally do not depend solely on sensory characteristics such as shape, size, visual location, orientation, or sound to understand their content.
 <br><br>
-Icons may be displayed to control functionality. Adjacent visible text labels or WAI-ARIA labels may also be provided to ensure that relationships are available to Assistive Technologies. 
+We make use of graphical icons on controls. Adjacent visible text labels or WAI-ARIA labels are generally provided.
 <br><br>
 Some icons (e.g. "next" and "previous" pagination controls on search results pages) in the <strong>older</strong> design (currently Journals, and ancillary pages such as search, indexes, and account management) lack accessible names. Users who are unable to perceive these icons by their sensory characteristics may be unable to use these controls. We are in the process of transferring all content from the older design to the newer design, which will remove the reliance on sensory characteristics for understanding. 
 <br><br>
@@ -287,7 +287,7 @@ Some complex images in journals, books, series, protocols, reference works and p
 <br><br>
 Images found at checkout.springer.com that are used to convey meaning (e.g. images to signify which credit cards we accept) are not supplemented with text and cannot be perceived by users of Assistive Technology. These issues are resolved in the new version of the checkout process design at order.springer.com; we are in the process of transferring all checkout content to the new design. 
 <br><br>
-The Freshdesk customer services widget uses background images without text equivalents to initiate functionality. We are actively working to solve this problem. Additionally, we have provided alternate means of accessing customer services on our "Contact Us" page, including a contact email address, a support ticket system, and helpdesk telephone numbers.
+The Freshdesk customer services widget uses controls without accessible names. We are actively working to solve this problem. Additionally, we have provided alternate means of accessing customer services on our "Contact Us" page, including a contact email address, a support ticket system, and helpdesk telephone numbers.
 </td>
 </tr>
 <tr id="use-of-color" valign="top">
