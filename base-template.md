@@ -1,11 +1,11 @@
-# \!INSERT PRODUCT\! Accessibility Conformance Report
+# \!INSERT PRODUCT\! Accessibility Conformance Report International Edition
+(Based on VPAT® Version 2.4)
 
-### **VPAT**&reg; **Version 2.3 (revised) – April 2019**
-
+**Report Date**: \!INSERT DATE LAST EDITED\!  
 **Name of Product/Version**: \!INSERT PRODUCT NAME\! _(we do not version our software)_  
 **Product Description**: \!INSERT PRODUCT DESCRIPTION\!  
-**Date**: \!INSERT DATE LAST EDITED\!  
 **Contact information**: Please contact your Institutional Sales representative.  
+**Notes**:  
 **Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature using a combination of static analysis tools and manual testing with assistive technologies.  
 
 ## Applicable Standards/Guidelines
@@ -31,7 +31,7 @@ This report covers the degree of conformance for the following accessibility sta
 <td nowrap><strong>Yes</strong></td>
 </tr>
 <tr>
-<td>EN 301 549 Accessibility requirements suitable for public procurement of ICT products and services in Europe, - V2.1.2 (2018-08) at <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">https://www.etsi.org/[...]/en_301549v020102p.pdf</a></td>
+<td>EN 301 549 Accessibility requirements suitable for public procurement of ICT products and services in Europe, - V3.1.1 (2019-11) at <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf">https://www.etsi.org/[...]/en_301549v030101p.pdf</a></td>
 <td nowrap><strong>Yes</strong></td>
 </tr>
 </tbody>
@@ -47,7 +47,7 @@ The terms used in the Conformance Level information are defined as follows:
 - **Not Applicable**: The criterion is not relevant to the product.
 - **Not Evaluated**: The product has not been evaluated against the criterion. This can be used only in WCAG 2.0 Level AAA.
 
-## WCAG 2.0 Report
+## WCAG 2.1 Report
 
 Tables 1 and 2 also document conformance with:
 - EN 301 549:  Chapter 9 - Web, Sections 10.1-10.4 of Chapter 10 - Non-Web documents, and Sections 11.1-11.4 and 11.8.2 of Chapter 11 - Non-Web Software (open and closed functionality), and Sections 12.1.2 and 12.2.4 of Chapter 12 – Documentation
