@@ -4,7 +4,7 @@ This repository contains Voluntary Product Accessibility Template&reg; (VPAT&reg
 
 The VPAT is a template used to document a product's conformance with accessibility standards and guidelines. The purpose of the VPAT is to assist customers and buyers in making preliminary assessments regarding the availability of commercial "Electronic and Information Technology", also referred to as "Information and Communication Technology" (ICT) products and services with features that support accessibility.
 
-> Documents in this repository will conform to VPAT&reg; `Version 1.0`, `Version 2.2` or the newer `Version 2.3`. **New documents in this repository should conform to the latest standard (2.3) using the template provided**
+> Documents in this repository will conform to VPAT&reg; `Version 1.0`, `Version 2.2`, `Version 2.3` or the newer `Version 2.4`. **New documents in this repository should conform to the latest standard (2.4) using the [template provided](https://github.com/springernature/vpat/blob/master/base-template.md)** 
 
 ### VPAT&reg; Version 1.0
 
@@ -36,6 +36,18 @@ It includes the following standards/guidelines:
 * Web Content Accessibility Guidelines 2.1, at [https://www.w3.org/TR/WCAG21](https://www.w3.org/TR/WCAG21)
 * [Revised Section 508 standards](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines) published January 18, 2017 and corrected January 22, 2018
 * EN 301 549  Accessibility requirements suitable for public procurement of ICT products and services in Europe, - V2.1.2 (2018-08) at [https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf)
+
+### VPAT&reg; Version 2.4 (February 2020)
+
+VPAT version 2.4 has been updated to cover changes to the European standard [EN 301 549](http://mandate376.standards.eu/standard) that were finalised and published in 2019.
+
+It includes the following standards/guidelines:
+
+* Web Content Accessibility Guidelines 2.0, at [http://www.w3.org/TR/2008/REC-WCAG20-20081211/](http://www.w3.org/TR/2008/REC-WCAG20-20081211/)
+* Web Content Accessibility Guidelines 2.1, at [https://www.w3.org/TR/WCAG21](https://www.w3.org/TR/WCAG21)
+* [Revised Section 508 standards](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines) published January 18, 2017 and corrected January 22, 2018
+* EN 301 549  Accessibility requirements suitable for public procurement of ICT products and services in Europe, - V3.1.1 (2019-11) at [https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf)
+
 
 ## Creating a new VPAT
 
