@@ -7,7 +7,6 @@
  **Contact information**: Please contact your Institutional Sales representative.
  
  
- 
  **Notes**:      
 **Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature using a combination of static analysis tools and manual testing with Assistive Technologies.  
 
