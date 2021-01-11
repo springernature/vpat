@@ -1344,7 +1344,7 @@ Pages rendered in the <strong>newer</strong> design are currently Articles, Chap
 <br><br>
 When the transfer process is complete, the navigation methods between designs will be broadly consistent. 
 <br><br>
-Pages located at checkout.springer.com and order.springer.com are rendered in two separate, inconsistent designs. We are in the process of transferring all checkout content to this new design. Both checkout configurations deal with sensitive information and have an intentionally stripped-down design, and do not share the same navigation system as the main site. The navigation of these sets of pages is internally consistent. 
+Pages located at checkout.springer.com and order.springer.com are rendered in two separate, inconsistent designs. We are in the process of transferring all checkout content to this new design. Both checkout configurations deal with sensitive information and have intentionally been made more simple in design, and do not share the same navigation system as the main site. The navigation of these sets of pages is internally consistent. 
 </td>
 </tr>
 <tr id="consistent-identification" valign="top">
@@ -1376,7 +1376,7 @@ Pages rendered in the <strong>newer</strong> design are currently Articles, Chap
 <br><br>
 When the transfer process is complete, content will use a unified design style with consistent presentation and functionality.
 <br><br>
-Pages located at checkout.springer.com and order.springer.com are rendered in two separate, inconsistent designs. We are in the process of transferring all checkout content to this new design. Both checkout configurations deal with sensitive information and have an intentionally stripped-down design, and do not share the same navigation system as the main site. The presentation of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site. 
+Pages located at checkout.springer.com and order.springer.com are rendered in two separate, inconsistent designs. We are in the process of transferring all checkout content to this new design. Both checkout configurations deal with sensitive information and have intentionally been made more simple in design, and do not share the same navigation system as the main site. The presentation of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site. 
 </td>
 </tr>
 <tr id="error-suggestion" valign="top">
@@ -1400,13 +1400,14 @@ Pages located at checkout.springer.com and order.springer.com are rendered in tw
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Where user input errors are automatically detected in our own software, the items that are in error are identified to the user with warning text adjacent to the input field. Unless it would present a risk to security, the warning text describes the error and what the user should do to correct it. 
+Where user input errors are automatically detected by our own software, those errors are identified to the user with warning text adjacent to the input field. Unless it would present a risk to security, the warning text describes the error and what the user should do to correct it. 
 <br><br>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently Journals, and ancillary pages such as search, indexes, and account management) use unsemantic, unassociated label elements to mark up errors.
 <br><br>
-Pages located at checkout.springer.com also use label elements to hold error messages, and some Assistive Technology may not make these labels and their error content available to their users. 
+Pages located at checkout.springer.com also use unsemantic, unassociated label elements to mark up errors.
+
 <br><br>
 Pages located at order.springer.com rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states. 
 </td>
@@ -1449,7 +1450,8 @@ Pages located at order.springer.com rely solely on built-in browser error checki
 <em>Revised Section 508 - does not apply</em>
 </td>
 <td>Partially Supports</td>
-<td>Status messages that do not receive focus are presented in text. Some are marked up with programmatic roles (e.g. `role="alert"` on some error messages), but there is no consistent, single approach to status messages across the multiple designs. ARIA Live Regions are not generally used.</td>
+<td>Status messages that do not receive focus are presented in text. Some are marked up with programmatic roles (e.g. `role="alert"` on some error messages), but there is no consistent, single approach to status messages across the multiple designs.   ARIA Live Regions are not generally used.</td>
+ 
 </tr>
 </tbody>
 </table>
