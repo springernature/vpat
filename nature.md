@@ -90,13 +90,13 @@ Tables 1 and 2 also document conformance with:
 <td>
 With rare exceptions, most images that we supply provide alternative text, or descriptions, or figure captions. We may use WAI-ARIA techniques to link some complex images with their descriptions if alternative text is unable to provide adequate context. We are working towards full support.  
 <br><br>
-Background images such as icons on user interface elements are generally identified with text labels. These may be visible, visually-hidden, or supplied using WAI-ARIA techniques.
+Background images such as icons on user interface elements are generally identified with visible text labels. Sometimes we may use visually-hidden text or WAI-ARIA techniques instead.
 <br><br>
 We mark up some images so that they can be ignored by Assistive Technologies if they are <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration"><i>pure decoration</i></a> (as defined by WCAG 2.1).
 <br><br>
 The Nature subscription pages at <a href="https://www.nature.com/nature/subscribe">https://www.nature.com/nature/subscribe</a> currently contain SVG images without text alternatives, and decorative SVG images that are not marked up to be ignored by Assistive Technologies. We are actively working to repair these problems. 
 <br><br>
-Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These include images in advertising scripts, in Disqus commenting widgets, and in the OneTrust "manage cookies" privacy centre. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
+Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These include images in advertising scripts, in Disqus commenting widgets, and in the OneTrust "manage cookies" privacy centre. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr valign="top">
@@ -204,11 +204,11 @@ The Nature subscription pages at <a href="https://www.nature.com/nature/subscrib
 <br><br>
 Articles or supplementary pages ("about this journal", help pages etc.) may use unsemantic markup, including inadequate, misleading, or missing headings. We are actively working to find and repair these problems. 
 <br><br>
-Some parts of the checkout flow and the "My Account" pages contain unsemantic markup, including out-of-sequence headings and and incorrectly-applied landmarks. We are actively working to find and repair these problems. 
+Some parts of the checkout flow and the "My Account" pages contain unsemantic markup, including out-of-sequence headings and incorrectly-applied landmarks. We are actively working to find and repair these problems. 
 <br><br>
 We make use of WAI-ARIA roles to support landmarks, and use WAI-ARIA roles and properties when required for more complex functionality such as popup menus and dialogs. 
 <br><br>
-Some complex functionality may omit required WAI-ARIA roles, states, or attributes, or abuse WAI-ARIA markup and techniques. We are actively working to find and repair these problems. 
+Some complex functionality may omit required WAI-ARIA roles, states, or attributes, or misuse WAI-ARIA markup and techniques. We are actively working to find and repair these problems. 
 <br><br>
 Third party scripts may inject content with incorrect or absent information about structure and relationships. These include content in advertising scripts, in Disqus commenting widgets, and in the OneTrust "manage cookies" privacy centre, among others.
 </td>
@@ -264,7 +264,7 @@ The pages of this product do not depend solely on sensory characteristics such a
 <br><br>
 Icons may be displayed to control functionality, but adjacent visible text labels or WAI-ARIA labels are also provided to ensure that relationships are available to Assistive Technologies.
 <br><br>
-Some complex images supplied by research authors may rely on sensory characteristics to be understood. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content. 
+Some complex images supplied by submission authors may rely on sensory characteristics to be understood. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content. 
 </td>
 </tr>
 <tr id="use-of-color" valign="top">
@@ -292,7 +292,7 @@ Colour alone is not used to convey information in the pages of this product.
 <br><br>
 Links and icons may use colour to indicate hover or active states. These are supplemented with visible focus rings and/or text decoration underlines and/or luminosity differences per WAI techniques <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G183">G183</a> and <a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C15">C15</a>.
 <br><br>
-Some complex images supplied by research authors may rely on colour as the only visual means of understanding information. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content. 
+Some complex images supplied by submission authors may rely on colour as the only visual means of understanding information. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content. 
 </td>
 </tr>
 <tr valign="top">
@@ -348,7 +348,7 @@ The majority of components in Nature.com can be navigated by keyboard alone. Com
 <br><br>
 Third party advertising scripts may inject content that cannot be interacted with easily or at all by keyboard.
 <br><br>
-Other types of third party content such as JavaScript-based file viewers (e.g. Figshare), commenting systems, or customer services widgets may be difficult to use with keyboard alone. Where we know of deficiencies, we have contacted third party suppliers to request repairs. Additionally, where possible, we aim to provide equivalent alternatives to problematic content. 
+Other types of third party content such as JavaScript-based file viewers (e.g. Figshare), commenting systems, or customer services widgets may be difficult to use with keyboard alone. When we become aware of deficiencies, we contact third party suppliers to request repairs. Additionally, where possible, we aim to provide equivalent alternatives to problematic content. 
 </td>
 </tr>
 <tr valign="top">
@@ -372,9 +372,9 @@ Other types of third party content such as JavaScript-based file viewers (e.g. F
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Keyboard trapping inside components on Nature.com pages is fairly rare, and in most cases should be managed appropriately, allowing focus to be moved away from any component using standard keystrokes (<kbd>tab</kbd>, <kbd>shift</kbd>, <kbd>esc</kbd>). 
+Keyboard trapping inside components on Nature.com pages is rare, and in most cases is managed appropriately, allowing focus to be moved away from any component using standard keystrokes (<kbd>tab</kbd>, <kbd>shift</kbd>, <kbd>esc</kbd>). 
 <br><br>
-Third party content such as modal dialogs or the Disqus commenting widget may trap focus and provide inadequate methods of escaping. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
+Third party content such as modal dialogs or the Disqus commenting widget may trap focus and provide inadequate methods of escaping. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr id="character-key-shortcuts" valign="top">
@@ -564,11 +564,11 @@ Third party scripts including advertising scripts, the Disqus commenting widget,
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Generally, the purpose of each link that we provide can be determined by its descriptive text label; linked images or icons have alternative text or similar to provide this context. 
+Generally, the purpose of each link that we provide can be determined by its descriptive text label. Most linked images or icons have alternative text or supplementary text labels. 
 <br><br>
-In research articles, anchor links that refer to same-page supplementary figures or tables may have insufficient context in their link text. Repetitive links (e.g. "show more" or "view all" type links in lists of content) may not be differentiated from each other. In limited cases we may support poor link text with the use of WAI-ARIA labels. We are actively working to repair these problems. 
+In submitted articles, anchor links that refer to same-page supplementary figures or tables may have insufficient context in their link text. Repetitive links (e.g. "show more" or "view all" type links in lists of content) may not be contextually differentiated from each other. In limited cases we may support inadequate link text with the use of WAI-ARIA techniques. We are actively working to repair these problems. 
 <br><br>
-Third party scripts including advertising scripts, the Disqus commenting widget, or survey or customer services widgets (among others), may inject content that includes links with no accessible text, or poorly-named accessible text. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
+Third party scripts including advertising scripts, the Disqus commenting widget, survey or customer services widgets (among others), may inject content that includes links with no accessible text, or poorly-named accessible text. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr id="pointer-gestures" valign="top">
@@ -738,11 +738,11 @@ The majority of the pages in this product use the language attribute on the HTML
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Where user input errors are automatically detected in our own software, the items that are in error are identified to the user with warning text adjacent to the input field. We do not rely on visual characteristics alone (e.g. colour) to indicate user input errors. 
+Where user input errors are automatically detected by our own software, those errors are identified with warning text adjacent to the input field. We do not rely on visual characteristics alone (e.g. colour). 
 <br><br>
 Pages located at payment.nature.com rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states. 
 <br><br>
-Third party scripts including the Disqus commenting widget, or other widgets that accept user input, may automatically detect errors but fail to present the errors to users in text. They may rely on visual characteristics alone to indicate user input errors, or place error text in locations that are difficult for screen reader users to access. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
+Third party scripts including the Disqus commenting widget, or other widgets that accept user input, may automatically detect errors but fail to present the errors to users in text. They may rely on visual characteristics alone to indicate user input errors, or place error text in locations that are difficult for screen reader users to access. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr id="labels-or-instructions" valign="top">
@@ -770,7 +770,7 @@ Generally, visible and appropriately associated labels are provided for input fi
 <br><br>
 Instructions such as those that explain mandatory fields may be absent or only present at the end of forms. (e.g. some payment information pages). Instructions for specific input fields may not be adequately associated (e.g. with WAI-ARIA) with the fields they describe. We are actively working to find and repair these problems. 
 <br><br>
-In rare cases, input fields may use only placeholder text as instruction, without associated labels or WAI-ARIA descriptions. We are actively working to find and repair these problems. 
+In rare cases, input fields may only use placeholder text as instruction, without associated labels or WAI-ARIA descriptions. We are actively working to find and repair these problems. 
 </td>
 </tr>
 <tr valign="top">
@@ -824,9 +824,9 @@ Third party advertising scripts may inject content that omits start and end tags
 <td>
 The pages of this product generally use standard HTML and WAI-ARIA attributes to describe the identity, operation, and state of user interface elements to Assistive Technologies.
 <br><br>
-In some cases, WAI-ARIA attributes have been omitted where they are required when client user agent support for a standard HTML5 feature is poor (e.g. in the "for individuals/post docs/students" disclosure area on subscription pages). In other cases WAI-ARIA roles or attributes may be misused in ways that cause elements to have misleading semantics. We are actively working to find and repair these problems. 
+WAI-ARIA attributes may be omitted where they would be useful, for example to support HTML5 features that are not widely supported by client technology. In other cases WAI-ARIA roles or attributes may be misused in ways that cause elements to have misleading semantics. We are actively working to find and repair these problems. 
 <br><br>
-Other third party scripts, including the Disqus commenting widget, may present interactive elements such as tooltips that lack adequate names and roles, making them difficult for screen reader users to access. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
+Other third party scripts, including the Disqus commenting widget, may present interactive elements such as tooltips that lack adequate names and roles, making them difficult for screen reader users to access. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 </tbody>
@@ -1149,7 +1149,7 @@ Nature magazine and a limited number of journals publish editorial content from 
 <br><br>
 Some parts of the product (e.g. some payment and "my account" pages) use inappropriate heading levels for visual effect. We are actively working to repair these problems. 
 <br><br>
-Other third party scripts, including survey or customer services widgets, may inject content with inadequate or inappropriate headings or labels. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
+Other third party scripts, including survey or customer services widgets, may inject content with inadequate or inappropriate headings or labels. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr id="focus-visible" valign="top">
@@ -1202,11 +1202,11 @@ Third party scripts, including advertising, may inject components that remove fo
 <li>602.3 (Support Docs)</li>
 </ul></td>
 <td>Does Not Support</td>
-<td>All components on the pages of this product supplied by us as part of dynamic templates use the same language defined in the HTML <code>lang</code> attribute, therefore Language of Parts is not applicable for the majority of this product.
+<td>Language of Parts is not applicable for the majority of this content. All first-party components on the pages of this product that are part of dynamic templates are written in English.
 <br><br>
-Editorial content or published papers may include text in languages other than that defined in the HTML <code>lang</code> attribute. We currently have no method of confirming the inclusion - or not - of appropriate lang attributes for pieces of text in content that may use a different language to the main document. 
+Editorial content or published papers may include text in languages other than English. We currently have no method of confirming the inclusion - or not - of appropriate lang attributes for pieces of text in content that may use a different language to the main document.
 <br><br>
-Third party scripts may inject components that use a different language to the main document - for example a targeted advertisement or file presented in a file viewer (e.g. Figshare) may use the native language of the user. These may not be marked up with a separate <code>lang</code> attribute.
+Third party scripts may inject components with non-English text - for example a targeted advertisement or file presented in a file viewer (e.g. Figshare) may use a different language to the main document. These may not be marked up with a separate <code>lang</code> attribute.
 </td>
 </tr>
 <tr valign="top">
@@ -1230,9 +1230,9 @@ Third party scripts may inject components that use a different language to the m
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The Nature.com website contains content that is rendered in a number of different, inconsistent designs. The designs may have dramatically different navigation methods, within the same collections of pages. Supplementary content, such as informational pages adjunct to journal and editorial content, is more likely to be affected. 
+The Nature.com website contains content that is rendered in a number of different, inconsistent designs. The designs may have inconsistent navigation methods, within the same collections of pages. Supplementary content, such as informational pages adjunct to journal and editorial content, is more likely to be affected. 
 <br><br>
-Pages that deal with sensitive information (including payment pages and "my account" pages) have an intentionally stripped-down design, and do not share the same navigation system as the main site. The navigation of each of these sets of pages is internally consistent. 
+Pages that deal with sensitive information (including payment pages and "my account" pages) have intentionally been made more simple in design, and do not share the same navigation system as the main site. The navigation of each of these sets of pages is internally consistent. 
 </td>
 </tr>
 <tr valign="top">
@@ -1258,7 +1258,7 @@ Pages that deal with sensitive information (including payment pages and "my acco
 <td>
 The Nature.com website contains content that is rendered in a number of different, inconsistent designs, within the same collections of pages. Supplementary content, such as informational pages adjunct to journal and editorial content, is more likely to be affected. 
 <br><br>
-Pages that deal with sensitive information (including payment pages and "my account" pages) have an intentionally stripped-down design. The presentation of each of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site. 
+Pages that deal with sensitive information (including payment pages and "my account" pages) have intentionally been made more simple in design. The presentation of each of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site. 
 </td>
 </tr>
 <tr valign="top">
@@ -1282,9 +1282,9 @@ Pages that deal with sensitive information (including payment pages and "my acco
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Where user input errors are automatically detected in our own software, the items that are in error are identified to the user with warning text adjacent to the input field. Unless it would present a risk to security, the warning text describes the error and what the user should do to correct it. 
+Where user input errors are automatically detected by our own software, those errors are identified with warning text adjacent to the input field. Unless it would present a risk to security, the warning text describes the error and what the user should do to correct it. 
 <br><br>
-Third party scripts including the Disqus commenting widget, or other widgets that accept user input, may automatically detect errors but fail to present the errors to users in ways that they can perceive. They may rely on visual characteristics alone to indicate user input errors, or place error text in locations that are difficult for screen reader users to access. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
+Third party scripts including the Disqus commenting widget, or other widgets that accept user input, may automatically detect errors but fail to present the errors to users in ways that they can perceive. They may rely on visual characteristics alone to indicate user input errors, or place error text in locations that are difficult for screen reader users to access. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr valign="top">
@@ -1341,7 +1341,7 @@ Notes: This product has not been evaluated for WCAG 2.1 Level AAA conformance.
 | **Criteria**                                                   | **Conformance Level**    | **Remarks and Explanations** |
 | -------------------------------------------------------------- | ---------------------    | ---------------------------- |
 | 302.1 Without Vision                                           | Partially Supports       | The majority of content is marked up for Assistive Technology. Third party scripts may inject content with inadequate accessible alternatives. |
-| 302.2 With Limited Vision                                      | Partially Supports	    | Markup is written with support for assistive technology. Text is resizable by the user. Fonts are set as rems and use pixels as a fallback if not supported. The product does not impede the user from zooming into page. Third party scripts may inject content with inadequate accessibility support. |
+| 302.2 With Limited Vision                                      | Partially Supports	    | Markup is written with support for assistive technology. Text is resizable by the user. Fonts are set as rems and use pixels as a fallback if not supported. The product does not impede the user from zooming into the page. Third party scripts may inject content with inadequate accessibility support. |
 | 302.3 Without Perception of Color                              | Supports                 | Color perception is not needed to use this product. |
 | 302.4 Without Hearing                                          | Partially Supports       | Some but not all audio is supported by captions or transcripts.  |
 | 302.5 With Limited Hearing                                     | Partially Supports       | Some but not all audio is supported by captions or transcripts.  |
