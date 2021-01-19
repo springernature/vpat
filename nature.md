@@ -200,7 +200,7 @@ We currently have no method of confirming the inclusion - or not - of adequate m
 <td>
 We generally use progressive enhancement techniques and semantically-correct markup so that information, structure, and relationships can be understood independent of presentation.
 <br><br>
-The Nature subscription pages at <a href="https://www.nature.com/nature/subscribe">https://www.nature.com/nature/subscribe</a> currently contain sections of content marked up with inappropriate list and definition list semantics. They also contain elements that may be poorly-supported by client technology (<code>detail</code>), without using workarounds for the lack of support. We are actively working to repair these problems. 
+The Nature subscription pages at <a href="https://www.nature.com/nature/subscribe">https://www.nature.com/nature/subscribe</a> contain elements that may be poorly-supported by client technology (details/summary), without using workarounds for the lack of support. We are actively working to repair these problems. 
 <br><br>
 Articles or supplementary pages ("about this journal", help pages etc.) may use unsemantic markup, including inadequate, misleading, or missing headings. We are actively working to find and repair these problems. 
 <br><br>
