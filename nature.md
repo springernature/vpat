@@ -202,13 +202,11 @@ We generally use progressive enhancement techniques and semantically-correct mar
 <br><br>
 We make use of WAI-ARIA roles to support landmarks, and use WAI-ARIA roles and properties when required for more complex functionality such as popup menus and dialogs. 
 <br><br>
-The Nature subscription pages at <a href="https://www.nature.com/nature/subscribe">https://www.nature.com/nature/subscribe</a> contain elements that may be poorly-supported by client technology (details/summary), without using workarounds for the lack of support. We are actively working to repair these problems. 
-<br><br>
-Articles or supplementary pages ("about this journal", help pages etc.) may use unsemantic markup, including inadequate, misleading, or missing headings. When we become aware of content with these problems, we immediately take steps to repair the HTML.
+The Nature subscription pages at https://www.nature.com/nature/subscribe contain elements that may be poorly-supported by client technology (<code>details</code>/<code>summary</code>)
 <br><br>
 Some parts of the checkout flow and the "My Account" pages contain unsemantic markup, including out-of-sequence headings and incorrectly-applied landmarks. We are actively working to find and repair these problems. 
 <br><br>
-Some complex functionality may omit required WAI-ARIA roles, states, or attributes, or misuse WAI-ARIA markup and techniques. We are actively working to find and repair these problems. 
+Some functionality may omit required WAI-ARIA roles, states, or attributes, or misuse WAI-ARIA markup and techniques. We are actively working to find and repair these problems. 
 <br><br>
 Third party scripts may inject content with incorrect or absent information about structure and relationships. These include content in advertising scripts, in Disqus commenting widgets, and in the OneTrust "manage cookies" privacy centre, among others.
 </td>
