@@ -1,7 +1,7 @@
 # Nature Accessibility Conformance Report International Edition
 (Based on VPAT® Version 2.4)
 
-**Report Date**: 7th January 2021  
+**Report Date**: 23rd March 2021  
 **Name of Product/Version**: Nature.com _(we do not version our software)_  
 **Product Description**: 
 Nature.com publishes peer-reviewed research, reviews and news across a number of journals. This report refers entirely to the accessibility of editorial, journal, and magazine web documents published at the top level domain of <a href="http://www.nature.com">www.nature.com</a>, including informational pages, and to all web documents found at idp.nature.com and payment.nature.com (for account management and subscription and payment management respectively).  
