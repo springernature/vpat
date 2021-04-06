@@ -1088,11 +1088,7 @@ Third party content (e.g. advertising, customer services widgets) may inject ele
 <em>Revised Section 508 - does not apply</em>
 </td>
 <td>Partially Supports</td>
-<td>Additional content that becomes visible on hover is rare in this product. 
-<br><br>
-Magazine (not journal) articles include a “Show author information” tooltip on hovering over an author byline that does not meet this criterion. The tooltip displays non-vital information and access to it is not necessary to operate the “show more” functionality, which is mouse and keyboard activated. 
-<br><br>
-Additional content that becomes visible on focus is not used in this product. 
+<td>Additional content that becomes visible on hover or focus is rare in this product.
 <br><br>
 Third party content (e.g. advertising, customer services widgets) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
 </td>
