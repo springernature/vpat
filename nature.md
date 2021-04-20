@@ -1,13 +1,13 @@
 # Nature Accessibility Conformance Report International Edition
 (Based on VPAT® Version 2.4)
 
-**Report Date**: 7th January 2021  
+**Report Date**: 20th April 2021  
 **Name of Product/Version**: Nature.com _(we do not version our software)_  
 **Product Description**: 
 Nature.com publishes peer-reviewed research, reviews and news across a number of journals. This report refers entirely to the accessibility of editorial, journal, and magazine web documents published at the top level domain of <a href="http://www.nature.com">www.nature.com</a>, including informational pages, and to all web documents found at idp.nature.com and payment.nature.com (for account management and subscription and payment management respectively).  
 **Contact information**: Please contact your Institutional Sales representative.  
 **Notes**:  
-**Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature using a combination of static analysis tools and manual testing with assistive technologies.  
+**Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature using a combination of static analysis tools and manual testing with Assistive Technologies.  
 
 ## Applicable Standards/Guidelines
 
@@ -90,13 +90,13 @@ Tables 1 and 2 also document conformance with:
 <td>
 With rare exceptions, most images that we supply provide alternative text, or descriptions, or figure captions. We may use WAI-ARIA techniques to link some complex images with their descriptions if alternative text is unable to provide adequate context. We are working towards full support.  
 <br><br>
-Background images such as icons on user interface elements are generally identified with text labels. These may be visible, visually-hidden, or supplied using WAI-ARIA techniques.
+Background images such as icons on user interface elements are generally identified with visible text labels. Sometimes we may use visually-hidden text or WAI-ARIA techniques instead.
 <br><br>
 We mark up some images so that they can be ignored by Assistive Technologies if they are <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration"><i>pure decoration</i></a> (as defined by WCAG 2.1).
 <br><br>
 The Nature subscription pages at <a href="https://www.nature.com/nature/subscribe">https://www.nature.com/nature/subscribe</a> currently contain SVG images without text alternatives, and decorative SVG images that are not marked up to be ignored by Assistive Technologies. We are actively working to repair these problems. 
 <br><br>
-Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These include images in advertising scripts, in Disqus commenting widgets, and in the OneTrust "manage cookies" privacy centre. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
+Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These include images in advertising scripts, in Disqus commenting widgets, and in the OneTrust "manage cookies" privacy centre. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr valign="top">
@@ -200,15 +200,13 @@ We currently have no method of confirming the inclusion - or not - of adequate m
 <td>
 We generally use progressive enhancement techniques and semantically-correct markup so that information, structure, and relationships can be understood independent of presentation.
 <br><br>
-The Nature subscription pages at <a href="https://www.nature.com/nature/subscribe">https://www.nature.com/nature/subscribe</a> currently contain sections of content marked up with inappropriate list and definition list semantics. They also contain elements that may be poorly-supported by client technology (<code>detail</code>), without using workarounds for the lack of support. We are actively working to repair these problems. 
-<br><br>
-Articles or supplementary pages ("about this journal", help pages etc.) may use unsemantic markup, including inadequate, misleading, or missing headings. We are actively working to find and repair these problems. 
-<br><br>
-Some parts of the checkout flow and the "My Account" pages contain unsemantic markup, including out-of-sequence headings and and incorrectly-applied landmarks. We are actively working to find and repair these problems. 
-<br><br>
 We make use of WAI-ARIA roles to support landmarks, and use WAI-ARIA roles and properties when required for more complex functionality such as popup menus and dialogs. 
 <br><br>
-Some complex functionality may omit required WAI-ARIA roles, states, or attributes, or abuse WAI-ARIA markup and techniques. We are actively working to find and repair these problems. 
+The Nature subscription pages at https://www.nature.com/nature/subscribe contain elements that may be poorly-supported by client technology (<code>details</code>/<code>summary</code>)
+<br><br>
+Some parts of the checkout flow and the "My Account" pages contain unsemantic markup, including out-of-sequence headings and incorrectly-applied landmarks. We are actively working to find and repair these problems. 
+<br><br>
+Some functionality may omit required WAI-ARIA roles, states, or attributes, or misuse WAI-ARIA markup and techniques. When we become aware of content with these problems, we immediately take steps to repair the issues.
 <br><br>
 Third party scripts may inject content with incorrect or absent information about structure and relationships. These include content in advertising scripts, in Disqus commenting widgets, and in the OneTrust "manage cookies" privacy centre, among others.
 </td>
@@ -236,7 +234,7 @@ Third party scripts may inject content with incorrect or absent information abou
 <td>
 The meaning of the content in the pages of Nature.com does not depend on the order of the sections.
 <br><br>
-We use semantically-correct markup to allow assistive technologies to interpret the meaning of content and controls within each section.
+We use semantically-correct markup to allow Assistive Technologies to interpret the meaning of content and controls within each section.
 </td>
 </tr>
 <tr valign="top">
@@ -264,7 +262,7 @@ The pages of this product do not depend solely on sensory characteristics such a
 <br><br>
 Icons may be displayed to control functionality, but adjacent visible text labels or WAI-ARIA labels are also provided to ensure that relationships are available to Assistive Technologies.
 <br><br>
-Some complex images supplied by research authors may rely on sensory characteristics to be understood. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content. 
+Some complex images supplied by submission authors may rely on sensory characteristics to be understood. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content. 
 </td>
 </tr>
 <tr id="use-of-color" valign="top">
@@ -292,7 +290,7 @@ Colour alone is not used to convey information in the pages of this product.
 <br><br>
 Links and icons may use colour to indicate hover or active states. These are supplemented with visible focus rings and/or text decoration underlines and/or luminosity differences per WAI techniques <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G183">G183</a> and <a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C15">C15</a>.
 <br><br>
-Some complex images supplied by research authors may rely on colour as the only visual means of understanding information. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content. 
+Some complex images supplied by submission authors may rely on colour as the only visual means of understanding information. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content. 
 </td>
 </tr>
 <tr valign="top">
@@ -344,11 +342,11 @@ Third party advertisements may load video and audio that automatically starts, a
 Partially Supports
 </td>
 <td>
-The majority of components in Nature.com can be navigated by keyboard alone. Complex elements like flyout menus can be exited with the <kbd>esc</kbd> key. We also provide skip links for bypassing repetitive navigation elements.
+All first-party components in Nature.com can be navigated by keyboard alone. Complex elements like flyout menus can be exited with the <kbd>esc</kbd> key. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
 Third party advertising scripts may inject content that cannot be interacted with easily or at all by keyboard.
 <br><br>
-Other types of third party content such as JavaScript-based file viewers (e.g. Figshare), commenting systems, or customer services widgets may be difficult to use with keyboard alone. Where we know of deficiencies, we have contacted third party suppliers to request repairs. Additionally, where possible, we aim to provide equivalent alternatives to problematic content. 
+Other types of third party content such as JavaScript-based file viewers (e.g. Figshare), commenting systems, or customer services widgets may be difficult to use with keyboard alone. When we become aware of deficiencies, we contact third party suppliers to request repairs. Additionally, where possible, we aim to provide equivalent alternatives to problematic content. 
 </td>
 </tr>
 <tr valign="top">
@@ -372,9 +370,9 @@ Other types of third party content such as JavaScript-based file viewers (e.g. F
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Keyboard trapping inside components on Nature.com pages is fairly rare, and in most cases should be managed appropriately, allowing focus to be moved away from any component using standard keystrokes (<kbd>tab</kbd>, <kbd>shift</kbd>, <kbd>esc</kbd>). 
+Keyboard trapping inside components on Nature.com pages is rare, and in most cases is managed appropriately, allowing focus to be moved away from any component using standard keystrokes (<kbd>tab</kbd>, <kbd>shift</kbd>, <kbd>esc</kbd>). 
 <br><br>
-Third party content such as modal dialogs or the Disqus commenting widget may trap focus and provide inadequate methods of escaping. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
+Third party content such as modal dialogs or the Disqus commenting widget may trap focus and provide inadequate methods of escaping. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr id="character-key-shortcuts" valign="top">
@@ -438,7 +436,7 @@ Third party content such as modal dialogs or the Disqus commenting widget may tr
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Any moving, blinking or scrolling content on Nature.com generally does not start automatically, and is complemented by controls that allow users to pause or otherwise stop the content. Moving images in the form of gifs may not meet this criteria. 
+Any moving, blinking or scrolling content on Nature.com generally does not start automatically, and is complemented by controls that allow users to pause or otherwise stop the content. Moving images in the form of gifs may not meet this criterion.  
 <br><br>
 Automatically updating information is rare on Nature.com. The Disqus commenting widget may update new comments on screen automatically. If users are actively interacting with the widget, then new comments may be progressively disclosed to users at their request by activating a "load new comments" button. 
 <br><br>
@@ -488,7 +486,9 @@ Third party advertising scripts may inject content that automatically moves or b
 </ul></td>
 <td>Partially Supports</td>
 <td>
-We use semantically-correct markup so that Assistive Technology users can recognise elements and move around them accordingly. We make use of WAI-ARIA roles to support landmarks. We also provide skip links for bypassing repetitive navigation elements.
+We use semantically-correct markup so that Assistive Technology users can recognise elements and move around them accordingly. We make use of HTML and WAI-ARIA roles to support landmarks. We also provide skip links for bypassing repetitive navigation elements.
+<br><br>
+Some third party content, including the OneTrust “manage cookies” privacy banner and privacy center, may prevent users from being able to bypass repetitive information. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr valign="top">
@@ -564,11 +564,11 @@ Third party scripts including advertising scripts, the Disqus commenting widget,
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Generally, the purpose of each link that we provide can be determined by its descriptive text label; linked images or icons have alternative text or similar to provide this context. 
+Generally, the purpose of first party links can be determined by their descriptive text labels. Most linked images or icons have alternative text or supplementary text labels. 
 <br><br>
-In research articles, anchor links that refer to same-page supplementary figures or tables may have insufficient context in their link text. Repetitive links (e.g. "show more" or "view all" type links in lists of content) may not be differentiated from each other. In limited cases we may support poor link text with the use of WAI-ARIA labels. We are actively working to repair these problems. 
+In submitted articles, anchor links that refer to supplementary figures or tables may have insufficient context in their link text (e.g. figure numbers only). In limited cases we may support inadequate link text with the use of WAI-ARIA techniques. We are actively working to repair these problems. 
 <br><br>
-Third party scripts including advertising scripts, the Disqus commenting widget, or survey or customer services widgets (among others), may inject content that includes links with no accessible text, or poorly-named accessible text. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
+Third party scripts including advertising scripts, the Disqus commenting widget, survey or customer services widgets (among others), may inject content that includes links with no accessible text, or poorly-named accessible text. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr id="pointer-gestures" valign="top">
@@ -668,9 +668,9 @@ In most cases where controls contain visible text, that text is also the label f
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
-The majority of the pages in this product use the language attribute on the HTML element to specify the default language of a page. Some (e.g some pages in checkout flows) do not. We are actively working to repair these problems. 
+All of the pages in this product use the language attribute on the HTML element to specify the default language of a page.
 </td>
 </tr>
 <tr valign="top">
@@ -738,11 +738,11 @@ The majority of the pages in this product use the language attribute on the HTML
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Where user input errors are automatically detected in our own software, the items that are in error are identified to the user with warning text adjacent to the input field. We do not rely on visual characteristics alone (e.g. colour) to indicate user input errors. 
+Where user input errors are automatically detected by our own software, those errors are identified with warning text adjacent to the input field. We do not rely on visual characteristics alone (e.g. colour). 
 <br><br>
 Pages located at payment.nature.com rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states. 
 <br><br>
-Third party scripts including the Disqus commenting widget, or other widgets that accept user input, may automatically detect errors but fail to present the errors to users in text. They may rely on visual characteristics alone to indicate user input errors, or place error text in locations that are difficult for screen reader users to access. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
+Third party scripts including the Disqus commenting widget, or other widgets that accept user input, may automatically detect errors but fail to present the errors to users in text. They may rely on visual characteristics alone to indicate user input errors, or place error text in locations that are difficult for screen reader users to access. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr id="labels-or-instructions" valign="top">
@@ -766,11 +766,10 @@ Third party scripts including the Disqus commenting widget, or other widgets tha
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Generally, visible and appropriately associated labels are provided for input fields. In some cases, a visually-hidden label may be provided instead (e.g. the main search component in the page banner). 
+Generally, visible and appropriately associated labels are provided for input fields. In some cases, a visually-hidden label may be provided instead. 
 <br><br>
-Instructions such as those that explain mandatory fields may be absent or only present at the end of forms. (e.g. some payment information pages). Instructions for specific input fields may not be adequately associated (e.g. with WAI-ARIA) with the fields they describe. We are actively working to find and repair these problems. 
+Additional instructions for specific input fields may not be adequately associated (e.g. with WAI-ARIA) with the fields they describe. We are actively working to find and repair these problems. 
 <br><br>
-In rare cases, input fields may use only placeholder text as instruction, without associated labels or WAI-ARIA descriptions. We are actively working to find and repair these problems. 
 </td>
 </tr>
 <tr valign="top">
@@ -794,9 +793,7 @@ In rare cases, input fields may use only placeholder text as instruction, withou
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The pages of this product generally use semantically-correct markup that meets the HTML5 specification for interface elements.
-<br><br>
-Nature magazine and a limited number of journals publish editorial content from a content management system (CMS). Some journals may contain older editorial content hand-built in HTML, without the use of a dynamic templating system. Hand-built content or content generated by CMS may contain unclosed or illegally nested elements. When we become aware of content with these problems, we immediately take steps to repair the HTML.
+The pages of this product generally use semantically-correct markup that meets the HTML5 specification for interface elements. Some very old archived content may occasionally contain unclosed or illegally nested elements.
 <br><br>
 Third party advertising scripts may inject content that omits start and end tags, contains duplicate attributes or contains illegally nested elements. When we become aware of active advertisements with these problems, we immediately take steps to remove those advertisements from our pages.
 </td>
@@ -824,9 +821,9 @@ Third party advertising scripts may inject content that omits start and end tags
 <td>
 The pages of this product generally use standard HTML and WAI-ARIA attributes to describe the identity, operation, and state of user interface elements to Assistive Technologies.
 <br><br>
-In some cases, WAI-ARIA attributes have been omitted where they are required when client user agent support for a standard HTML5 feature is poor (e.g. in the "for individuals/post docs/students" disclosure area on subscription pages). In other cases WAI-ARIA roles or attributes may be misused in ways that cause elements to have misleading semantics. We are actively working to find and repair these problems. 
+WAI-ARIA attributes may be omitted where they would be useful, for example to support HTML5 features that are not widely supported by client technology. In other cases WAI-ARIA roles or attributes may be misused in ways that cause elements to have misleading semantics. We are actively working to find and repair these problems. 
 <br><br>
-Other third party scripts, including the Disqus commenting widget, may present interactive elements such as tooltips that lack adequate names and roles, making them difficult for screen reader users to access. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
+Other third party scripts, including the Disqus commenting widget, may present interactive elements such as tooltips that lack adequate names and roles, making them difficult for screen reader users to access. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 </tbody>
@@ -950,7 +947,7 @@ Some fields, including those on the login and registration forms, have the <code
 <td>
 Generally, all text and images of text supplied by us on the pages of this product have a contrast ratio of at least 4.5:1.
 <br><br>
-Some small print text in page footers may have insufficient contrast. Additionally, some placeholder text (e.g. on payment pages) may have insufficient contrast. We are actively working to find and repair these problems. 
+Some placeholder text (e.g. on payment pages) may have insufficient contrast. We are actively working to find and repair these problems. 
 <br><br>
 Third party advertising scripts may inject content with insufficient contrast.
 </td>
@@ -976,9 +973,9 @@ Third party advertising scripts may inject content with insufficient contrast.
 </ul></td>
 <td>Partially Supports</td>
 <td>
-All text on the pages of this product supplied by us can be resized up to 400% without loss of information or functionality.
+All first party text on the pages of this product can be resized up to 400% without loss of information or functionality.
 <br><br>
-Third party advertising scripts may inject non-responsive content that loses or obscures information when text is resized.
+Third party scripts may inject non-responsive content that loses or obscures information when text is resized.  The OneTrust “manage cookies” privacy centre uses fixed-height elements that may partially obscure content at higher magnifications.
 </td>
 </tr>
 <tr valign="top">
@@ -1090,12 +1087,8 @@ Third party content (e.g. advertising, customer services widgets) may inject ele
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td>Supports</td>
-<td>Additional content that becomes visible on hover is rare in this product. 
-<br><br>
-Magazine (not journal) articles include a tooltip on hovering over an author byline that does not meet this criterion. The tooltip displays non-vital information and access to it is not necessary to operate the "show more" functionality, which is mouse and keyboard activated. 
-<br><br>
-Additional content that becomes visible on focus is not used in this product. 
+<td>Partially Supports</td>
+<td>Additional content that becomes visible on hover or focus is rare in this product.
 <br><br>
 Third party content (e.g. advertising, customer services widgets) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
 </td>
@@ -1145,11 +1138,9 @@ Third party content (e.g. advertising, customer services widgets) may inject ele
 <td>
 Our document structure is semantically marked up using headings to create a sequential hierarchy of content. Sometimes headings or labels may be visually hidden but available to Assistive Technologies.
 <br><br>
-Nature magazine and a limited number of journals publish editorial content from a content management system (CMS). Content generated by CMS may lack appropriate headings (e.g. using bold text as implicit headings instead of semantically-marked up heading elements). 
+Nature magazine and a limited number of journals publish editorial content from a content management system (CMS). Content generated by CMS may occasionally lack appropriate headings (e.g. using bold text as implicit headings instead of semantically-marked up heading elements). 
 <br><br>
-Some parts of the product (e.g. some payment and "my account" pages) use inappropriate heading levels for visual effect. We are actively working to repair these problems. 
-<br><br>
-Other third party scripts, including survey or customer services widgets, may inject content with inadequate or inappropriate headings or labels. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
+Other third party scripts, including survey or customer services widgets, may inject content with inadequate or inappropriate headings or labels. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr id="focus-visible" valign="top">
@@ -1175,7 +1166,7 @@ Other third party scripts, including survey or customer services widgets, may in
 <td>
 Generally, we provide high-visibility yellow focus rings on all focusable elements. Some items (such as links) may use changes in text-decoration to indicate focus in addition to the focus ring.
 <br><br>
-Some pages (e.g. some payment or "my account" pages) use default focus rings only. In some of these pages, the default focus ring has been removed from input elements and replaced with a different focus style that provides inadequate visibility. We are actively working to repair these problems; the high-visibility focus ring across the majority of Nature.com is intended to be the default. 
+Some pages (e.g. some payment or “my account” pages) use default focus rings only. On some of these pages, the default focus ring has been removed from input elements and replaced with a different focus style that provides inadequate visibility. Some components on payment pages remove focus styles. We are actively working to repair these problems; the high-visibility focus ring across the majority of Nature.com is intended to be the default.
 <br><br>
 Pages that use older designs may use default focus rings only. 
 <br><br>
@@ -1202,11 +1193,13 @@ Third party scripts, including advertising, may inject components that remove fo
 <li>602.3 (Support Docs)</li>
 </ul></td>
 <td>Does Not Support</td>
-<td>All components on the pages of this product supplied by us as part of dynamic templates use the same language defined in the HTML <code>lang</code> attribute, therefore Language of Parts is not applicable for the majority of this product.
+<td>Language of Parts is not applicable for the majority of this content. All first-party components on the pages of this product that are part of dynamic templates are written in English.
 <br><br>
-Editorial content or published papers may include text in languages other than that defined in the HTML <code>lang</code> attribute. We currently have no method of confirming the inclusion - or not - of appropriate lang attributes for pieces of text in content that may use a different language to the main document. 
+Editorial content or published papers may be written in or include text in languages other than English. This content is not marked up with a separate <code>lang</code> attribute. 
 <br><br>
-Third party scripts may inject components that use a different language to the main document - for example a targeted advertisement or file presented in a file viewer (e.g. Figshare) may use the native language of the user. These may not be marked up with a separate <code>lang</code> attribute.
+Third party scripts may inject components with non-English text - for example a targeted advertisement or file presented in a file viewer (e.g. Figshare) may use a different language to the main document. These may not be marked up with a separate <code>lang</code> attribute.
+<br><br>
+We currently have no method of confirming the inclusion - or not - of appropriate lang attributes for pieces of text in content that may use a different language to the main document. We are actively working to provide appropriate <code>lang</code> attributes for articles and papers wholly written in languages other than English.
 </td>
 </tr>
 <tr valign="top">
@@ -1228,11 +1221,11 @@ Third party scripts may inject components that use a different language to the m
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs) – Does not apply to non-web docs</li>
 </ul></td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
-The Nature.com website contains content that is rendered in a number of different, inconsistent designs. The designs may have dramatically different navigation methods, within the same collections of pages. Supplementary content, such as informational pages adjunct to journal and editorial content, is more likely to be affected. 
+Navigational mechanisms that are repeated on multiple Web pages within the Nature.com website occur in the same relative order each time they are repeated. Although some older archive content on the Nature.com website may be rendered in older design templates, the navigation of each of these sets of pages is internally consistent.
 <br><br>
-Pages that deal with sensitive information (including payment pages and "my account" pages) have an intentionally stripped-down design, and do not share the same navigation system as the main site. The navigation of each of these sets of pages is internally consistent. 
+Pages that deal with sensitive information (including payment pages and "my account" pages) have intentionally been made more simple in design, and do not share the same navigation system as the main site. The navigation of each of these sets of pages is internally consistent. 
 </td>
 </tr>
 <tr valign="top">
@@ -1254,11 +1247,11 @@ Pages that deal with sensitive information (including payment pages and "my acco
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs) – Does not apply to non-web docs</li>
 </ul></td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
-The Nature.com website contains content that is rendered in a number of different, inconsistent designs, within the same collections of pages. Supplementary content, such as informational pages adjunct to journal and editorial content, is more likely to be affected. 
+Components that have the same functionality within a set of Web pages are identified consistently. Although some older archive content on the Nature.com website may be rendered in older design templates, the identification of components in each of these sets of pages is internally consistent.
 <br><br>
-Pages that deal with sensitive information (including payment pages and "my account" pages) have an intentionally stripped-down design. The presentation of each of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site. 
+Pages that deal with sensitive information (including payment pages and "my account" pages) have intentionally been made more simple in design. The presentation of each of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site. 
 </td>
 </tr>
 <tr valign="top">
@@ -1282,9 +1275,9 @@ Pages that deal with sensitive information (including payment pages and "my acco
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Where user input errors are automatically detected in our own software, the items that are in error are identified to the user with warning text adjacent to the input field. Unless it would present a risk to security, the warning text describes the error and what the user should do to correct it. 
+Where user input errors are automatically detected by our own software, those errors are identified with warning text adjacent to the input field. Unless it would present a risk to security, the warning text describes the error and what the user should do to correct it. 
 <br><br>
-Third party scripts including the Disqus commenting widget, or other widgets that accept user input, may automatically detect errors but fail to present the errors to users in ways that they can perceive. They may rely on visual characteristics alone to indicate user input errors, or place error text in locations that are difficult for screen reader users to access. Where we know of deficiencies, we have contacted third party suppliers to request repairs.
+Third party scripts including the Disqus commenting widget, or other widgets that accept user input, may automatically detect errors but fail to present the errors to users in ways that they can perceive. They may rely on visual characteristics alone to indicate user input errors, or place error text in locations that are difficult for screen reader users to access. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr valign="top">
@@ -1336,12 +1329,12 @@ Notes: This product has not been evaluated for WCAG 2.1 Level AAA conformance.
 
 ## Revised Section 508 Report
 
-### Chapter 3: [Functional Performance Criteria](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-3-functional-performance-criteria) (FPC)
+### Chapter 3: [Functional Performance Criteria](https://www.access-board.gov/ict/#chapter-3-functional-performance-criteria) (FPC)
 
 | **Criteria**                                                   | **Conformance Level**    | **Remarks and Explanations** |
 | -------------------------------------------------------------- | ---------------------    | ---------------------------- |
 | 302.1 Without Vision                                           | Partially Supports       | The majority of content is marked up for Assistive Technology. Third party scripts may inject content with inadequate accessible alternatives. |
-| 302.2 With Limited Vision                                      | Partially Supports	    | Markup is written with support for assistive technology. Text is resizable by the user. Fonts are set as rems and use pixels as a fallback if not supported. The product does not impede the user from zooming into page. Third party scripts may inject content with inadequate accessibility support. |
+| 302.2 With Limited Vision                                      | Partially Supports	    | Markup is written with support for assistive technology. Text is resizable by the user. Fonts are set as rems and use pixels as a fallback if not supported. The product does not impede the user from zooming into the page. Third party scripts may inject content with inadequate accessibility support. |
 | 302.3 Without Perception of Color                              | Supports                 | Color perception is not needed to use this product. |
 | 302.4 Without Hearing                                          | Partially Supports       | Some but not all audio is supported by captions or transcripts.  |
 | 302.5 With Limited Hearing                                     | Partially Supports       | Some but not all audio is supported by captions or transcripts.  |
@@ -1350,11 +1343,11 @@ Notes: This product has not been evaluated for WCAG 2.1 Level AAA conformance.
 | 302.8 With Limited Reach and Strength                          | Partially Supports       | This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Third party scripts may inject content that is difficult to use without a pointing device. |
 | 302.9 With Limited Language, Cognitive, and Learning Abilities | Partially Supports       | The pages of this product generally have a consistent presentation with clear labels, titles, and accessible names for controls. Third party scripts may inject content with inconsistent or absent labelling of interface components. |
 
-### Chapter 4: [Hardware](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-4-hardware)
+### Chapter 4: [Hardware](https://www.access-board.gov/ict/#chapter-4-hardware)
 
 Notes: This product is a web software application and is not subject to the requirements of this chapter.
 
-### Chapter 5: [Software](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-5-platforms-and-applications)
+### Chapter 5: [Software](https://www.access-board.gov/ict/#chapter-5-software)
 
 <table>
 <thead>
@@ -1407,7 +1400,7 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 <td>502.3.2 Modification of Object Information</td>
 <td>Partially Supports</td>
 <td>
-The pages of this product use standard HTML or WAI-ARIA object roles for maximum compatibility with assistive technologies.
+The pages of this product use standard HTML or WAI-ARIA object roles for maximum compatibility with Assistive Technologies.
 <br><br>
 See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships</a> and <a href="#name-role-value">4.1.2 Name, Role, Value</a> for further detail.
 </td>
@@ -1424,18 +1417,18 @@ Data tables in dynamic templates are rare, but where they do appear, they are ma
 <tr>
 <td>502.3.4 Values</td>
 <td>Supports</td>
-<td>The pages of this product use standard HTML or WAI-ARIA object attributes for maximum compatibility with assistive technologies.</td>
+<td>The pages of this product use standard HTML or WAI-ARIA object attributes for maximum compatibility with Assistive Technologies.</td>
 </tr>
 <tr>
 <td>502.3.5 Modification of Values</td>
 <td>Supports</td>
-<td>The pages of this product use standard HTML or WAI-ARIA object attributes for maximum compatibility with assistive technologies.</td>
+<td>The pages of this product use standard HTML or WAI-ARIA object attributes for maximum compatibility with Assistive Technologies.</td>
 </tr>
 <tr>
 <td>502.3.6 Label Relationships</td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
-Generally, the pages in this product use labels on components that require user input. Some exceptions exist. 
+The pages in this product use labels on components that require user input. 
 <br><br>
 See WCAG sections <a href="#headings-and-labels">2.4.6 Headings and Labels</a> and <a href="#labels-or-instructions">3.3.2 Labels or Instructions</a> for further detail.
 </td>
@@ -1466,15 +1459,15 @@ Original research or editorial content may contain images of text without adequa
 <tr>
 <td>502.3.10 List of Actions</td>
 <td>Supports</td>
-<td>The pages of this product use standard HTML or WAI-ARIA object attributes for maximum compatibility with assistive technologies.</td>
+<td>The pages of this product use standard HTML or WAI-ARIA object attributes for maximum compatibility with Assistive Technologies.</td>
 </tr>
 <tr>
 <td>502.3.11 Actions on Objects</td>
 <td>Partially Supports</td>
 <td>
-The pages of this product use standard HTML or WAI-ARIA object attributes for maximum compatibility with assistive technologies.
+The pages of this product use standard HTML or WAI-ARIA object attributes for maximum compatibility with Assistive Technologies.
 <br><br>
-Some third party scripts may inject content that cannot be interacted with easily or at all by keyboard or by some assistive technologies.
+Some third party scripts may inject content that cannot be interacted with easily or at all by keyboard or by some Assistive Technologies.
 <br><br>
 See WCAG section <a href="#keyboard">2.1.1 Keyboard</a> for further detail.
 </td>
@@ -1483,7 +1476,7 @@ See WCAG section <a href="#keyboard">2.1.1 Keyboard</a> for further detail.
 <td>502.3.12 Focus Cursor</td>
 <td>Partially Supports</td>
 <td>
-We provide focus styles on all focusable elements. Third party scripts may inject components that remove focus styles or alter focus in a way that makes them difficult to perceive by all users.
+We provide focus styles on most focusable elements. Third party scripts may inject components that remove focus styles or alter focus in a way that makes them difficult to perceive by all users.
 <br><br>
 See WCAG sections <a href="#use-of-color">1.4.1 Use of Color</a> and <a href="#focus-visible">2.4.7 Focus Visible</a> for further detail.
 </td>
@@ -1491,7 +1484,7 @@ See WCAG sections <a href="#use-of-color">1.4.1 Use of Color</a> and <a href="#f
 <tr>
 <td>502.3.13 Modification of Focus Cursor</td>
 <td>Supports</td>
-<td>The pages of this product use standard HTML elements and cursor controls for user input that may be overriden by assistive technology.</td>
+<td>The pages of this product use standard HTML elements and cursor controls for user input that may be overriden by Assistive Technology.</td>
 </tr>
 <tr>
 <td>502.3.14 Event Notification</td>
@@ -1574,7 +1567,7 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 </tbody>
 </table>
 
-### Chapter 6: [Support Documentation and Services](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-6-documentation-and-support-services)
+### Chapter 6: [Support Documentation and Services](https://www.access-board.gov/ict/#chapter-6-support-documentation-and-services)
 
 Notes: This report covers accessibility conformance for the web product and does not provide Documentation or Support Services.
 
@@ -1598,7 +1591,7 @@ Notes: This report covers accessibility conformance for the web product and does
 
 ### Chapter [5: Generic Requirements](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=23)
 
-Notes: This product supports standard web assistive technologies and is therefore not subject to the Closed Functionality criteria described in this chapter.
+Notes: This product supports standard web Assistive Technologies and is therefore not subject to the Closed Functionality criteria described in this chapter.
 
 ### Chapter [6: ICT with Two-Way Voice Communication](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=28) 
 
@@ -1641,7 +1634,7 @@ Notes: This product does not include non-web documents and is therefore not subj
 | ***11.3.1 Closed functionality (informative)***                                                   | -                                                                                        | -                                                                              |
 | ***11.3.2 Accessibility services***                                                               | -                                                                                        | -                                                                              |
 | ***11.3.2.1 Platform accessibility service support for software that provides a user interface*** | See 11.3.2.5 through 11.3.2.17                                                           | See information in 11.3.2.5 through 11.3.2.17                                  |
-| ***11.3.2.2 Platform accessibility service support for assistive technologies***                  | See 11.3.2.5 through 11.3.2.17                                                           | See information in 11.3.2.5 through 11.3.2.17                                  |
+| ***11.3.2.2 Platform accessibility service support for Assistive Technologies***                  | See 11.3.2.5 through 11.3.2.17                                                           | See information in 11.3.2.5 through 11.3.2.17                                  |
 | 11.3.2.3 Use of accessibility services                                                            | Supports                                                                                 | This product supports standard platform accessibility services.                |
 | 11.3.2.4 Assistive technology                                                                     | Not Applicable                                                                           | This product is not an assistive technology.                                   |
 | 11.3.2.5 Object information                                                                       | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.1 and 502.3.2 |
@@ -1678,4 +1671,4 @@ Notes: This product does not provide any relay services, or access for Emergency
 
 ## Legal Disclaimer (Springer Nature)
 
-This document is provided for information purposes only and the contents hereof are subject to change without notice. Springer Nature does not warrant that this document is error free, nor does it provide any other warranties or conditions, whether expressed orally or implied in law, including implied warranties and conditions of merchantability or fitness for a particular purpose. Springer Nature specifically disclaims any liability with respect to this document and no contractual obligations are formed either directly or indirectly by this document. Springer Nature further makes no representation concerning the ability of assistive technologies or other products to interoperate with Springer Nature products. This document addresses the named product(s) or platforms only.
+This document is provided for information purposes only and the contents hereof are subject to change without notice. Springer Nature does not warrant that this document is error free, nor does it provide any other warranties or conditions, whether expressed orally or implied in law, including implied warranties and conditions of merchantability or fitness for a particular purpose. Springer Nature specifically disclaims any liability with respect to this document and no contractual obligations are formed either directly or indirectly by this document. Springer Nature further makes no representation concerning the ability of Assistive Technologies or other products to interoperate with Springer Nature products. This document addresses the named product(s) or platforms only.
