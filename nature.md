@@ -1195,11 +1195,11 @@ Third party scripts, including advertising, may inject components that remove fo
 <td>Does Not Support</td>
 <td>Language of Parts is not applicable for the majority of this content. All first-party components on the pages of this product that are part of dynamic templates are written in English.
 <br><br>
-Editorial content or published papers may include text in languages other than English. 
+Editorial content or published papers may be written in or include text in languages other than English. This content is not marked up with a separate <code>lang</code> attribute. 
 <br><br>
 Third party scripts may inject components with non-English text - for example a targeted advertisement or file presented in a file viewer (e.g. Figshare) may use a different language to the main document. These may not be marked up with a separate <code>lang</code> attribute.
 <br><br>
-We currently have no method of confirming the inclusion - or not - of appropriate lang attributes for pieces of text in content that may use a different language to the main document.
+We currently have no method of confirming the inclusion - or not - of appropriate lang attributes for pieces of text in content that may use a different language to the main document. We are actively working to provide appropriate <code>lang</code> attributes for articles and papers wholly written in languages other than English.
 </td>
 </tr>
 <tr valign="top">
@@ -1329,7 +1329,7 @@ Notes: This product has not been evaluated for WCAG 2.1 Level AAA conformance.
 
 ## Revised Section 508 Report
 
-### Chapter 3: [Functional Performance Criteria](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-3-functional-performance-criteria) (FPC)
+### Chapter 3: [Functional Performance Criteria](https://www.access-board.gov/ict/#chapter-3-functional-performance-criteria) (FPC)
 
 | **Criteria**                                                   | **Conformance Level**    | **Remarks and Explanations** |
 | -------------------------------------------------------------- | ---------------------    | ---------------------------- |
@@ -1343,11 +1343,11 @@ Notes: This product has not been evaluated for WCAG 2.1 Level AAA conformance.
 | 302.8 With Limited Reach and Strength                          | Partially Supports       | This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Third party scripts may inject content that is difficult to use without a pointing device. |
 | 302.9 With Limited Language, Cognitive, and Learning Abilities | Partially Supports       | The pages of this product generally have a consistent presentation with clear labels, titles, and accessible names for controls. Third party scripts may inject content with inconsistent or absent labelling of interface components. |
 
-### Chapter 4: [Hardware](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-4-hardware)
+### Chapter 4: [Hardware](https://www.access-board.gov/ict/#chapter-4-hardware)
 
 Notes: This product is a web software application and is not subject to the requirements of this chapter.
 
-### Chapter 5: [Software](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-5-platforms-and-applications)
+### Chapter 5: [Software](https://www.access-board.gov/ict/#chapter-5-software)
 
 <table>
 <thead>
@@ -1567,7 +1567,7 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 </tbody>
 </table>
 
-### Chapter 6: [Support Documentation and Services](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-6-documentation-and-support-services)
+### Chapter 6: [Support Documentation and Services](https://www.access-board.gov/ict/#chapter-6-support-documentation-and-services)
 
 Notes: This report covers accessibility conformance for the web product and does not provide Documentation or Support Services.
 
