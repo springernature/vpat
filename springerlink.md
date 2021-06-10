@@ -1,12 +1,12 @@
 # SpringerLink Accessibility Conformance Report International Edition 
 (Based on VPAT® Version 2.4)
 
-**Report Date**: 7th January 2021   
+**Report Date**: 10th June 2021  
 **Name of Product/Version**: SpringerLink _(we do not version our software)_  
 **Product Description**: SpringerLink provides researchers with access to scientific documents from journals, books, series, protocols, reference works and proceedings. This report refers entirely to the accessibility of all web documents published at the subdomains link.springer.com and rd.springer.com (both subdomains are referred to as link.springer.com throughout this report), including informational pages, and all web documents found at checkout.springer.com and order.springer.com.  
  **Contact information**: Please contact your Institutional Sales representative.   
  **Notes**:   
-**Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature using a combination of static analysis tools and manual testing with Assistive Technologies.  
+**Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature's dedicated Accessibility Specialists. We use a combination of static analysis tools (including but not limited to Axe, WAVE, and all of the tools described in our [Frontend Playbook](https://github.com/springernature/frontend-playbook/blob/main/accessibility/tools.md)). Additionally, we perform manual testing (also described in our Frontend Playbook under the "Manual testing" and "Assistive technology" sections).  
 
 ## Applicable Standards/Guidelines
 
