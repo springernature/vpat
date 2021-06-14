@@ -6,7 +6,8 @@
 **Product Description**: \!INSERT PRODUCT DESCRIPTION\!  
 **Contact information**: Please contact your Institutional Sales representative.  
 **Notes**:  
-**Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature using a combination of static analysis tools and manual testing with assistive technologies.  
+**Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature's dedicated Accessibility Specialists. We use a combination of static analysis tools (including but not limited to Axe, WAVE, and all of the tools described in our [Frontend Playbook's Accessibility Guide](https://github.com/springernature/frontend-playbook/blob/main/accessibility/tools.md)). Additionally, we perform manual testing (also described in our Frontend Playbook under the "Manual testing" and "Assistive technology" sections).  
+
 
 ## Applicable Standards/Guidelines
 
