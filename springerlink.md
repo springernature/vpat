@@ -1,5 +1,5 @@
 # SpringerLink Accessibility Conformance Report International Edition 
-(Based on VPAT® Version 2.4)
+(Based on VPAT® Version 2.4Rev)
 
 **Report Date**: 9th August 2021  
 **Name of Product/Version**: SpringerLink _(we do not version our software)_  
@@ -19,19 +19,19 @@ This report covers the degree of conformance for the following accessibility sta
 <td nowrap><strong>Included In Report</strong></td>
 </tr>
 <tr>
-<td>Web Content Accessibility Guidelines 2.0, at <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/">http://www.w3.org/TR/2008/REC-WCAG20-20081211/</a></td>
+<td><a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/">Web Content Accessibility Guidelines 2.0</a></td>
 <td nowrap>Level A &nbsp; – &nbsp; <strong>Yes</strong><br>Level AA &nbsp; – &nbsp; <strong>Yes</strong><br>Level AAA &nbsp; – &nbsp; <strong>No</strong></td>
 </tr>
 <tr>
-<td>Web Content Accessibility Guidelines 2.1, at <a href="https://www.w3.org/TR/WCAG21">https://www.w3.org/TR/WCAG21</a></td>
+<td><a href="https://www.w3.org/TR/WCAG21">Web Content Accessibility Guidelines 2.1</a></td>
 <td nowrap>Level A &nbsp; – &nbsp; <strong>Yes</strong><br>Level AA &nbsp; – &nbsp; <strong>Yes</strong><br>Level AAA &nbsp; – &nbsp; <strong>No</strong></td>
 </tr>
 <tr>
-<td><a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines">Revised Section 508 standards</a> published January 18, 2017 and corrected January 22, 2018 </td>
+<td><a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines">Revised Section 508 standards published January 18, 2017 and corrected January 22, 2018</a></td>
 <td nowrap><strong>Yes</strong></td>
 </tr>
 <tr>
-<td>EN 301 549 Accessibility requirements suitable for public procurement of ICT products and services in Europe, - V3.1.1 (2019-11) at <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf">https://www.etsi.org/[...]/en_301549v030101p.pdf</a></td>
+<td><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf">EN 301 549 Accessibility requirements for ICT products and services - V3.1.1 (2019-11)</a><i>AND</i><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549 Accessibility requirements for ICT products and services - V3.2.1 (2021-03)</a></td>
 <td nowrap><strong>Yes</strong></td>
 </tr>
 </tbody>
@@ -1763,7 +1763,7 @@ Notes: This product is a web software application and is not subject to the requ
 
 Notes: Please see [WCAG 2.1 section](#WCAG).
 
-### Chapter [10: Non-web Documents](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=43)
+### Chapter [10: Non-web Documentation](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52)
 
 Notes: This product does not include non-web documents and is therefore not subject to the requirements of this chapter.
 
