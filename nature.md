@@ -97,7 +97,7 @@ We mark up some images so that they can be ignored by Assistive Technologies if 
 <br><br>
 The Nature subscription pages at <a href="https://www.nature.com/nature/subscribe">https://www.nature.com/nature/subscribe</a> currently contain SVG images without text alternatives, and decorative SVG images that are not marked up to be ignored by Assistive Technologies. We are actively working to repair these problems. 
 <br><br>
-Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These include images in advertising scripts, in Disqus commenting widgets, and in the OneTrust "manage cookies" privacy centre. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These include images in advertising scripts, in Disqus commenting widgets. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr valign="top">
@@ -209,7 +209,7 @@ Some parts of the checkout flow and the "My Account" pages contain unsemantic ma
 <br><br>
 Some functionality may omit required WAI-ARIA roles, states, or attributes, or misuse WAI-ARIA markup and techniques. When we become aware of content with these problems, we immediately take steps to repair the issues.
 <br><br>
-Third party scripts may inject content with incorrect or absent information about structure and relationships. These include content in advertising scripts, in Disqus commenting widgets, and in the OneTrust "manage cookies" privacy centre, among others.
+Third party scripts may inject content with incorrect or absent information about structure and relationships. These include content in advertising scripts, in Disqus commenting widgets, among others.
 </td>
 </tr>
 <tr valign="top">
@@ -489,7 +489,7 @@ Third party advertising scripts may inject content that automatically moves or b
 <td>
 We use semantically-correct markup so that Assistive Technology users can recognise elements and move around them accordingly. We make use of HTML and WAI-ARIA roles to support landmarks. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
-Some third party content, including the OneTrust “manage cookies” privacy banner and privacy center, may prevent users from being able to bypass repetitive information. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+Some third party content, may prevent users from being able to bypass repetitive information. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr valign="top">
@@ -976,7 +976,7 @@ Third party advertising scripts may inject content with insufficient contrast.
 <td>
 All first party text on the pages of this product can be resized up to 400% without loss of information or functionality.
 <br><br>
-Third party scripts may inject non-responsive content that loses or obscures information when text is resized.  The OneTrust “manage cookies” privacy centre uses fixed-height elements that may partially obscure content at higher magnifications.
+Third party scripts may inject non-responsive content that loses or obscures information when text is resized.
 </td>
 </tr>
 <tr valign="top">
