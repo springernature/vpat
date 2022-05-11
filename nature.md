@@ -125,7 +125,7 @@ Nature.com has a diverse mix of multimedia content, both self-hosted and hosted 
 <br><br>
 Audio-only content may be used to support text-based content. Audio-only content may also be used in Podcasts across various journals. Some but not all podcasts provide transcripts. 
 <br><br>
-We currently have no method of confirming the inclusion - or not - of adequate media alternatives or transcripts. 	
+We currently have no method of confirming the inclusion of adequate media alternatives or transcripts. 	
 </td>
 </tr>
 <tr valign="top">
@@ -149,7 +149,7 @@ We currently have no method of confirming the inclusion - or not - of adequate m
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Nature.com has a diverse mix of multimedia content, both self-hosted and hosted on third party sites. Captions and/or transcripts may be provided for some pre-recorded content, but we currently have no method of confirming the inclusion - or not - of transcripts or captions. 
+Nature.com has a diverse mix of multimedia content, both self-hosted and hosted on third party sites. Captions and/or transcripts may be provided for some pre-recorded content, but we currently have no method of confirming the inclusion of transcripts or captions. 
 </td>
 </tr>
 <tr valign="top">
@@ -175,7 +175,7 @@ Nature.com has a diverse mix of multimedia content, both self-hosted and hosted 
 <td>
 Nature.com has a diverse mix of multimedia content, both self-hosted and hosted on third party sites. Audio description is not generally used across our content, but some media may provide media alternatives such as text descriptions of video content. 
 <br><br>
-We currently have no method of confirming the inclusion - or not - of adequate media alternatives.
+We currently have no method of confirming the inclusion of adequate media alternatives.
 </td>
 </tr>
 <tr id="info-and-relationships" valign="top">
@@ -694,7 +694,7 @@ All of the pages in this product use the language attribute on the HTML element 
 <li>602.3 (Support Docs)</li>
 </ul></td>
 <td>Supports</td>
-<td>Components in the interface of the pages of this product that receive focus do not initiate a change of context.</td>
+<td>Components in the interface of the pages that receive focus do not initiate a change of context.</td>
 </tr>
 <tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-unpredictable-change"><strong>3.2.2 On Input</strong></a> (Level A)
@@ -716,7 +716,7 @@ All of the pages in this product use the language attribute on the HTML element 
 <li>602.3 (Support Docs)</li>
 </ul></td>
 <td>Supports</td>
-<td>Changing the setting of any user interface component does not automatically cause a change of context on any of the pages of this product.</td>
+<td>Changing the setting of any user interface component does not automatically cause a change of context on any of the pages.</td>
 </tr>
 <tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-identified"><strong>3.3.1 Error Identification</strong></a> (Level A)
@@ -883,7 +883,7 @@ Other third party scripts, including the Disqus commenting widget, may present i
 <li>602.3 (Support Docs)</li>
 </ul></td>
 <td>Does Not Support</td>
-<td>We do not generally provide audio description for prerecorded video. A limited form of audio description may be provided for some pre-recorded content, but we currently have no method of confirming the inclusion - or not - of audio description. </td>
+<td>We do not generally provide audio description for prerecorded video. A limited form of audio description may be provided for some pre-recorded content, but we currently have no method of confirming the inclusion of audio description. </td>
 </tr>
 <tr id="orientation" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#orientation"><strong>1.3.4 Orientation</strong></a> (Level AA 2.1 only)
@@ -1200,7 +1200,7 @@ Editorial content or published papers may be written in or include text in langu
 <br><br>
 Third party scripts may inject components with non-English text - for example a targeted advertisement or file presented in a file viewer (e.g. Figshare) may use a different language to the main document. These may not be marked up with a separate <code>lang</code> attribute.
 <br><br>
-We currently have no method of confirming the inclusion - or not - of appropriate lang attributes for pieces of text in content that may use a different language to the main document. We are actively working to provide appropriate <code>lang</code> attributes for articles and papers wholly written in languages other than English.
+We currently have no method of confirming the inclusion of appropriate lang attributes for pieces of text in content that may use a different language to the main document. We are actively working to provide appropriate <code>lang</code> attributes for articles and papers wholly written in languages other than English.
 </td>
 </tr>
 <tr valign="top">
