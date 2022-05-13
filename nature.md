@@ -489,7 +489,7 @@ Third party advertising scripts may inject content that automatically moves or b
 <td>
 We use semantically-correct markup so that Assistive Technology users can recognise elements and move around them accordingly. We make use of HTML and WAI-ARIA roles to support landmarks. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
-Some third party content, may prevent users from being able to bypass repetitive information. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+Some third party content, for example embedded widgets that provide alternative means of exploring data, may prevent users from being able to bypass repetitive information. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr valign="top">
