@@ -209,7 +209,7 @@ Some parts of the checkout flow and the "My Account" pages contain unsemantic ma
 <br><br>
 Some functionality may omit required WAI-ARIA roles, states, or attributes, or misuse WAI-ARIA markup and techniques. When we become aware of content with these problems, we immediately take steps to repair the issues.
 <br><br>
-Third party scripts may inject content with incorrect or absent information about structure and relationships. These include content in advertising scripts, in Disqus commenting widgets, among others.
+Third party scripts may inject content with incorrect or absent information about structure and relationships. These include content in advertising scripts and in Disqus commenting widgets, among others.
 </td>
 </tr>
 <tr valign="top">
