@@ -976,7 +976,7 @@ Third party advertising scripts may inject content with insufficient contrast.
 <td>
 All first party text on the pages of this product can be resized up to 400% without loss of information or functionality.
 <br><br>
-Third party scripts may inject non-responsive content that loses or obscures information when text is resized.
+Third party scripts (for example advertisements) may inject non-responsive content that loses or obscures information when text is resized.
 </td>
 </tr>
 <tr valign="top">
