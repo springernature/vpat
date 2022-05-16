@@ -93,7 +93,7 @@ Some images, such as icons on user interface elements, are known to have inadequ
 <br><br>
 We mark up some images so that they can be ignored by Assistive Technologies if they are <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration"><i>pure decoration</i></a> (as defined by WCAG 2.1).
 <br><br>
-Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These may include images in advertising scripts, and in the OneTrust "manage cookies" privacy centre. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These may include images in advertising scripts. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr id="audio-only-and-video-only-prerecorded" valign="top">
@@ -217,7 +217,7 @@ Pages found at order.springer.com omit or use inappropriate headings and heading
 <br><br>
 Pages found at order.springer.com use form fields that rely solely on built-in browser error checking, which can lead to error messages being unavailable for users with older browser technology, or Assistive Technology that doesn't support these features. 
 <br><br>
-Third party scripts may inject content with incorrect or absent information about structure and relationships. These may include content in advertising scripts, in the Freshdesk customer services widget, and in the OneTrust "manage cookies" privacy centre, among others.
+Third party scripts may inject content with incorrect or absent information about structure and relationships. These may include content in advertising scripts, in the Freshdesk customer services widget, among others.
 </td>
 </tr>
 <tr id="meaningful-sequence" valign="top">
