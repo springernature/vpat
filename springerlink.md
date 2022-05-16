@@ -3,7 +3,7 @@
 
 **Report Date**: 9th August 2021  
 **Name of Product/Version**: SpringerLink _(we do not version our software)_  
-**Product Description**: SpringerLink provides researchers with access to scientific documents from journals, books, series, protocols, collections, reference works and proceedings. This report refers entirely to the accessibility of all web documents published at the subdomains link.springer.com and rd.springer.com (both subdomains are referred to as link.springer.com throughout this report), including informational pages, and all web documents found at checkout.springer.com and order.springer.com.  
+**Product Description**: SpringerLink provides researchers with access to scientific documents from journals, books, series, protocols, collections, reference works and proceedings. This report refers entirely to the accessibility of all web documents published at the subdomains link.springer.com and rd.springer.com (both subdomains are referred to as link.springer.com throughout this report), including informational pages, and all web documents found at order.springer.com.  
  **Contact information**: Please contact your Institutional Sales representative.   
  **Notes**:   
 **Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature's dedicated Accessibility Specialists. We use a combination of static analysis tools (including but not limited to Axe, WAVE, and all of the tools described in our [Frontend Playbook's Accessibility Guide](https://github.com/springernature/frontend-playbook/blob/main/accessibility/tools.md)). Additionally, we perform manual testing (also described in our Frontend Playbook under the "Manual testing" and "Assistive technology" sections).  
@@ -92,12 +92,6 @@ Most in-line images supplied in article content provide alternative text, or des
 Some images, such as icons on user interface elements, are known to have inadequate or missing text alternatives. We are actively working to find and repair these problems. 
 <br><br>
 We mark up some images so that they can be ignored by Assistive Technologies if they are <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration"><i>pure decoration</i></a> (as defined by WCAG 2.1).
-<br><br>
-The SpringerLink checkout process pages are rendered in two separate designs. We are in the process of transferring all content from the older design (located at checkout.springer.com) to the newer design (located at order.springer.com). 
-<br><br>
-The <strong>old</strong> checkout design at checkout.springer.com presents inline images with no alternative text. Background images that are used to convey meaning (e.g. images to signify which credit cards we accept) are not supplemented with text or accessible names and cannot be perceived by users of Assistive Technology. Icon fonts are used in these pages that are not hidden from Assistive Technology; in some user agents, these may be inappropriately announced (e.g. the "cart" icon on the checkout button). The "remove from cart" button has no accessible name and cannot be understood by users of Assistive Technology. 
-<br><br>
- The <strong>new</strong> checkout design at order.springer.com resolves all of the issues noted above.
 <br><br>
 Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These may include images in advertising scripts, and in the OneTrust "manage cookies" privacy centre. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
@@ -217,17 +211,11 @@ We make use of WAI-ARIA roles to support landmarks, and use WAI-ARIA roles and p
 <br><br>
 Some complex functionality may omit required WAI-ARIA roles, states, or attributes, or misuse WAI-ARIA markup and techniques. We are actively working to find and repair these problems. 
 <br><br>
-Multiple landmarks of the same type without unique labels are used on pages rendered in both designs. 
+Multiple landmarks of the same type without unique labels are used on pages rendered in both designs.  
 <br><br>
-The SpringerLink checkout process pages are rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
+Pages found at order.springer.com omit or use inappropriate headings and heading levels, including the use of unsemantic headings for visual effect. Multiple landmarks of the same type without unique labels are also found on these pages. 
 <br><br>
-Pages found at both checkout.springer.com and order.springer.com omit or use inappropriate headings and heading levels, including the use of unsemantic headings for visual effect. Multiple landmarks of the same type without unique labels are also found on these pages. 
-<br><br>
-Pages found at checkout.springer.com (<strong>older</strong> design) misapply HTML elements (e.g. label elements used for error messages), which may make it difficult for users of Assistive Technology to understand the structure and purpose of individual components. Some landmarks are incorrectly duplicated. 
-<br><br>
-Pages found at order.springer.com (<strong>newer</strong> design) use form fields that rely solely on built-in browser error checking, which can lead to error messages being unavailable for users with older browser technology, or Assistive Technology that doesn't support these features. 
-<br><br>
-Some custom interactive components found at checkout.springer.com (<strong>older</strong> design) are marked up unsemantically, which prevents them from being used by keyboard alone and from being recognised by Assistive Technology (e.g. the "login" and language selection components at the top of each page).
+Pages found at order.springer.com use form fields that rely solely on built-in browser error checking, which can lead to error messages being unavailable for users with older browser technology, or Assistive Technology that doesn't support these features. 
 <br><br>
 Third party scripts may inject content with incorrect or absent information about structure and relationships. These may include content in advertising scripts, in the Freshdesk customer services widget, and in the OneTrust "manage cookies" privacy centre, among others.
 </td>
@@ -284,8 +272,6 @@ We make use of graphical icons on controls. Adjacent visible text labels or WAI-
 Some icons (e.g. "next" and "previous" pagination controls on search results pages) in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) lack accessible names. Users who are unable to perceive these icons by their sensory characteristics may be unable to use these controls. We are in the process of transferring all content from the older design to the newer design, which will remove the reliance on sensory characteristics for understanding. 
 <br><br>
 Some complex images in journals, books, series, protocols, reference works and proceedings may rely on sensory characteristics to be understood. Examples may include images of charts, graphs, diagrams, or maps. Generally, these images are used to supplement text content. 
-<br><br>
-Images found at checkout.springer.com (<strong>older</strong> design) that are used to convey meaning (e.g. images to signify which credit cards we accept) are not supplemented with text and cannot be perceived by users of Assistive Technology. These issues are resolved in the new version of the checkout process design at order.springer.com; we are in the process of transferring all checkout content to the new design. 
 <br><br>
 The Freshdesk customer services widget uses controls without accessible names. We are actively working to solve this problem. Additionally, we have provided alternate means of accessing customer services on our "Contact Us" page, including a contact email address, a support ticket system, and helpdesk telephone numbers.
 </td>
@@ -383,13 +369,7 @@ Video content located at link.springer.com/video can generally be operated witho
 
 Video content elsewhere (e.g. chapters or articles) cannot currently be operated with the keyboard. We are actively working to repair this problem. 
 <br><br>
-The SpringerLink checkout process pages are rendered in two separate designs. We are in the process of transferring all content from the older design (located at checkout.springer.com) to the newer design (located at order.springer.com). 
-<br><br>
-At checkout.springer.com, mouse-dependent event handlers are used to display detailed information about sales tax for purchases, although the subtotals and totals are displayed to all users at all times. 
-<br><br>
-Some components on pages located at checkout.springer.com can’t used by keyboard alone (e.g. the “login” and language selection components at the top of each page).
-<br><br>
-All components on pages located at order.springer.com can be operated by keyboard alone. We are in the process of transferring all checkout content to this new design. 
+All components on pages located at order.springer.com can be operated by keyboard alone.
 <br><br>
 Third party advertising scripts may inject content that cannot be interacted with easily or at all by keyboard.
 <br><br>
@@ -535,7 +515,7 @@ Third party advertising scripts may inject content that automatically moves or b
 <td>
 The pages found at link.springer.com generally use semantically-correct markup so that Assistive Technology users can recognise elements and move around them accordingly. We make use of WAI-ARIA roles to support landmarks. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
-Pages located at both checkout.springer.com (<strong>older</strong> design) and order.springer.com (<strong>newer</strong> design) have landmarks present. Some are duplicated without unique labels. Some landmarks found at checkout.springer.com are malformed, and may be difficult to use. 
+Pages located at order.springer.com have landmarks present. Some are duplicated without unique labels.
 </td>
 </tr>
 <tr id="page-titled" valign="top">
@@ -593,9 +573,7 @@ Some pages rendered in the <strong>older</strong> design may contain components 
 <br><br>
 On pages rendered in the <strong>newer</strong> design (currently articles, chapters, books, book series, reference works, reference work entries, and collections), the focus order of page content matches the visual order.
 <br><br>
-Some pages located at checkout.springer.com (<strong>older</strong> design) contain components where the focus order does not match the visual order (for example the "terms" link on the registration page visually appears at the bottom of the registration form, but appears directly after the page header in the source/focus order).
-<br><br>
-Form labels located at order.springer.com (<strong>newer</strong>) are placed after their associated form fields in the source order, which does not match the visual order. Screen reader users moving through the form element by element may access the label after the input field instead of before, though all input fields are correctly associated with their labels. 
+Form labels located at order.springer.com are placed after their associated form fields in the source order, which does not match the visual order. Screen reader users moving through the form element by element may access the label after the input field instead of before, though all input fields are correctly associated with their labels. 
 <br><br>
 Third party scripts including advertising scripts or customer services widgets (among others), may inject content where the focus order does not match the visual order. The operation and meaning of these components should be unaffected by the focus order. 
 </td>
@@ -626,8 +604,6 @@ Generally, the purpose of each link found at link.springer.com can be determined
 When citing references in articles, the link text contains only the year of the reference's publication. This may provide inadequate context for screen reader users. A title attribute is provided on these links, but the title attribute may not be made available by all Assistive Technologies.
 <br><br>
 In articles, anchor links that refer to same-page supplementary figures or tables use only the number of the supplementary material as their link text (e.g. "Figure 1" will be linked to only by the number "1"). This is likely to be insufficient context for screen reader users. 
-<br><br>
-Images located at checkout.springer.com (<strong>older</strong> design) lack accessible text, and do not provide adequate context when they are used as links. These issues are resolved in the new version of the checkout process design at order.springer.com; we are in the process of transferring all checkout content to the new design. 
 <br><br>
 Third party scripts including advertising scripts or customer services widgets (among others), may inject content that includes links with no accessible text, or poorly-named accessible text. When we become aware of deficiencies, we contact third party suppliers to request repairs or are actively seeking solutions. Additionally, where possible, we aim to provide equivalent alternatives to problematic content.
 </td>
@@ -736,8 +712,6 @@ The SpringerLink website contains content that is rendered in two separate desig
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) may be switched by the user between English and German. These pages use the language attribute on the HTML element to indicate which language is being used as the default language of a page. 
 <br><br>
 Pages rendered in the <strong>newer</strong> design (currently articles, chapters, books, book series, reference works, reference work entries, and collections) are presented in English only, with the correct language attribute applied to the HTML element. 
-<br><br>
-Pages located at checkout.springer.com (<strong>older</strong> design) may also be switched by the user between English and German. These pages use the language attribute on the HTML element, but incorrectly present the default language of the page as English at all times (i.e. even when the user selects German). The new version of the checkout process design at order.springer.com is presented in English only, so this criterion does not apply; we are in the process of transferring all checkout content to the new design. 
 </td>
 </tr>
 <tr id="on-focus" valign="top">
@@ -809,9 +783,9 @@ Where user input errors are automatically detected by our own software, those er
 <br><br>
 In some parts of the site, we additionally use an <code>aria-describedby</code> property to associate error messages with invalid fields.
 <br><br>
-User account pages located at link.springer.com/account and pages located at checkout.springer.com (<strong>older</strong> design) use unsemantic, unassociated, label elements to mark up errors. 
+User account pages located at link.springer.com/account use unsemantic, unassociated, label elements to mark up errors. 
 <br><br>
-Pages located at order.springer.com (<strong>newer</strong> design) rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states. 
+Pages located at order.springer.com rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states. 
 </td>
 </tr>
 <tr id="labels-or-instructions" valign="top">
@@ -875,9 +849,7 @@ Pages rendered in the <strong>older</strong> design (currently journals, and anc
 <br><br>
 Ancillary static pages (e.g. the pages linked to at the footer of each page, such as Terms and Conditions, Legal Information, and Accessibility, among others) are hand-built in HTML, without the use of a dynamic templating system. Hand-built content may contain unclosed or illegally nested elements. When we become aware of content with these problems, we immediately take steps to repair the HTML.
 <br><br>
-Pages located at checkout.springer.com (<strong>older</strong> design) contain minor parsing errors, including incorrect placement of meta charset declarations. 
-<br><br>
-Pages located at order.springer.com (<strong>newer</strong> design) contain parsing errors that may be problematic for Assistive Technology, including illegally-nested elements, invalid autocomplete values, and incomplete closing tags. 
+Pages located at order.springer.com contain parsing errors that may be problematic for Assistive Technology, including illegally-nested elements, invalid autocomplete values, and incomplete closing tags. 
 <br><br>
 Third party advertising scripts may inject content that omits start and end tags, contains duplicate attributes or illegally nested elements. When we become aware of active advertisements with these problems, we immediately take steps to remove those advertisements from our pages.
 </td>
@@ -906,8 +878,6 @@ Third party advertising scripts may inject content that omits start and end tags
 The pages found at link.springer.com generally use standard HTML and WAI-ARIA attributes to describe the identity, operation, and state of user interface elements to Assistive Technologies.
 <br><br>
 In some cases, WAI-ARIA attributes have been omitted where they would be helpful (e.g. no status update is triggered on the "date published" popup component on advanced search pages). In other cases WAI-ARIA roles or attributes may be misused in ways that cause elements to have misleading semantics. We are actively working to find and repair these problems. 
-<br><br>
-Pages located at checkout.springer.com (<strong>older</strong> design) contain elements without accessible names (e.g. links, images), incorrectly-applied semantics (e.g. semantic headings used for visual effect only, malformed WAI-ARIA landmarks, labels used in incorrect contexts, data tables not marked up as tables, lists not marked up as lists, custom interactive components not marked up in a way that can be used by Assistive Technology), and missing elements or WAI-ARIA attributes (e.g. form fields without labels, step counters and flyout menus without WAI-ARIA markup). 
 <br><br>
 Other third party scripts, including the Freshdesk customer services widget, may present elements that lack adequate names and roles, making them difficult for screen reader users to access. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
@@ -1040,8 +1010,6 @@ Pages rendered in the <strong>newer</strong> design (currently articles, chapter
 <br><br>
 Most text and images of text in the newer design have a contrast ratio of at least 4.5:1. Links generally fall slightly short of WCAG AA requirements, with a contrast ratio of 4.3:1. 
 <br><br>
-Gradient background images are used throughout checkout.springer.com (<strong>older</strong> design), with insufficient contrast between the text and one or more of the gradient background colours. These issues are resolved in the new version of the checkout process design at order.springer.com; we are in the process of transferring all checkout content to the new design. 
-<br><br>
 Third party advertising scripts may inject content with insufficient contrast.
 </td>
 </tr>
@@ -1072,9 +1040,7 @@ Pages rendered in the <strong>older</strong> design (currently journals, and anc
 <br><br>
 The flyout "search" and "menu" components in the header of the older design have fixed positions which may prevent users browsing with high magnification from being able to scroll through the page while the components are open. In the case of the "menu" component, only some of the menu can be used at high magnification, with the lower items cut off-screen. 
 <br><br>
-Pages rendered in the <strong>newer</strong> design (currently articles, chapters, books, book series, reference works, reference work entries, and collections) can be resized without Assistive Technology up to 400 percent without loss of content or functionality. 
-<br><br>
-Pages located at checkout.springer.com (<strong>older</strong> design) are not fully responsive and require horizontal scrolling at 200 percent magnification in order to read all content. Some footer menu items are removed for users browsing at high magnification, including the link to the Order FAQ. Users browsing with high magnification will be unable to access this content without returning to the main Springer website (<em>not</em> the SpringerLink website). These issues are resolved in the new version of the checkout process design at order.springer.com; we are in the process of transferring all checkout content to the new design. 
+Pages rendered in the <strong>newer</strong> design (currently articles, chapters, books, book series, reference works, reference work entries, and collections) can be resized without Assistive Technology up to 400 percent without loss of content or functionality.  
 <br><br>
 Third party advertising scripts may inject non-responsive content that loses or obscures information when text is resized or the screen is magnified.
 </td>
@@ -1125,9 +1091,7 @@ Third party advertising scripts may inject images containing images of text.
 <td>Partially Supports</td>
 <td>Most parts of this product are responsive. Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions per the specifications in this criterion.
 
-Pages located at checkout.springer.com are not fully responsive and require horizontal scrolling at 200 percent magnification in order to read all content. 
-
-Additionally, third party advertising scripts may inject non-responsive content that loses or obscures information when text is resized or the screen is magnified. 
+Third party advertising scripts may inject non-responsive content that loses or obscures information when text is resized or the screen is magnified. 
 </td>
 </tr>
 <tr id="non-text-contrast" valign="top">
@@ -1223,9 +1187,7 @@ Users may use the search function or the provided category browsing links to acc
 <br><br>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-The flyout "menu" component in the header of the older design has a fixed position which may prevent users browsing with high magnification from being able to access all items in the menu. 
-<br><br>
-On pages located at checkout.springer.com (<strong>older</strong> design), some footer menu items are removed for users browsing at high magnification, including the link to the Order FAQ. Users browsing with high magnification will be unable to access this content without returning to the main Springer website (<em>not</em> the SpringerLink website). This issue is resolved in the new version of the checkout process design at order.springer.com; we are in the process of transferring all checkout content to the new design. 
+The flyout "menu" component in the header of the older design has a fixed position which may prevent users browsing with high magnification from being able to access all items in the menu.  
 </td>
 </tr>
 <tr id="headings-and-labels" valign="top">
@@ -1257,9 +1219,7 @@ Level one headings are omitted on some pages (e.g. search results pages). Other 
 <br><br>
 We are actively working to find and repair these problems.  
 <br><br>
-Pages rendered in the <strong>newer</strong> design (currently articles, Chapters, books, book series, reference works, reference work entries, and collections) use correctly-structured headings and generally display visible and appropriately associated labels for input fields. 
-<br><br>
-Pages found at checkout.springer.com (<strong>older</strong> design) omit or use inappropriate headings and heading levels, including the use of unsemantic headings for visual effect, skipping heading levels, and providing empty headings. Pages at this location also misapply HTML elements (e.g. label elements used for error messages), which may make it difficult for users of Assistive Technology to understand the structure and purpose of individual components. These issues are resolved in the new version of the checkout process design at order.springer.com; we are in the process of transferring all checkout content to the new design. 
+Pages rendered in the <strong>newer</strong> design (currently articles, Chapters, books, book series, reference works, reference work entries, and collections) use correctly-structured headings and generally display visible and appropriately associated labels for input fields.  
 <br><br>
 The Freshdesk customer services widget injects controls with inadequate labels, making it difficult or impossible to use the controls with Assistive Technology. We are actively working to solve this problem. Additionally, we have provided alternate means of accessing customer services on our "Contact Us" page, including a contact email address, a support ticket system, and helpdesk telephone numbers.
 </td>
@@ -1319,7 +1279,7 @@ Third party scripts, including advertising, may inject components that remove fo
 <td>
 Content in journals, books, series, protocols, reference works or proceedings may include or be completely composed of text in languages other than that defined in the HTML <code>lang</code> attribute. Research content supports the inclusion of correct `lang` attributes for mixed-language content in some areas such as article titles and summary sections, but not all parts of mixed-language pages are covered. We currently have no method of confirming the inclusion - or not - of appropriate <code>lang</code> attributes for pieces of text that may use a different language to the main document. 
 <br><br>
-Titles in the cart at checkout.springer.com (<strong>older</strong> design) and order.springer.com (<strong>newer</strong> design) may be in multiple languages. The correct <code>lang</code> attribute for titles in a language different to that of the overall document is omitted. 
+Titles in the cart at order.springer.com may be in multiple languages. The correct <code>lang</code> attribute for titles in a language different to that of the overall document is omitted. 
 <br><br>
 Third party scripts may inject components that use a different language to the page content - for example a targeted advertisement may use the native language of the user, and not be marked up with a separate <code>lang</code> attribute.
 </td>
@@ -1353,7 +1313,7 @@ Pages rendered in the <strong>newer</strong> design are currently articles, chap
 <br><br>
 When the transfer process is complete, the navigation methods between designs will be broadly consistent. 
 <br><br>
-Pages located at checkout.springer.com (<strong>older</strong> design) and order.springer.com (<strong>newer</strong> design) are rendered in two separate, inconsistent designs. We are in the process of transferring all checkout content to this new design. Both checkout configurations deal with sensitive information and have intentionally been made more simple in design, and do not share the same navigation system as the main site. The navigation of these sets of pages is internally consistent. 
+ The checkout configurations deal with sensitive information and have intentionally been made more simple in design, and do not share the same navigation system as the main site. The navigation of these sets of pages is internally consistent. 
 </td>
 </tr>
 <tr id="consistent-identification" valign="top">
@@ -1385,7 +1345,7 @@ Pages rendered in the <strong>newer</strong> design are currently articles, chap
 <br><br>
 When the transfer process is complete, content will use a unified design style with consistent presentation and functionality.
 <br><br>
-Pages located at checkout.springer.com (<strong>older</strong> design) and order.springer.com (<strong>newer</strong> design) are rendered in two separate, inconsistent designs. We are in the process of transferring all checkout content to this new design. Both checkout configurations deal with sensitive information and have intentionally been made more simple in design, and do not share the same navigation system as the main site. The presentation of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site. 
+The checkout configurations deal with sensitive information and have intentionally been made more simple in design, and do not share the same navigation system as the main site. The presentation of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site. 
 </td>
 </tr>
 <tr id="error-suggestion" valign="top">
@@ -1415,9 +1375,7 @@ The SpringerLink website contains content that is rendered in two separate desig
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) use unsemantic, unassociated label elements to mark up errors.
 <br><br>
-Pages located at checkout.springer.com (<strong>older</strong> design) also use unsemantic, unassociated label elements to mark up errors.
-<br><br>
-Pages located at order.springer.com (<strong>newer</strong> design) rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states. 
+Pages located at order.springer.com rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states. 
 </td>
 </tr>
 <tr id="error-prevention-legal-financial-data" valign="top">
@@ -1440,7 +1398,7 @@ Pages located at order.springer.com (<strong>newer</strong> design) rely solely 
 <li>602.3 (Support Docs)</li>
 </ul></td>
 <td>Supports</td>
-<td>Payment pages at checkout.springer.com (<strong>older</strong> design) and order.springer.com (<strong>newer</strong> design) have a checkout flow that includes a verification step. There, the user must confirm that their choices are correct before they may enter their payment details. At this stage they may return to a previous step to make corrections, cancel, or abandon the process.</td>
+<td>Payment pages at order.springer.com have a checkout flow that includes a verification step. There, the user must confirm that their choices are correct before they may enter their payment details. At this stage they may return to a previous step to make corrections, cancel, or abandon the process.</td>
 </tr>
 <tr id="status-messages" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#status-messages"><strong>4.1.3 Status Messages</strong></a> (Level AA 2.1 only)
