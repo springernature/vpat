@@ -1,7 +1,7 @@
 # Nature Accessibility Conformance Report International Edition
-(Based on VPAT® Version 2.4)
+(Based on VPAT® Version 2.4Rev)
 
-**Report Date**: 10th June 2021  
+**Report Date**: 16th May 2022  
 **Name of Product/Version**: Nature.com _(we do not version our software)_  
 **Product Description**: 
 Nature.com publishes peer-reviewed research, reviews and news across a number of journals. This report refers entirely to the accessibility of editorial, journal, and magazine web documents published at the top level domain of <a href="http://www.nature.com">www.nature.com</a>, including informational pages, and to all web documents found at idp.nature.com and payment.nature.com (for account management and subscription and payment management respectively).  
@@ -21,19 +21,19 @@ This report covers the degree of conformance for the following accessibility sta
 <td nowrap><strong>Included In Report</strong></td>
 </tr>
 <tr>
-<td>Web Content Accessibility Guidelines 2.0, at <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/">http://www.w3.org/TR/2008/REC-WCAG20-20081211/</a></td>
+<td><a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/">Web Content Accessibility Guidelines 2.0</a></td>
 <td nowrap>Level A &nbsp; – &nbsp; <strong>Yes</strong><br>Level AA &nbsp; – &nbsp; <strong>Yes</strong><br>Level AAA &nbsp; – &nbsp; <strong>No</strong></td>
 </tr>
 <tr>
-<td>Web Content Accessibility Guidelines 2.1, at <a href="https://www.w3.org/TR/WCAG21">https://www.w3.org/TR/WCAG21</a></td>
+<td><a href="https://www.w3.org/TR/WCAG21">Web Content Accessibility Guidelines 2.1</a></td>
 <td nowrap>Level A &nbsp; – &nbsp; <strong>Yes</strong><br>Level AA &nbsp; – &nbsp; <strong>Yes</strong><br>Level AAA &nbsp; – &nbsp; <strong>No</strong></td>
 </tr>
 <tr>
-<td><a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines">Revised Section 508 standards</a> published January 18, 2017 and corrected January 22, 2018 </td>
+<td><a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines">Revised Section 508 standards published January 18, 2017 and corrected January 22, 2018</a></td>
 <td nowrap><strong>Yes</strong></td>
 </tr>
 <tr>
-<td>EN 301 549 Accessibility requirements suitable for public procurement of ICT products and services in Europe, - V3.1.1 (2019-11) at <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf">https://www.etsi.org/[...]/en_301549v030101p.pdf</a></td>
+<td><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf">EN 301 549 Accessibility requirements for ICT products and services - V3.1.1 (2019-11)</a> AND <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549 Accessibility requirements for ICT products and services - V3.2.1 (2021-03)</a></td> 
 <td nowrap><strong>Yes</strong></td>
 </tr>
 </tbody>
@@ -97,7 +97,7 @@ We mark up some images so that they can be ignored by Assistive Technologies if 
 <br><br>
 The Nature subscription pages at <a href="https://www.nature.com/nature/subscribe">https://www.nature.com/nature/subscribe</a> currently contain SVG images without text alternatives, and decorative SVG images that are not marked up to be ignored by Assistive Technologies. We are actively working to repair these problems. 
 <br><br>
-Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These include images in advertising scripts, in Disqus commenting widgets, and in the OneTrust "manage cookies" privacy centre. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These include images in advertising scripts and in Disqus commenting widgets. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr valign="top">
@@ -125,7 +125,7 @@ Nature.com has a diverse mix of multimedia content, both self-hosted and hosted 
 <br><br>
 Audio-only content may be used to support text-based content. Audio-only content may also be used in Podcasts across various journals. Some but not all podcasts provide transcripts. 
 <br><br>
-We currently have no method of confirming the inclusion - or not - of adequate media alternatives or transcripts. 	
+We currently have no method of confirming the inclusion of adequate media alternatives or transcripts. 	
 </td>
 </tr>
 <tr valign="top">
@@ -149,7 +149,7 @@ We currently have no method of confirming the inclusion - or not - of adequate m
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Nature.com has a diverse mix of multimedia content, both self-hosted and hosted on third party sites. Captions and/or transcripts may be provided for some pre-recorded content, but we currently have no method of confirming the inclusion - or not - of transcripts or captions. 
+Nature.com has a diverse mix of multimedia content, both self-hosted and hosted on third party sites. Captions and/or transcripts may be provided for some pre-recorded content, but we currently have no method of confirming the inclusion of transcripts or captions. 
 </td>
 </tr>
 <tr valign="top">
@@ -175,7 +175,7 @@ Nature.com has a diverse mix of multimedia content, both self-hosted and hosted 
 <td>
 Nature.com has a diverse mix of multimedia content, both self-hosted and hosted on third party sites. Audio description is not generally used across our content, but some media may provide media alternatives such as text descriptions of video content. 
 <br><br>
-We currently have no method of confirming the inclusion - or not - of adequate media alternatives.
+We currently have no method of confirming the inclusion of adequate media alternatives.
 </td>
 </tr>
 <tr id="info-and-relationships" valign="top">
@@ -203,13 +203,11 @@ We generally use progressive enhancement techniques and semantically-correct mar
 <br><br>
 We make use of WAI-ARIA roles to support landmarks, and use WAI-ARIA roles and properties when required for more complex functionality such as popup menus and dialogs. 
 <br><br>
-The Nature subscription pages at https://www.nature.com/nature/subscribe contain elements that may be poorly-supported by client technology (<code>details</code>/<code>summary</code>)
-<br><br>
 Some parts of the checkout flow and the "My Account" pages contain unsemantic markup, including out-of-sequence headings and incorrectly-applied landmarks. We are actively working to find and repair these problems. 
 <br><br>
 Some functionality may omit required WAI-ARIA roles, states, or attributes, or misuse WAI-ARIA markup and techniques. When we become aware of content with these problems, we immediately take steps to repair the issues.
 <br><br>
-Third party scripts may inject content with incorrect or absent information about structure and relationships. These include content in advertising scripts, in Disqus commenting widgets, and in the OneTrust "manage cookies" privacy centre, among others.
+Third party scripts may inject content with incorrect or absent information about structure and relationships. These include content in advertising scripts and in Disqus commenting widgets, among others.
 </td>
 </tr>
 <tr valign="top">
@@ -489,7 +487,7 @@ Third party advertising scripts may inject content that automatically moves or b
 <td>
 We use semantically-correct markup so that Assistive Technology users can recognise elements and move around them accordingly. We make use of HTML and WAI-ARIA roles to support landmarks. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
-Some third party content, including the OneTrust “manage cookies” privacy banner and privacy center, may prevent users from being able to bypass repetitive information. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+Some third party content, for example embedded widgets that provide alternative means of exploring data, may prevent users from being able to bypass repetitive information. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr valign="top">
@@ -694,7 +692,7 @@ All of the pages in this product use the language attribute on the HTML element 
 <li>602.3 (Support Docs)</li>
 </ul></td>
 <td>Supports</td>
-<td>Components in the interface of the pages of this product that receive focus do not initiate a change of context.</td>
+<td>Components in the interface of the pages that receive focus do not initiate a change of context.</td>
 </tr>
 <tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-unpredictable-change"><strong>3.2.2 On Input</strong></a> (Level A)
@@ -716,7 +714,7 @@ All of the pages in this product use the language attribute on the HTML element 
 <li>602.3 (Support Docs)</li>
 </ul></td>
 <td>Supports</td>
-<td>Changing the setting of any user interface component does not automatically cause a change of context on any of the pages of this product.</td>
+<td>Changing the setting of any user interface component does not automatically cause a change of context on any of the pages.</td>
 </tr>
 <tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-identified"><strong>3.3.1 Error Identification</strong></a> (Level A)
@@ -883,7 +881,7 @@ Other third party scripts, including the Disqus commenting widget, may present i
 <li>602.3 (Support Docs)</li>
 </ul></td>
 <td>Does Not Support</td>
-<td>We do not generally provide audio description for prerecorded video. A limited form of audio description may be provided for some pre-recorded content, but we currently have no method of confirming the inclusion - or not - of audio description. </td>
+<td>We do not generally provide audio description for prerecorded video. A limited form of audio description may be provided for some pre-recorded content, but we currently have no method of confirming the inclusion of audio description. </td>
 </tr>
 <tr id="orientation" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#orientation"><strong>1.3.4 Orientation</strong></a> (Level AA 2.1 only)
@@ -976,7 +974,7 @@ Third party advertising scripts may inject content with insufficient contrast.
 <td>
 All first party text on the pages of this product can be resized up to 400% without loss of information or functionality.
 <br><br>
-Third party scripts may inject non-responsive content that loses or obscures information when text is resized.  The OneTrust “manage cookies” privacy centre uses fixed-height elements that may partially obscure content at higher magnifications.
+Third party scripts (for example advertisements) may inject non-responsive content that loses or obscures information when text is resized.
 </td>
 </tr>
 <tr valign="top">
@@ -1200,7 +1198,7 @@ Editorial content or published papers may be written in or include text in langu
 <br><br>
 Third party scripts may inject components with non-English text - for example a targeted advertisement or file presented in a file viewer (e.g. Figshare) may use a different language to the main document. These may not be marked up with a separate <code>lang</code> attribute.
 <br><br>
-We currently have no method of confirming the inclusion - or not - of appropriate lang attributes for pieces of text in content that may use a different language to the main document. We are actively working to provide appropriate <code>lang</code> attributes for articles and papers wholly written in languages other than English.
+We currently have no method of confirming the inclusion of appropriate lang attributes for pieces of text in content that may use a different language to the main document. We are actively working to provide appropriate <code>lang</code> attributes for articles and papers wholly written in languages other than English.
 </td>
 </tr>
 <tr valign="top">
@@ -1621,7 +1619,7 @@ Notes: This product is a web software application and is not subject to the requ
 
 Notes: Please see [WCAG 2.1 section](#wcag-21-report).
 
-### Chapter [10: Non-web Documents](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=43)
+### Chapter [10: Non-web Documentation](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52)
 
 Notes: This product does not include non-web documents and is therefore not subject to the requirements of this chapter.
 
