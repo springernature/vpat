@@ -203,8 +203,6 @@ We generally use progressive enhancement techniques and semantically-correct mar
 <br><br>
 We make use of WAI-ARIA roles to support landmarks, and use WAI-ARIA roles and properties when required for more complex functionality such as popup menus and dialogs. 
 <br><br>
-The Nature subscription pages at https://www.nature.com/nature/subscribe contain elements that may be poorly-supported by client technology (<code>details</code>/<code>summary</code>)
-<br><br>
 Some parts of the checkout flow and the "My Account" pages contain unsemantic markup, including out-of-sequence headings and incorrectly-applied landmarks. We are actively working to find and repair these problems. 
 <br><br>
 Some functionality may omit required WAI-ARIA roles, states, or attributes, or misuse WAI-ARIA markup and techniques. When we become aware of content with these problems, we immediately take steps to repair the issues.
