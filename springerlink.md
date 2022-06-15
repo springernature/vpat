@@ -213,7 +213,7 @@ Some complex functionality may omit required WAI-ARIA roles, states, or attribut
 <br><br>
 Multiple landmarks of the same type without unique labels are used on pages rendered in both designs.  
 <br><br>
-Pages found at order.springer.com omit or use inappropriate headings and heading levels, including the use of unsemantic headings for visual effect. Multiple landmarks of the same type without unique labels are also found on these pages. 
+The SpringerLink checkout process pages found at order.springer.com omit or use inappropriate headings and heading levels, including the use of unsemantic headings for visual effect. Multiple landmarks of the same type without unique labels are also found on these pages. 
 <br><br>
 Pages found at order.springer.com use form fields that rely solely on built-in browser error checking, which can lead to error messages being unavailable for users with older browser technology, or Assistive Technology that doesn't support these features. 
 <br><br>
