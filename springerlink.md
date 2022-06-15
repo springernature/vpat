@@ -1135,7 +1135,7 @@ Some complex non-text images in journals, books, series, protocols, reference wo
 </td>
 <td>Partially Supports</td>
 <td>
-No loss of content or functionality occurs by setting the text spacing properties specified by this criterion anywhere in this product, except for the search results page and homepage  where a collision may occur between some of the filters. 
+No loss of content or functionality occurs by setting the text spacing properties specified by this criterion anywhere in this product, except for the search results page and [homepage](https://link.springer.com) where a collision may occur between some of the filters. 
 <br><br>
 The search results page is rendered in an older design - we are in the process of transferring this content from the older design to the newer design which will pass this criterion. 
 </td>
