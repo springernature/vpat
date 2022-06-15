@@ -3,7 +3,7 @@
 
 **Report Date**: 9th August 2021  
 **Name of Product/Version**: SpringerLink _(we do not version our software)_  
-**Product Description**: SpringerLink provides researchers with access to scientific documents from journals, books, series, protocols, collections, reference works and proceedings. This report refers entirely to the accessibility of all web documents published at the subdomains link.springer.com and rd.springer.com (both subdomains are referred to as link.springer.com throughout this report), including informational pages, and all web documents found at order.springer.com.  
+**Product Description**: SpringerLink provides researchers with access to scientific documents from journals, books, series, protocols, collections, reference works and proceedings. This report refers entirely to the accessibility of all web documents published at the subdomains link.springer.com and rd.springer.com (both subdomains are referred to as link.springer.com throughout this report), and supporting informational pages such as journal homepages located at the top level domain, springer.com. Also included are all web documents included in the purchasing and subscription process, found at order.springer.com.
  **Contact information**: Please contact your Institutional Sales representative.   
  **Notes**:   
 **Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature's dedicated Accessibility Specialists. We use a combination of static analysis tools (including but not limited to Axe, WAVE, and all of the tools described in our [Frontend Playbook's Accessibility Guide](https://github.com/springernature/frontend-playbook/blob/main/accessibility/tools.md)). Additionally, we perform manual testing (also described in our Frontend Playbook under the "Manual testing" and "Assistive technology" sections).  
@@ -121,7 +121,7 @@ SpringerLink offers multimedia content through the third party MovingImage platf
 <br><br>
 Video-only and audio-only content are generally used to support existing text-based content. 
 <br><br>
-We currently have no method of confirming the inclusion - or not - of adequate media alternatives or transcripts.
+We currently have no method of confirming the inclusion of adequate media alternatives or transcripts.
 </td>
 </tr>
 <tr id="captions-prerecorded" valign="top">
@@ -147,7 +147,7 @@ We currently have no method of confirming the inclusion - or not - of adequate m
 <td>
 SpringerLink offers multimedia content through the third party MovingImage platform, or as downloadable video files in various formats. 
 <br><br>
-Captions and/or transcripts maybe be provided for some pre-recorded content in journals, books, series, protocols, reference works or proceedings, but we currently have no method of confirming the inclusion - or not - of transcripts or captions. 
+Captions and/or transcripts maybe be provided for some pre-recorded content in journals, books, series, protocols, reference works or proceedings. We currently have no method of confirming the inclusion of transcripts or captions. 
 <br><br>
 "Springer Nature Video" learning content published at link.springer.com/video uses the third party MovingImage platform. Both captions and transcripts are available. 
 </td>
@@ -177,7 +177,7 @@ SpringerLink offers multimedia content through the third party MovingImage platf
 <br><br>
 Audio description is not generally used across our content, but some media may be presented alongside media alternatives such as text descriptions of video content. 
 <br><br>
-We currently have no method of confirming the inclusion - or not - of adequate media alternatives.
+We currently have no method of confirming the inclusion of adequate media alternatives.
 </td>
 </tr>
 <tr id="info-and-relationships" valign="top">
@@ -938,7 +938,7 @@ Other third party scripts, including the Freshdesk customer services widget, may
 <li>602.3 (Support Docs)</li>
 </ul></td>
 <td>Does Not Support</td>
-<td>We do not generally provide audio description for prerecorded video. A limited form of audio description may be provided for some pre-recorded content, but we currently have no method of confirming the inclusion - or not - of audio description.
+<td>We do not generally provide audio description for prerecorded video. A limited form of audio description may be provided for some pre-recorded content, but we currently have no method of confirming the inclusion of audio description.
 </td>
 </tr>
 <tr id="orientation" valign="top">
@@ -1135,7 +1135,7 @@ Some complex non-text images in journals, books, series, protocols, reference wo
 </td>
 <td>Partially Supports</td>
 <td>
-No loss of content or functionality occurs by setting the text spacing properties specified by this criterion anywhere in this product, except for the search results page where a collision may occur between some of the filters. 
+No loss of content or functionality occurs by setting the text spacing properties specified by this criterion anywhere in this product, except for the search results page and homepage  where a collision may occur between some of the filters. 
 <br><br>
 The search results page is rendered in an older design - we are in the process of transferring this content from the older design to the newer design which will pass this criterion. 
 </td>
@@ -1215,7 +1215,7 @@ The SpringerLink website contains content that is rendered in two separate desig
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) may incorrectly use label elements for other purposes (e.g. for error messages on account management pages), omit labels for some functionality (e.g. the pagination number field on advanced search results pages and the text input for the main search component in the page banner). 
 <br><br>
-Level one headings are omitted on some pages (e.g. search results pages). Other pages have multiple level one headings (e.g. static ancillary pages such as link.springer.com/termsandconditions). 
+Level one headings are omitted on some pages (e.g. search results pages). Other pages have multiple level one headings (e.g. static ancillary pages such as link.springer.com/termsandconditions). Some informational pages (e.g. Journal updates) do not use correctly-structured heading levels. 
 <br><br>
 We are actively working to find and repair these problems.  
 <br><br>
@@ -1277,7 +1277,7 @@ Third party scripts, including advertising, may inject components that remove fo
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Content in journals, books, series, protocols, reference works or proceedings may include or be completely composed of text in languages other than that defined in the HTML <code>lang</code> attribute. Research content supports the inclusion of correct `lang` attributes for mixed-language content in some areas such as article titles and summary sections, but not all parts of mixed-language pages are covered. We currently have no method of confirming the inclusion - or not - of appropriate <code>lang</code> attributes for pieces of text that may use a different language to the main document. 
+Content in journals, books, series, protocols, reference works or proceedings may include or be completely composed of text in languages other than that defined in the HTML <code>lang</code> attribute. Research content supports the inclusion of correct `lang` attributes for mixed-language content in some areas such as article titles and summary sections, but not all parts of mixed-language pages are covered. We currently have no method of confirming the inclusion of appropriate <code>lang</code> attributes for pieces of text that may use a different language to the main document. 
 <br><br>
 Titles in the cart at order.springer.com may be in multiple languages. The correct <code>lang</code> attribute for titles in a language different to that of the overall document is omitted. 
 <br><br>
