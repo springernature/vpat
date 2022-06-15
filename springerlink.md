@@ -1313,7 +1313,7 @@ Pages rendered in the <strong>newer</strong> design are currently articles, chap
 <br><br>
 When the transfer process is complete, the navigation methods between designs will be broadly consistent. 
 <br><br>
- The checkout configurations deal with sensitive information and have intentionally been made more simple in design, and do not share the same navigation system as the main site. The navigation of these sets of pages is internally consistent. 
+ The checkout configurations deal with sensitive information and have intentionally been made more simple in design. They do not share the same navigation system as the main site, but the navigation of these sets of pages is internally consistent. 
 </td>
 </tr>
 <tr id="consistent-identification" valign="top">
