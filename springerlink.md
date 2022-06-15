@@ -217,7 +217,7 @@ The SpringerLink checkout process pages found at order.springer.com omit or use 
 <br><br>
 Pages found at order.springer.com use form fields that rely solely on built-in browser error checking, which can lead to error messages being unavailable for users with older browser technology, or Assistive Technology that doesn't support these features. 
 <br><br>
-Third party scripts may inject content with incorrect or absent information about structure and relationships. These may include content in advertising scripts, in the Freshdesk customer services widget, among others.
+Third party scripts may inject content with incorrect or absent information about structure and relationships. These may include content in advertising scripts and the Freshdesk customer services widget, among others.
 </td>
 </tr>
 <tr id="meaningful-sequence" valign="top">
