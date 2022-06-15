@@ -1187,7 +1187,7 @@ Users may use the search function or the provided category browsing links to acc
 <br><br>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 <br><br>
-The flyout "menu" component in the header of the older design has a fixed position which may prevent users browsing with high magnification from being able to access all items in the menu.  
+The flyout "menu" component in the header of the older design has a fixed position which may prevent users who browse with high magnification from being able to access all items in the menu.  
 </td>
 </tr>
 <tr id="headings-and-labels" valign="top">
