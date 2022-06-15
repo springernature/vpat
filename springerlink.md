@@ -1345,7 +1345,7 @@ Pages rendered in the <strong>newer</strong> design are currently articles, chap
 <br><br>
 When the transfer process is complete, content will use a unified design style with consistent presentation and functionality.
 <br><br>
-The checkout configurations deal with sensitive information and have intentionally been made more simple in design, and do not share the same navigation system as the main site. The presentation of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site. 
+The checkout configurations deal with sensitive information and have intentionally been made more simple in design. They do not share the same navigation system as the main site, but the presentation of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site. 
 </td>
 </tr>
 <tr id="error-suggestion" valign="top">
