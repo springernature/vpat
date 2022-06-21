@@ -44,7 +44,7 @@ VPAT version 2.4 has been updated to cover changes to the European standard EN 3
 It includes the following standards/guidelines:
 
 * [Web Content Accessibility Guidelines 2.0](http://www.w3.org/TR/2008/REC-WCAG20-20081211/)
-* [Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21](https://www.w3.org/TR/WCAG21)
+* [Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21)
 * [Revised Section 508 standards](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines) published January 18, 2017 and corrected January 22, 2018
 * [EN 301 549  Accessibility requirements suitable for public procurement of ICT products and services in Europe, - V3.1.1 (2019-11)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf)
   
