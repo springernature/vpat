@@ -1,7 +1,7 @@
 # Nature Accessibility Conformance Report International Edition
 (Based on VPAT® Version 2.4Rev)
 
-**Report Date**: 16th May 2022  
+**Report Date**: 22nd June 2022  
 **Name of Product/Version**: Nature.com _(we do not version our software)_  
 **Product Description**: 
 Nature.com publishes peer-reviewed research, reviews and news across a number of journals. This report refers entirely to the accessibility of editorial, journal, and magazine web documents published at the top level domain of <a href="http://www.nature.com">www.nature.com</a>, including informational pages, and to all web documents found at idp.nature.com and payment.nature.com (for account management and subscription and payment management respectively).  
@@ -74,7 +74,7 @@ Tables 1 and 2 also document conformance with:
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.1.1 (Web)</li>
-<li>10.1.1.1 (non-web document)</li>
+<li>10.1.1.1 (Non-web document)</li>
 <li>11.1.1.1.1 (Open Functionality Software)</li>
 <li>11.1.1.1.2 (Closed Functionality Software)</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -106,7 +106,7 @@ Third party scripts may inject non-text content without text alternatives, or wi
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.2.1 (Web)</li>
-<li>10.1.2.1 (non-web document)</li>
+<li>10.1.2.1 (Non-web document)</li>
 <li>11.1.2.1.1 (Open Functionality Software)</li>
 <li>11.1.2.1.2.1 and 11.1.2.1.2.2 (Closed Software)</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -134,7 +134,7 @@ We currently have no method of confirming the inclusion of adequate media altern
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.2.2 (Web)</li>
-<li>10.1.2.2 (non-web document)</li>
+<li>10.1.2.2 (Non-web document)</li>
 <li>11.1.2.2 (Open Functionality Software)</li>
 <li>11.1.2.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -158,7 +158,7 @@ Nature.com has a diverse mix of multimedia content, both self-hosted and hosted 
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.2.3 (Web)</li>
-<li>10.1.2.3 (non-web document)</li>
+<li>10.1.2.3 (Non-web document)</li>
 <li>11.1.2.3.1 (Open Functionality Software)</li>
 <li>11.1.2.3.2 (Closed Software)</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -184,7 +184,7 @@ We currently have no method of confirming the inclusion of adequate media altern
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.3.1 (Web)</li>
-<li>10.1.3.1 (non-web document)</li>
+<li>10.1.3.1 (Non-web document)</li>
 <li>11.1.3.1.1 (Open Functionality Software)</li>
 <li>11.1.3.1.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -216,7 +216,7 @@ Third party scripts may inject content with incorrect or absent information abou
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.3.2 (Web)</li>
-<li>10.1.3.2 (non-web document)</li>
+<li>10.1.3.2 (Non-web document)</li>
 <li>11.1.3.2.1 (Open Functionality Software)</li>
 <li>11.1.3.2.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -242,7 +242,7 @@ We use semantically-correct markup to allow Assistive Technologies to interpret 
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.3.3 (Web)</li>
-<li>10.1.3.3 (non-web document)</li>
+<li>10.1.3.3 (Non-web document)</li>
 <li>11.1.3.3 (Open Functionality Software)</li>
 <li>11.1.3.3 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -270,7 +270,7 @@ Some complex images supplied by submission authors may rely on sensory character
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.4.1 (Web)</li>
-<li>10.1.4.1 (non-web document)</li>
+<li>10.1.4.1 (Non-web document)</li>
 <li>11.1.4.1 (Open Functionality Software)</li>
 <li>11.1.4.1 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -298,7 +298,7 @@ Some complex images supplied by submission authors may rely on colour as the onl
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.4.2 (Web)</li>
-<li>10.1.4.2 (non-web document)</li>
+<li>10.1.4.2 (Non-web document)</li>
 <li>11.1.4.2 (Open Functionality Software)</li>
 <li>11.1.4.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -324,7 +324,7 @@ Third party advertisements may load video and audio that automatically starts, a
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.1.1 (Web)</li>
-<li>10.2.1.1 (non-web document)</li>
+<li>10.2.1.1 (Non-web document)</li>
 <li>11.2.1.1.1 (Open Functionality Software)</li>
 <li>11.2.1.1.2 (Closed Software)</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -354,7 +354,7 @@ Other types of third party content such as JavaScript-based file viewers (e.g. F
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.1.2 (Web)</li>
-<li>10.2.1.2 (non-web document)</li>
+<li>10.2.1.2 (Non-web document)</li>
 <li>11.2.1.2 (Open Functionality Software)</li>
 <li>11.2.1.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -380,7 +380,7 @@ Third party content such as modal dialogs or the Disqus commenting widget may tr
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.1.4 (Web)</li>
-<li>10.2.1.4 (non-web document)</li>
+<li>10.2.1.4 (Non-web document)</li>
 <li>11.2.1.4.1 (Open Functionality Software)</li>
 <li>11.2.1.4.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -398,7 +398,7 @@ Third party content such as modal dialogs or the Disqus commenting widget may tr
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.2.1 (Web)</li>
-<li>10.2.2.1 (non-web document)</li>
+<li>10.2.2.1 (Non-web document)</li>
 <li>11.2.2.1 (Open Functionality Software)</li>
 <li>11.2.2.1 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -420,7 +420,7 @@ Third party content such as modal dialogs or the Disqus commenting widget may tr
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.2.2 (Web)</li>
-<li>10.2.2.2 (non-web document)</li>
+<li>10.2.2.2 (Non-web document)</li>
 <li>11.2.2.2 (Open Functionality Software)</li>
 <li>11.2.2.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -448,7 +448,7 @@ Third party advertising scripts may inject content that automatically moves or b
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.3.1 (Web)</li>
-<li>10.2.3.1 (non-web document)</li>
+<li>10.2.3.1 (Non-web document)</li>
 <li>11.2.3.1 (Open Functionality Software)</li>
 <li>11.2.3.1 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -470,7 +470,7 @@ Third party advertising scripts may inject content that automatically moves or b
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.4.1 (Web)</li>
-<li>10.2.4.1 (non-web document) – Does not apply</li>
+<li>10.2.4.1 (Non-web document) – Does not apply</li>
 <li>11.2.4.1 (Open Functionality Software) – Does not apply</li>
 <li>11.2.4.1 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -496,7 +496,7 @@ Some third party content, for example embedded widgets that provide alternative 
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.4.2 (Web)</li>
-<li>10.2.4.2 (non-web document)</li>
+<li>10.2.4.2 (Non-web document)</li>
 <li>11.2.4.2 (Open Functionality Software) - Does not apply</li>
 <li>11.2.4.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -522,7 +522,7 @@ Some pages (e.g in checkout flows) do not have unique page titles at every stage
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.4.3 (Web)</li>
-<li>10.2.4.3 (non-web document)</li>
+<li>10.2.4.3 (Non-web document)</li>
 <li>11.2.4.3 (Open Functionality Software)</li>
 <li>11.2.4.3 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -548,7 +548,7 @@ Third party scripts including advertising scripts, the Disqus commenting widget,
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.4.4 (Web)</li>
-<li>10.2.4.4 (non-web document)</li>
+<li>10.2.4.4 (Non-web document)</li>
 <li>11.2.4.4 (Open Functionality Software)</li>
 <li>11.2.4.4 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -576,7 +576,7 @@ Third party scripts including advertising scripts, the Disqus commenting widget,
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.5.1 (Web)</li>
-<li>10.2.5.1 (non-web document)</li>
+<li>10.2.5.1 (Non-web document)</li>
 <li>11.2.5.1 (Open Functionality Software)</li>
 <li>11.2.5.1 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -598,7 +598,7 @@ Special feature content may use multipoint gestures for functionality such as pa
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.5.2 (Web)</li>
-<li>10.2.5.2 (non-web document)</li>
+<li>10.2.5.2 (Non-web document)</li>
 <li>11.2.5.2 (Open Functionality Software)</li>
 <li>11.2.5.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -616,7 +616,7 @@ Special feature content may use multipoint gestures for functionality such as pa
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.5.3 (Web)</li>
-<li>10.2.5.3 (non-web document)</li>
+<li>10.2.5.3 (Non-web document)</li>
 <li>10.2.5.3 (Open Functionality Software)</li>
 <li>11.2.5.3 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -636,7 +636,7 @@ In most cases where controls contain visible text, that text is also the label f
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.5.4 (Web)</li>
-<li>10.2.5.4 (non-web document)</li>
+<li>10.2.5.4 (Non-web document)</li>
 <li>11.2.5.4 (Open Functionality Software)</li>
 <li>11.2.5.4 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -654,7 +654,7 @@ In most cases where controls contain visible text, that text is also the label f
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.3.1.1 (Web)</li>
-<li>10.3.1.1 (non-web document)</li>
+<li>10.3.1.1 (Non-web document)</li>
 <li>11.3.1.1.1 (Open Functionality Software)</li>
 <li>11.3.1.1.2 (Closed Software)</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -678,7 +678,7 @@ All of the pages in this product use the language attribute on the HTML element 
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.3.2.1 (Web)</li>
-<li>10.3.2.1 (non-web document)</li>
+<li>10.3.2.1 (Non-web document)</li>
 <li>11.3.2.1 (Open Functionality Software)</li>
 <li>11.3.2.1 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -700,7 +700,7 @@ All of the pages in this product use the language attribute on the HTML element 
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.3.2.2 (Web)</li>
-<li>10.3.2.2 (non-web document)</li>
+<li>10.3.2.2 (Non-web document)</li>
 <li>11.3.2.2 (Open Functionality Software)</li>
 <li>11.3.2.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -722,7 +722,7 @@ All of the pages in this product use the language attribute on the HTML element 
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.3.3.1 (Web)</li>
-<li>10.3.3.1 (non-web document)</li>
+<li>10.3.3.1 (Non-web document)</li>
 <li>11.3.3.1.1 (Open Functionality Software)</li>
 <li>11.3.3.1.2 (Closed Software)</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -750,7 +750,7 @@ Third party scripts including the Disqus commenting widget, or other widgets tha
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.3.3.2 (Web)</li>
-<li>10.3.3.2 (non-web document)</li>
+<li>10.3.3.2 (Non-web document)</li>
 <li>11.3.3.2 (Open Functionality Software)</li>
 <li>11.3.3.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -777,7 +777,7 @@ Additional instructions for specific input fields may not be adequately associat
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.4.1.1 (Web)</li>
-<li>10.4.1.1 (non-web document)</li>
+<li>10.4.1.1 (Non-web document)</li>
 <li>11.4.1.1.1 (Open Functionality Software)</li>
 <li>11.4.1.1.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -803,7 +803,7 @@ Third party advertising scripts may inject content that omits start and end tags
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.4.1.2 (Web)</li>
-<li>10.4.1.2 (non-web document)</li>
+<li>10.4.1.2 (Non-web document)</li>
 <li>11.4.1.2.1 (Open Functionality Software)</li>
 <li>11.4.1.2.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -845,7 +845,7 @@ Other third party scripts, including the Disqus commenting widget, may present i
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.2.4 (Web)</li>
-<li>10.1.2.4 (non-web document)</li>
+<li>10.1.2.4 (Non-web document)</li>
 <li>11.1.2.4 (Open Functionality Software)</li>
 <li>11.1.2.4 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -867,7 +867,7 @@ Other third party scripts, including the Disqus commenting widget, may present i
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.2.5 (Web)</li>
-<li>10.1.2.5 (non-web document)</li>
+<li>10.1.2.5 (Non-web document)</li>
 <li>11.1.2.5 (Open Functionality Software)</li>
 <li>11.1.2.5 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -889,7 +889,7 @@ Other third party scripts, including the Disqus commenting widget, may present i
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.3.4 (Web)</li>
-<li>10.1.3.4 (non-web document)</li>
+<li>10.1.3.4 (Non-web document)</li>
 <li>11.1.3.4 (Open Functionality Software)</li>
 <li>11.1.3.4 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -907,7 +907,7 @@ Other third party scripts, including the Disqus commenting widget, may present i
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.3.5 (Web)</li>
-<li>10.1.3.5 (non-web document)</li>
+<li>10.1.3.5 (Non-web document)</li>
 <li>11.1.3.5 (Open Functionality Software)</li>
 <li>11.1.3.5 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -929,7 +929,7 @@ Some fields, including those on the login and registration forms, have the <code
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.4.3 (Web)</li>
-<li>10.1.4.3 (non-web document)</li>
+<li>10.1.4.3 (Non-web document)</li>
 <li>11.1.4.3 (Open Functionality Software)</li>
 <li>11.1.4.3 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -957,7 +957,7 @@ Third party advertising scripts may inject content with insufficient contrast.
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.4.4 (Web)</li>
-<li>10.1.4.4 (non-web document)</li>
+<li>10.1.4.4 (Non-web document)</li>
 <li>11.1.4.4.1 (Open Functionality Software)</li>
 <li>11.1.4.4.2 (Closed Software)</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -983,7 +983,7 @@ Third party scripts (for example advertisements) may inject non-responsive conte
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.4.5 (Web)</li>
-<li>10.1.4.5 (non-web document)</li>
+<li>10.1.4.5 (Non-web document)</li>
 <li>11.1.4.5.1 (Open Functionality Software)</li>
 <li>11.1.4.5.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1011,7 +1011,7 @@ Third party advertising scripts may inject images containing images of text.
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.4.10 (Web)</li>
-<li>10.1.4.10 (non-web document)</li>
+<li>10.1.4.10 (Non-web document)</li>
 <li>11.1.4.10.1 (Open Functionality Software)</li>
 <li>11.1.4.10.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1032,7 +1032,7 @@ Third party scripts (e.g. advertising, customer services widgets) may inject con
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.4.11 (Web)</li>
-<li>10.1.4.11 (non-web document)</li>
+<li>10.1.4.11 (Non-web document)</li>
 <li>11.1.4.11 (Open Functionality Software)</li>
 <li>11.1.4.11 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1056,7 +1056,7 @@ Third party content (e.g. advertising, customer services widgets) may inject non
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.4.12 (Web)</li>
-<li>10.1.4.12 (non-web document)</li>
+<li>10.1.4.12 (Non-web document)</li>
 <li>11.1.4.12 (Open Functionality Software)</li>
 <li>11.1.4.12 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1077,7 +1077,7 @@ Third party content (e.g. advertising, customer services widgets) may inject ele
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.4.13 (Web)</li>
-<li>10.1.4.13 (non-web document)</li>
+<li>10.1.4.13 (Non-web document)</li>
 <li>11.1.4.13 (Open Functionality Software)</li>
 <li>11.1.4.13 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1098,7 +1098,7 @@ Third party content (e.g. advertising, customer services widgets) may inject ele
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.4.5 (Web)</li>
-<li>10.2.4.5 (non-web document) – Does not apply</li>
+<li>10.2.4.5 (Non-web document) – Does not apply</li>
 <li>11.2.4.5 (Open Functionality Software) – Does not apply</li>
 <li>11.2.4.5 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1120,7 +1120,7 @@ Third party content (e.g. advertising, customer services widgets) may inject ele
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.4.6  (Web)</li>
-<li>10.2.4.6 (non-web document)</li>
+<li>10.2.4.6 (Non-web document)</li>
 <li>11.2.4.6 (Open Functionality Software)</li>
 <li>11.2.4.6 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1148,7 +1148,7 @@ Other third party scripts, including survey or customer services widgets, may in
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.4.7 (Web)</li>
-<li>10.2.4.7 (non-web document)</li>
+<li>10.2.4.7 (Non-web document)</li>
 <li>11.2.4.7 (Open Functionality Software)</li>
 <li>11.2.4.7 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1178,7 +1178,7 @@ Third party scripts, including advertising, may inject components that remove fo
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.3.1.2 (Web)</li>
-<li>10.3.1.2 (non-web document)</li>
+<li>10.3.1.2 (Non-web document)</li>
 <li>11.3.1.2 (Open Functionality Software) – Does not apply</li>
 <li>11.3.1.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1207,7 +1207,7 @@ We currently have no method of confirming the inclusion of appropriate lang attr
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.3.2.3 (Web)</li>
-<li>10.3.2.3 (non-web document) – Does not apply</li>
+<li>10.3.2.3 (Non-web document) – Does not apply</li>
 <li>11.3.2.3 (Open Functionality Software) – Does not apply</li>
 <li>11.3.2.3 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1233,7 +1233,7 @@ Pages that deal with sensitive information (including payment pages and "my acco
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.3.2.4 (Web)</li>
-<li>10.3.2.4 (non-web document) – Does not apply</li>
+<li>10.3.2.4 (Non-web document) – Does not apply</li>
 <li>11.3.2.4 (Open Functionality Software) – Does not apply</li>
 <li>11.3.2.4 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1259,7 +1259,7 @@ Pages that deal with sensitive information (including payment pages and "my acco
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.3.3.3 (Web)</li>
-<li>10.3.3.3 (non-web document)</li>
+<li>10.3.3.3 (Non-web document)</li>
 <li>11.3.3.3 (Open Functionality Software)</li>
 <li>11.3.3.3 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1285,7 +1285,7 @@ Third party scripts including the Disqus commenting widget, or other widgets tha
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.3.3.4 (Web)</li>
-<li>10.3.3.4 (non-web document)</li>
+<li>10.3.3.4 (Non-web document)</li>
 <li>11.3.3.4 (Open Functionality Software)</li>
 <li>11.3.3.4 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1307,7 +1307,7 @@ Third party scripts including the Disqus commenting widget, or other widgets tha
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.4.1.3 (Web)</li>
-<li>10.4.1.3 (non-web document)</li>
+<li>10.4.1.3 (Non-web document)</li>
 <li>11.4.1.3 (Open Functionality Software)</li>
 <li>11.4.1.3 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1572,7 +1572,7 @@ Notes: This report covers accessibility conformance for the web product and does
 
 ## EN 301 549 Report
 
-### Chapter 4: [4.2 Functional Performance Statements](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=22) (FPS)
+### Chapter 4: [4.2 Functional Performance Statements](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=20) (FPS)
 
 | **Criteria**                                      | **Conformance Level**                                                                       | **Remarks and Explanations**                                                                |
 | ------------------------------------------------- | ------------------------------------------------------------------------------------------  | ------------------------------------------------------------------------------------------- |
@@ -1588,15 +1588,15 @@ Notes: This report covers accessibility conformance for the web product and does
 | 4.2.10 Usage with limited cognition               | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.9 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.9 |
 | 4.2.11 Privacy                                    | Supports                                                                         | Standard HTML and WAI-ARIA attributes are used on these pages. The product does not impede the user from using their own privacy tools when interacting with the content. |
 
-### Chapter [5: Generic Requirements](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=23)
+### Chapter [5: Generic Requirements](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=23)
 
 Notes: This product supports standard web Assistive Technologies and is therefore not subject to the Closed Functionality criteria described in this chapter.
 
-### Chapter [6: ICT with Two-Way Voice Communication](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=28) 
+### Chapter [6: ICT with Two-Way Voice Communication](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=30) 
 
 Notes: This product does not offer two-way voice communication and is therefore not subject to the requirements of this chapter.
 
-### Chapter [7: ICT with Video Capabilities](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=31) 
+### Chapter [7: ICT with Video Capabilities](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=35) 
 
 Notes:
 
@@ -1611,11 +1611,11 @@ Notes:
 | 7.2.3 Preservation of audio description              | Does Not Support                    | Audio description is not generally used across our content. |
 | 7.3 User controls for captions and audio description | Partially Supports                  | Audio description is not generally used across our content. Some but not all audio is supported by captions. Where captions are available, the mechanism for selecting them is presented at the same level as other playback controls. |
 
-### Chapter [8: Hardware](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=32)
+### Chapter [8: Hardware](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=37)
 
 Notes: This product is a web software application and is not subject to the requirements of this chapter.
 
-### Chapter [9: Web](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=39)
+### Chapter [9: Web](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=45)
 
 Notes: Please see [WCAG 2.1 section](#wcag-21-report).
 
@@ -1623,48 +1623,47 @@ Notes: Please see [WCAG 2.1 section](#wcag-21-report).
 
 Notes: This product does not include non-web documents and is therefore not subject to the requirements of this chapter.
 
-### Chapter [11: Software](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=53)
+### Chapter [11: Software](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52)
 
 | **Criteria**                                                                                      | **Conformance Level**                                                                    | **Remarks and Explanations**                                                   |
 | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| 11.2.1 Software success criteria (excluding closed functionality)                                 | See [WCAG 2.1](#wcag-21-report) section                                                            | See information in WCAG section                                                |
-| 11.2.2 Software success criteria (closed functionality)                                           | See [WCAG 2.1](#wcag-21-report) section                                                            | See information in WCAG section                                                |
-| ***11.3 Interoperability with assistive technology***                                             | -                                                                                        | -                                                                              |
-| ***11.3.1 Closed functionality (informative)***                                                   | -                                                                                        | -                                                                              |
-| ***11.3.2 Accessibility services***                                                               | -                                                                                        | -                                                                              |
-| ***11.3.2.1 Platform accessibility service support for software that provides a user interface*** | See 11.3.2.5 through 11.3.2.17                                                           | See information in 11.3.2.5 through 11.3.2.17                                  |
-| ***11.3.2.2 Platform accessibility service support for Assistive Technologies***                  | See 11.3.2.5 through 11.3.2.17                                                           | See information in 11.3.2.5 through 11.3.2.17                                  |
-| 11.3.2.3 Use of accessibility services                                                            | Supports                                                                                 | This product supports standard platform accessibility services.                |
-| 11.3.2.4 Assistive technology                                                                     | Not Applicable                                                                           | This product is not an assistive technology.                                   |
-| 11.3.2.5 Object information                                                                       | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.1 and 502.3.2 |
-| 11.3.2.6 Row, column, and headers                                                                 | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.3             |
-| 11.3.2.7 Values                                                                                   | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.4 and 502.3.5 |
-| 11.3.2.8 Label relationships                                                                      | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.6             |
-| 11.3.2.9 Parent-child relationships                                                               | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.7             |
-| 11.3.2.10 Text                                                                                    | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.8 and 502.3.9 |
-| 11.3.2.11 List of available actions                                                               | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.10            |
-| 11.3.2.12 Execution of available actions                                                          | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.11            |
-| 11.3.2.13 Tracking of focus and selection attributes                                              | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.12            |
-| 11.3.2.14 Modification of focus and selection attributes                                          | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.13            |
-| 11.3.2.15 Change notification                                                                     | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14            |
-| 11.3.2.16 Modifications of states and properties                                                  | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14            |
-| 11.3.2.17 Modifications of values and text                                                        | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.5 and 502.3.9 |
-| ***11.4 Documented accessibility usage***                                                         | -                                                                                        | -                                                                              |
-| 11.4.1 User control of accessibility features                                                     | Not Applicable                                                                           | This product is not considered platform software as defined by EN 301 549 V1.1.2. See [3.1 Definitions](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=18). |
-| 11.4.2 No disruption of accessibility features                                                    | Not Applicable                                                                           | This product is not considered platform software as defined by EN 301 549 V1.1.2. The product does not impede the user in using accessibility features provided by their operating system and Assistive Technologies. |
-| 11.5 User preferences                                                                             | Supports                                                                                 | The pages of this product use standard HTML and CSS attributes that may be overridden in user-supplied style sheets. |
-| ***11.6 Authoring tools***                                                                        | -                                                                                        | -                                                                              |
-| ***11.6.1 Content technology***                                                                   | -                                                                                        | -                                                                              |
-| 11.6.2 Accessible content creation (if not authoring tool, enter “not applicable”)                | Not Applicable                                                                           | This product is not used as an authoring tool.                                 |
-| 11.6.3 Preservation of accessibility information in transformations                               | Not Applicable                                                                           | This product is not used as an authoring tool.                                 |
-| 11.6.4 Repair assistance                                                                          | Not Applicable                                                                           | This product is not used as an authoring tool.                                 |
-| 11.6.5 Templates                                                                                  | Not Applicable                                                                           | This product is not used as an authoring tool.                                 |
+| 11.1.1 through 11.4.1.3                                 | See [WCAG 2.1](#wcag-21-report) section                                                            | See information in WCAG section                                                |                                              |
+| ***11.5 Interoperability with assistive technology***                                             | -                                                                                        | -                                                                              |
+| ***11.5.1 Closed functionality (informative)***                                                   | -                                                                                        | -                                                                              |
+| ***11.5.2 Accessibility services***                                                               | -                                                                                        | -                                                                              |
+| ***11.5.2.1 Platform accessibility service support for software that provides a user interface*** | See 11.5.2.5 through 11.5.2.17                                                           | See information in 11.5.2.5 through 11.5.2.17                                  |
+| ***11.3.2.2 Platform accessibility service support for Assistive Technologies***                  | See 11.5.2.5 through 11.5.2.17                                                           | See information in 11.5.2.5 through 11.5.2.17                                  |
+| 11.5.2.3 Use of accessibility services                                                            | Supports                                                                                 | This product supports standard platform accessibility services.                |
+| 11.5.2.4 Assistive technology                                                                     | Not Applicable                                                                           | This product is not an assistive technology.                                   |
+| 11.5.2.5 Object information                                                                       | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.1 and 502.3.2 |
+| 11.5.2.6 Row, column, and headers                                                                 | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.3             |
+| 11.5.2.7 Values                                                                                   | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.4 and 502.3.5 |
+| 11.5.2.8 Label relationships                                                                      | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.6             |
+| 11.5.2.9 Parent-child relationships                                                               | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.7             |
+| 11.5.2.10 Text                                                                                    | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.8 and 502.3.9 |
+| 11.5.2.11 List of available actions                                                               | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.10            |
+| 11.5.2.12 Execution of available actions                                                          | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.11            |
+| 11.5.2.13 Tracking of focus and selection attributes                                              | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.12            |
+| 11.5.2.14 Modification of focus and selection attributes                                          | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.13            |
+| 11.5.2.15 Change notification                                                                     | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14            |
+| 11.5.2.16 Modifications of states and properties                                                  | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14            |
+| 11.5.2.17 Modifications of values and text                                                        | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.5 and 502.3.9 |
+| ***11.6 Documented accessibility usage***                                                         | -                                                                                        | -                                                                              |
+| 11.6.1 User control of accessibility features                                                     | Not Applicable                                                                           | This product is not considered platform software as defined by EN 301 549 V1.1.2. See [3.1 Definitions](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=15). |
+| 11.6.2 No disruption of accessibility features                                                    | Not Applicable                                                                           | This product is not considered platform software as defined by EN 301 549 V1.1.2. The product does not impede the user in using accessibility features provided by their operating system and Assistive Technologies. |
+| 11.7 User preferences                                                                             | Supports                                                                                 | The pages of this product use standard HTML and CSS attributes that may be overridden in user-supplied style sheets. |
+| ***11.8 Authoring tools***                                                                        | -                                                                                        | -                                                                              |
+| ***11.8.1 Content technology***                                                                   | -                                                                                        | -                                                                              |
+| 11.8.2 Accessible content creation (if not authoring tool, enter “not applicable”)                | Not Applicable                                                                           | This product is not used as an authoring tool.                                 |
+| 11.8.3 Preservation of accessibility information in transformations                               | Not Applicable                                                                           | This product is not used as an authoring tool.                                 |
+| 11.8.4 Repair assistance                                                                          | Not Applicable                                                                           | This product is not used as an authoring tool.                                 |
+| 11.8.5 Templates                                                                                  | Not Applicable                                                                           | This product is not used as an authoring tool.                                 |
 
-### Chapter [12: Documentation and Support Services](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=73)
+### Chapter [12: Documentation and Support Services](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=84)
 
 Notes: This report covers accessibility conformance for the web product and does not provide Documentation or Support Services.
 
-### Chapter [13: ICT Providing Relay or Emergency Service Access](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=74)
+### Chapter [13: ICT Providing Relay or Emergency Service Access](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=86)
 
 Notes: This product does not provide any relay services, or access for Emergency Services.
 

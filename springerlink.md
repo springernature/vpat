@@ -1,7 +1,7 @@
 # SpringerLink Accessibility Conformance Report International Edition 
 (Based on VPAT® Version 2.4Rev)
 
-**Report Date**: 15th June 2022  
+**Report Date**: 22nd June 2022  
 **Name of Product/Version**: SpringerLink _(we do not version our software)_  
 **Product Description**: SpringerLink provides researchers with access to scientific documents from journals, books, series, protocols, collections, reference works and proceedings. This report refers entirely to the accessibility of all web documents published at the subdomains link.springer.com and rd.springer.com (both subdomains are referred to as link.springer.com throughout this report), and supporting informational pages such as journal homepages located at the top level domain, springer.com. Also included are all web documents included in the purchasing and subscription process, found at order.springer.com.
  **Contact information**: Please contact your Institutional Sales representative.   
@@ -1668,7 +1668,7 @@ Notes: This report covers accessibility conformance for the web product and does
 
 ## EN 301 549 Report
 
-### Chapter 4: [4.2 Functional Performance Statements](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=22) (FPS)
+### Chapter 4: [4.2 Functional Performance Statements](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=20) (FPS)
 
 | **Criteria**                                      | **Conformance Level**                                                                       | **Remarks and Explanations**                                                                |
 | ------------------------------------------------- | ------------------------------------------------------------------------------------------  | ------------------------------------------------------------------------------------------- |
@@ -1684,15 +1684,15 @@ Notes: This report covers accessibility conformance for the web product and does
 | 4.2.10 Usage with limited cognition               | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.9 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.9 |
 | 4.2.11 Privacy                                    | Supports                                                                                    | Standard HTML and WAI-ARIA attributes are used on these pages. The product does not impede the user from using their own privacy tools when interacting with the content. |
 
-### Chapter [5: Generic Requirements](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=23)
+### Chapter [5: Generic Requirements](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=23)
 
 Notes: This product supports standard web Assistive Technologies and is therefore not subject to the Closed Functionality criteria described in this chapter.
 
-### Chapter [6: ICT with Two-Way Voice Communication](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=28) 
+### Chapter [6: ICT with Two-Way Voice Communication](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=30) 
 
 Notes: This product does not offer two-way voice communication and is therefore not subject to the requirements of this chapter.
 
-### Chapter [7: ICT with Video Capabilities](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=31) 
+### Chapter [7: ICT with Video Capabilities](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=35) 
 
 Notes: See [WCAG section](#wcag-20-report) for full details. 
 
@@ -1707,11 +1707,11 @@ Notes: See [WCAG section](#wcag-20-report) for full details.
 | 7.2.3 Preservation of audio description              | Does Not Support                    | Audio description is not generally used across our content. |
 | 7.3 User controls for captions and audio description | Partially Supports                  | Audio description is not generally used across our content. Some but not all audio is supported by captions. Where captions are available, the mechanism for selecting them is presented at the same level as other playback controls. |
 
-### Chapter [8: Hardware](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=32)
+### Chapter [8: Hardware](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=37)
 
 Notes: This product is a web software application and is not subject to the requirements of this chapter.
 
-### Chapter [9: Web](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=39)
+### Chapter [9: Web](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=45)
 
 Notes: Please see [WCAG 2.1 section](#WCAG).
 
@@ -1720,48 +1720,47 @@ Notes: Please see [WCAG 2.1 section](#WCAG).
 Notes: This product does not include non-web documents and is therefore not subject to the requirements of this chapter.
 
 
-### Chapter [11: Software](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=53)
+### Chapter [11: Software](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=64)
 
 | **Criteria**                                                                                      | **Conformance Level**                                                                    | **Remarks and Explanations**                                                   |
 | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| 11.2.1 Software success criteria (excluding closed functionality)                                 | See [WCAG 2.1](#WCAG) section                                                            | See information in WCAG section                                                |
-| 11.2.2 Software success criteria (closed functionality)                                           | See [WCAG 2.1](#WCAG) section                                                            | See information in WCAG section                                                |
-| ***11.3 Interoperability with Assistive Technology***                                             | -                                                                                        | -                                                                              |
-| ***11.3.1 Closed functionality (informative)***                                                   | -                                                                                        | -                                                                              |
-| ***11.3.2 Accessibility services***                                                               | -                                                                                        | -                                                                              |
-| ***11.3.2.1 Platform accessibility service support for software that provides a user interface*** | See 11.3.2.5 through 11.3.2.17                                                           | See information in 11.3.2.5 through 11.3.2.17                                  |
-| ***11.3.2.2 Platform accessibility service support for Assistive Technologies***                  | See 11.3.2.5 through 11.3.2.17                                                           | See information in 11.3.2.5 through 11.3.2.17                                  |
-| 11.3.2.3 Use of accessibility services                                                            | Supports                                                                                 | This product supports standard platform accessibility services.                |
-| 11.3.2.4 Assistive Technology                                                                     | Not Applicable                                                                           | This product is not an Assistive Technology.                                   |
-| 11.3.2.5 Object information                                                                       | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.1 and 502.3.2 |
-| 11.3.2.6 Row, column, and headers                                                                 | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.3             |
-| 11.3.2.7 Values                                                                                   | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.4 and 502.3.5 |
-| 11.3.2.8 Label relationships                                                                      | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.6             |
-| 11.3.2.9 Parent-child relationships                                                               | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.7             |
-| 11.3.2.10 Text                                                                                    | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.8 and 502.3.9 |
-| 11.3.2.11 List of available actions                                                               | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.10            |
-| 11.3.2.12 Execution of available actions                                                          | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.11            |
-| 11.3.2.13 Tracking of focus and selection attributes                                              | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.12            |
-| 11.3.2.14 Modification of focus and selection attributes                                          | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.13            |
-| 11.3.2.15 Change notification                                                                     | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14            |
-| 11.3.2.16 Modifications of states and properties                                                  | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14            |
-| 11.3.2.17 Modifications of values and text                                                        | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.5 and 502.3.9 |
-| ***11.4 Documented accessibility usage***                                                         | -                                                                                        | -                                                                              |
-| 11.4.1 User control of accessibility features                                                     | Not Applicable                                                                           | This product is not considered platform software as defined by EN 301 549 V1.1.2. See [3.1 Definitions](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=18). |
-| 11.4.2 No disruption of accessibility features                                                    | Not Applicable                                                                           | This product is not considered platform software as defined by EN 301 549 V1.1.2. The product does not impede the user in using accessibility features provided by their operating system and Assistive Technologies. |
-| 11.5 User preferences                                                                             | Supports                                                                                 | The pages of this product use standard HTML and CSS attributes that may be overridden in user-supplied style sheets. |
-| ***11.6 Authoring tools***                                                                        | -                                                                                        | -                                                                              |
-| ***11.6.1 Content technology***                                                                   | -                                                                                        | -                                                                              |
-| 11.6.2 Accessible content creation (if not authoring tool, enter “not applicable”)                | Not Applicable                                                                           | This product is not used as an authoring tool.                                 |
-| 11.6.3 Preservation of accessibility information in transformations                               | Not Applicable                                                                           | This product is not used as an authoring tool.                                 |
-| 11.6.4 Repair assistance                                                                          | Not Applicable                                                                           | This product is not used as an authoring tool.                                 |
-| 11.6.5 Templates                                                                                  | Not Applicable                                                                           | This product is not used as an authoring tool.                                 |
+| 11.1.1 through 11.4.1.3                                 | See [WCAG 2.1](#WCAG) section                                                            | See information in WCAG section                                                |                                               |
+| ***11.5 Interoperability with Assistive Technology***                                             | -                                                                                        | -                                                                              |
+| ***11.5.1 Closed functionality (informative)***                                                   | -                                                                                        | -                                                                              |
+| ***11.5.2 Accessibility services***                                                               | -                                                                                        | -                                                                              |
+| ***11.5.2.1 Platform accessibility service support for software that provides a user interface*** | See 11.5.2.5 through 11.5.2.17                                                           | See information in 11.5.2.5 through 11.5.2.17                                  |
+| ***11.3.2.2 Platform accessibility service support for Assistive Technologies***                  | See 11.5.2.5 through 11.5.2.17                                                           | See information in 11.5.2.5 through 11.5.2.17                                  |
+| 11.5.2.3 Use of accessibility services                                                            | Supports                                                                                 | This product supports standard platform accessibility services.                |
+| 11.5.2.4 Assistive Technology                                                                     | Not Applicable                                                                           | This product is not an Assistive Technology.                                   |
+| 11.5.2.5 Object information                                                                       | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.1 and 502.3.2 |
+| 11.5.2.6 Row, column, and headers                                                                 | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.3             |
+| 11.5.2.7 Values                                                                                   | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.4 and 502.3.5 |
+| 11.5.2.8 Label relationships                                                                      | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.6             |
+| 11.5.2.9 Parent-child relationships                                                               | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.7             |
+| 11.5.2.10 Text                                                                                    | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.8 and 502.3.9 |
+| 11.5.2.11 List of available actions                                                               | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.10            |
+| 11.5.2.12 Execution of available actions                                                          | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.11            |
+| 11.5.2.13 Tracking of focus and selection attributes                                              | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.12            |
+| 11.5.2.14 Modification of focus and selection attributes                                          | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.13            |
+| 11.5.2.15 Change notification                                                                     | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14            |
+| 11.5.2.16 Modifications of states and properties                                                  | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14            |
+| 11.5.2.17 Modifications of values and text                                                        | See [Revised Section 508 Report](#chapter-5-software)                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.5 and 502.3.9 |
+| ***11.6 Documented accessibility usage***                                                         | -                                                                                        | -                                                                              |
+| 11.6.1 User control of accessibility features                                                     | Not Applicable                                                                           | This product is not considered platform software as defined by EN 301 549 V1.1.2. See [3.1 Definitions](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=15). |
+| 11.6.2 No disruption of accessibility features                                                    | Not Applicable                                                                           | This product is not considered platform software as defined by EN 301 549 V1.1.2. The product does not impede the user in using accessibility features provided by their operating system and Assistive Technologies. |
+| 11.7 User preferences                                                                             | Supports                                                                                 | The pages of this product use standard HTML and CSS attributes that may be overridden in user-supplied style sheets. |
+| ***11.8 Authoring tools***                                                                        | -                                                                                        | -                                                                              |
+| ***11.8.1 Content technology***                                                                   | -                                                                                        | -                                                                              |
+| 11.8.2 Accessible content creation (if not authoring tool, enter “not applicable”)                | Not Applicable                                                                           | This product is not used as an authoring tool.                                 |
+| 11.8.3 Preservation of accessibility information in transformations                               | Not Applicable                                                                           | This product is not used as an authoring tool.                                 |
+| 11.8.4 Repair assistance                                                                          | Not Applicable                                                                           | This product is not used as an authoring tool.                                 |
+| 11.8.5 Templates                                                                                  | Not Applicable                                                                           | This product is not used as an authoring tool.                                 |
 
 ### Chapter [12: Documentation and Support Services](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=73)
 
 Notes: This report covers accessibility conformance for the web product and does not provide Documentation or Support Services.
 
-### Chapter [13: ICT Providing Relay or Emergency Service Access](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=74)
+### Chapter [13: ICT Providing Relay or Emergency Service Access](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=86)
 
 Notes: This product does not provide any relay services, or access for Emergency Services.
 
