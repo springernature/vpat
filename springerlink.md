@@ -1724,9 +1724,7 @@ Notes: This product does not include non-web documents and is therefore not subj
 
 | **Criteria**                                                                                      | **Conformance Level**                                                                    | **Remarks and Explanations**                                                   |
 | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| 11.1.1 through 11.4.1.3                                 | See [WCAG 2.1](#WCAG) section                                                            | See information in WCAG section                                                |
--
--                                                |
+| 11.1.1 through 11.4.1.3                                 | See [WCAG 2.1](#WCAG) section                                                            | See information in WCAG section                                                |                                               |
 | ***11.5 Interoperability with Assistive Technology***                                             | -                                                                                        | -                                                                              |
 | ***11.5.1 Closed functionality (informative)***                                                   | -                                                                                        | -                                                                              |
 | ***11.5.2 Accessibility services***                                                               | -                                                                                        | -                                                                              |
