@@ -1,7 +1,7 @@
 # SpringerLink Accessibility Conformance Report International Edition 
 (Based on VPAT® Version 2.4Rev)
 
-**Report Date**: 15th June 2022  
+**Report Date**: 22nd June 2022  
 **Name of Product/Version**: SpringerLink _(we do not version our software)_  
 **Product Description**: SpringerLink provides researchers with access to scientific documents from journals, books, series, protocols, collections, reference works and proceedings. This report refers entirely to the accessibility of all web documents published at the subdomains link.springer.com and rd.springer.com (both subdomains are referred to as link.springer.com throughout this report), and supporting informational pages such as journal homepages located at the top level domain, springer.com. Also included are all web documents included in the purchasing and subscription process, found at order.springer.com.
  **Contact information**: Please contact your Institutional Sales representative.   
