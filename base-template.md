@@ -1428,8 +1428,8 @@ Notes: This report covers accessibility conformance for the web product and does
 </tr>
 <tr>
 <td>4.2.7 Usage with limited manipulation or strength</td>
-<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.7</td>
-<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.7</td>
+<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.7 and 302.8</td>
+<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.7 and 302.8</td>
 </tr>
 <tr>
 <td>4.2.8 Usage with limited reach</td>
@@ -1646,7 +1646,7 @@ Notes: This product does not include non-web documents and is therefore not subj
 <td>See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5 </a>502.3.5 and 502.3.9</td>
 </tr>
 <tr>
-<td><em><i>11.4 Documented accessibility usage</em></i></td>
+<td><em><i>11.6 Documented accessibility usage</em></i></td>
 <td>-</td>
 <td>-</td>
 </tr>
