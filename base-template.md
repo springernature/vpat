@@ -1144,17 +1144,62 @@ Notes: This product has not been evaluated for WCAG 2.0 Level AAA conformance.
 
 ### Chapter 3: [Functional Performance Criteria](https://www.access-board.gov/ict/#chapter-3-functional-performance-criteria) (FPC)
 
-| **Criteria**                                                   | **Conformance Level** | **Remarks and Explanations** |
-| -------------------------------------------------------------- | --------------------- | ---------------------------- |
-| 302.1 Without Vision                                           |                       |                              |
-| 302.2 With Limited Vision                                      |                       |                              |
-| 302.3 Without Perception of Color                              |                       |                              |
-| 302.4 Without Hearing                                          |                       |                              |
-| 302.5 With Limited Hearing                                     |                       |                              |
-| 302.6 Without Speech                                           |                       |                              |
-| 302.7 With Limited Manipulation                                |                       |                              |
-| 302.8 With Limited Reach and Strength                          |                       |                              |
-| 302.9 With Limited Language, Cognitive, and Learning Abilities |                       |                              |
+<table>
+<thead>
+<tr>
+<th scope="col"><strong>Criteria</strong></th>
+<th scope="col"><strong>Conformance Level</strong></th>
+<th scope="col"><strong>Remarks and Explanations</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>302.1 Without Vision</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>302.2 With Limited Vision</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>302.3 Without Perception of Color</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>302.4 Without Hearing</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>302.5 With Limited Hearing</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>302.6 Without Speech</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>302.7 With Limited Manipulation</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>302.8 With Limited Reach and Strength</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>302.9 With Limited Language, Cognitive, and Learning Abilities</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 ### Chapter 4: [Hardware](https://www.access-board.gov/ict/#chapter-4-hardware)
 
@@ -1342,19 +1387,72 @@ Notes: This report covers accessibility conformance for the web product and does
 
 ### Chapter 4: [4.2 Functional Performance Statements](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=20) (FPS)
 
-| **Criteria**                                      | **Conformance Level**                                                                       | **Remarks and Explanations**                                                                |
-| ------------------------------------------------- | ------------------------------------------------------------------------------------------  | ------------------------------------------------------------------------------------------- |
-| 4.2.1 Usage without vision                        | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.1 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.1 |
-| 4.2.2 Usage with limited vision                   | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.2 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.2 |
-| 4.2.3 Usage without perception of colour          | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.3 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.3 |
-| 4.2.4 Usage without hearing                       | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.4 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.4 |
-| 4.2.5 Usage with limited hearing                  | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.5 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.5 |
-| 4.2.6 Usage without vocal capability              | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.6 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.6 |
-| 4.2.7 Usage with limited manipulation or strength | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.7 and 302.8 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.7 and 302.8 |
-| 4.2.8 Usage with limited reach                    | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.8 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.8 |
-| 4.2.9 Minimize photosensitive seizure triggers    |                        																	  |                                                                                             |
-| 4.2.10 Usage with limited cognition               | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.9 | See [Revised Section 508 Report Ch.3](#chapter-3-functional-performance-criteria-fpc) 302.9 |
-| 4.2.11 Privacy                                    |                        																	  |                                                                                             |
+<table>
+<thead>
+<tr>
+<th scope="col"><strong>Criteria</strong></th>
+<th scope="col"><strong>Conformance Level</strong></th>
+<th scope="col"><strong>Remarks and Explanations</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4.2.1 Usage without vision</td>
+<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.1</td>
+<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.1</td>
+</tr>
+<tr>
+<td>4.2.2 Usage with limited vision</td>
+<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.2</td>
+<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.2</td>
+</tr>
+<tr>
+<td>4.2.3 Usage without Perception of Color</td>
+<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.3</td>
+<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.3</td>
+</tr>
+<tr>
+<td>4.2.4 Usage without hearing</td>
+<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.4</td>
+<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.4</td>
+</tr>
+<tr>
+<td>4.2.5 Usage with limited hearing</td>
+<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.5</td>
+<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.5</td>
+</tr>
+<tr>
+<td>4.2.6 Usage without vocal capability</td>
+<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.6</td>
+<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.6</td>
+</tr>
+<tr>
+<td>4.2.7 Usage with limited manipulation or strength</td>
+<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.7</td>
+<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.7</td>
+</tr>
+<tr>
+<td>4.2.8 Usage with limited reach</td>
+<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.8</td>
+<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.8</td>
+</tr>
+<tr>
+<td>4.2.9 Minimize photosensitive seizure triggers</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4.2.10 Usage with limited cognition</td>
+<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.9</td>
+<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.9</td>
+</tr>
+<tr>
+<td>4.2.11 Privacy</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 ### Chapter [5: Generic Requirements](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=23)
 
@@ -1368,16 +1466,57 @@ Notes: This product does not offer two-way voice communication and is therefore 
 
 Notes:
 
-| **Criteria**                                         | **Conformance Level**               | **Remarks and Explanations**        |
-| ---------------------------------------------------- | ----------------------------------- | ----------------------------------- |
-| ***7.1 Caption processing technology***              | -                                   | -                                   |
-| 7.1.1 Captioning playback                            |                                     |                                     |
-| 7.1.2 Captioning synchronization                     |                                     |                                     |
-| 7.1.3 Preservation of captioning                     |                                     |                                     |
-| 7.2.1 Audio description playback                     |                                     |                                     |
-| 7.2.2 Audio description synchronization              |                                     |                                     |
-| 7.2.3 Preservation of audio description              |                                     |                                     |
-| 7.3 User controls for captions and audio description |                                     |                                     |
+<table>
+<thead>
+<tr>
+<th scope="col"><strong>Criteria</strong></th>
+<th scope="col"><strong>Conformance Level</strong></th>
+<th scope="col"><strong>Remarks and Explanations</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em><i>7.1 Caption processing technology</em></i></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>7.1.1 Captioning playback</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7.1.2 Captioning synchronization</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7.1.3 Preservation of captioning</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7.2.1 Audio description playback</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7.2.2 Audio description synchronization</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7.2.3 Preservation of audio description</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7.3 User controls for captions and audio description</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>                                  
 
 ### Chapter [8: Hardware](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=37)
 
@@ -1393,39 +1532,171 @@ Notes: This product does not include non-web documents and is therefore not subj
 
 ### Chapter [11: Software](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=64)
 
-| **Criteria**                                                                                      | **Conformance Level**                                                                    | **Remarks and Explanations**                                                   |
-| ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| 11.1.1 through 11.4.1.3                                 | See [WCAG 2.0](#WCAG) section                                                            | See information in WCAG section                                                |
-| ***11.5 Interoperability with assistive technology***                                             | -                                                                                        | -                                                                              |
-| ***11.5.1 Closed functionality***                                                   | -                                                                                        | -                                                                              |
-| ***11.5.2 Accessibility services***                                                               | -                                                                                        | -                                                                              |
-| ***11.5.2.1 Platform accessibility service support for software that provides a user interface*** | See 11.5.2.5 through 11.5.2.17                                                           | See information in 11.5.2.5 through 11.5.2.17                                  |
-| ***11.3.2.2 Platform accessibility service support for assistive technologies***                  | See 11.5.2.5 through 11.5.2.17                                                           | See information in 11.5.2.5 through 11.5.2.17                                  |
-| 11.5.2.3 Use of accessibility services          | See information in 11.5.2.5 through 11.5.2.17                                                           |See information in 11.5.2.5 through 11.5.2.17                                                                                          |                                                                                          |                                                                                |
-| 11.5.2.4 Assistive technology                                                                     |                                                                                          |                                                                                |
-| 11.5.2.5 Object information                                                                       | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.1 and 502.3.2           | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.1 and 502.3.2 |
-| 11.5.2.6 Row, column, and headers                                                                 | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.3                       | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.3             |
-| 11.5.2.7 Values                                                                                   | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.4 and 502.3.5           | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.4 and 502.3.5 |
-| 11.5.2.8 Label relationships                                                                      | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.6                       | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.6             |
-| 11.5.2.9 Parent-child relationships                                                               | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.7                       | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.7             |
-| 11.5.2.10 Text                                                                                    | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.8 and 502.3.9           | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.8 and 502.3.9 |
-| 11.5.2.11 List of available actions                                                               | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.10                      | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.10            |
-| 11.5.2.12 Execution of available actions                                                          | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.11                      | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.11            |
-| 11.5.2.13 Tracking of focus and selection attributes                                              | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.12                      | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.12            |
-| 11.5.2.14 Modification of focus and selection attributes                                          | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.13                      | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.13            |
-| 11.5.2.15 Change notification                                                                     | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14                      | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14            |
-| 11.5.2.16 Modifications of states and properties                                                  | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14                      | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.14            |
-| 11.5.2.17 Modifications of values and text                                                        | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.5 and 502.3.9           | See [Revised Section 508 Report Ch.5](#chapter-5-software) 502.3.5 and 502.3.9 |
-| ***11.4 Documented accessibility usage***                                                         | -                                                                                        | -                                                                              |
-| 11.6.1 User control of accessibility features                                                     |                                                                                          |                                                                                |
-| 11.6.2 No disruption of accessibility features                                                    |                                                                                          |                                                                                |
-| 11.7 User preferences                                                                             |                                                                                          |                                                                                |
-| ***11.8 Authoring tools***                                                                        | -                                                                                        | -                                                                              |
-| ***11.8.1 Content technology***                                                                   | -                                                                                        | -                                                                              |
-| 11.8.2 Accessible content creation (if not authoring tool, enter “not applicable”)                | See [WCAG 2.0](#WCAG) section                                                            | See information in WCAG section                                                |
-| 11.8.3 Preservation of accessibility information in transformations                               |                                                                                          |                                                                                |
-| 11.8.4 Repair assistance                                                                          |                                                                                          |                                                                                |
-| 11.8.5 Templates                                                                                  |                                                                                          |                                                                                |
+<table>
+<thead>
+<tr>
+<th scope="col"><strong>Criteria</strong></th>
+<th scope="col"><strong>Conformance Level</strong></th>
+<th scope="col"><strong>Remarks and Explanations</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11.1.1 through 11.4.1.3</td>
+<td>See <a ref="#WCAG">WCAG 2.0</a> Section</td>
+<td>See information in WCAG section</td>
+</tr>
+<tr>
+<td><em><i>11.5 Interoperability with assistive technology</em></i></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td><em><i>11.5.1 Closed functionality</em></i></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td><em><i>11.5.2.1 Accessibility services</em></i></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td><em><i>11.5.2.1 Platform accessibility service support for software that provides a user interface</em></i></td>
+<td>See 11.5.2.5 through 11.5.2.17</td>
+<td>See information in 11.5.2.5 through 11.5.2.17</td>
+</tr>
+<tr>
+<td><em><i>11.3.2.2 Platform accessibility service support for assistive technologies</em></i></td>
+<td>See 11.5.2.5 through 11.5.2.17</td>
+<td>See information in 11.5.2.5 through 11.5.2.17</td>
+</tr>
+<tr>
+<td>11.5.2.3 Use of accessibility services</td>
+<td>See information in 11.5.2.5 through 11.5.2.17</td>
+<td>See information in 11.5.2.5 through 11.5.2.17</td>
+</tr>
+<tr>
+<td>11.5.2.4 Assistive technology</td>
+<td></td>
+<td></td>
+</tr><tr>
+<td>11.5.2.5 Object information</td>
+<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.1 and 502.3.2</td>
+<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.1 and 502.3.2</td>
+</tr>
+<tr>
+<td>11.5.2.6 Row, column, and headers</td>
+<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.3</td>
+<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.3</td>
+</tr>
+<tr>
+<td>11.5.2.7 Values</td>
+<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.4 and 502.3.5</td>
+<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.4 and 502.3.5</td>
+</tr>
+<tr>
+<td>11.5.2.8 Label relationships</td>
+<td>See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.6</td>
+<td>See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.6</td>
+</tr>
+<tr>
+<td>11.5.2.9 Parent-child relationships</td>
+<td>See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.7</td>
+<td>See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.7</td>
+</tr>
+<tr>
+<td>11.5.2.10 Text</td>
+<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.8 and 502.3.9</td>
+<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.8 and 502.3.9</td>
+</tr>
+<tr>
+<td>11.5.2.11 List of available actions</td>
+<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.10</td>
+<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.10</td>
+</tr>
+<tr>
+<td>11.5.2.12 Execution of available actions</td>
+<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.11</td>
+<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.11</td>
+</tr>
+<tr>
+<td>11.5.2.13 Tracking of focus and selection attributes</td>
+<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.12</td>
+<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.12</td>
+</tr>
+<tr>
+<td>11.5.2.14 Modification of focus and selection attributes</td>
+<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.13</td>
+<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.13</td>
+</tr>
+<tr>
+<td>11.5.2.15 Change notification</td>
+<td>See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.14</td>
+<td>See<a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.14</td>
+</tr>
+<tr>
+<td>11.5.2.16 Modifications of states and properties</td>
+<td><a ref="#chapter-5-software">See Revised Section 508 Report Ch.5</a> 502.3.14</td>
+<td>See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.14</td>
+</tr>
+<tr>
+<td>11.5.2.17 Modifications of values and text</td>
+<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.5 and 502.3.9</td>
+<td>See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5 </a>502.3.5 and 502.3.9</td>
+</tr>
+<tr>
+<td><em><i>11.4 Documented accessibility usage</em></i></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>11.6.1 User control of accessibility features</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>11.6.2 No disruption of accessibility features</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>11.7 User preferences</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><em><i>11.8 Authoring tools</em></i></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td><em><i>11.8.1 Content technology</em></i></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>11.8.2 Accessible content creation (if not authoring tool, enter “not applicable”)</td>
+<td>See <a ref="#WCAG"> WCAG 2.0 </a>section</td>
+<td>See information in WCAG section</td>
+</tr>
+<tr>
+<td>11.8.3 Preservation of accessibility information in transformations</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>11.8.4 Repair assistance</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>11.8.5 Templates</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 ### Chapter [12: Documentation and Support Services](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=84)
 
