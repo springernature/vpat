@@ -1811,8 +1811,9 @@ Notes: This product does not include non-web documents and is therefore not subj
 <tr>
 <td>11.5.2.4 Assistive technology</td>
 <td>Not Applicable</td>
-<td></td>
-</tr><tr>
+<td>This product is not an Assistive Technology.</td>
+</tr>
+<tr>
 <td>11.5.2.5 Object information</td>
 <td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.1 and 502.3.2</td>
 <td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.1 and 502.3.2</td>
