@@ -1140,7 +1140,7 @@ Tables 1 and 2 also document conformance with:
 
 Notes: This product has not been evaluated for WCAG 2.0 Level AAA conformance.
 
-## Revised Section 508 Report
+## Revised Section 508 Report 
 
 ### Chapter 3: [Functional Performance Criteria](https://www.access-board.gov/ict/#chapter-3-functional-performance-criteria) (FPC)
 
@@ -1222,7 +1222,7 @@ Notes: This product is a web software application and is not subject to the requ
 <td>See information in WCAG section</td>
 </tr>
 <tr>
-<td><em><strong>502 Interoperability with Assistive Technology</strong></em></td>
+<th scope="row" style="text-align: left;"><em><strong>502 Interoperability with Assistive Technology</strong></em></th>
 <td>-</td>
 <td>-</td>
 </tr>
@@ -1237,7 +1237,7 @@ Notes: This product is a web software application and is not subject to the requ
 <td></td>
 </tr>
 <tr>
-<td><em><strong>502.3 Accessibility Services</strong></em></td>
+<th scope="row"><em><strong>502.3 Accessibility Services</strong></em></th>
 <td>-</td>
 <td>-</td>
 </tr>
@@ -1317,7 +1317,7 @@ Notes: This product is a web software application and is not subject to the requ
 <td></td>
 </tr>
 <tr>
-<td><em><strong>503 Applications</strong></em></td>
+<th scope="row"><i><strong>503 Applications</strong></i></th>
 <td>-</td>
 <td>-</td>
 </tr>
@@ -1332,7 +1332,7 @@ Notes: This product is a web software application and is not subject to the requ
 <td></td>
 </tr>
 <tr>
-<td><em><strong>503.4 User Controls for Captions and Audio Description</strong></em></td>
+<th scope="row"><em><strong>503.4 User Controls for Captions and Audio Description</strong></em></th>
 <td>-</td>
 <td>-</td>
 </tr>
@@ -1347,7 +1347,7 @@ Notes: This product is a web software application and is not subject to the requ
 <td></td>
 </tr>
 <tr>
-<td><em><strong>504 Authoring Tools</strong></em></td>
+<th scope="row"><em><strong>504 Authoring Tools</strong></em></th>
 <td>-</td>
 <td>-</td>
 </tr>
@@ -1476,7 +1476,7 @@ Notes:
 </thead>
 <tbody>
 <tr>
-<td><em><i>7.1 Caption processing technology</em></i></td>
+<th scope="row"><em><strong>7.1 Caption processing technology</em></strong></th>
 <td>-</td>
 <td>-</td>
 </tr>
@@ -1541,33 +1541,38 @@ Notes: This product does not include non-web documents and is therefore not subj
 </tr>
 </thead>
 <tbody>
+  <tr>
+  <th scope="row"><strong><em>General (informative)</strong></em></th> 
+  <td>-</td>
+  <td>-</td>
+  </tr>
 <tr>
 <td>11.1.1 through 11.4.1.3</td>
 <td>See <a ref="#WCAG">WCAG 2.0</a> Section</td>
 <td>See information in WCAG section</td>
 </tr>
 <tr>
-<td><em><i>11.5 Interoperability with assistive technology</em></i></td>
+<th scope="row"><em><strong>11.5 Interoperability with assistive technology</em></strong></th>
 <td>-</td>
 <td>-</td>
 </tr>
 <tr>
-<td><em><i>11.5.1 Closed functionality</em></i></td>
+<th scope="row"><em><strong>11.5.1 Closed functionality</em></strong></th>
 <td>-</td>
 <td>-</td>
 </tr>
 <tr>
-<td><em><i>11.5.2.1 Accessibility services</em></i></td>
+<th scope="row"><em><strong>11.5.2 Accessibility services</em></strong></th>
 <td>-</td>
 <td>-</td>
 </tr>
 <tr>
-<td><em><i>11.5.2.1 Platform accessibility service support for software that provides a user interface</em></i></td>
+<td>11.5.2.1 Platform accessibility service support for software that provides a user interface</td>
 <td>See 11.5.2.5 through 11.5.2.17</td>
 <td>See information in 11.5.2.5 through 11.5.2.17</td>
 </tr>
 <tr>
-<td><em><i>11.3.2.2 Platform accessibility service support for assistive technologies</em></i></td>
+<td>11.5.2.2 Platform accessibility service support for assistive technologies</td>
 <td>See 11.5.2.5 through 11.5.2.17</td>
 <td>See information in 11.5.2.5 through 11.5.2.17</td>
 </tr>
@@ -1646,7 +1651,7 @@ Notes: This product does not include non-web documents and is therefore not subj
 <td>See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5 </a>502.3.5 and 502.3.9</td>
 </tr>
 <tr>
-<td><em><i>11.6 Documented accessibility usage</em></i></td>
+<th scope="row"><em><strong>11.6 Documented accessibility usage</em></strong></th>
 <td>-</td>
 <td>-</td>
 </tr>
@@ -1666,12 +1671,12 @@ Notes: This product does not include non-web documents and is therefore not subj
 <td></td>
 </tr>
 <tr>
-<td><em><i>11.8 Authoring tools</em></i></td>
+<th scope="row"><em><strong>11.8 Authoring tools</em></strong></th>
 <td>-</td>
 <td>-</td>
 </tr>
 <tr>
-<td><em><i>11.8.1 Content technology</em></i></td>
+<th scope="row"><em><strong>11.8.1 Content technology</em></strong></th>
 <td>-</td>
 <td>-</td>
 </tr>
