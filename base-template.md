@@ -1222,9 +1222,7 @@ Notes: This product is a web software application and is not subject to the requ
 <td>See information in WCAG section</td>
 </tr>
 <tr>
-<th scope="row" style="text-align: left;"><em><strong>502 Interoperability with Assistive Technology</strong></em></th>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3"><em><strong>502 Interoperability with Assistive Technology</strong></em></th>
 </tr>
 <tr>
 <td>502.2.1 User Control of Accessibility Features</td>
@@ -1237,7 +1235,7 @@ Notes: This product is a web software application and is not subject to the requ
 <td></td>
 </tr>
 <tr>
-<th scope="row"><em><strong>502.3 Accessibility Services</strong></em></th>
+<th scope="column" colspan="3"><em><strong>502.3 Accessibility Services</strong></em></th>
 <td>-</td>
 <td>-</td>
 </tr>
@@ -1317,7 +1315,7 @@ Notes: This product is a web software application and is not subject to the requ
 <td></td>
 </tr>
 <tr>
-<th scope="row"><i><strong>503 Applications</strong></i></th>
+<th scope="column" colspan="3"><i><strong>503 Applications</strong></i></th>
 <td>-</td>
 <td>-</td>
 </tr>
@@ -1332,7 +1330,7 @@ Notes: This product is a web software application and is not subject to the requ
 <td></td>
 </tr>
 <tr>
-<th scope="row"><em><strong>503.4 User Controls for Captions and Audio Description</strong></em></th>
+<th scope="column" colspan="3"><em><strong>503.4 User Controls for Captions and Audio Description</strong></em></th>
 <td>-</td>
 <td>-</td>
 </tr>
@@ -1347,7 +1345,7 @@ Notes: This product is a web software application and is not subject to the requ
 <td></td>
 </tr>
 <tr>
-<th scope="row"><em><strong>504 Authoring Tools</strong></em></th>
+<th scope="column" colspan="3"><em><strong>504 Authoring Tools</strong></em></th>
 <td>-</td>
 <td>-</td>
 </tr>
@@ -1476,7 +1474,7 @@ Notes:
 </thead>
 <tbody>
 <tr>
-<th scope="row"><em><strong>7.1 Caption processing technology</em></strong></th>
+<th scope="column" colspan="3"><em><strong>7.1 Caption processing technology</em></strong></th>
 <td>-</td>
 <td>-</td>
 </tr>
@@ -1542,7 +1540,7 @@ Notes: This product does not include non-web documents and is therefore not subj
 </thead>
 <tbody>
   <tr>
-  <th scope="row"><strong><em>General (informative)</strong></em></th> 
+  <th scope="column" colspan="3"><strong><em>11.0General (informative)</strong></em></th> 
   <td>-</td>
   <td>-</td>
   </tr>
@@ -1552,17 +1550,17 @@ Notes: This product does not include non-web documents and is therefore not subj
 <td>See information in WCAG section</td>
 </tr>
 <tr>
-<th scope="row"><em><strong>11.5 Interoperability with assistive technology</em></strong></th>
+<th scope="column" colspan="3"><em><strong>11.5 Interoperability with assistive technology</em></strong></th>
 <td>-</td>
 <td>-</td>
 </tr>
 <tr>
-<th scope="row"><em><strong>11.5.1 Closed functionality</em></strong></th>
+<th scope="column" colspan="3"><em><strong>11.5.1 Closed functionality</em></strong></th>
 <td>-</td>
 <td>-</td>
 </tr>
 <tr>
-<th scope="row"><em><strong>11.5.2 Accessibility services</em></strong></th>
+<th scope="column" colspan="3"><em><strong>11.5.2 Accessibility services</em></strong></th>
 <td>-</td>
 <td>-</td>
 </tr>
@@ -1651,7 +1649,7 @@ Notes: This product does not include non-web documents and is therefore not subj
 <td>See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5 </a>502.3.5 and 502.3.9</td>
 </tr>
 <tr>
-<th scope="row"><em><strong>11.6 Documented accessibility usage</em></strong></th>
+<th scope="column" colspan="3"><em><strong>11.6 Documented accessibility usage</em></strong></th>
 <td>-</td>
 <td>-</td>
 </tr>
@@ -1671,12 +1669,12 @@ Notes: This product does not include non-web documents and is therefore not subj
 <td></td>
 </tr>
 <tr>
-<th scope="row"><em><strong>11.8 Authoring tools</em></strong></th>
+<th scope="column" colspan="3"><em><strong>11.8 Authoring tools</em></strong></th>
 <td>-</td>
 <td>-</td>
 </tr>
 <tr>
-<th scope="row"><em><strong>11.8.1 Content technology</em></strong></th>
+<th scope="column" colspan="3"><em><strong>11.8.1 Content technology</em></strong></th>
 <td>-</td>
 <td>-</td>
 </tr>
