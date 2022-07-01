@@ -1540,7 +1540,7 @@ Notes: This product does not include non-web documents and is therefore not subj
 </thead>
 <tbody>
   <tr>
-  <th scope="column" colspan="3"><strong><em>11.0General (informative)</strong></em></th> 
+  <th scope="column" colspan="3"><strong><em>11.0 General (informative)</strong></em></th> 
   <td>-</td>
   <td>-</td>
   </tr>
