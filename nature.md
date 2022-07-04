@@ -1408,9 +1408,7 @@ Notes: This product is a web software application and is not subject to the requ
 <td>See information in WCAG section</td>
 </tr>
 <tr>
-<td><em><strong>502 Interoperability with Assistive Technology</strong></em></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3"><em><strong>502 Interoperability with Assistive Technology</strong></em></th>
 </tr>
 <tr>
 <td>502.2.1 User Control of Accessibility Features</td>
@@ -1427,9 +1425,7 @@ Third party scripts may inject content that disrupts standard operating system a
 </td>
 </tr>
 <tr>
-<td><em><strong>502.3 Accessibility Services</strong></em></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3"><em><strong>502.3 Accessibility Services</strong></em></th>
 </tr>
 <tr>
 <td>502.3.1 Object Information</td>
@@ -1549,9 +1545,7 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 <td>This product is not considered platform software as defined by Section 508. See <a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E103-definitions">E103 Definitions, section E103.4</a>.</td>
 </tr>
 <tr>
-<td><em><strong>503 Applications</strong></em></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3"><em><strong>503 Applications</strong></em></th>
 </tr>
 <tr>
 <td>503.2 User Preferences</td>
@@ -1564,9 +1558,7 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 <td>We do not provide any alternative user interface for this product that functions as assistive technology.</td>
 </tr>
 <tr>
-<td><em><strong>503.4 User Controls for Captions and Audio Description</strong></em></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3"><em><strong>503.4 User Controls for Captions and Audio Description</strong></em></th>
 </tr>
 <tr>
 <td>503.4.1 Caption Controls</td>
@@ -1579,9 +1571,7 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 <td>Audio description is not generally used across our content.</td>
 </tr>
 <tr>
-<td><em><strong>504 Authoring Tools</strong></em></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3"><em><strong>504 Authoring Tools</strong></em></th>
 </tr>
 <tr>
 <td>504.2 Content Creation or Editing (if not authoring tool, enter “not applicable”)</td>
@@ -1708,9 +1698,7 @@ Notes:
 </thead>
 <tbody>
 <tr>
-<td><em><i>7.1 Caption processing technology</em></i></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3"><em><strong>7.1 Caption processing technology</em></strong></th>
 </tr>
 <tr>
 <td>7.1.1 Captioning playback</td>
@@ -1774,32 +1762,28 @@ Notes: This product does not include non-web documents and is therefore not subj
 </thead>
 <tbody>
 <tr>
+<th scope="column" colspan="3"><strong><em>11.0 General (informative)</strong></em></th> 
+</tr>
 <td>11.1.1 through 11.4.1.3</td>
 <td>See <a ref="#WCAG">WCAG 2.0</a> Section</td>
 <td>See information in WCAG section</td>
 </tr>
 <tr>
-<td><em><i>11.5 Interoperability with assistive technology</em></i></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3"><em><strong>11.5 Interoperability with assistive technology</em></strong></th>
 </tr>
 <tr>
-<td><em><i>11.5.1 Closed functionality</em></i></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3"><em><strong>11.5.1 Closed functionality</em></strong></th>
 </tr>
 <tr>
-<td><em><i>11.5.2.1 Accessibility services</em></i></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3"><em><strong>11.5.2 Accessibility services</em></strong></th>
 </tr>
 <tr>
-<td><em><i>11.5.2.1 Platform accessibility service support for software that provides a user interface</em></i></td>
+<td>11.5.2.1 Platform accessibility service support for software that provides a user interface</td>
 <td>See 11.5.2.5 through 11.5.2.17</td>
 <td>See information in 11.5.2.5 through 11.5.2.17</td>
 </tr>
 <tr>
-<td><em><i>11.3.2.2 Platform accessibility service support for assistive technologies</em></i></td>
+<td>11.5.2.2 Platform accessibility service support for assistive technologies</td>
 <td>See 11.5.2.5 through 11.5.2.17</td>
 <td>See information in 11.5.2.5 through 11.5.2.17</td>
 </tr>
@@ -1879,9 +1863,7 @@ Notes: This product does not include non-web documents and is therefore not subj
 <td>See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5 </a>502.3.5 and 502.3.9</td>
 </tr>
 <tr>
-<td><em><i>11.6 Documented accessibility usage</em></i></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3"><em><strong>11.6 Documented accessibility usage</em></strong></th>
 </tr>
 <tr>
 <td>11.6.1 User control of accessibility features</td>
@@ -1899,14 +1881,10 @@ Notes: This product does not include non-web documents and is therefore not subj
 <td>The pages of this product use standard HTML and CSS attributes that may be overridden in user-supplied style sheets.</td>
 </tr>
 <tr>
-<td><em><i>11.8 Authoring tools</em></i></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3"><em><strong>11.8 Authoring tools</em></strong></th>
 </tr>
 <tr>
-<td><em><i>11.8.1 Content technology</em></i></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3"><em><strong>11.8.1 Content technology</em></strong></th>
 </tr>
 <tr>
 <td>11.8.2 Accessible content creation (if not authoring tool, enter “not applicable”)</td>
