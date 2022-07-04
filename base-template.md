@@ -1222,7 +1222,7 @@ Notes: This product is a web software application and is not subject to the requ
 <td>See information in WCAG section</td>
 </tr>
 <tr>
-<th scope="column" colspan="3"><em><strong>502 Interoperability with Assistive Technology</strong></em></th>
+<th scope="column" colspan="3">502 Interoperability with Assistive Technology</th>
 </tr>
 <tr>
 <td>502.2.1 User Control of Accessibility Features</td>
