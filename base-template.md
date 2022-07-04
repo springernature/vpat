@@ -1652,7 +1652,9 @@ Notes: This product does not include non-web documents and is therefore not subj
 <th scope="column" colspan="3"><em><strong>11.8 Authoring tools</em></strong></th>
 </tr>
 <tr>
-<th scope="column" colspan="3"><em><strong>11.8.1 Content technology</em></strong></th>
+<td>11.8.1 Content technology</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>11.8.2 Accessible content creation (if not authoring tool, enter “not applicable”)</td>
