@@ -1541,7 +1541,9 @@ Notes: This product does not include non-web documents and is therefore not subj
 <th scope="column" colspan="3"><em><strong>11.5 Interoperability with assistive technology</em></strong></th>
 </tr>
 <tr>
-<th scope="column" colspan="3"><em><strong>11.5.1 Closed functionality</em></strong></th>
+<td>11.5.1 Closed functionality</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <th scope="column" colspan="3"><em><strong>11.5.2 Accessibility services</em></strong></th>
