@@ -1698,7 +1698,7 @@ Notes:
 </thead>
 <tbody>
 <tr>
-<th scope="column" colspan="3"id="7-caption">7.1 Caption processing technology</th>
+<th scope="column" colspan="3" id="7-caption">7.1 Caption processing technology</th>
 </tr>
 <tr>
 <td headers="7-caption chap-7-criteria">7.1.1 Captioning playback</td>
