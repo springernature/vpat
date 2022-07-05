@@ -1854,7 +1854,7 @@ Notes: This product does not include non-web documents and is therefore not subj
 </tr>
 <tr>
 <td headers="11-a11y-serv chap-11-criteria">11.5.2.16 Modifications of states and properties</td>
-<tdheaders="11-a11y-serv chap-11-conformance"><a ref="#chapter-5-software">See Revised Section 508 Report Ch.5</a> 502.3.14</td>
+<td headers="11-a11y-serv chap-11-conformance"><a ref="#chapter-5-software">See Revised Section 508 Report Ch.5</a> 502.3.14</td>
 <td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.14</td>
 </tr>
 <tr>
