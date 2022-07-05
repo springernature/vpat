@@ -1538,7 +1538,7 @@ Notes: This product does not include non-web documents and is therefore not subj
 <td headers "11-gen chap-11-remarks">See information in WCAG section</td>
 </tr>
 <tr>
-<th scope="column" colspan="3" id="11.5-interop">11.5 Interoperability with assistive technology</th>
+<th scope="column" colspan="3" id="11-interop">11.5 Interoperability with assistive technology</th>
 </tr>
 <tr>
 <th scope="column" colspan="3" id="11.5.1-closed">11.5.1 Closed functionality</th>
