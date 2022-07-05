@@ -1212,7 +1212,7 @@ Notes: This product is a web software application and is not subject to the requ
 <tr>
 <th scope="col" id="chap-5-criteria"><strong>Criteria</strong></th>
 <th scope="col" id="chap-5-conformance"><strong>Conformance Level</strong></th>
-<th scope="col" "chap-5-remarks"><strong>Remarks and Explanations</strong></th>
+<th scope="col" id="chap-5-remarks"><strong>Remarks and Explanations</strong></th>
 </tr>
 </thead>
 <tbody>
