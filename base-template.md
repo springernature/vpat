@@ -1227,7 +1227,7 @@ Notes: This product is a web software application and is not subject to the requ
 <tr>
 <td headers="502-interop chap-5-criteria">502.2.1 User Control of Accessibility Features</td>
 <td headers="502-interop chap-5-conformance"></td>
-<td headers="502-services chap-5-remarks"></td>
+<td headers="502-interop chap-5-remarks"></td>
 </tr>
 <tr>
 <td headers="502-interop chap-5-criteria">502.2.2 No Disruption of Accessibility Features</td>
