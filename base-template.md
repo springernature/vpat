@@ -1326,7 +1326,7 @@ Notes: This product is a web software application and is not subject to the requ
 <td headers="503-apps chap-5-remarks"></td>
 </tr>
 <tr>
-<th scope="column" colspan="3" id="503.4-usercon">503.4 User Controls for Captions and Audio Description</th>
+<th scope="column" colspan="3" id="503-usercon">503.4 User Controls for Captions and Audio Description</th>
 </tr>
 <tr>
 <td headers="503.4-usercon chap-5-criteria">503.4.1 Caption Controls</td>
