@@ -1544,7 +1544,7 @@ Notes: This product does not include non-web documents and is therefore not subj
 <th scope="column" colspan="3" id="11.5.1-closed">11.5.1 Closed functionality</th>
 </tr>
 <tr>
-<th scope="column" colspan="3" id="11.5.2-a11y-serv">11.5.2 Accessibility services</th>
+<th scope="column" colspan="3" id="11-a11y-serv">11.5.2 Accessibility services</th>
 </tr>
 <tr>
 <td headers="11.5.2-a11y-serv chap-11-criteria">11.5.2.1 Platform accessibility service support for software that provides a user interface</td>
