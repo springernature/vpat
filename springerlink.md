@@ -1494,9 +1494,9 @@ Notes: See [WCAG section](#wcag-20-report) for full details.
 <table>
 <thead>
 <tr>
-<th scope="col"><strong>Criteria</strong></th>
-<th scope="col"><strong>Conformance Level</strong></th>
-<th scope="col"><strong>Remarks and Explanations</strong></th>
+<th scope="col" id="chap-5-criteria"><strong>Criteria</strong></th>
+<th scope="col" id="chap-5-conformance"><strong>Conformance Level</strong></th>
+<th scope="col" id="chap-5-remarks"><strong>Remarks and Explanations</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -1506,130 +1506,126 @@ Notes: See [WCAG section](#wcag-20-report) for full details.
 <td>See information in WCAG section</td>
 </tr>
 <tr>
-<td><em><strong>502 Interoperability with Assistive Technology</strong></em></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3" id="502-interop"><a href="https://www.access-board.gov/ict/#502-interoperability-assistive-technology">502 Interoperability with Assistive Technology</a></th>
 </tr>
 <tr>
-<td>502.2.1 User Control of Accessibility Features</td>
-<td>Not Applicable</td>
-<td>This product is not considered platform software as defined by Section 508. See <a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E103-definitions">E103 Definitions, section E103.4</a>.</td>
+<td headers="502-interop chap-5-criteria">502.2.1 User Control of Accessibility Features</td>
+<td headers="502-interop chap-5-conformance">Not Applicable</td>
+<td headers="502-interop chap-5-remarks">This product is not considered platform software as defined by Section 508. See <a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E103-definitions">E103 Definitions, section E103.4</a>.</td>
 </tr>
 <tr>
-<td>502.2.2 No Disruption of Accessibility Features</td>
-<td>Not Applicable</td>
-<td>
+<td headers="502-interop chap-5-criteria">502.2.2 No Disruption of Accessibility Features</td>
+<td headers="502-interop chap-5-conformance">Not Applicable</td>
+<td headers="502-interop chap-5-remarks">
 This product has no platform features as defined by Section 508. The product is compatible with operating system and browser accessibility features configured by the user.
 <br><br>
 Third party scripts may inject content that disrupts standard operating system and browser accessibility features. See information in WCAG section for complete details.
 </td>
 </tr>
 <tr>
-<td><em><strong>502.3 Accessibility Services</strong></em></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3" id="502-services">502.3 Accessibility Services</th>
 </tr>
 <tr>
-<td>502.3.1 Object Information</td>
-<td>Partially Supports</td>
-<td>
+<td headers="502-services chap-5-criteria">502.3.1 Object Information</td>
+<td headers="502-services chap-5-conformance">Partially Supports</td>
+<td headers="502-services chap-5-remarks">
 Object role, state(s), properties, boundary, name, and description are generally programmatically determinable, with some exceptions.
 <br><br>
 See WCAG sections <a href="#non-text-content">1.1.1 Non-text Content</a>, <a href="#info-and-relationships">1.3.1 Info and Relationships</a>, <a href="#sensory-characteristics">1.3.3 Sensory Characteristics</a>, <a href="#link-purpose-in-context">2.4.4 Link Purpose (In Context)</a>, <a href="#labels-or-instructions">3.3.2 Labels or Instructions</a>, <a href="#parsing">4.1.1 Parsing</a>, <a href="#name-role-value">4.1.2 Name, Role, Value</a>, <a href="#contrast-minimum">1.4.3 Contrast (Minimum)</a>, and <a href="#headings-and-labels">2.4.6 Headings and Labels</a> for further detail.
 </td>
 </tr>
 <tr>
-<td>502.3.2 Modification of Object Information</td>
-<td>Partially Supports</td>
-<td>
+<td headers="502-services chap-5-criteria">502.3.2 Modification of Object Information</td>
+<td headers="502-services chap-5-conformance">Partially Supports</td>
+<td headers="502-services chap-5-remarks">
 The pages of this product use standard HTML or WAI-ARIA object roles for maximum compatibility with Assistive Technologies, with some exceptions.
 <br><br>
 See WCAG sections <a href="#non-text-content">1.1.1 Non-text Content</a>, <a href="#info-and-relationships">1.3.1 Info and Relationships</a>, <a href="#sensory-characteristics">1.3.3 Sensory Characteristics</a>, <a href="#link-purpose-in-context">2.4.4 Link Purpose (In Context)</a>, <a href="#labels-or-instructions">3.3.2 Labels or Instructions</a>, <a href="#parsing">4.1.1 Parsing</a>, <a href="#name-role-value">4.1.2 Name, Role, Value</a>, <a href="#contrast-minimum">1.4.3 Contrast (Minimum)</a>, and <a href="#headings-and-labels">2.4.6 Headings and Labels</a> for further detail.
 </td>
 </tr>
 <tr>
-<td>502.3.3 Row, Column, and Headers</td>
-<td>Partially Supports</td>
-<td>
+<td headers="502-services chap-5-criteria">502.3.3 Row, Column, and Headers</td>
+<td headers="502-services chap-5-conformance">Partially Supports</td>
+<td headers="502-services chap-5-remarks">
 Data tables in journals, books, series, protocols, reference works or proceedings may not be marked up with adequate table header information.
 <br><br>
 Data tables in dynamic templates are rare, but where they do appear, they are marked up with standard HTML table elements. Row headers are present and associated with rows and columns as necessary.
 </td>
 </tr>
 <tr>
-<td>502.3.4 Values</td>
-<td>Supports</td>
-<td>The pages of this product use standard HTML or WAI-ARIA object attributes for maximum compatibility with Assistive Technologies.</td>
+<td headers="502-services chap-5-criteria">502.3.4 Values</td>
+<td headers="502-services chap-5-conformance">Supports</td>
+<td headers="502-services chap-5-remarks">The pages of this product use standard HTML or WAI-ARIA object attributes for maximum compatibility with Assistive Technologies.</td>
 </tr>
 <tr>
-<td>502.3.5 Modification of Values</td>
-<td>Supports</td>
-<td>The pages of this product use standard HTML or WAI-ARIA object attributes for maximum compatibility with Assistive Technologies.</td>
+<td headers="502-services chap-5-criteria">502.3.5 Modification of Values</td>
+<td headers="502-services chap-5-conformance">Supports</td>
+<td headers="502-services chap-5-remarks">The pages of this product use standard HTML or WAI-ARIA object attributes for maximum compatibility with Assistive Technologies.</td>
 </tr>
 <tr>
-<td>502.3.6 Label Relationships</td>
-<td>Partially Supports</td>
-<td>
+<td headers="502-services chap-5-criteria">502.3.6 Label Relationships</td>
+<td headers="502-services chap-5-conformance">Partially Supports</td>
+<td headers="502-services chap-5-remarks">
 Generally, the pages of this product use labels on components that require user input, with some exceptions.
 <br><br>
 See WCAG sections <a href="#headings-and-labels">2.4.6 Headings and Labels</a> and <a href="#labels-or-instructions">3.3.2 Labels or Instructions</a> for further detail.
 </td>
 </tr>
 <tr>
-<td>502.3.7 Hierarchical Relationships</td>
-<td>Partially Supports</td>
-<td>
+<td headers="502-services chap-5-criteria">502.3.7 Hierarchical Relationships</td>
+<td headers="502-services chap-5-conformance">Partially Supports</td>
+<td headers="502-services chap-5-remarks">
 The pages of this product generally use standard HTML to express hierarchy, with some exceptions and errors. Third party scripts may inject content that obscures the relationships between components.
 <br><br>
 See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships</a>, and <a href="#headings-and-labels">2.4.6 Headings and Labels</a> for further detail.
 </td>
 </tr>
 <tr>
-<td>502.3.8 Text</td>
-<td>Partially Supports</td>
-<td>
+<td headers="502-services chap-5-criteria">502.3.8 Text</td>
+<td headers="502-services chap-5-conformance">Partially Supports</td>
+<td headers="502-services chap-5-remarks">
 The pages of this product use standard plain text in HTML.
 <br><br>
 Content in journals, books, series, protocols, reference works or proceedings may contain images of text without adequate programmatically determinable alternatives. 
 </td>
 </tr>
 <tr>
-<td>502.3.9 Modification of Text</td>
-<td>Supports</td>
-<td>The pages of this product use standard HTML for user input.</td>
+<td headers="502-services chap-5-criteria">502.3.9 Modification of Text</td>
+<td headers="502-services chap-5-conformance">Supports</td>
+<td headers="502-services chap-5-remarks">The pages of this product use standard HTML for user input.</td>
 </tr>
 <tr>
-<td>502.3.10 List of Actions</td>
-<td>Supports</td>
-<td>The pages of this product use standard HTML or WAI-ARIA object attributes for maximum compatibility with Assistive Technologies.</td>
+<td headers="502-services chap-5-criteria">502.3.10 List of Actions</td>
+<td headers="502-services chap-5-conformance">Supports</td>
+<td headers="502-services chap-5-remarks">The pages of this product use standard HTML or WAI-ARIA object attributes for maximum compatibility with Assistive Technologies.</td>
 </tr>
 <tr>
-<td>502.3.11 Actions on Objects</td>
-<td>Partially Supports</td>
-<td>
+<td headers="502-services chap-5-criteria">502.3.11 Actions on Objects</td>
+<td headers="502-services chap-5-conformance">Partially Supports</td>
+<td headers="502-services chap-5-remarks">
 The pages of this product use standard HTML or WAI-ARIA object attributes for maximum compatibility with Assistive Technologies. Some content, including that injected by third party scripts, cannot be interacted with easily or at all by keyboard or by other Assistive Technologies. 
 <br><br>
 See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships</a>, and <a href="#keyboard">2.1.1 Keyboard</a> for further detail. 
 </td>
 </tr>
 <tr>
-<td>502.3.12 Focus Cursor</td>
-<td>Partially Supports</td>
-<td>
+<td headers="502-services chap-5-criteria">502.3.12 Focus Cursor</td>
+<td headers="502-services chap-5-conformance">Partially Supports</td>
+<td headers="502-services chap-5-remarks">
 We provide focus styles on all focusable elements. Third party scripts may inject components that remove focus styles or alter focus in a way that makes them difficult to perceive by all users.
 <br><br>
 See WCAG sections <a href="#use-of-color">1.4.1 Use of Color</a> and <a href="#focus-visible">2.4.7 Focus Visible</a> for further detail.
 </td>
 </tr>
 <tr>
-<td>502.3.13 Modification of Focus Cursor</td>
-<td>Supports</td>
-<td>The pages of this product use standard HTML elements and cursor controls for user input that may be overridden by Assistive Technology.</td>
+<td headers="502-services chap-5-criteria">502.3.13 Modification of Focus Cursor</td>
+<td headers="502-services chap-5-conformance">Supports</td>
+<td headers="502-services chap-5-remarks">The pages of this product use standard HTML elements and cursor controls for user input that may be overridden by Assistive Technology.</td>
 </tr>
 <tr>
-<td>502.3.14 Event Notification</td>
-<td>Partially Supports</td>
-<td>
+<td headers="502-services chap-5-criteria">502.3.14 Event Notification</td>
+<td headers="502-services chap-5-conformance">Partially Supports</td>
+<td headers="502-services chap-5-remarks">
 The pages of this product use standard HTML and WAI-ARIA attributes to describe the identity, operation, and state of user interface elements to Assistive Technologies.
 <br><br>
 Some components omit or misuse WAI-ARIA attributes in a way that prevents users of some Assistive Technologies from being able to perceive changes in state. We are actively working to find and repair these problems. 
@@ -1640,69 +1636,63 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 </td>
 </tr>
 <tr>
-<td>502.4 Platform Accessibility Features</td>
-<td>Not Applicable</td>
-<td>This product is not considered platform software as defined by Section 508. See <a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E103-definitions">E103 Definitions, section E103.4</a>.</td>
+<td headers="502-services chap-5-criteria">502.4 Platform Accessibility Features</td>
+<td headers="502-services chap-5-conformance">Not Applicable</td>
+<td headers="502-services chap-5-remarks">This product is not considered platform software as defined by Section 508. See <a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E103-definitions">E103 Definitions, section E103.4</a>.</td>
 </tr>
 <tr>
-<td><em><strong>503 Applications</strong></em></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3" id="503-apps"><a href="https://www.access-board.gov/ict/#503-applications">503 Applications</a></th>
 </tr>
 <tr>
-<td>503.2 User Preferences</td>
-<td>Supports</td>
-<td>This product does not override user selected contrast and color selections and other individual display attributes.</td>
+<td headers="503-apps chap-5-criteria">503.2 User Preferences</td>
+<td headers="503-apps chap-5-conformance">Supports</td>
+<td headers="503-apps chap-5-remarks">This product does not override user selected contrast and color selections and other individual display attributes.</td>
 </tr>
 <tr>
-<td>503.3 Alternative User Interfaces</td>
-<td>Not Applicable</td>
-<td>We do not provide any alternative user interface for this product that functions as Assistive Technology.</td>
+<td headers="503-apps chap-5-criteria">503.3 Alternative User Interfaces</td>
+<td headers="503-apps chap-5-conformance">Not Applicable</td>
+<td headers="503-apps chap-5-remarks">We do not provide any alternative user interface for this product that functions as Assistive Technology.</td>
 </tr>
 <tr>
-<td><em><strong>503.4 User Controls for Captions and Audio Description</strong></em></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3" id="503-usercon">503.4 User Controls for Captions and Audio Description</th>
 </tr>
 <tr>
-<td>503.4.1 Caption Controls</td>
-<td>Partially Supports</td>
-<td>Not all video content provides captions. Where captions are provided, the controls for adjusting those captions are found at the same menu level as the user controls for volume or program selection. The controls cannot be operated by keyboard alone.</td>
+<td headers="503-usercon chap-5-criteria">503.4.1 Caption Controls</td>
+<td headers="503-usercon chap-5-conformance">Partially Supports</td>
+<td headers="503-usercon chap-5-remarks">Not all video content provides captions. Where captions are provided, the controls for adjusting those captions are found at the same menu level as the user controls for volume or program selection. The controls cannot be operated by keyboard alone.</td>
 </tr>
 <tr>
-<td>503.4.2 Audio Description Controls</td>
-<td>Does Not Support</td>
-<td>Audio description is not generally used across our content.</td>
+<td headers="503-usercon chap-5-criteria">503.4.2 Audio Description Controls</td>
+<td headers="503-usercon chap-5-conformance">Does Not Support</td>
+<td headers="503-usercon chap-5-remarks">Audio description is not generally used across our content.</td>
 </tr>
 <tr>
-<td><em><strong>504 Authoring Tools</strong></em></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3" id="504-authoring"><a href="https://www.access-board.gov/ict/#504-authoring-tools">504 Authoring Tools</a></th>
 </tr>
 <tr>
-<td>504.2 Content Creation or Editing (if not authoring tool, enter “not applicable”)</td>
-<td>Not Applicable</td>
-<td>This product is not used as an authoring tool.</td>
+<td headers="504-authoring chap-5-criteria">504.2 Content Creation or Editing (if not authoring tool, enter “not applicable”)</td>
+<td headers="504-authoring chap-5-conformance">Not Applicable</td>
+<td headers="504-authoring chap-5-remarks">This product is not used as an authoring tool.</td>
 </tr>
 <tr>
-<td>504.2.1 Preservation of Information Provided for Accessibility in Format Conversion</td>
-<td>Not Applicable</td>
-<td>This product is not used as an authoring tool.</td>
+<td headers="504-authoring chap-5-criteria">504.2.1 Preservation of Information Provided for Accessibility in Format Conversion</td>
+<td headers="504-authoring chap-5-conformance">Not Applicable</td>
+<td headers="504-authoring chap-5-remarks">This product is not used as an authoring tool.</td>
 </tr>
 <tr>
-<td>504.2.2 PDF Export</td>
-<td>Not Applicable</td>
-<td>This product is not used as an authoring tool.</td>
+<td headers="504-authoring chap-5-criteria">504.2.2 PDF Export</td>
+<td headers="504-authoring chap-5-conformance">Not Applicable</td>
+<td headers="504-authoring chap-5-remarks">This product is not used as an authoring tool.</td>
 </tr>
 <tr>
-<td>504.3 Prompts</td>
-<td>Not Applicable</td>
-<td>This product is not used as an authoring tool.</td>
+<td headers="504-authoring chap-5-criteria">504.3 Prompts</td>
+<td headers="504-authoring chap-5-conformance">Not Applicable</td>
+<td headers="504-authoring chap-5-remarks">This product is not used as an authoring tool.</td>
 </tr>
 <tr>
-<td>504.4 Templates</td>
-<td>Not Applicable</td>
-<td>This product is not used as an authoring tool.</td>
+<td headers="504-authoring chap-5-criteria">504.4 Templates</td>
+<td headers="504-authoring chap-5-conformance">Not Applicable</td>
+<td headers="504-authoring chap-5-remarks">This product is not used as an authoring tool.</td>
 </tr>
 </tbody>
 </table>
@@ -1797,51 +1787,49 @@ Notes: See [WCAG section](#wcag-20-report) for full details.
 <table>
 <thead>
 <tr>
-<th scope="col"><strong>Criteria</strong></th>
-<th scope="col"><strong>Conformance Level</strong></th>
-<th scope="col"><strong>Remarks and Explanations</strong></th>
+<th scope="col" id="chap-7-criteria"><strong>Criteria</strong></th>
+<th scope="col" id="chap-7-conformance"><strong>Conformance Level</strong></th>
+<th scope="col" id="chap-7-remarks"><strong>Remarks and Explanations</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><em><i>7.1 Caption processing technology</em></i></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3" id="7-caption">7.1 Caption processing technology</th>
 </tr>
 <tr>
-<td>7.1.1 Captioning playback</td>
-<td>Partially Supports</td>
-<td>Some but not all audio is supported by captions. Where captions are available, the user can choose whether or not to display them.</td>
+<td headers="7-caption chap-7-criteria">7.1.1 Captioning playback</td>
+<td headers="7-caption chap-7-conformance">Partially Supports</td>
+<td headers="7-caption chap-7-remarks">Some but not all audio is supported by captions. Where captions are available, the user can choose whether or not to display them.</td>
 </tr>
 <tr>
-<td>7.1.2 Captioning synchronization</td>
-<td>Partially Supports</td>
-<td>Some but not all audio is supported by captions. Where captions are available, they are synchronised with the audio.</td>
+<td headers="7-caption chap-7-criteria">7.1.2 Captioning synchronization</td>
+<td headers="7-caption chap-7-conformance">Partially Supports</td>
+<td headers="7-caption chap-7-remarks">Some but not all audio is supported by captions. Where captions are available, they are synchronised with the audio.</td>
 </tr>
 <tr>
-<td>7.1.3 Preservation of captioning</td>
-<td>Partially Supports</td>
-<td>Some but not all audio is supported by captions. Where captions are available, we do not override the appearance of the default caption display.</td>
+<td headers="7-caption chap-7-criteria">7.1.3 Preservation of captioning</td>
+<td headers="7-caption chap-7-conformance">Partially Supports</td>
+<td headers="7-caption chap-7-remarks">Some but not all audio is supported by captions. Where captions are available, we do not override the appearance of the default caption display.</td>
 </tr>
 <tr>
-<td>7.2.1 Audio description playback</td>
-<td>Does Not Support</td>
-<td>Audio description is not generally used across our content.</td>
+<td headers="7-caption chap-7-criteria">7.2.1 Audio description playback</td>
+<td headers="7-caption chap-7-conformance">Does Not Support</td>
+<td headers="7-caption chap-7-remarks">Audio description is not generally used across our content.</td>
 </tr>
 <tr>
-<td>7.2.2 Audio description synchronization</td>
-<td>Does Not Support</td>
-<td>Audio description is not generally used across our content.</td>
+<td headers="7-caption chap-7-criteria">7.2.2 Audio description synchronization</td>
+<td headers="7-caption chap-7-conformance">Does Not Support</td>
+<td headers="7-caption chap-7-remarks">Audio description is not generally used across our content.</td>
 </tr>
 <tr>
-<td>7.2.3 Preservation of audio description</td>
-<td>Does Not Support</td>
-<td>Audio description is not generally used across our content.</td>
+<td headers="7-caption chap-7-criteria">7.2.3 Preservation of audio description</td>
+<td headers="7-caption chap-7-conformance">Does Not Support</td>
+<td headers="7-caption chap-7-remarks">Audio description is not generally used across our content.</td>
 </tr>
 <tr>
-<td>7.3 User controls for captions and audio description</td>
-<td>Partially Supports</td>
-<td>Audio description is not generally used across our content. Some but not all audio is supported by captions. Where captions are available, the mechanism for selecting them is presented at the same level as other playback controls.</td>
+<td headers="7-caption chap-7-criteria">7.3 User controls for captions and audio description</td>
+<td headers="7-caption chap-7-conformance">Partially Supports</td>
+<td headers="7-caption chap-7-remarks">Audio description is not generally used across our content. Some but not all audio is supported by captions. Where captions are available, the mechanism for selecting them is presented at the same level as other playback controls.</td>
 </tr>
 </tbody>
 </table>
@@ -1864,166 +1852,157 @@ Notes: This product does not include non-web documents and is therefore not subj
 <table>
 <thead>
 <tr>
-<th scope="col"><strong>Criteria</strong></th>
-<th scope="col"><strong>Conformance Level</strong></th>
-<th scope="col"><strong>Remarks and Explanations</strong></th>
+<th scope="col" id="chap-11-criteria"><strong>Criteria</strong></th>
+<th scope="col" id="chap-11-conformance"><strong>Conformance Level</strong></th>
+<th scope="col" id="chap-11-remarks"><strong>Remarks and Explanations</strong></th>
 </tr>
 </thead>
 <tbody>
+ <tr>
+ <th scope="column" colspan="3" id="11-gen">11.0 General (informative)</th> 
+ </tr>
 <tr>
-<td>11.1.1 through 11.4.1.3</td>
-<td>See <a ref="#WCAG">WCAG 2.0</a> Section</td>
-<td>See information in WCAG section</td>
+<td headers="11-gen chap-11-criteria">11.1.1 through 11.4.1.3</td>
+<td headers="11-gen chap-11-conformance">See <a ref="#WCAG">WCAG 2.0</a> Section</td>
+<td headers="11-gen chap-11-remarks">See information in WCAG section</td>
 </tr>
 <tr>
-<td><em><i>11.5 Interoperability with assistive technology</em></i></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3" id="11-interop">11.5 Interoperability with assistive technology</th>
 </tr>
 <tr>
-<td><em><i>11.5.1 Closed functionality (informative)</em></i></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3" id="11-closed">11.5.1 Closed functionality (informative)</th>
 </tr>
 <tr>
-<td><em><i>11.5.2.1 Accessibility services</em></i></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3" id="11-a11y-serv">11.5.2.1 Accessibility services</th>
 </tr>
 <tr>
-<td><em><i>11.5.2.1 Platform accessibility service support for software that provides a user interface</em></i></td>
-<td>See 11.5.2.5 through 11.5.2.17</td>
-<td>See information in 11.5.2.5 through 11.5.2.17</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.1 Platform accessibility service support for software that provides a user interface</td>
+<td headers="11-a11y-serv chap-11-conformance">See 11.5.2.5 through 11.5.2.17</td>
+<td headers="11-ally-serv chap-11-remarks">See information in 11.5.2.5 through 11.5.2.17</td>
 </tr>
 <tr>
-<td><em><i>11.3.2.2 Platform accessibility service support for assistive technologies</em></i></td>
-<td>See 11.5.2.5 through 11.5.2.17</td>
-<td>See information in 11.5.2.5 through 11.5.2.17</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.2 Platform accessibility service support for assistive technologies</td>
+<td headers="11-a11y-serv chap-11-conformance">See 11.5.2.5 through 11.5.2.17</td>
+<td headers="11-ally-serv chap-11-remarks">See information in 11.5.2.5 through 11.5.2.17</td>
 </tr>
 <tr>
-<td>11.5.2.3 Use of accessibility services</td>
-<td>See information in 11.5.2.5 through 11.5.2.17</td>
-<td>See information in 11.5.2.5 through 11.5.2.17</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.3 Use of accessibility services</td>
+<td headers="11-a11y-serv chap-11-conformance">See information in 11.5.2.5 through 11.5.2.17</td>
+<td headers="11-ally-serv chap-11-remarks">See information in 11.5.2.5 through 11.5.2.17</td>
 </tr>
 <tr>
-<td>11.5.2.4 Assistive technology</td>
-<td>Not Applicable</td>
-<td>This product is not an Assistive Technology.</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.4 Assistive technology</td>
+<td headers="11-a11y-serv chap-11-conformance">Not Applicable</td>
+<td headers="11-ally-serv chap-11-remarks">This product is not an Assistive Technology.</td>
 </tr>
 <tr>
-<td>11.5.2.5 Object information</td>
-<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.1 and 502.3.2</td>
-<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.1 and 502.3.2</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.5 Object information</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.1 and 502.3.2</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.1 and 502.3.2</td>
 </tr>
 <tr>
-<td>11.5.2.6 Row, column, and headers</td>
-<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.3</td>
-<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.3</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.6 Row, column, and headers</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.3</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.3</td>
 </tr>
 <tr>
-<td>11.5.2.7 Values</td>
-<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.4 and 502.3.5</td>
-<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.4 and 502.3.5</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.7 Values</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.4 and 502.3.5</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.4 and 502.3.5</td>
 </tr>
 <tr>
-<td>11.5.2.8 Label relationships</td>
-<td>See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.6</td>
-<td>See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.6</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.8 Label relationships</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.6</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.6</td>
 </tr>
 <tr>
-<td>11.5.2.9 Parent-child relationships</td>
-<td>See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.7</td>
-<td>See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.7</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.9 Parent-child relationships</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.7</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.7</td>
 </tr>
 <tr>
-<td>11.5.2.10 Text</td>
-<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.8 and 502.3.9</td>
-<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.8 and 502.3.9</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.10 Text</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.8 and 502.3.9</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.8 and 502.3.9</td>
 </tr>
 <tr>
-<td>11.5.2.11 List of available actions</td>
-<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.10</td>
-<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.10</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.11 List of available actions</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.10</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.10</td>
 </tr>
 <tr>
-<td>11.5.2.12 Execution of available actions</td>
-<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.11</td>
-<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.11</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.12 Execution of available actions</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.11</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.11</td>
 </tr>
 <tr>
-<td>11.5.2.13 Tracking of focus and selection attributes</td>
-<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.12</td>
-<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.12</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.13 Tracking of focus and selection attributes</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.12</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.12</td>
 </tr>
 <tr>
-<td>11.5.2.14 Modification of focus and selection attributes</td>
-<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.13</td>
-<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.13</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.14 Modification of focus and selection attributes</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.13</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.13</td>
 </tr>
 <tr>
-<td>11.5.2.15 Change notification</td>
-<td>See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.14</td>
-<td>See<a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.14</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.15 Change notification</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.14</td>
+<td headers="11-ally-serv chap-11-remarks">See<a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.14</td>
 </tr>
 <tr>
-<td>11.5.2.16 Modifications of states and properties</td>
-<td><a ref="#chapter-5-software">See Revised Section 508 Report Ch.5</a> 502.3.14</td>
-<td>See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.14</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.16 Modifications of states and properties</td>
+<td headers="11-a11y-serv chap-11-conformance"><a ref="#chapter-5-software">See Revised Section 508 Report Ch.5</a> 502.3.14</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.14</td>
 </tr>
 <tr>
-<td>11.5.2.17 Modifications of values and text</td>
-<td>See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.5 and 502.3.9</td>
-<td>See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5 </a>502.3.5 and 502.3.9</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.17 Modifications of values and text</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.5 and 502.3.9</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5 </a>502.3.5 and 502.3.9</td>
 </tr>
 <tr>
-<td><em><i>11.6 Documented accessibility usage</em></i></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3" id="11-doc-a11y">11.6 Documented accessibility usage</th>
 </tr>
 <tr>
-<td>11.6.1 User control of accessibility features</td>
-<td>Not Applicable</td>
-<td>This product is not considered platform software as defined by EN 301 549 V1.1.2. See <a ref="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=15"> 3.1 Definitions</a>.</td>
+<td headers="11-doc-a11y chap-11-criteria">11.6.1 User control of accessibility features</td>
+<td headers="11-doc-a11y chap-11-conformance">Not Applicable</td>
+<td headers="11-doc-a11y chap-11-remarks">This product is not considered platform software as defined by EN 301 549 V1.1.2. See <a ref="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=15"> 3.1 Definitions</a>.</td>
 </tr>
 <tr>
-<td>11.6.2 No disruption of accessibility features</td>
-<td>Not Applicable</td>
-<td>This product is not considered platform software as defined by EN 301 549 V1.1.2. The product does not impede the user in using accessibility features provided by their operating system and Assistive Technologies.</td>
+<td headers="11-doc-a11y chap-11-criteria">11.6.2 No disruption of accessibility features</td>
+<td headers="11-doc-a11y chap-11-conformance">Not Applicable</td>
+<td headers="11-doc-a11y chap-11-remarks">This product is not considered platform software as defined by EN 301 549 V1.1.2. The product does not impede the user in using accessibility features provided by their operating system and Assistive Technologies.</td>
 </tr>
 <tr>
-<td>11.7 User preferences</td>
-<td>Supports</td>
-<td>The pages of this product use standard HTML and CSS attributes that may be overridden in user-supplied style sheets.</td>
+<td headers="11-doc-a11y chap-11-criteria">11.7 User preferences</td>
+<td headers="11-doc-a11y chap-11-conformance">Supports</td>
+<td headers="11-doc-a11y chap-11-remarks">The pages of this product use standard HTML and CSS attributes that may be overridden in user-supplied style sheets.</td>
 </tr>
 <tr>
-<td><em><i>11.8 Authoring tools</em></i></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3" id="11-authoring">11.8 Authoring tools</th>
 </tr>
 <tr>
-<td><em><i>11.8.1 Content technology</em></i></td>
-<td>-</td>
-<td>-</td>
+<th scope="column" colspan="3" id="11-content-tech">11.8.1 Content technology</th>
 </tr>
 <tr>
-<td>11.8.2 Accessible content creation (if not authoring tool, enter “not applicable”)</td>
-<td>Not Applicable</td>
-<td>This product is not used as an authoring tool.</td>
+<td headers="11-content-tech chap-11-criteria">11.8.2 Accessible content creation (if not authoring tool, enter “not applicable”)</td>
+<td headers="11-content-tech chap-11-conformance">Not Applicable</td>
+<td headers="11-content-tech chap-11-remarks">This product is not used as an authoring tool.</td>
 </tr>
 <tr>
-<td>11.8.3 Preservation of accessibility information in transformations</td>
-<td>Not Applicable</td>
-<td>This product is not used as an authoring tool.</td>
+<td headers="11-content-tech chap-11-criteria">11.8.3 Preservation of accessibility information in transformations</td>
+<td headers="11-content-tech chap-11-conformance">Not Applicable</td>
+<td headers="11-content-tech chap-11-remarks">This product is not used as an authoring tool.</td>
 </tr>
 <tr>
-<td>11.8.4 Repair assistance</td>
-<td>Not Applicable</td>
-<td>This product is not used as an authoring tool.</td>
+<td headers="11-content-tech chap-11-criteria">11.8.4 Repair assistance</td>
+<td headers="11-content-tech chap-11-conformance">Not Applicable</td>
+<td headers="11-content-tech chap-11-remarks">This product is not used as an authoring tool.</td>
 </tr>
 <tr>
-<td>11.8.5 Templates</td>
-<td>Not Applicable</td>
-<td>This product is not used as an authoring tool.</td>
+<td headers="11-content-tech chap-11-criteria">11.8.5 Templates</td>
+<td headers="11-content-tech chap-11-conformance">Not Applicable</td>
+<td headers="11-content-tech chap-11-remarks">This product is not used as an authoring tool.</td>
 </tr>
 </tbody>
 </table>
