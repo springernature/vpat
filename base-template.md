@@ -1336,7 +1336,7 @@ Notes: This product is a web software application and is not subject to the requ
 <tr>
 <td headers="503.4-usercon chap-5-criteria">503.4.2 Audio Description Controls</td>
 <td headers="503-usercon chap-5-conformance"></td>
-<td headers="503.4-usercon chap-5-remarks"></td>
+<td headers="503-usercon chap-5-remarks"></td>
 </tr>
 <tr>
 <th scope="column" colspan="3" id="504-authoring"><a href="https://www.access-board.gov/ict/#504-authoring-tools">504 Authoring Tools</a></th>
