@@ -1330,11 +1330,11 @@ Notes: This product is a web software application and is not subject to the requ
 </tr>
 <tr>
 <td headers="503-usercon chap-5-criteria">503.4.1 Caption Controls</td>
-<td headers="503.4-usercon chap-5-conformance"></td>
-<td headers="503.4-usercon chap-5-remarks"></td>
+<td headers="503-usercon chap-5-conformance"></td>
+<td headers="503-usercon chap-5-remarks"></td>
 </tr>
 <tr>
-<td headers="503.4-usercon chap-5-criteria">503.4.2 Audio Description Controls</td>
+<td headers="503-usercon chap-5-criteria">503.4.2 Audio Description Controls</td>
 <td headers="503-usercon chap-5-conformance"></td>
 <td headers="503-usercon chap-5-remarks"></td>
 </tr>
@@ -1469,39 +1469,39 @@ Notes:
 <th scope="column" colspan="3" id="7-caption">7.1 Caption processing technology</th>
 </tr>
 <tr>
-<td headers="7.1-caption chap-7-criteria">7.1.1 Captioning playback</td>
-<td headers="7.1-caption chap-7-conformance"></td>
-<td headers="7.1-caption chap-7-remarks"></td>
+<td headers="7-caption chap-7-criteria">7.1.1 Captioning playback</td>
+<td headers="7-caption chap-7-conformance"></td>
+<td headers="7-caption chap-7-remarks"></td>
 </tr>
 <tr>
-<td headers="7.1-caption chap-7-criteria">7.1.2 Captioning synchronization</td>
-<td headers="7.1-caption chap-7-conformance"></td>
-<td headers="7.1-caption chap-7-remarks"></td>
+<td headers="7-caption chap-7-criteria">7.1.2 Captioning synchronization</td>
+<td headers="7-caption chap-7-conformance"></td>
+<td headers="7-caption chap-7-remarks"></td>
 </tr>
 <tr>
-<td headers="7.1-caption chap-7-criteria">7.1.3 Preservation of captioning</td>
-<td headers="7.1-caption chap-7-conformance"></td>
-<td headers="7.1-caption chap-7-remarks"></td>
+<td headers="7-caption chap-7-criteria">7.1.3 Preservation of captioning</td>
+<td headers="7-caption chap-7-conformance"></td>
+<td headers="7-caption chap-7-remarks"></td>
 </tr>
 <tr>
-<td headers="7.1-caption chap-7-criteria">7.2.1 Audio description playback</td>
-<td headers="7.1-caption chap-7-conformance"></td>
-<td headers="7.1-caption chap-7-remarks"></td>
+<td headers="7-caption chap-7-criteria">7.2.1 Audio description playback</td>
+<td headers="7-caption chap-7-conformance"></td>
+<td headers="7-caption chap-7-remarks"></td>
 </tr>
 <tr>
-<td headers="7.1-caption chap-7-criteria">7.2.2 Audio description synchronization</td>
-<td headers="7.1-caption chap-7-conformance"></td>
-<td headers="7.1-caption chap-7-remarks"></td>
+<td headers="7-caption chap-7-criteria">7.2.2 Audio description synchronization</td>
+<td headers="7-caption chap-7-conformance"></td>
+<td headers="7-caption chap-7-remarks"></td>
 </tr>
 <tr>
-<td headers="7.1-caption chap-7-criteria">7.2.3 Preservation of audio description</td>
-<td headers="7.1-caption chap-7-conformance"></td>
-<td headers="7.1-caption chap-7-remarks"></td>
+<td headers="7-caption chap-7-criteria">7.2.3 Preservation of audio description</td>
+<td headers="7-caption chap-7-conformance"></td>
+<td headers="7-caption chap-7-remarks"></td>
 </tr>
 <tr>
-<td headers="7.1-caption chap-7-criteria">7.3 User controls for captions and audio description</td>
-<td headers="7.1-caption chap-7-conformance"></td>
-<td headers="7.1-caption chap-7-remarks"></td>
+<td headers="7-caption chap-7-criteria">7.3 User controls for captions and audio description</td>
+<td headers="7-caption chap-7-conformance"></td>
+<td headers="7-caption chap-7-remarks"></td>
 </tr>
 </tbody>
 </table>                                  
@@ -1541,138 +1541,138 @@ Notes: This product does not include non-web documents and is therefore not subj
 <th scope="column" colspan="3" id="11-interop">11.5 Interoperability with assistive technology</th>
 </tr>
 <tr>
-<th scope="column" colspan="3" id="11.5.1-closed">11.5.1 Closed functionality</th>
+<th scope="column" colspan="3" id="11-closed">11.5.1 Closed functionality</th>
 </tr>
 <tr>
 <th scope="column" colspan="3" id="11-a11y-serv">11.5.2 Accessibility services</th>
 </tr>
 <tr>
-<td headers="11.5.2-a11y-serv chap-11-criteria">11.5.2.1 Platform accessibility service support for software that provides a user interface</td>
-<td headers="11.5.2-a11y-serv chap-11-conformance">See 11.5.2.5 through 11.5.2.17</td>
-<td headers="11.5.2-ally-serv chap-11-remarks">See information in 11.5.2.5 through 11.5.2.17</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.1 Platform accessibility service support for software that provides a user interface</td>
+<td headers="11-a11y-serv chap-11-conformance">See 11.5.2.5 through 11.5.2.17</td>
+<td headers="11-ally-serv chap-11-remarks">See information in 11.5.2.5 through 11.5.2.17</td>
 </tr>
 <tr>
-<td headers="11.5.2-a11y-serv chap-11-criteria">11.5.2.2 Platform accessibility service support for assistive technologies</td>
-<td headers="11.5.2-a11y-serv chap-11-conformance">See 11.5.2.5 through 11.5.2.17</td>
-<td headers="11.5.2-ally-serv chap-11-remarks">See information in 11.5.2.5 through 11.5.2.17</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.2 Platform accessibility service support for assistive technologies</td>
+<td headers="11-a11y-serv chap-11-conformance">See 11.5.2.5 through 11.5.2.17</td>
+<td headers="11-ally-serv chap-11-remarks">See information in 11.5.2.5 through 11.5.2.17</td>
 </tr>
 <tr>
-<td headers="11.5.2-a11y-serv chap-11-criteria">11.5.2.3 Use of accessibility services</td>
-<td headers="11.5.2-a11y-serv chap-11-conformance">See information in 11.5.2.5 through 11.5.2.17</td>
-<td headers="11.5.2-ally-serv chap-11-remarks">See information in 11.5.2.5 through 11.5.2.17</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.3 Use of accessibility services</td>
+<td headers="11-a11y-serv chap-11-conformance">See information in 11.5.2.5 through 11.5.2.17</td>
+<td headers="11-ally-serv chap-11-remarks">See information in 11.5.2.5 through 11.5.2.17</td>
 </tr>
 <tr>
-<td headers="11.5.2-a11y-serv chap-11-criteria">11.5.2.4 Assistive technology</td>
-<td headers="11.5.2-a11y-serv chap-11-conformance"></td>
-<td headers="11.5.2-ally-serv chap-11-remarks"></td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.4 Assistive technology</td>
+<td headers="11-a11y-serv chap-11-conformance"></td>
+<td headers="11-ally-serv chap-11-remarks"></td>
 </tr><tr>
-<td headers="11.5.2-a11y-serv chap-11-criteria">11.5.2.5 Object information</td>
-<td headers="11.5.2-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.1 and 502.3.2</td>
-<td headers="11.5.2-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.1 and 502.3.2</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.5 Object information</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.1 and 502.3.2</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.1 and 502.3.2</td>
 </tr>
 <tr>
-<td headers="11.5.2-a11y-serv chap-11-criteria">11.5.2.6 Row, column, and headers</td>
-<td headers="11.5.2-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.3</td>
-<td headers="11.5.2-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.3</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.6 Row, column, and headers</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.3</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.3</td>
 </tr>
 <tr>
-<td headers="11.5.2-a11y-serv chap-11-criteria">11.5.2.7 Values</td>
-<td headers="11.5.2-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.4 and 502.3.5</td>
-<td headers="11.5.2-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.4 and 502.3.5</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.7 Values</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.4 and 502.3.5</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.4 and 502.3.5</td>
 </tr>
 <tr>
-<td headers="11.5.2-a11y-serv chap-11-criteria">11.5.2.8 Label relationships</td>
-<td headers="11.5.2-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.6</td>
-<td headers="11.5.2-ally-serv chap-11-remarks">See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.6</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.8 Label relationships</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.6</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.6</td>
 </tr>
 <tr>
-<td headers="11.5.2-a11y-serv chap-11-criteria">11.5.2.9 Parent-child relationships</td>
-<td headers="11.5.2-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.7</td>
-<td headers="11.5.2-ally-serv chap-11-remarks">See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.7</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.9 Parent-child relationships</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.7</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.7</td>
 </tr>
 <tr>
-<td headers="11.5.2-a11y-serv chap-11-criteria">11.5.2.10 Text</td>
-<td headers="11.5.2-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.8 and 502.3.9</td>
-<td headers="11.5.2-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.8 and 502.3.9</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.10 Text</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.8 and 502.3.9</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.8 and 502.3.9</td>
 </tr>
 <tr>
-<td headers="11.5.2-a11y-serv chap-11-criteria">11.5.2.11 List of available actions</td>
-<td headers="11.5.2-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.10</td>
-<td headers="11.5.2-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.10</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.11 List of available actions</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.10</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.10</td>
 </tr>
 <tr>
-<td headers="11.5.2-a11y-serv chap-11-criteria">11.5.2.12 Execution of available actions</td>
-<td headers="11.5.2-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.11</td>
-<td headers="11.5.2-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.11</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.12 Execution of available actions</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.11</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.11</td>
 </tr>
 <tr>
-<td headers="11.5.2-a11y-serv chap-11-criteria">11.5.2.13 Tracking of focus and selection attributes</td>
-<td headers="11.5.2-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.12</td>
-<td headers="11.5.2-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.12</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.13 Tracking of focus and selection attributes</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.12</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.12</td>
 </tr>
 <tr>
-<td headers="11.5.2-a11y-serv chap-11-criteria">11.5.2.14 Modification of focus and selection attributes</td>
-<td headers="11.5.2-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.13</td>
-<td headers="11.5.2-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.13</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.14 Modification of focus and selection attributes</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.13</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.13</td>
 </tr>
 <tr>
-<td headers="11.5.2-a11y-serv chap-11-criteria">11.5.2.15 Change notification</td>
-<td headers="11.5.2-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.14</td>
-<td headers="11.5.2-ally-serv chap-11-remarks">See<a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.14</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.15 Change notification</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.14</td>
+<td headers="11-ally-serv chap-11-remarks">See<a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.14</td>
 </tr>
 <tr>
-<td headers="11.5.2-a11y-serv chap-11-criteria">11.5.2.16 Modifications of states and properties</td>
-<td headers="11.5.2-a11y-serv chap-11-conformance"><a ref="#chapter-5-software">See Revised Section 508 Report Ch.5</a> 502.3.14</td>
-<td headers="11.5.2-ally-serv chap-11-remarks">See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.14</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.16 Modifications of states and properties</td>
+<td headers="11-a11y-serv chap-11-conformance"><a ref="#chapter-5-software">See Revised Section 508 Report Ch.5</a> 502.3.14</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5</a> 502.3.14</td>
 </tr>
 <tr>
-<td headers="11.5.2-a11y-serv chap-11-criteria">11.5.2.17 Modifications of values and text</td>
-<td headers="11.5.2-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.5 and 502.3.9</td>
-<td headers="11.5.2-ally-serv chap-11-remarks">See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5 </a>502.3.5 and 502.3.9</td>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.17 Modifications of values and text</td>
+<td headers="11-a11y-serv chap-11-conformance">See <a ref="#chapter-5-software"> Revised Section 508 Report Ch.5</a> 502.3.5 and 502.3.9</td>
+<td headers="11-ally-serv chap-11-remarks">See <a ref="#chapter-5-software">Revised Section 508 Report Ch.5 </a>502.3.5 and 502.3.9</td>
 </tr>
 <tr>
-<th scope="column" colspan="3" id="11.6-doc-a11y">11.6 Documented accessibility usage</th>
+<th scope="column" colspan="3" id="11-doc-a11y">11.6 Documented accessibility usage</th>
 </tr>
 <tr>
-<td headers="11.6-doc-a11y chap-11-criteria">11.6.1 User control of accessibility features</td>
-<td headers="11.6-doc-a11y chap-11-conformance"></td>
-<td headers="11.6-doc-a11y chap-11-remarks"></td>
+<td headers="11-doc-a11y chap-11-criteria">11.6.1 User control of accessibility features</td>
+<td headers="11-doc-a11y chap-11-conformance"></td>
+<td headers="11-doc-a11y chap-11-remarks"></td>
 </tr>
 <tr>
-<td headers="11.6-doc-a11y chap-11-criteria">11.6.2 No disruption of accessibility features</td>
-<td headers="11.6-doc-a11y chap-11-conformance"></td>
-<td headers="11.6-doc-a11y chap-11-remarks"></td>
+<td headers="11-doc-a11y chap-11-criteria">11.6.2 No disruption of accessibility features</td>
+<td headers="11-doc-a11y chap-11-conformance"></td>
+<td headers="11-doc-a11y chap-11-remarks"></td>
 </tr>
 <tr>
-<td headers="11.6-doc-a11y chap-11-criteria">11.7 User preferences</td>
-<td headers="11.6-doc-a11y chap-11-conformance"></td>
-<td headers="11.6-doc-a11y chap-11-remarks"></td>
+<td headers="11-doc-a11y chap-11-criteria">11.7 User preferences</td>
+<td headers="11-doc-a11y chap-11-conformance"></td>
+<td headers="11-doc-a11y chap-11-remarks"></td>
 </tr>
 <tr>
-<th scope="column" colspan="3" id="11.8-authoring">11.8 Authoring tools</th>
+<th scope="column" colspan="3" id="11-authoring">11.8 Authoring tools</th>
 </tr>
 <tr>
-<th scope="column" colspan="3" id="11.8.1-content-tech">11.8.1 Content technology</td>
+<th scope="column" colspan="3" id="11-content-tech">11.8.1 Content technology</td>
 </tr>
 <tr>
-<td headers="11.8.1-content-tech chap-11-criteria">11.8.2 Accessible content creation (if not authoring tool, enter “not applicable”)</td>
-<td headers="11.8.1-content-tech chap-11-conformance">See <a ref="#WCAG"> WCAG 2.0 </a>section</td>
-<td headers="11.8.1-content-tech chap-11-remarks">See information in WCAG section</td>
+<td headers="11-content-tech chap-11-criteria">11.8.2 Accessible content creation (if not authoring tool, enter “not applicable”)</td>
+<td headers="11-content-tech chap-11-conformance">See <a ref="#WCAG"> WCAG 2.0 </a>section</td>
+<td headers="11-content-tech chap-11-remarks">See information in WCAG section</td>
 </tr>
 <tr>
-<td headers="11.8.1-content-tech chap-11-criteria">11.8.3 Preservation of accessibility information in transformations</td>
-<td headers="11.8.1-content-tech chap-11-conformance"></td>
-<td headers="11.8.1-content-tech chap-11-remarks"></td>
+<td headers="11-content-tech chap-11-criteria">11.8.3 Preservation of accessibility information in transformations</td>
+<td headers="11-content-tech chap-11-conformance"></td>
+<td headers="11-content-tech chap-11-remarks"></td>
 </tr>
 <tr>
-<td headers="11.8.1-content-tech chap-11-criteria">11.8.4 Repair assistance</td>
-<td headers="11.8.1-content-tech chap-11-conformance"></td>
-<td headers="11.8.1-content-tech chap-11-remarks"></td>
+<td headers="11-content-tech chap-11-criteria">11.8.4 Repair assistance</td>
+<td headers="11-content-tech chap-11-conformance"></td>
+<td headers="11-content-tech chap-11-remarks"></td>
 </tr>
 <tr>
-<td headers="11.8.1-content-tech chap-11-criteria">11.8.5 Templates</td>
-<td headers="11.8.1-content-tech chap-11-conformance"></td>
-<td headers="11.8.1-content-tech chap-11-remarks"></td>
+<td headers="11-content-tech chap-11-criteria">11.8.5 Templates</td>
+<td headers="11-content-tech chap-11-conformance"></td>
+<td headers="11-content-tech chap-11-remarks"></td>
 </tr>
 </tbody>
 </table>
