@@ -48,7 +48,7 @@ It includes the following standards/guidelines:
 * [Revised Section 508 standards](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines) published January 18, 2017 and corrected January 22, 2018
 * [EN 301 549  Accessibility requirements suitable for public procurement of ICT products and services in Europe, - V3.1.1 (2019-11)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf)
   
-### VPAT&reg; Version 2.4 Rev (March 2021)
+### VPAT&reg; Version 2.4 Rev (March 2022)
 
 VPAT verson 2.4 Rev has been updated to cover changes to the European standard EN 301 549 that were finalised and published in 2021. 
 
