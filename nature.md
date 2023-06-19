@@ -1746,7 +1746,7 @@ Notes: This product is a web software application and is not subject to the requ
 
 Notes: Please see [WCAG 2.1 section](#wcag-21-report).
 
-### Chapter [10: Non-web Documentation](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52)
+### Chapter [10: Non-Web Documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52)
 
 Notes: This product does not include non-web documents and is therefore not subject to the requirements of this chapter.
 
