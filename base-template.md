@@ -6,7 +6,7 @@
 **Product Description**: \!INSERT PRODUCT DESCRIPTION\!  
 **Contact information**: Please contact your Institutional Sales representative.  
 **Notes**:  
-**Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature's dedicated Accessibility Specialists. We use a combination of static analysis tools (including but not limited to [axe by Deque](https://www.deque.com/axe/), [WAVE by WebAIM](https://wave.webaim.org/extension/), and all of the tools described in our [Frontend Playbook's Accessibility Guide](https://github.com/springernature/frontend-playbook/blob/main/accessibility/tools.md)). Our manual testing uses [WCAG-EM](https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/) as its base strategy, and further details are also described in our Frontend Playbook under the "Manual testing" and "Assistive technology" sections. 
+**Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature's dedicated Accessibility Specialists. We use a combination of static analysis tools (including but not limited to [axe by Deque](https://www.deque.com/axe/), [WAVE by WebAIM](https://wave.webaim.org/extension/), and all of the tools described in our [Frontend Playbook's Accessibility Guide](https://github.com/springernature/frontend-playbook/blob/main/accessibility/tools.md)). Our manual testing uses [WCAG-EM](https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/) as its base strategy, and further details are also described in our Frontend Playbook under the "Manual testing" and "Assistive technology" sections.
 
 ## Applicable Standards/Guidelines
 
@@ -45,7 +45,7 @@ The terms used in the Conformance Level information are defined as follows:
 - **Partially Supports**: Some functionality of the product does not meet the criterion.
 - **Does Not Support**: The majority of product functionality does not meet the criterion.
 - **Not Applicable**: The criterion is not relevant to the product.
-- **Not Evaluated**: The product has not been evaluated against the criterion. This can be used only in WCAG 2.0 Level AAA.
+- **Not Evaluated**: The product has not been evaluated against the criterion. This can be used only in WCAG 2.x Level AAA.
 
 ## WCAG 2.1 Report
 
