@@ -6,8 +6,7 @@
 **Product Description**: \!INSERT PRODUCT DESCRIPTION\!  
 **Contact information**: Please contact your Institutional Sales representative.  
 **Notes**:  
-**Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature's dedicated Accessibility Specialists. We use a combination of static analysis tools (including but not limited to Axe, WAVE, and all of the tools described in our [Frontend Playbook's Accessibility Guide](https://github.com/springernature/frontend-playbook/blob/main/accessibility/tools.md)). Additionally, we perform manual testing (also described in our Frontend Playbook under the "Manual testing" and "Assistive technology" sections).  
-
+**Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature's dedicated Accessibility Specialists. We use a combination of static analysis tools (including but not limited to [axe by Deque](https://www.deque.com/axe/), [WAVE by WebAIM](https://wave.webaim.org/extension/), and all of the tools described in our [Frontend Playbook's Accessibility Guide](https://github.com/springernature/frontend-playbook/blob/main/accessibility/tools.md)). Our manual testing uses [WCAG-EM](https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/) as its base strategy, and further details are also described in our Frontend Playbook under the "Manual testing" and "Assistive technology" sections. 
 
 ## Applicable Standards/Guidelines
 
@@ -1140,7 +1139,7 @@ Tables 1 and 2 also document conformance with:
 
 Notes: This product has not been evaluated for WCAG 2.0 Level AAA conformance.
 
-## Revised Section 508 Report 
+## Revised Section 508 Report
 
 ### Chapter 3: [Functional Performance Criteria](https://www.access-board.gov/ict/#chapter-3-functional-performance-criteria) (FPC)
 
@@ -1448,11 +1447,11 @@ Notes: This report covers accessibility conformance for the web product and does
 
 Notes: This product supports standard web assistive technologies and is therefore not subject to the Closed Functionality criteria described in this chapter.
 
-### Chapter [6: ICT with Two-Way Voice Communication](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=30) 
+### Chapter [6: ICT with Two-Way Voice Communication](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=30)
 
 Notes: This product does not offer two-way voice communication and is therefore not subject to the requirements of this chapter.
 
-### Chapter [7: ICT with Video Capabilities](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=35) 
+### Chapter [7: ICT with Video Capabilities](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=35)
 
 Notes:
 
@@ -1530,7 +1529,7 @@ Notes: This product does not include non-web documents and is therefore not subj
 </thead>
 <tbody>
   <tr>
-  <th scope="column" colspan="3" id="11-gen">11.0 General (informative)</th> 
+  <th scope="column" colspan="3" id="11-gen">11.0 General (informative)</th>
   </tr>
 <tr>
 <td headers="11-gen chap-11-criteria">11.1.1 through 11.4.1.3</td>
