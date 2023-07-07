@@ -53,7 +53,7 @@ Tables 1 and 2 also document conformance with:
 - EN 301 549:  Chapter 9 - Web, Sections 10.1-10.4 of Chapter 10 - Non-Web documents, and Sections 11.1-11.4 and 11.8.2 of Chapter 11 - Non-Web Software (open and closed functionality), and Sections 12.1.2 and 12.2.4 of Chapter 12 – Documentation
 - Revised Section 508: Chapter 5 – 501.1 Scope, 504.2 Content Creation or Editing, and Chapter 6 – 602.3 Electronic Support Documentation.
 
-**Note**: When reporting on conformance with the WCAG 2.x Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the [WCAG 2.0 Conformance Requirements](https://www.w3.org/TR/WCAG20/#conformance-reqs).
+**Note**: When reporting on conformance with the WCAG 2.x Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the [WCAG 2.1 Conformance Requirements](https://www.w3.org/TR/WCAG21/#conformance-reqs).
 
 ### Table 1: Success Criteria, Level A
 
@@ -1137,7 +1137,7 @@ Tables 1 and 2 also document conformance with:
 
 ### Table 3: Success Criteria, Level AAA
 
-Notes: This product has not been evaluated for WCAG 2.0 Level AAA conformance.
+Notes: This product has not been evaluated for WCAG 2.x Level AAA conformance.
 
 ## Revised Section 508 Report
 
@@ -1216,8 +1216,8 @@ Notes: This product is a web software application and is not subject to the requ
 </thead>
 <tbody>
 <tr>
-<td>501.1 Scope – Incorporation of WCAG 2.0 AA</td>
-<td>See <a href="#WCAG">WCAG 2.0</a> section</td>
+<td>501.1 Scope – Incorporation of WCAG 2.x AA</td>
+<td>See <a href="#WCAG">WCAG 2.x</a> section</td>
 <td>See information in WCAG section</td>
 </tr>
 <tr>
@@ -1342,7 +1342,7 @@ Notes: This product is a web software application and is not subject to the requ
 </tr>
 <tr>
 <td headers="504-authoring chap-5-criteria">504.2 Content Creation or Editing (if not authoring tool, enter “not applicable”)</td>
-<td headers="504-authoring chap-5-conformance">See <a href="#WCAG">WCAG 2.0</a> section</td>
+<td headers="504-authoring chap-5-conformance">See <a href="#WCAG">WCAG 2.x</a> section</td>
 <td headers="504-authoring chap-5-remarks">See information in WCAG section</td>
 </tr>
 <tr>
@@ -1511,7 +1511,7 @@ Notes: This product is a web software application and is not subject to the requ
 
 ### Chapter [9: Web](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=45)
 
-Notes: Please see [WCAG 2.0 section](#wcag-2.0-report).
+Notes: Please see [WCAG 2.x section](#wcag-21-report).
 
 ### Chapter [10: Non-web Documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52)
 
@@ -1533,7 +1533,7 @@ Notes: This product does not include non-web documents and is therefore not subj
   </tr>
 <tr>
 <td headers="11-gen chap-11-criteria">11.1.1 through 11.4.1.3</td>
-<td headers="11-gen chap-11-conformance">See <a ref="#WCAG">WCAG 2.0</a> Section</td>
+<td headers="11-gen chap-11-conformance">See <a ref="#WCAG">WCAG 2.x</a> Section</td>
 <td headers="11-gen chap-11-remarks">See information in WCAG section</td>
 </tr>
 <tr>
@@ -1655,7 +1655,7 @@ Notes: This product does not include non-web documents and is therefore not subj
 </tr>
 <tr>
 <td headers="11-content-tech chap-11-criteria">11.8.2 Accessible content creation (if not authoring tool, enter “not applicable”)</td>
-<td headers="11-content-tech chap-11-conformance">See <a ref="#WCAG"> WCAG 2.0 </a>section</td>
+<td headers="11-content-tech chap-11-conformance">See <a ref="#WCAG"> WCAG 2.x </a>section</td>
 <td headers="11-content-tech chap-11-remarks">See information in WCAG section</td>
 </tr>
 <tr>

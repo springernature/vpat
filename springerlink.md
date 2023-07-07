@@ -1418,7 +1418,7 @@ Pages located at order.springer.com rely solely on built-in browser error checki
 
 ### Table 3: Success Criteria, Level AAA
 
-Notes: This product has not been evaluated for WCAG 2.1 Level AAA conformance.
+Notes: This product has not been evaluated for WCAG 2.x Level AAA conformance.
 
 ## Revised Section 508 Report
 
@@ -1863,7 +1863,7 @@ Notes: This product does not include non-web documents and is therefore not subj
  </tr>
 <tr>
 <td headers="11-gen chap-11-criteria">11.1.1 through 11.4.1.3</td>
-<td headers="11-gen chap-11-conformance">See <a ref="#WCAG">WCAG 2.0</a> Section</td>
+<td headers="11-gen chap-11-conformance">See <a ref="#WCAG">WCAG 2.x</a> Section</td>
 <td headers="11-gen chap-11-remarks">See information in WCAG section</td>
 </tr>
 <tr>
