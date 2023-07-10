@@ -6,8 +6,7 @@
 **Product Description**: \!INSERT PRODUCT DESCRIPTION\!  
 **Contact information**: Please contact your Institutional Sales representative.  
 **Notes**:  
-**Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature's dedicated Accessibility Specialists. We use a combination of static analysis tools (including but not limited to Axe, WAVE, and all of the tools described in our [Frontend Playbook's Accessibility Guide](https://github.com/springernature/frontend-playbook/blob/main/accessibility/tools.md)). Additionally, we perform manual testing (also described in our Frontend Playbook under the "Manual testing" and "Assistive technology" sections).  
-
+**Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature's dedicated Accessibility Specialists. We use a combination of static analysis tools (including but not limited to [axe by Deque](https://www.deque.com/axe/), [WAVE by WebAIM](https://wave.webaim.org/extension/), and all of the tools described in our [Frontend Playbook's Accessibility Guide](https://github.com/springernature/frontend-playbook/blob/main/accessibility/tools.md)). Our manual testing uses [WCAG-EM](https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/) as its base strategy, and further details are also described in our Frontend Playbook under the "Manual testing" and "Assistive technology" sections.
 
 ## Applicable Standards/Guidelines
 
@@ -46,7 +45,7 @@ The terms used in the Conformance Level information are defined as follows:
 - **Partially Supports**: Some functionality of the product does not meet the criterion.
 - **Does Not Support**: The majority of product functionality does not meet the criterion.
 - **Not Applicable**: The criterion is not relevant to the product.
-- **Not Evaluated**: The product has not been evaluated against the criterion. This can be used only in WCAG 2.0 Level AAA.
+- **Not Evaluated**: The product has not been evaluated against the criterion. This can be used only in WCAG 2.x Level AAA.
 
 ## WCAG 2.1 Report
 
@@ -54,7 +53,7 @@ Tables 1 and 2 also document conformance with:
 - EN 301 549:  Chapter 9 - Web, Sections 10.1-10.4 of Chapter 10 - Non-Web documents, and Sections 11.1-11.4 and 11.8.2 of Chapter 11 - Non-Web Software (open and closed functionality), and Sections 12.1.2 and 12.2.4 of Chapter 12 – Documentation
 - Revised Section 508: Chapter 5 – 501.1 Scope, 504.2 Content Creation or Editing, and Chapter 6 – 602.3 Electronic Support Documentation.
 
-**Note**: When reporting on conformance with the WCAG 2.x Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the [WCAG 2.0 Conformance Requirements](https://www.w3.org/TR/WCAG20/#conformance-reqs).
+**Note**: When reporting on conformance with the WCAG 2.x Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the [WCAG 2.1 Conformance Requirements](https://www.w3.org/TR/WCAG21/#conformance-reqs).
 
 ### Table 1: Success Criteria, Level A
 
@@ -1138,9 +1137,9 @@ Tables 1 and 2 also document conformance with:
 
 ### Table 3: Success Criteria, Level AAA
 
-Notes: This product has not been evaluated for WCAG 2.0 Level AAA conformance.
+Notes: This product has not been evaluated for WCAG 2.x Level AAA conformance.
 
-## Revised Section 508 Report 
+## Revised Section 508 Report
 
 ### Chapter 3: [Functional Performance Criteria](https://www.access-board.gov/ict/#chapter-3-functional-performance-criteria) (FPC)
 
@@ -1217,8 +1216,8 @@ Notes: This product is a web software application and is not subject to the requ
 </thead>
 <tbody>
 <tr>
-<td>501.1 Scope – Incorporation of WCAG 2.0 AA</td>
-<td>See <a href="#WCAG">WCAG 2.0</a> section</td>
+<td>501.1 Scope – Incorporation of WCAG 2.x AA</td>
+<td>See <a href="#WCAG">WCAG 2.x</a> section</td>
 <td>See information in WCAG section</td>
 </tr>
 <tr>
@@ -1343,7 +1342,7 @@ Notes: This product is a web software application and is not subject to the requ
 </tr>
 <tr>
 <td headers="504-authoring chap-5-criteria">504.2 Content Creation or Editing (if not authoring tool, enter “not applicable”)</td>
-<td headers="504-authoring chap-5-conformance">See <a href="#WCAG">WCAG 2.0</a> section</td>
+<td headers="504-authoring chap-5-conformance">See <a href="#WCAG">WCAG 2.x</a> section</td>
 <td headers="504-authoring chap-5-remarks">See information in WCAG section</td>
 </tr>
 <tr>
@@ -1448,11 +1447,11 @@ Notes: This report covers accessibility conformance for the web product and does
 
 Notes: This product supports standard web assistive technologies and is therefore not subject to the Closed Functionality criteria described in this chapter.
 
-### Chapter [6: ICT with Two-Way Voice Communication](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=30) 
+### Chapter [6: ICT with Two-Way Voice Communication](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=30)
 
 Notes: This product does not offer two-way voice communication and is therefore not subject to the requirements of this chapter.
 
-### Chapter [7: ICT with Video Capabilities](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=35) 
+### Chapter [7: ICT with Video Capabilities](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=35)
 
 Notes:
 
@@ -1512,7 +1511,7 @@ Notes: This product is a web software application and is not subject to the requ
 
 ### Chapter [9: Web](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=45)
 
-Notes: Please see [WCAG 2.0 section](#wcag-2.0-report).
+Notes: Please see [WCAG 2.x section](#wcag-21-report).
 
 ### Chapter [10: Non-web Documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52)
 
@@ -1530,11 +1529,11 @@ Notes: This product does not include non-web documents and is therefore not subj
 </thead>
 <tbody>
   <tr>
-  <th scope="column" colspan="3" id="11-gen">11.0 General (informative)</th> 
+  <th scope="column" colspan="3" id="11-gen">11.0 General (informative)</th>
   </tr>
 <tr>
 <td headers="11-gen chap-11-criteria">11.1.1 through 11.4.1.3</td>
-<td headers="11-gen chap-11-conformance">See <a ref="#WCAG">WCAG 2.0</a> Section</td>
+<td headers="11-gen chap-11-conformance">See <a ref="#WCAG">WCAG 2.x</a> Section</td>
 <td headers="11-gen chap-11-remarks">See information in WCAG section</td>
 </tr>
 <tr>
@@ -1656,7 +1655,7 @@ Notes: This product does not include non-web documents and is therefore not subj
 </tr>
 <tr>
 <td headers="11-content-tech chap-11-criteria">11.8.2 Accessible content creation (if not authoring tool, enter “not applicable”)</td>
-<td headers="11-content-tech chap-11-conformance">See <a ref="#WCAG"> WCAG 2.0 </a>section</td>
+<td headers="11-content-tech chap-11-conformance">See <a ref="#WCAG"> WCAG 2.x </a>section</td>
 <td headers="11-content-tech chap-11-remarks">See information in WCAG section</td>
 </tr>
 <tr>
