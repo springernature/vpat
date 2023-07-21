@@ -89,7 +89,7 @@ Tables 1 and 2 also document conformance with:
 </ul></td>
 <td>Partially Supports</td>
 <td>
-With rare exceptions, most images that we supply provide alternative text, or descriptions, or figure captions. We may use WAI-ARIA techniques to link some complex images with their descriptions if alternative text is unable to provide adequate context. We are working towards full support.  
+With rare exceptions, most images supplied by Springer Nature provide alternative text, or descriptions, or figure captions. We may use WAI-ARIA techniques to link some complex images with their descriptions if alternative text is unable to provide adequate context.
 <br><br>
 Background images such as icons on user interface elements are generally identified with visible text labels. Sometimes we may use visually-hidden text or WAI-ARIA techniques instead.
 <br><br>
@@ -98,6 +98,8 @@ We mark up some images so that they can be ignored by Assistive Technologies if 
 The Nature subscription pages at <a href="https://www.nature.com/nature/subscribe">https://www.nature.com/nature/subscribe</a> currently contain SVG images without text alternatives, and decorative SVG images that are not marked up to be ignored by Assistive Technologies. We are actively working to repair these problems.
 <br><br>
 Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These include images in advertising scripts and in Disqus commenting widgets. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+<br><br>
+Some complex images supplied by authors who publish with us may lack adequate alternative text, descriptions, and/or captions. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content. There is a large-scale and currently-active programme of work to improve alt text content submitted by our authors to address this.
 </td>
 </tr>
 <tr valign="top">
@@ -125,7 +127,7 @@ Nature.com has a diverse mix of multimedia content, both self-hosted and hosted 
 <br><br>
 Audio-only content may be used to support text-based content. Audio-only content may also be used in Podcasts across various journals. Some but not all podcasts provide transcripts.
 <br><br>
-We currently have no method of confirming the inclusion of adequate media alternatives or transcripts. 	
+While Nature Magazine generally provides transcripts and/or text descriptions of multimedia content in new articles, they may be absent from older Nature Magazine content and journal content supplied by authors who publish with us. We currently have no method of confirming the inclusion of adequate media alternatives or transcripts. 	
 </td>
 </tr>
 <tr valign="top">
@@ -150,6 +152,8 @@ We currently have no method of confirming the inclusion of adequate media altern
 <td>Partially Supports</td>
 <td>
 Nature.com has a diverse mix of multimedia content, both self-hosted and hosted on third party sites. Captions and/or transcripts may be provided for some pre-recorded content, but we currently have no method of confirming the inclusion of transcripts or captions.
+
+While Nature Magazine generally provides captions and/or transcripts for pre-recorded content in new articles, they may be absent from older Nature Magazine content and journal content supplied by authors who publish with us. We currently have no method of confirming the inclusion of transcripts or captions.
 </td>
 </tr>
 <tr valign="top">
@@ -261,7 +265,7 @@ The pages of this product do not depend solely on sensory characteristics such a
 <br><br>
 Icons may be displayed to control functionality, but adjacent visible text labels or WAI-ARIA labels are also provided to ensure that relationships are available to Assistive Technologies.
 <br><br>
-Some complex images supplied by submission authors may rely on sensory characteristics to be understood. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content.
+Some complex images supplied by authors who publish with us may rely on sensory characteristics to be understood. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content.
 </td>
 </tr>
 <tr id="use-of-color" valign="top">
@@ -289,7 +293,7 @@ Colour alone is not used to convey information in the pages of this product.
 <br><br>
 Links and icons may use colour to indicate hover or active states. These are supplemented with visible focus rings and/or text decoration underlines and/or luminosity differences per WAI techniques <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G183">G183</a> and <a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C15">C15</a>.
 <br><br>
-Some complex images supplied by submission authors may rely on colour as the only visual means of understanding information. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content.
+Some complex images supplied by authors who publish with us may rely on colour as the only visual means of understanding information. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content.
 </td>
 </tr>
 <tr valign="top">
@@ -1045,7 +1049,7 @@ Third party scripts (e.g. advertising, customer services widgets) may inject con
 <td>
 The visual presentation of User Interface Components in this product have a contrast ratio of at least 3:1 against adjacent color(s).
 <br><br>
-Graphical Objects (e.g. charts, graphs, or maps, among others) supplied by authors may have inadequate contrast.
+Graphical Objects (e.g. charts, graphs, or maps, among others) supplied by authors who publish with us may have inadequate contrast.
 <br><br>
 Third party content (e.g. advertising, customer services widgets) may inject non-text elements with inadequate contrast. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
 </td>
