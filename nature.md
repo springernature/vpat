@@ -541,7 +541,7 @@ Some pages (e.g in checkout flows) do not have unique page titles at every stage
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The meaning or operation of the pages on Nature.com is generally unaffected by focus order. The focus order of all page content matches the visual order.
+The meaning or operation of the pages on Nature.com is generally unaffected by focus order. Additionally, in most cases, the focus order of all page content matches the visual order.
 <br><br>
 Third party scripts including advertising scripts, the Disqus commenting widget, or survey or customer services widgets (among others), may inject content where the focus order does not match the visual order. The operation and meaning of these components should be unaffected by the focus order.
 </td>
