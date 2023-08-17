@@ -99,7 +99,7 @@ The Nature subscription pages at <a href="https://www.nature.com/nature/subscrib
 <br><br>
 Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These include images in advertising scripts and in Disqus commenting widgets. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 <br><br>
-Some complex images supplied by authors who publish with us may lack adequate alternative text, descriptions, and/or captions. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content. There is a large-scale and currently-active programme of work to improve alt text content submitted by our authors to address this.
+Some complex images supplied by authors who publish with us may lack adequate alternative text, descriptions, and/or captions. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content. A large-scale and currently-active programme of work to improve alt text content submitted by our authors is under way to address this.
 </td>
 </tr>
 <tr valign="top">
@@ -205,7 +205,7 @@ We currently have no method of confirming the inclusion of adequate media altern
 <td>
 We generally use progressive enhancement techniques and semantically-correct markup so that information, structure, and relationships can be understood independent of presentation.
 <br><br>
-We make use of WAI-ARIA roles to support landmarks, and use WAI-ARIA roles and properties when required for more complex functionality such as popup menus and dialogs.
+We make use of WAI-ARIA roles to support (named) landmarks, and use WAI-ARIA roles and properties when required for more complex functionality such as popup menus and dialogs. We do not use WAI-ARIA where it is not required.
 <br><br>
 Some parts of the checkout flow and the "My Account" pages contain unsemantic markup, including out-of-sequence headings and incorrectly-applied landmarks. We are actively working to find and repair these problems.
 <br><br>
@@ -1004,7 +1004,7 @@ Third party scripts (for example advertisements) may inject non-responsive conte
 <td>
 Outside of editoral content managed by content management system (CMS), published books and papers, and third party scripts, the pages of this product do not use images of text to convey information except in the case of <a href="https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">logotypes</a> (considered essential per WCAG 2.1) or when the image is <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration">pure decoration</a>.
 <br><br>
-CMS content and published books and papers may include complex images that contain images of text. In most cases these images are used to supplement the text content they appear alongside. In some cases (e.g. charts, graphs, or maps, among others), the text content presented alongside may be insufficient to explain the contents of the image.
+CMS content and published books and papers may include complex images that contain images of text. In most cases these images are used to supplement the text content they appear alongside. In some cases (e.g. charts, graphs, or maps, among others), the text content presented alongside may be insufficient to explain the contents of the image. A large-scale and currently-active programme of work to improve alt text content submitted by our authors is under way to address this.
 <br><br>
 Third party advertising scripts may inject images containing images of text.
 </td>
