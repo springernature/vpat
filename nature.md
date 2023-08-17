@@ -769,7 +769,7 @@ Third party scripts including the Disqus commenting widget, or other widgets tha
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Generally, visible and appropriately associated labels are provided for input fields. In limited cases, a visually-hidden label may be provided instead, but we prefer to avoid this.
+Generally, visible and appropriately associated labels are provided for input fields. In limited cases, a visually-hidden label may be provided instead, but we prefer to avoid this pattern.
 <br><br>
 Additional instructions for specific input fields may not be adequately associated (e.g. with WAI-ARIA) with the fields they describe. We are actively working to find and repair these problems.
 <br><br>
@@ -923,8 +923,6 @@ Other third party scripts, including the Disqus commenting widget, may present i
 <td>Does not support</td>
 <td>
 A limited number of form fields may have autocomplete values that allow the field purpose to be determined programmatically, but we have not widely implemented this functionality.
-<br><br>
-Some fields, including those on the login and registration forms, have the <code>autocomplete="off"</code> property set. Users whose technology respects this property may be unable to fill form fields automatically.
 </td>
 </tr>
 <tr valign="top">
