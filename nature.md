@@ -1091,7 +1091,7 @@ Third party content (e.g. advertising, customer services widgets) may inject ele
 <em>Revised Section 508 - does not apply</em>
 </td>
 <td>Partially Supports</td>
-<td>Additional content that becomes visible on hover or focus is rare in this product.
+<td>Additional content that becomes visible on hover or focus (for example tooltips) is extremely rare in this product. In all cases where content is intitally hidden and displayed on interaction, we prefer to use persistent displays that are activated by explicit, unambiguous interactions such as clicks or keypresses. 
 <br><br>
 Third party content (e.g. advertising, customer services widgets) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
 </td>
