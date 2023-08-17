@@ -769,7 +769,7 @@ Third party scripts including the Disqus commenting widget, or other widgets tha
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Generally, visible and appropriately associated labels are provided for input fields. In some cases, a visually-hidden label may be provided instead.
+Generally, visible and appropriately associated labels are provided for input fields. In limited cases, a visually-hidden label may be provided instead, but we prefer to avoid this.
 <br><br>
 Additional instructions for specific input fields may not be adequately associated (e.g. with WAI-ARIA) with the fields they describe. We are actively working to find and repair these problems.
 <br><br>
