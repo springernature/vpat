@@ -1200,7 +1200,7 @@ Editorial content or published papers may be written in or include text in langu
 <br><br>
 Third party scripts may inject components with non-English text - for example a targeted advertisement or file presented in a file viewer (e.g. Figshare) may use a different language to the main document. These may not be marked up with a separate <code>lang</code> attribute.
 <br><br>
-We currently have no method of confirming the inclusion of appropriate lang attributes for pieces of text in content that may use a different language to the main document. 
+We currently have no method of confirming the inclusion of appropriate lang attributes for pieces of text in content that may use a different language to the main document.
 </td>
 </tr>
 <tr valign="top">
@@ -1226,7 +1226,7 @@ We currently have no method of confirming the inclusion of appropriate lang attr
 <td>
 Navigational mechanisms that are repeated on multiple Web pages within the Nature.com website occur in the same relative order each time they are repeated. Although some older archive content on the Nature.com website may be rendered in older design templates, the navigation of each of these sets of pages is internally consistent.
 <br><br>
-Pages that deal with sensitive information (including payment pages and "my account" pages) have intentionally been made more simple in design, and do not share the same navigation system as the main site. The navigation of each of these sets of pages is internally consistent.
+Pages that deal with sensitive information (including payment pages and "my account" pages) have intentionally simpler designs, and do not share the same navigation system as the main site. The navigation of each of these sets of pages is internally consistent.
 </td>
 </tr>
 <tr valign="top">
@@ -1252,7 +1252,7 @@ Pages that deal with sensitive information (including payment pages and "my acco
 <td>
 Components that have the same functionality within a set of Web pages are identified consistently. Although some older archive content on the Nature.com website may be rendered in older design templates, the identification of components in each of these sets of pages is internally consistent.
 <br><br>
-Pages that deal with sensitive information (including payment pages and "my account" pages) have intentionally been made more simple in design. The presentation of each of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site.
+Pages that deal with sensitive information (including payment pages and "my account" pages) have intentionally simpler designs. The presentation of each of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site.
 </td>
 </tr>
 <tr valign="top">
