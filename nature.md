@@ -567,7 +567,7 @@ Third party scripts including advertising scripts, the Disqus commenting widget,
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Generally, the purpose of first party links can be determined by their descriptive text labels. Most linked images or icons have alternative text or supplementary text labels.
+Generally, the purpose of first party links can be determined by their descriptive text labels. Links that are not primarily text-based (e.g. images or icons) have alternative accessible text or supplementary text labels.
 <br><br>
 In submitted articles, anchor links that refer to supplementary figures or tables may have insufficient context in their link text (e.g. figure numbers only). In limited cases we may support inadequate link text with the use of WAI-ARIA techniques. We are actively working to repair these problems.
 <br><br>
