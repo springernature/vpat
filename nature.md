@@ -1196,11 +1196,11 @@ Third party scripts, including advertising, may inject components that remove fo
 <td>Does Not Support</td>
 <td>Language of Parts is not applicable for the majority of this content. All first-party components on the pages of this product that are part of dynamic templates are written in English.
 <br><br>
-Editorial content or published papers may be written in or include text in languages other than English. This content is not marked up with a separate <code>lang</code> attribute.
+Editorial content or published papers may be written in or include text in languages other than English. Article content may be marked up with a separate <code>lang</code> attribute that matches the written language, though this is not consistently applied.
 <br><br>
 Third party scripts may inject components with non-English text - for example a targeted advertisement or file presented in a file viewer (e.g. Figshare) may use a different language to the main document. These may not be marked up with a separate <code>lang</code> attribute.
 <br><br>
-We currently have no method of confirming the inclusion of appropriate lang attributes for pieces of text in content that may use a different language to the main document. We are actively working to provide appropriate <code>lang</code> attributes for articles and papers wholly written in languages other than English.
+We currently have no method of confirming the inclusion of appropriate lang attributes for pieces of text in content that may use a different language to the main document. 
 </td>
 </tr>
 <tr valign="top">
