@@ -99,7 +99,7 @@ The Nature subscription pages at <a href="https://www.nature.com/nature/subscrib
 <br><br>
 Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These include images in advertising scripts and in Disqus commenting widgets. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 <br><br>
-Some complex images supplied by authors who publish with us may lack adequate alternative text, descriptions, and/or captions. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content. A large-scale and currently-active programme of work to improve alt text content submitted by our authors is under way to address this.
+When supplied by authors who publish with us, some complex images may lack adequate alternative text, descriptions, and/or captions. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content. A large-scale and currently-active programme of work to improve alt text content submitted by our authors is under way to address this.
 </td>
 </tr>
 <tr valign="top">
@@ -265,7 +265,7 @@ The pages of this product do not depend solely on sensory characteristics such a
 <br><br>
 Icons may be displayed to control functionality, but adjacent visible text labels or (less commonly) WAI-ARIA labels are also provided to ensure that relationships are available to Assistive Technologies.
 <br><br>
-Some complex images supplied by authors who publish with us may rely on sensory characteristics to be understood. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content.
+When supplied by authors who publish with us, some complex images may rely on sensory characteristics to be understood. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content.
 </td>
 </tr>
 <tr id="use-of-color" valign="top">
@@ -293,7 +293,7 @@ Colour alone is not used to convey information in the pages of this product.
 <br><br>
 Links and icons may use colour to indicate hover or active states. These are supplemented with visible focus rings and/or text decoration underlines and/or luminosity differences per WAI advisory techniques <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G183">G183</a> and <a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C15">C15</a>.
 <br><br>
-Some complex images supplied by authors who publish with us may rely on colour as the only visual means of understanding information. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content.
+When supplied by authors who publish with us, some complex images may rely on colour as the only visual means of understanding information. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content.
 </td>
 </tr>
 <tr valign="top">
@@ -1047,7 +1047,7 @@ Third party scripts (e.g. advertising, customer services widgets) may inject con
 <td>
 The visual presentation of User Interface Components in this product have a contrast ratio of at least 3:1 against adjacent color(s).
 <br><br>
-Graphical Objects (e.g. charts, graphs, or maps, among others) supplied by authors who publish with us may have inadequate contrast.
+When supplied by authors who publish with us, Graphical Objects (e.g. charts, graphs, or maps, among others) may have inadequate contrast.
 <br><br>
 Third party content (e.g. advertising, customer services widgets) may inject non-text elements with inadequate contrast. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
 </td>
