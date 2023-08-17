@@ -263,7 +263,7 @@ We use semantically-correct markup to allow Assistive Technologies to interpret 
 <td>
 The pages of this product do not depend solely on sensory characteristics such as shape, size, visual location, orientation, or sound to understand content.
 <br><br>
-Icons may be displayed to control functionality, but adjacent visible text labels or WAI-ARIA labels are also provided to ensure that relationships are available to Assistive Technologies.
+Icons may be displayed to control functionality, but adjacent visible text labels or (less commonly) WAI-ARIA labels are also provided to ensure that relationships are available to Assistive Technologies.
 <br><br>
 Some complex images supplied by authors who publish with us may rely on sensory characteristics to be understood. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content.
 </td>
@@ -291,7 +291,7 @@ Some complex images supplied by authors who publish with us may rely on sensory 
 <td>
 Colour alone is not used to convey information in the pages of this product.
 <br><br>
-Links and icons may use colour to indicate hover or active states. These are supplemented with visible focus rings and/or text decoration underlines and/or luminosity differences per WAI techniques <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G183">G183</a> and <a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C15">C15</a>.
+Links and icons may use colour to indicate hover or active states. These are supplemented with visible focus rings and/or text decoration underlines and/or luminosity differences per WAI advisory techniques <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G183">G183</a> and <a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C15">C15</a>.
 <br><br>
 Some complex images supplied by authors who publish with us may rely on colour as the only visual means of understanding information. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content.
 </td>
@@ -349,7 +349,7 @@ All first-party components in Nature.com can be navigated by keyboard alone. Com
 <br><br>
 Third party advertising scripts may inject content that cannot be interacted with easily or at all by keyboard.
 <br><br>
-Other types of third party content such as JavaScript-based file viewers (e.g. Figshare), commenting systems, or customer services widgets may be difficult to use with keyboard alone. When we become aware of deficiencies, we contact third party suppliers to request repairs. Additionally, where possible, we aim to provide equivalent alternatives to problematic content.
+Other types of third party content such as JavaScript-based file viewers (e.g. Figshare), commenting systems (e.g. Disqus), or customer services widgets may be difficult to use with keyboard alone. When we become aware of deficiencies, we contact third party suppliers to request repairs. Additionally, where possible, we aim to provide equivalent alternatives to problematic content.
 </td>
 </tr>
 <tr valign="top">
@@ -375,7 +375,7 @@ Other types of third party content such as JavaScript-based file viewers (e.g. F
 <td>
 Keyboard trapping inside components on Nature.com pages is rare, and in most cases is managed appropriately, allowing focus to be moved away from any component using standard keystrokes (<kbd>tab</kbd>, <kbd>shift</kbd>, <kbd>esc</kbd>).
 <br><br>
-Third party content such as modal dialogs or the Disqus commenting widget may trap focus and provide inadequate methods of escaping. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+Third party content such as survey modal dialogs or the Disqus commenting widget may trap focus and provide inadequate methods of escaping. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr id="character-key-shortcuts" valign="top">
