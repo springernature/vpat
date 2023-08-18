@@ -673,7 +673,7 @@ In most cases where controls contain visible text, that text is also the label f
 </ul></td>
 <td>Supports</td>
 <td>
-All of the pages in this product use the language attribute on the HTML element to specify the default language of the page.
+All of the pages in this product use the <code>lang</code> attribute on the HTML element to specify the default language of the page.
 </td>
 </tr>
 <tr valign="top">
