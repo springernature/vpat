@@ -673,7 +673,7 @@ In most cases where controls contain visible text, that text is also the label f
 </ul></td>
 <td>Supports</td>
 <td>
-All of the pages in this product use the <code>lang</code> attribute on the HTML element to specify the default language of the page.
+All of the pages in this product use the language attribute on the HTML element to specify the default language of the page.
 </td>
 </tr>
 <tr valign="top">
@@ -1091,7 +1091,7 @@ Third party content (e.g. advertising, customer services widgets) may inject ele
 <em>Revised Section 508 - does not apply</em>
 </td>
 <td>Partially Supports</td>
-<td>Additional content that becomes visible on hover or focus (for example tooltips) is extremely rare in this product. In all cases where content is intitally hidden and displayed on interaction, we prefer to use persistent displays that are activated by explicit, unambiguous interactions such as clicks or keypresses.
+<td>Additional content that becomes visible on hover or focus (for example tooltips) is extremely rare in this product. In all cases where content is initially hidden and displayed on interaction, we trigger that display with explicit, unambiguous input such as a click or keypress. Content is persistently visible until dismissed by a similarly unambiguous interaction. We never rely on hover alone.  
 <br><br>
 Third party content (e.g. advertising, customer services widgets) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
 </td>
