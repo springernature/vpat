@@ -1526,7 +1526,7 @@ See WCAG sections <a href="#use-of-color">1.4.1 Use of Color</a> and <a href="#f
 <tr>
 <td headers="502-services chap-5-criteria">502.3.13 Modification of Focus Cursor</td>
 <td headers="502-services chap-5-conformance">Supports</td>
-<td headers="502-services chap-5-remarks">The pages of this product use standard HTML elements and cursor controls for user input that may be overriden by Assistive Technology.</td>
+<td headers="502-services chap-5-remarks">The pages of this product use standard HTML elements and cursor controls for user input that may be overridden by Assistive Technology.</td>
 </tr>
 <tr>
 <td headers="502-services chap-5-criteria">502.3.14 Event Notification</td>
@@ -1534,7 +1534,7 @@ See WCAG sections <a href="#use-of-color">1.4.1 Use of Color</a> and <a href="#f
 <td headers="502-services chap-5-remarks">
 The pages of this product use standard HTML and WAI-ARIA attributes to describe the identity, operation, and state of user interface elements to Assistive Technologies.
 <br><br>
-Rarely, components may omit or misuse WAI-ARIA attributes in a way that prevents users of some Assistive Technologies from being able to percieve changes in state. We are actively working to find and repair these problems.
+Rarely, components may omit or misuse WAI-ARIA attributes in a way that prevents users of some Assistive Technologies from being able to perceive changes in state. We are actively working to find and repair these problems.
 <br><br>
 Some third party scripts may inject content that fails to notify users of changes in state.
 <br><br>
