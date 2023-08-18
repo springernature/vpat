@@ -1200,7 +1200,7 @@ Editorial content or published papers may be written in or include text in langu
 <br><br>
 Third party scripts may inject components with non-English text - for example a targeted advertisement or file presented in a file viewer (e.g. Figshare) may use a different language to the main document. These may not be marked up with a separate <code>lang</code> attribute.
 <br><br>
-We currently have no method of confirming the inclusion of appropriate lang attributes for pieces of text in content that may use a different language to the main document.
+We currently have no method of confirming the inclusion of appropriate <code>lang</code> attributes for pieces of text in content that may use a different language to the main document.
 </td>
 </tr>
 <tr valign="top">
