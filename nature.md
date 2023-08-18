@@ -1047,7 +1047,7 @@ Third party scripts (e.g. advertising, customer services widgets) may inject con
 </td>
 <td>Partially Supports</td>
 <td>
-The visual presentation of User Interface Components in this product have a contrast ratio of at least 3:1 against adjacent color(s).
+The visual presentation of User Interface Components in this product have a contrast ratio of at least 3:1 against adjacent colours.
 <br><br>
 When supplied by authors who publish with us, Graphical Objects (e.g. charts, graphs, or maps, among others) may have inadequate contrast.
 <br><br>
