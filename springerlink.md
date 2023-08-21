@@ -1,7 +1,7 @@
 # SpringerLink Accessibility Conformance Report International Edition
 (Based on VPAT® Version 2.4Rev)
 
-**Report Date**: 22nd June 2022  
+**Report Date**: 24 August 2023  
 **Name of Product/Version**: SpringerLink _(we do not version our software)_  
 **Product Description**: SpringerLink provides researchers with access to scientific documents from journals, books, series, protocols, collections, reference works and proceedings. This report refers entirely to the accessibility of all web documents published at the subdomains link.springer.com and rd.springer.com (both subdomains are referred to as link.springer.com throughout this report), and supporting informational pages such as journal homepages located at the top level domain, springer.com. Also included are all web documents included in the purchasing and subscription process, found at order.springer.com.  
  **Contact information**: Please contact your Institutional Sales representative.   
@@ -87,13 +87,15 @@ Tables 1 and 2 also document conformance with:
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Most in-line images supplied in article content provide alternative text, or descriptions, or figure captions. We are working towards full support.  
+With rare exceptions, most images supplied by Springer Nature provide alternative text, or descriptions, or figure captions. We may use WAI-ARIA techniques to link some complex images with their descriptions if alternative text is unable to provide adequate context.
 <br><br>
-Some images, such as icons on user interface elements, are known to have inadequate or missing text alternatives. We are actively working to find and repair these problems.
+Images such as icons on user interface elements may be identified with visible text labels, visually-hidden text, or WAI-ARIA techniques. Some icons are known to have inadequate or missing text alternatives. We are actively working to find and repair these problems.  
 <br><br>
 We mark up some images so that they can be ignored by Assistive Technologies if they are <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration"><i>pure decoration</i></a> (as defined by WCAG 2.1).
 <br><br>
 Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These may include images in advertising scripts. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+<br><br>
+When supplied by authors who publish with us, some complex images may lack adequate alternative text, descriptions, and/or captions. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content. A large-scale and currently-active programme of work to improve alternative text content submitted by our authors is under way to address this.
 </td>
 </tr>
 <tr id="audio-only-and-video-only-prerecorded" valign="top">
