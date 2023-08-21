@@ -213,7 +213,7 @@ We make use of WAI-ARIA roles to support landmarks, and use WAI-ARIA roles and p
 <br><br>
 Some complex functionality may omit required WAI-ARIA roles, states, or attributes, or misuse WAI-ARIA markup and techniques. We are actively working to find and repair these problems.
 <br><br>
-The SpringerLink checkout process pages found at order.springer.com omit or use inappropriate headings and heading levels, including the use of unsemantic headings for visual effect. Multiple landmarks of the same type without unique labels are also found on these pages. The pages use form fields that rely solely on built-in browser error checking, which can lead to error messages being unavailable for users with older browser technology, or Assistive Technology that doesn't support these features.
+The SpringerLink checkout process pages found at order.springer.com use multiple landmarks of the same type without unique labels. The pages use form fields that rely solely on built-in browser error checking, which can lead to error messages being unavailable for users with older browser technology, or Assistive Technology that doesn't support these features.
 <br><br>
 Third party scripts may inject content with incorrect or absent information about structure and relationships. These may include content in advertising scripts and the Freshdesk customer services widget, among others.
 </td>
