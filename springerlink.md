@@ -323,7 +323,7 @@ Content supplied by us does not play automatically.
 <br><br>
 All video with audio hosted through the third party MovingImage platform has a mechanism for pausing, stopping, and controlling volume.
 <br><br>
-We do not support the playing of audio-only directly on our pages. Audio files hosted by us are supplied as downloadable files only, for use in the users' own media player.
+We do play audio-only files directly on our pages. Audio files hosted by us are supplied as downloadable files only, for use in the users' own media player.
 <br><br>
 Third party advertisements may load video and audio that automatically starts, and may not provide adequate controls for pausing, stopping, and/or controlling volume. When we become aware of active advertisements with these problems, we immediately take steps to remove those advertisements from our pages.
 </td>
