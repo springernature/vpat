@@ -994,13 +994,7 @@ Third party advertising scripts may inject content with insufficient contrast.
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
-<br><br>
-Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) can generally be resized without Assistive Technology up to 200 percent without loss of content or functionality.
-<br><br>
-The flyout "search" and "menu" components in the header of the older design have fixed positions which may prevent users browsing with high magnification from being able to scroll through the page while the components are open. In the case of the "menu" component, only some of the menu can be used at high magnification, with the lower items cut off-screen.
-<br><br>
-Pages rendered in the <strong>newer</strong> design (currently articles, chapters, books, book series, reference works, reference work entries, and collections) can be resized without Assistive Technology up to 400 percent without loss of content or functionality.  
+The pages of this product can generally be resized without Assistive Technology up to 200 percent without loss of content or functionality.  
 <br><br>
 Third party advertising scripts may inject non-responsive content that loses or obscures information when text is resized or the screen is magnified.
 </td>
