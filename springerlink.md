@@ -938,8 +938,8 @@ Other third party scripts, including the Freshdesk customer services widget, may
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td>Does not support</td>
-<td>A limited number of form fields may have autocomplete values that allow the field purpose to be determined programmatically, but we have not widely implemented this functionality.</td>
+<td>Partially Supports</td>
+<td>Some form fields (for example checkout flows) have autocomplete values that allow the field purpose to be determined programmatically, though this functionality is not universal across this product.</td>
 </tr>
 <tr id="contrast-minimum" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast"><strong>1.4.3 Contrast (Minimum)</strong></a> (Level AA)
