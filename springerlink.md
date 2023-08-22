@@ -1145,7 +1145,7 @@ Third party content (e.g. advertising, customer services widgets) may inject ele
 <td>
 Users may use the search function or the provided category browsing links to access any part of this product. The main navigation component can also be used to access the main content index pages.
 <br><br>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
+The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 </td>
 </tr>
 <tr id="headings-and-labels" valign="top">
@@ -1178,8 +1178,6 @@ Level one headings are omitted on some pages (e.g. search results pages). Other 
 We are actively working to find and repair these problems.  
 <br><br>
 Pages rendered in the <strong>newer</strong> design (currently articles, Chapters, books, book series, reference works, reference work entries, and collections) use correctly-structured headings and generally display visible and appropriately associated labels for input fields.  
-<br><br>
-The Freshdesk customer services widget injects controls with inadequate labels, making it difficult or impossible to use the controls with Assistive Technology. We are actively working to solve this problem. Additionally, we have provided alternate means of accessing customer services on our "Contact Us" page, including a contact email address, a support ticket system, and helpdesk telephone numbers.
 </td>
 </tr>
 <tr id="focus-visible" valign="top">
