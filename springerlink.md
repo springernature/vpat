@@ -1071,7 +1071,9 @@ The SpringerLink website contains content that is rendered in two separate desig
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) contain user interface icons that do not meet minimum contrast requirements for non-text content.
 <br><br>
-Some complex non-text images in journals, books, series, protocols, reference works and proceedings may have insufficient contrast. Examples may include images of charts, graphs, diagrams, or maps. Generally, these images are used to supplement text content.
+When supplied by authors who publish with us, Graphical Objects (e.g. charts, graphs, or maps, among others) may have inadequate contrast.
+<br><br>
+Third party content (e.g. advertising, customer services widgets) may inject non-text elements with inadequate contrast. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
 </td>
 </tr>
 <tr id="text-spacing" valign="top">
