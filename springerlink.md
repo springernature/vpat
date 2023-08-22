@@ -1269,7 +1269,7 @@ Pages rendered in the <strong>newer</strong> design are currently articles, chap
 <br><br>
 When the transfer process is complete, the navigation methods between designs will be broadly consistent.
 <br><br>
- The checkout configurations deal with sensitive information and have intentionally been made more simple in design. They do not share the same navigation system as the main site, but the navigation of these sets of pages is internally consistent.
+Pages that deal with sensitive information (for example payment pages) have intentionally simpler designs, and do not share the same navigation system as the main site. The navigation of each of these sets of pages is internally consistent.
 </td>
 </tr>
 <tr id="consistent-identification" valign="top">
@@ -1301,7 +1301,7 @@ Pages rendered in the <strong>newer</strong> design are currently articles, chap
 <br><br>
 When the transfer process is complete, content will use a unified design style with consistent presentation and functionality.
 <br><br>
-The checkout configurations deal with sensitive information and have intentionally been made more simple in design. They do not share the same navigation system as the main site, but the presentation of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site.
+Pages that deal with sensitive information (for example payment pages) have intentionally simpler designs. The presentation of each of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site.
 </td>
 </tr>
 <tr id="error-suggestion" valign="top">
@@ -1372,8 +1372,7 @@ Pages located at order.springer.com rely solely on built-in browser error checki
 <em>Revised Section 508 - does not apply</em>
 </td>
 <td>Partially Supports</td>
-<td>Status messages that do not receive focus are presented in text. Some are marked up with programmatic roles (e.g. `role="alert"` on some error messages), but there is no consistent, single approach to status messages across the multiple designs.   ARIA Live Regions are not generally used.</td>
-
+<td>Status messages that do not receive focus are presented in text. Some are marked up with programmatic roles (e.g. `role="alert"` on some error messages), but there is no consistent, single approach to status messages across the multiple designs. ARIA Live Regions are not generally used.</td>
 </tr>
 </tbody>
 </table>
