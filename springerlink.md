@@ -517,7 +517,7 @@ Pages located at order.springer.com have landmarks present. Some are duplicated 
 <td>
 SpringerLink pages mostly have unique page titles that describe the purpose of the page.
 <br><br>
-Where multiple versions of the same content exist (e.g. in original research with a separate updated version), the page titles do not differentiate between versions.
+Where multiple versions of the same content exist (e.g. in original research that has been updated), the page titles do not differentiate between versions.
 </td>
 </tr>
 <tr id="focus-order" valign="top">
