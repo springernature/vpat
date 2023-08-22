@@ -1043,7 +1043,9 @@ Third party advertising scripts may inject images containing images of text.
 <em>Revised Section 508 - does not apply</em>
 </td>
 <td>Partially Supports</td>
-<td>Most parts of this product are responsive. Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions per the specifications in this criterion.
+<td>Most parts of this product are responsive. Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions, except where necessary.
+
+Examples of necessary exclusions that are permitted under the guidelines include the display of large tables or figures - in these cases we provide an additional "full screen" view so that more data can be visible at once.
 <br><br>
 Third party advertising scripts may inject non-responsive content that loses or obscures information when text is resized or the screen is magnified.
 </td>
