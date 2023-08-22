@@ -633,11 +633,7 @@ Third party scripts including advertising scripts, the Disqus commenting widget,
 </td>
 <td>Partially Supports</td>
 <td>
-In most cases where controls contain visible text, that text is also the label for the control, with limited exceptions.
-<br><br>
-Images of product covers (e.g. journals, books displayed on the homepage of link.springer.com) used as links may contain text that does not meet this criterion. On the homepage, these images are supplemented with visible text labels (but the text is triggered by mouse-dependent event handlers, and their visibility cannot be toggled by the keyboard).
-<br><br>
-In pages rendered in all designs, some controls without text but with high recognisability (e.g. "next" and "previous" pagination controls on search results pages, the "play" button on the video player at link.springer.com/video) have inadequate or absent accessible names.
+In most cases where controls contain visible text, that text is also the label for the control. We are continually working to find and repair instances that do not meet this criterion. 
 </td>
 </tr>
 <tr id="motion-actuation" valign="top">
