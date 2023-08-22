@@ -1233,7 +1233,7 @@ Third party scripts, including advertising, may inject components that remove fo
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Content in journals, books, series, protocols, reference works or proceedings may include or be completely composed of text in languages other than that defined in the HTML <code>lang</code> attribute. Research content supports the inclusion of correct `lang` attributes for mixed-language content in some areas such as article titles and summary sections, but not all parts of mixed-language pages are covered. We currently have no method of confirming the inclusion of appropriate <code>lang</code> attributes for pieces of text that may use a different language to the main document.
+Content in journals, books, series, protocols, reference works or proceedings may include or be completely composed of text in languages other than that defined in the HTML <code>lang</code> attribute. Mixed language content may be marked up with a separate <code>lang</code> attribute that matches the written language, though this is not consistently applied.
 <br><br>
 Titles in the cart at order.springer.com may be published in multiple languages. The correct <code>lang</code> attribute for titles in a language different to that of the overall document is omitted.
 <br><br>
