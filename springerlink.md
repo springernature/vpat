@@ -1409,7 +1409,7 @@ Notes: See [WCAG section](#wcag-20-report) for full details.
 <tr>
 <td>302.3 Without Perception of Color</td>
 <td>Supports</td>
-<td>Color perception is not needed to use this product.</td>
+<td>Color perception is not generally needed to use this product.</td>
 </tr>
 <tr>
 <td>302.4 Without Hearing</td>
