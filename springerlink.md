@@ -351,12 +351,6 @@ Third party advertisements may load video and audio that automatically starts, a
 <td>
 The majority of components in the SpringerLink website can be navigated by keyboard alone. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
-SpringerLink offers multimedia content through the third party MovingImage platform, or as downloadable video files in various formats.  
-
-Video content located at link.springer.com/video can generally be operated without the use of a mouse, but some video functions (including turning on closed captions) cannot be operated by keyboard alone. Additionally, keyboard users are unable to toggle between the "details" and "transcript" tabs below the video. We are actively working to repair these problems.  
-
-Video content elsewhere (e.g. chapters or articles) cannot currently be operated with the keyboard. We are actively working to repair this problem.
-<br><br>
 Third party advertising scripts may inject content that cannot be interacted with easily or at all by keyboard.When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
