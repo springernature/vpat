@@ -633,7 +633,7 @@ Third party scripts including advertising scripts, the Disqus commenting widget,
 </td>
 <td>Partially Supports</td>
 <td>
-In most cases where controls contain visible text, that text is also the label for the control. We are continually working to find and repair instances that do not meet this criterion. 
+In most cases where controls contain visible text, that text is also the label for the control. We are continually working to find and repair instances that do not meet this criterion.
 </td>
 </tr>
 <tr id="motion-actuation" valign="top">
@@ -673,13 +673,9 @@ In most cases where controls contain visible text, that text is also the label f
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
-<br><br>
-Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) may be switched by the user between English and German. These pages use the language attribute on the HTML element to indicate which language is being used as the default language of a page.
-<br><br>
-Pages rendered in the <strong>newer</strong> design (currently articles, chapters, books, book series, reference works, reference work entries, and collections) are presented in English only, with the correct language attribute applied to the HTML element.
+Pages in this product may contain mixed languages, though the primary language of the product is English. Most pages have a <code>lang="en"</code> attribute applied to the HTML element, except for older legacy pages (for example the search results page) which allows the user to switch between English and German. On switching to German, a <code>lang="de"</code> attribute is applied to the HTML element instead. 
 </td>
 </tr>
 <tr id="on-focus" valign="top">
