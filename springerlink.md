@@ -1020,9 +1020,9 @@ Third party advertising scripts may inject non-responsive content that loses or 
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Content in journals, books, series, protocols, reference works or proceedings may include complex images that contain images of text. In most cases these images are used to supplement the text content they appear alongside. In some cases (e.g. charts, graphs, or maps, among others), the text content presented alongside may be insufficient to explain the contents of the image.
+Outside of editorial content managed by content management system (CMS), the contents of author-submitted published books and papers, and third party scripts, the pages of this product do not use images of text to convey information except in the case of <a href="https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">logotypes</a> (considered essential per WCAG 2.1) or when the image is <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration">pure decoration</a>.
 <br><br>
-Images of product covers (e.g. journals or books displayed on the homepage of link.springer.com) may contain text. On the homepage, these images are supplemented with visible text labels, but the text is triggered by mouse-dependent event handlers, and their visibility cannot be toggled by the keyboard alone.
+CMS content and published books and papers may include complex images that contain images of text. In most cases these images are used to supplement the text content they appear alongside. In some cases (e.g. charts, graphs, or maps, among others), the text content presented alongside may be insufficient to explain the contents of the image. A large-scale and currently-active programme of work to improve alternative text content submitted by our authors is under way to address this.
 <br><br>
 Third party advertising scripts may inject images containing images of text.
 </td>
