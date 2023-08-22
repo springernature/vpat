@@ -675,7 +675,7 @@ In most cases where controls contain visible text, that text is also the label f
 </ul></td>
 <td>Supports</td>
 <td>
-Pages in this product may contain mixed languages, though the primary language of the product is English. Most pages have a <code>lang="en"</code> attribute applied to the HTML element, except for older legacy pages (for example the search results page) which allows the user to switch between English and German. On switching to German, a <code>lang="de"</code> attribute is applied to the HTML element instead. 
+Pages in this product may contain mixed languages, though the primary language of the product is English. Most pages have a <code>lang="en"</code> attribute applied to the HTML element, except for older legacy pages (for example the search results page) which allows the user to switch between English and German. On switching to German, a <code>lang="de"</code> attribute is applied to the HTML element instead.
 </td>
 </tr>
 <tr id="on-focus" valign="top">
@@ -805,7 +805,7 @@ Instructions such as those that explain mandatory fields may be absent or only p
 <td>
 Most of the pages found at link.springer.com generally use semantically-correct markup that meets the HTML5 specification for interface elements.
 <br><br>
-Where errors exist, they are usually minor, such as the presence of invalid <code>alt</code> and <code>src</code> attributes in SVG image nodes (ignored by user agents). There are some instances of incorrectly-nested elements (e.g. "<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content">flow content</a>" wrapped in "<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Phrasing_content">phrasing content</a>").
+Where errors exist, they are usually minor, such as the presence of invalid <code>alt</code> and <code>src</code> attributes in SVG image nodes (ignored by user agents). There are some instances of incorrectly-nested elements (e.g. "<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content">flow content</a>" wrapped in "<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Phrasing_content">phrasing content</a>"), also generally ignored by user agents.
 <br><br>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
@@ -813,7 +813,7 @@ Pages rendered in the <strong>older</strong> design (currently journals, and anc
 <br><br>
 Ancillary static pages (e.g. the pages linked to at the footer of each page, such as Terms and Conditions, Legal Information, and Accessibility, among others) are hand-built in HTML, without the use of a dynamic templating system. Hand-built content may contain unclosed or illegally nested elements. When we become aware of content with these problems, we immediately take steps to repair the HTML.
 <br><br>
-Pages located at order.springer.com contain parsing errors that may be problematic for Assistive Technology, including illegally-nested elements, invalid autocomplete values, and incomplete closing tags.
+Pages located at order.springer.com contain parsing errors that may be problematic for Assistive Technology, including illegally-nested elements (including illegally-nested controls), invalid autocomplete values, and incomplete closing tags.
 <br><br>
 Third party advertising scripts may inject content that omits start and end tags, contains duplicate attributes or illegally nested elements. When we become aware of active advertisements with these problems, we immediately take steps to remove those advertisements from our pages.
 </td>
