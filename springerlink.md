@@ -966,13 +966,9 @@ The SpringerLink website contains content that is rendered in two separate desig
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) use gradient background images that do not meet minimum contrast requirements between the text and one or more of the gradient background colours.
 <br><br>
-There are limited instances of promotional/call-to-action content (e.g. the "New books and journals are available every day" box on the homepage of link.springer.com) with poor contrast ratio.
-<br><br>
-Images of product covers (e.g. journals, books displayed on the homepage of link.springer.com) may contain text that does not meet WCAG AA contrast guidelines. On the homepage, these images are supplemented with visible text labels (but the text is triggered by mouse-dependent event handlers, and their visibility cannot be toggled by the keyboard).
+Images of product covers (e.g. journals, books displayed on the homepage of link.springer.com) may contain text that does not meet WCAG AA contrast guidelines. On the homepage, these images are supplemented with visible text labels.
 <br><br>
 Pages rendered in the <strong>newer</strong> design (currently articles, chapters, books, book series, reference works, reference work entries, and collections) meet WCAG AA contrast ratio requirements.
-<br><br>
-Most text and images of text in the newer design have a contrast ratio of at least 4.5:1. Links generally fall slightly short of WCAG AA requirements, with a contrast ratio of 4.3:1.
 <br><br>
 Third party advertising scripts may inject content with insufficient contrast.
 </td>
