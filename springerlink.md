@@ -549,8 +549,6 @@ Some pages rendered in the <strong>older</strong> design may contain components 
 <br><br>
 On pages rendered in the <strong>newer</strong> design (currently articles, chapters, books, book series, reference works, reference work entries, and collections), the focus order of page content matches the visual order.
 <br><br>
-Form labels located at order.springer.com are placed after their associated form fields in the source order, which does not match the visual order. Screen reader users moving through the form element by element may access the label after the input field instead of before, though all input fields are correctly associated with their labels.
-<br><br>
 Third party scripts including advertising scripts or customer services widgets (among others), may inject content where the focus order does not match the visual order. The operation and meaning of these components should be unaffected by the focus order.
 </td>
 </tr>
