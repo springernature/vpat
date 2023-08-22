@@ -355,8 +355,6 @@ Mouse-dependent event handlers are used to display additional information relati
 <br><br>
 Mouse-dependent event handlers are used to display detailed information about the meaning of preview-only content on advanced search pages. We are actively working to repair these problems.
 <br><br>
-Content contained inside tab interfaces (e.g. tables of contents in Books) cannot be operated by keyboard alone. We are actively working to repair these problems.  
-<br><br>
 SpringerLink offers multimedia content through the third party MovingImage platform, or as downloadable video files in various formats.
 
 Video content located at link.springer.com/video can generally be operated without the use of a mouse, but some video functions (including turning on closed captions) cannot be operated by keyboard alone. Additionally, keyboard users are unable to toggle between the "details" and "transcript" tabs below the video. We are actively working to repair these problems.  
