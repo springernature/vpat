@@ -1115,9 +1115,11 @@ The search results page is rendered in an older design - we are in the process o
 </td>
 <td>Does Not Support</td>
 <td>
-The search results page contains three tooltip components that toggle visibility on both hover and focus events. The tooltip components do not meet the Dismissable, Hoverable, or Persistent requirements specified by this criterion.
+Additional content that becomes visible on hover or focus (for example tooltips) is rare in this product. In cases where content is initially hidden and displayed on interaction, we also trigger that display with the tab key.  
+
+Content triggered in this way does not meet this criterion's requirements for Dismissable (the content cannot be dismissed without changing focus) or Hoverable (the pointer cannot be moved over the additional content without it disappearing).  
 <br><br>
-No other examples of components that trigger visibility of additional information on hover or focus exist in the pages of this product.
+Third party content (e.g. advertising, customer services widgets) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
 </td>
 </tr>
 <tr id="multiple-ways" valign="top">
