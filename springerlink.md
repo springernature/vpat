@@ -323,7 +323,7 @@ Content supplied by us does not play automatically.
 <br><br>
 All video with audio hosted through the third party MovingImage platform has a mechanism for pausing, stopping, and controlling volume.
 <br><br>
-We do not play audio-only files directly on our pages. Audio files hosted by us are supplied as downloadable files only, for use in the users' own media player.
+We play audio-only files directly on our pages. Audio files hosted by us are supplied as downloadable files only, for use in the users' own media player.
 <br><br>
 Third party advertisements may load video and audio that automatically starts, and may not provide adequate controls for pausing, stopping, and/or controlling volume. When we become aware of active advertisements with these problems, we immediately take steps to remove those advertisements from our pages.
 </td>
@@ -349,7 +349,7 @@ Third party advertisements may load video and audio that automatically starts, a
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The majority of components in the SpringerLink website can be navigated by keyboard alone. We also provide skip links for bypassing repetitive navigation elements.
+The majority of components in this product can be navigated by keyboard alone. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
 Third party advertising scripts may inject content that cannot be interacted with easily or at all by keyboard. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
@@ -489,7 +489,7 @@ Third party advertising scripts may inject content that automatically moves or b
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The pages found at link.springer.com generally use semantically-correct markup so that Assistive Technology users can recognise elements and move around them accordingly. We make use of WAI-ARIA roles to support landmarks. We also provide skip links for bypassing repetitive navigation elements.
+The pages of this product generally use semantically-correct markup so that Assistive Technology users can recognise elements and move around them accordingly. We make use of WAI-ARIA roles to support landmarks. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
 Pages located at order.springer.com have landmarks present. Some are duplicated without unique labels.
 </td>
@@ -573,7 +573,7 @@ Third party scripts including advertising scripts or customer services widgets (
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Generally, the purpose of each link found at link.springer.com can be determined by its descriptive text label. Most linked images or icons have alternative text or supplementary text labels. Some images, such as icons on user interface elements, are known to have inadequate or missing text alternatives. We are actively working to find and repair these problems.  
+Generally, the purpose of each link in this product can be determined by its descriptive text label. Most linked images or icons have alternative text or supplementary text labels. Some images, such as icons on user interface elements, are known to have inadequate or missing text alternatives. We are actively working to find and repair these problems.  
 <br><br>
 In submitted articles, anchor links that refer to supplementary figures or tables may have insufficient context in their link text (e.g. figure numbers only). In limited cases we may support inadequate link text with the use of WAI-ARIA techniques. We are actively working to repair these problems.
 <br><br>
@@ -803,7 +803,7 @@ Instructions such as those that explain mandatory fields may be absent or only p
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Most of the pages found at link.springer.com generally use semantically-correct markup that meets the HTML5 specification for interface elements.
+Most of the pages of this product generally use semantically-correct markup that meets the HTML5 specification for interface elements.
 <br><br>
 Where errors exist, they are usually minor, such as the presence of invalid <code>alt</code> and <code>src</code> attributes in SVG image nodes (ignored by user agents). There are some instances of incorrectly-nested elements (e.g. "<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content">flow content</a>" wrapped in "<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Phrasing_content">phrasing content</a>"), also generally ignored by user agents.
 <br><br>
@@ -839,7 +839,7 @@ Third party advertising scripts may inject content that omits start and end tags
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The pages found at link.springer.com generally use standard HTML and WAI-ARIA attributes to describe the identity, operation, and state of user interface elements to Assistive Technologies.
+The pages of this product generally use standard HTML and WAI-ARIA attributes to describe the identity, operation, and state of user interface elements to Assistive Technologies.
 <br><br>
 In some cases, WAI-ARIA attributes have been omitted where they would be helpful (e.g. progress indicators are not marked up as step counters in the checkout flow). In other cases WAI-ARIA roles or attributes may be misused in ways that cause elements to have misleading semantics. We are actively working to find and repair these problems.
 <br><br>
@@ -921,7 +921,7 @@ Other third party scripts, including the Freshdesk customer services widget, may
 <em>Revised Section 508 - does not apply</em>
 </td>
 <td>Supports</td>
-<td>The SpringerLink website does not contain any content that restricts its view and operation to a single display orientation, such as portrait or landscape.</td>
+<td>This product does not contain any content that restricts its view and operation to a single display orientation, such as portrait or landscape.</td>
 </tr>
 <tr id="identify-input-purpose" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#identify-input-purpose"><strong>1.3.5 Identify Input Purpose</strong></a> (Level AA 2.1 only)
@@ -966,7 +966,7 @@ The SpringerLink website contains content that is rendered in two separate desig
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) use gradient background images that do not meet minimum contrast requirements between the text and one or more of the gradient background colours.
 <br><br>
-Images of product covers (e.g. journals, books displayed on the homepage of link.springer.com) may contain text that does not meet WCAG AA contrast guidelines. On the homepage, these images are supplemented with visible text labels.
+Images of product covers (e.g. journals, books displayed on the [homepage](https://link.springer.com)) may contain text that does not meet WCAG AA contrast guidelines. On the homepage, these images are supplemented with visible text labels.
 <br><br>
 Pages rendered in the <strong>newer</strong> design (currently articles, chapters, books, book series, reference works, reference work entries, and collections) meet WCAG AA contrast ratio requirements.
 <br><br>
