@@ -575,11 +575,9 @@ Third party scripts including advertising scripts or customer services widgets (
 <td>
 Generally, the purpose of each link found at link.springer.com can be determined by its descriptive text label. Most linked images or icons have alternative text or supplementary text labels. Some images, such as icons on user interface elements, are known to have inadequate or missing text alternatives. We are actively working to find and repair these problems.  
 <br><br>
-When citing references in articles, the link text contains only the year of the reference's publication. This may provide inadequate context for screen reader users. A title attribute is provided on these links, but the title attribute may not be made available by all Assistive Technologies.
+In submitted articles, anchor links that refer to supplementary figures or tables may have insufficient context in their link text (e.g. figure numbers only). In limited cases we may support inadequate link text with the use of WAI-ARIA techniques. We are actively working to repair these problems.
 <br><br>
-In articles, anchor links that refer to same-page supplementary figures or tables use only the number of the supplementary material as their link text (e.g. "Figure 1" will be linked to only by the number "1"). This is likely to be insufficient context for screen reader users.
-<br><br>
-Third party scripts including advertising scripts or customer services widgets (among others), may inject content that includes links with no accessible text, or poorly-named accessible text. When we become aware of deficiencies, we contact third party suppliers to request repairs or are actively seeking solutions. Additionally, where possible, we aim to provide equivalent alternatives to problematic content.
+Third party scripts including advertising scripts, the Disqus commenting widget, survey or customer services widgets (among others), may inject content that includes links with no accessible text, or poorly-named accessible text. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr id="pointer-gestures" valign="top">
