@@ -351,10 +351,6 @@ Third party advertisements may load video and audio that automatically starts, a
 <td>
 The majority of components in the SpringerLink website can be navigated by keyboard alone. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
-Mouse-dependent event handlers are used to display additional information relating to images displayed on the homepage and to icons in search results, which may make the purpose of these graphics difficult to discern for keyboard users. We are actively working to repair these problems.
-<br><br>
-Mouse-dependent event handlers are used to display detailed information about the meaning of preview-only content on advanced search pages. We are actively working to repair these problems.
-<br><br>
 SpringerLink offers multimedia content through the third party MovingImage platform, or as downloadable video files in various formats.  
 
 Video content located at link.springer.com/video can generally be operated without the use of a mouse, but some video functions (including turning on closed captions) cannot be operated by keyboard alone. Additionally, keyboard users are unable to toggle between the "details" and "transcript" tabs below the video. We are actively working to repair these problems.  
