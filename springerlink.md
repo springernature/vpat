@@ -1145,9 +1145,7 @@ Third party content (e.g. advertising, customer services widgets) may inject ele
 <td>
 Users may use the search function or the provided category browsing links to access any part of this product. The main navigation component can also be used to access the main content index pages.
 <br><br>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
-<br><br>
-The flyout "menu" component in the header of the older design has a fixed position which may prevent users who browse with high magnification from being able to access all items in the menu.  
+The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design. 
 </td>
 </tr>
 <tr id="headings-and-labels" valign="top">
