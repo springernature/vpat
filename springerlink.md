@@ -675,7 +675,7 @@ In most cases where controls contain visible text, that text is also the label f
 </ul></td>
 <td>Supports</td>
 <td>
-Pages in this product may contain mixed languages, though the primary language of the product is English. Most pages have a <code>lang="en"</code> attribute applied to the <code>html</code> element, except for older legacy pages (for example the search results page) which allows the user to switch between English and German. On switching to German, a <code>lang="de"</code> attribute is applied to the <code>html</code> element instead.
+Pages in this product may contain mixed languages, though the primary language of the product is English. Most pages have a `lang="en"` attribute applied to the `html` element, except for older legacy pages (for example the search results page) which allows the user to switch between English and German. On switching to German, a `lang="de"` attribute is applied to the `html` element instead.
 </td>
 </tr>
 <tr id="on-focus" valign="top">
@@ -745,7 +745,7 @@ Pages in this product may contain mixed languages, though the primary language o
 <td>
 Where user input errors are automatically detected by our own software, those errors are identified with warning text adjacent to the input field. We do not rely on visual characteristics alone (e.g. colour) to indicate user input errors.
 <br><br>
-In some parts of the site, we additionally use an <code>aria-describedby</code> property to associate error messages with invalid fields.
+In some parts of the site, we additionally use an `aria-describedby` property to associate error messages with invalid fields.
 <br><br>
 User account pages located at link.springer.com/account use unsemantic, unassociated, label elements to mark up errors.
 <br><br>
@@ -779,7 +779,7 @@ Pages rendered in the <strong>older</strong> design (currently journals, and anc
 <br><br>
 Pages rendered in the <strong>newer</strong> design (currently articles, chapters, books, book series, reference works, reference work entries, and collections) generally display visible and appropriately associated labels for input fields.
 <br><br>
-Instructions such as those that explain mandatory fields may be absent or only present at the end of forms. (e.g. some payment information pages). Additional instructions for specific input fields may not be adequately associated (e.g. with <code>aria-describedby</code>) with the fields they describe. We are actively working to find and repair these problems.
+Instructions such as those that explain mandatory fields may be absent or only present at the end of forms. (e.g. some payment information pages). Additional instructions for specific input fields may not be adequately associated (e.g. with `aria-describedby`) with the fields they describe. We are actively working to find and repair these problems.
 </td>
 </tr>
 <tr id="parsing" valign="top">
@@ -805,11 +805,11 @@ Instructions such as those that explain mandatory fields may be absent or only p
 <td>
 Most of the pages of this product generally use semantically-correct markup that meets the HTML5 specification for interface elements.
 <br><br>
-Where errors exist, they are usually minor, such as the presence of invalid <code>alt</code> and <code>src</code> attributes in SVG image nodes (ignored by user agents). There are some instances of incorrectly-nested elements (e.g. "<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content">flow content</a>" wrapped in "<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Phrasing_content">phrasing content</a>"), also generally ignored by user agents.
+Where errors exist, they are usually minor, such as the presence of invalid `alt` and `src` attributes in SVG image nodes (ignored by user agents). There are some instances of incorrectly-nested elements (e.g. "<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content">flow content</a>" wrapped in "<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Phrasing_content">phrasing content</a>"), also generally ignored by user agents.
 <br><br>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
-Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) have a slightly higher volume of parsing errors, which include more problematic errors such as <code>li</code> elements outside of <code>ul</code> elements and duplicate IDs, that may interfere with the ability of Assistive Technology to correctly identify some components.
+Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) have a slightly higher volume of parsing errors, which include more problematic errors such as `li` elements outside of `ul` elements and duplicate IDs, that may interfere with the ability of Assistive Technology to correctly identify some components.
 <br><br>
 Ancillary static pages (e.g. the pages linked to at the footer of each page, such as Terms and Conditions, Legal Information, and Accessibility, among others) are hand-built in HTML, without the use of a dynamic templating system. Hand-built content may contain unclosed or illegally nested elements. When we become aware of content with these problems, we immediately take steps to repair the HTML.
 <br><br>
@@ -1238,11 +1238,11 @@ Third party scripts, including advertising, may inject components that remove fo
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Content in journals, books, series, protocols, reference works or proceedings may include or be completely composed of text in languages other than that defined in the HTML <code>lang</code> attribute. Mixed language content may be marked up with a separate <code>lang</code> attribute that matches the written language, though this is not consistently applied.
+Content in journals, books, series, protocols, reference works or proceedings may include or be completely composed of text in languages other than that defined in the HTML `lang` attribute. Mixed language content may be marked up with a separate `lang` attribute that matches the written language, though this is not consistently applied.
 <br><br>
-Titles in the cart at order.springer.com may be published in multiple languages. The correct <code>lang</code> attribute for titles in a language different to that of the overall document is omitted.
+Titles in the cart at order.springer.com may be published in multiple languages. The correct `lang` attribute for titles in a language different to that of the overall document is omitted.
 <br><br>
-Third party scripts may inject components that use a different language to the page content - for example a targeted advertisement may use the native language of the user, and not be marked up with a separate <code>lang</code> attribute.
+Third party scripts may inject components that use a different language to the page content - for example a targeted advertisement may use the native language of the user, and not be marked up with a separate `lang` attribute.
 </td>
 </tr>
 <tr id="consistent-navigation" valign="top">
