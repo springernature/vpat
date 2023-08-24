@@ -747,7 +747,7 @@ Where user input errors are automatically detected by our own software, those er
 <br><br>
 In some parts of the site, we additionally use an `aria-describedby` property to associate error messages with invalid fields.
 <br><br>
-User account pages located at link.springer.com/account use unsemantic, unassociated, label elements to mark up errors.
+User account pages located at link.springer.com/account use unsemantic, unassociated, `label` elements to mark up errors.
 <br><br>
 Pages located at order.springer.com rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states.
 </td>
@@ -1176,7 +1176,7 @@ The SpringerLink website contains content that is rendered in two separate desig
 <td>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
-Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) may incorrectly use label elements for other purposes (e.g. for error messages on account management pages), omit labels for some functionality (e.g. the pagination number field on advanced search results pages and the text input for the main search component in the page banner).
+Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) may incorrectly use `label` elements for other purposes (e.g. for error messages on account management pages), omit labels for some functionality (e.g. the pagination number field on advanced search results pages and the text input for the main search component in the page banner).
 <br><br>
 Level one headings are omitted on some pages (e.g. search results pages). Other pages have multiple level one headings (e.g. static ancillary pages such as link.springer.com/termsandconditions). Some informational pages (e.g. Journal updates) do not use correctly-structured heading levels.
 <br><br>
@@ -1334,7 +1334,7 @@ Where user input errors are automatically detected by our own software, those er
 <br><br>
 The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
-Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) use unsemantic, unassociated label elements to mark up errors.
+Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) use unsemantic, unassociated `label` elements to mark up errors.
 <br><br>
 Pages located at order.springer.com rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states.
 </td>
@@ -1414,7 +1414,7 @@ Notes: See [WCAG section](#wcag-20-report) for full details.
 <tr>
 <td>302.3 Without Perception of Color</td>
 <td>Supports</td>
-<td>Color perception is not generally needed to use this product.</td>
+<td>Colour perception is not generally needed to use this product.</td>
 </tr>
 <tr>
 <td>302.4 Without Hearing</td>
@@ -1515,7 +1515,7 @@ See WCAG sections <a href="#non-text-content">1.1.1 Non-text Content</a>, <a hre
 <td headers="502-services chap-5-remarks">
 Data tables in journals, books, series, protocols, reference works or proceedings may not be marked up with adequate table header information.
 <br><br>
-Data tables in dynamic templates are rare, but where they do appear, they are marked up with standard HTML table elements. Row headers are present and associated with rows and columns as necessary.
+Data tables in dynamic templates are rare, but where they do appear, they are marked up with standard HTML `table` elements. Row headers are present and associated with rows and columns as necessary.
 </td>
 </tr>
 <tr>
@@ -1612,7 +1612,7 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 <tr>
 <td headers="503-apps chap-5-criteria">503.2 User Preferences</td>
 <td headers="503-apps chap-5-conformance">Supports</td>
-<td headers="503-apps chap-5-remarks">This product does not override user selected contrast and color selections and other individual display attributes.</td>
+<td headers="503-apps chap-5-remarks">This product does not override user selected contrast and colour selections and other individual display attributes.</td>
 </tr>
 <tr>
 <td headers="503-apps chap-5-criteria">503.3 Alternative User Interfaces</td>
