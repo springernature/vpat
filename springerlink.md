@@ -675,7 +675,7 @@ In most cases where controls contain visible text, that text is also the label f
 </ul></td>
 <td>Supports</td>
 <td>
-Pages in this product may contain mixed languages, though the primary language of the product is English. Most pages have a <code>lang="en"</code> attribute applied to the HTML element, except for older legacy pages (for example the search results page) which allows the user to switch between English and German. On switching to German, a <code>lang="de"</code> attribute is applied to the HTML element instead.
+Pages in this product may contain mixed languages, though the primary language of the product is English. Most pages have a <code>lang="en"</code> attribute applied to the <code>html</code> element, except for older legacy pages (for example the search results page) which allows the user to switch between English and German. On switching to German, a <code>lang="de"</code> attribute is applied to the <code>html</code> element instead.
 </td>
 </tr>
 <tr id="on-focus" valign="top">
