@@ -1625,7 +1625,7 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 <tr>
 <td headers="503-usercon chap-5-criteria">503.4.1 Caption Controls</td>
 <td headers="503-usercon chap-5-conformance">Partially Supports</td>
-<td headers="503-usercon chap-5-remarks">Not all video content provides captions. Where captions are provided, the controls for adjusting those captions are found at the same menu level as the user controls for volume or program selection. The controls cannot be operated by keyboard alone.</td>
+<td headers="503-usercon chap-5-remarks">Not all video content provides captions. Where captions are provided, the controls for adjusting those captions are found at the same menu level as the user controls for volume or program selection.</td>
 </tr>
 <tr>
 <td headers="503-usercon chap-5-criteria">503.4.2 Audio Description Controls</td>
