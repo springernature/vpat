@@ -920,7 +920,7 @@ Other third party scripts, including the Disqus commenting widget, may present i
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td>Does not support</td>
+<td>Partially Supports</td>
 <td>
 A limited number of form fields may have autocomplete values that allow the field purpose to be determined programmatically, but we have not widely implemented this functionality.
 </td>
