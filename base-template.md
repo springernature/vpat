@@ -684,8 +684,8 @@ Revised Section 508 – Does not apply
 <tr id="parsing" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#ensure-compat-parses"><strong>4.1.1 Parsing</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-WCAG 2.0 and 2.1 – Always answer ‘Supports’
-<br>WCAG 2.2 (obsolete and removed) - Does not apply<br>
+<br>WCAG 2.0 and 2.1 – Always answer ‘Supports’<br>
+<br>WCAG 2.2 (obsolete and removed) - Does not apply<br>  
 EN 301 549 Criteria
 <ul>
 <li>9.4.1.1 (Web)</li>
