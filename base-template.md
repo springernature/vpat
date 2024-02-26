@@ -1,7 +1,7 @@
 # \!INSERT PRODUCT\! Accessibility Conformance Report International Edition
 (Based on VPAT® Version 2.5)
 
-**Name of Product/Version**: \!INSERT PRODUCT NAME\! _(we do not version our software)_
+**Name of Product/Version**: \!INSERT PRODUCT NAME\! _(we do not version our software)_  
 **Report Date**: \!INSERT DATE LAST EDITED\!  
 **Product Description**: \!INSERT PRODUCT DESCRIPTION\!  
 **Contact information**: Please contact your Institutional Sales representative.  
@@ -674,7 +674,7 @@ Revised Section 508
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
 <tr id="redundant-entry" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG22/#redundant-entry"><strong>3.3.7 Redundant Entry</strong></a>(Level A 2.2 only)
+<td><a href="https://www.w3.org/TR/WCAG22/#redundant-entry"><strong>3.3.7 Redundant Entry</strong></a> (Level A 2.2 only)
 <br><br>EN 301 549 Criteria – Does not apply<br><br>
 Revised Section 508 – Does not apply
 </td>
@@ -1026,21 +1026,21 @@ Revised Section 508
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
 <tr id="focus-not-obscured-minimum" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum"><strong>2.4.11 Focus Not Obscured (Minimum)</strong></a>(Level AA 2.2 only)
+<td><a href="https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum"><strong>2.4.11 Focus Not Obscured (Minimum)</strong></a> (Level AA 2.2 only)
 <br><br>EN 301 549 Criteria – Does not apply<br><br>
-Revised Section 508 – Does not apply>
+Revised Section 508 – Does not apply
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
 <tr id="dragging-movements" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG22/#dragging-movements"><strong>2.5.7 Dragging Movements</strong></a>(Level AA 2.2 only)
+<td><a href="https://www.w3.org/TR/WCAG22/#dragging-movements"><strong>2.5.7 Dragging Movements</strong></a> (Level AA 2.2 only)
 <br><br>EN 301 549 Criteria – Does not apply<br><br>
 Revised Section 508 – Does not apply
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
 <tr id="target-size-minimum" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG22/#target-size-minimum"><strong>2.5.8 Target Size (Minimum)</strong></a>(Level AA 2.2 only)
+<td><a href="https://www.w3.org/TR/WCAG22/#target-size-minimum"><strong>2.5.8 Target Size (Minimum)</strong></a> (Level AA 2.2 only)
 <br><br>EN 301 549 Criteria – Does not apply<br><br>
 Revised Section 508 – Does not apply
 <td><!-- INSERT CONTENT HERE --></td>
@@ -1157,7 +1157,7 @@ Revised Section 508
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
 <tr id="accessible-authentication-minimum" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG22/#accessible-authentication-minimum"><strong>3.3.8 Accessible Authentication (Minimum)</strong></a>(Level AA 2.2 only)
+<td><a href="https://www.w3.org/TR/WCAG22/#accessible-authentication-minimum"><strong>3.3.8 Accessible Authentication (Minimum)</strong></a> (Level AA 2.2 only)
 <br><br>EN 301 549 Criteria – Does not apply<br><br>
 Revised Section 508 – Does not apply
 <td><!-- INSERT CONTENT HERE --></td>
