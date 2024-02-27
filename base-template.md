@@ -1,8 +1,8 @@
 # \!INSERT PRODUCT\! Accessibility Conformance Report International Edition
-(Based on VPAT® Version 2.4Rev)
+(Based on VPAT® Version 2.5)
 
-**Report Date**: \!INSERT DATE LAST EDITED\!  
 **Name of Product/Version**: \!INSERT PRODUCT NAME\! _(we do not version our software)_  
+**Report Date**: \!INSERT DATE LAST EDITED\!  
 **Product Description**: \!INSERT PRODUCT DESCRIPTION\!  
 **Contact information**: Please contact your Institutional Sales representative.  
 **Notes**:  
@@ -27,6 +27,9 @@ This report covers the degree of conformance for the following accessibility sta
 <td nowrap>Level A &nbsp; – &nbsp; <strong>Yes</strong><br>Level AA &nbsp; – &nbsp; <strong>Yes</strong><br>Level AAA &nbsp; – &nbsp; <strong>No</strong></td>
 </tr>
 <tr>
+<td><a href="https://www.w3.org/TR/WCAG22/">Web Content Accessibility Guidelines 2.2</a></td>
+<td nowrap>Level A &nbsp; – &nbsp; <strong>Yes</strong><br>Level AA &nbsp; – &nbsp; <strong>Yes</strong><br>Level AAA &nbsp; – &nbsp; <strong>No</strong></td>
+<tr>
 <td><a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines">Revised Section 508 standards published January 18, 2017 and corrected January 22, 2018</a> </td>
 <td nowrap><strong>Yes</strong></td>
 </tr>
@@ -45,15 +48,15 @@ The terms used in the Conformance Level information are defined as follows:
 - **Partially Supports**: Some functionality of the product does not meet the criterion.
 - **Does Not Support**: The majority of product functionality does not meet the criterion.
 - **Not Applicable**: The criterion is not relevant to the product.
-- **Not Evaluated**: The product has not been evaluated against the criterion. This can be used only in WCAG 2.x Level AAA.
+- **Not Evaluated**: The product has not been evaluated against the criterion. This can be used only in WCAG Level AAA.
 
-## WCAG 2.1 Report
+## WCAG 2.x Report
 
 Tables 1 and 2 also document conformance with:
 - EN 301 549:  Chapter 9 - Web, Sections 10.1-10.4 of Chapter 10 - Non-Web documents, and Sections 11.1-11.4 and 11.8.2 of Chapter 11 - Non-Web Software (open and closed functionality), and Sections 12.1.2 and 12.2.4 of Chapter 12 – Documentation
 - Revised Section 508: Chapter 5 – 501.1 Scope, 504.2 Content Creation or Editing, and Chapter 6 – 602.3 Electronic Support Documentation.
 
-**Note**: When reporting on conformance with the WCAG 2.x Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the [WCAG 2.1 Conformance Requirements](https://www.w3.org/TR/WCAG21/#conformance-reqs).
+**Note**: When reporting on conformance with the WCAG 2.1 Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the [WCAG 2.1 Conformance Requirements](https://www.w3.org/TR/WCAG21/#conformance-reqs).
 
 ### Table 1: Success Criteria, Level A
 
@@ -69,7 +72,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="non-text-content" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#text-equiv-all"><strong>1.1.1 Non-text Content</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.1.1.1 (Web)</li>
 <li>10.1.1.1 (Non-web document)</li>
@@ -79,7 +82,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -91,7 +94,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="audio-only-and-video-only-prerecorded" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-av-only-alt"><strong>1.2.1 Audio-only and Video-only (Prerecorded)</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.1.2.1 (Web)</li>
 <li>10.1.2.1 (Non-web document)</li>
@@ -101,7 +104,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -113,7 +116,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="captions-prerecorded" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-captions"><strong>1.2.2 Captions (Prerecorded)</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.1.2.2 (Web)</li>
 <li>10.1.2.2 (Non-web document)</li>
@@ -123,7 +126,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -135,7 +138,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="audio-description-or-media-alternative-prerecorded" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-audio-desc"><strong>1.2.3 Audio Description or Media Alternative (Prerecorded)</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.1.2.3 (Web)</li>
 <li>10.1.2.3 (Non-web document)</li>
@@ -145,7 +148,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -157,7 +160,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="info-and-relationships" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#content-structure-separation-programmatic"><strong>1.3.1 Info and Relationships</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.1.3.1 (Web)</li>
 <li>10.1.3.1 (Non-web document)</li>
@@ -167,7 +170,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -179,7 +182,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="meaningful-sequence" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#content-structure-separation-sequence"><strong>1.3.2 Meaningful Sequence</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.1.3.2 (Web)</li>
 <li>10.1.3.2 (Non-web document)</li>
@@ -189,7 +192,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -201,7 +204,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="sensory-characteristics" valign="top">
 <td><strong><a href="http://www.w3.org/TR/WCAG20/#content-structure-separation-understanding">1.3.3 Sensory Characteristics</a></strong> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.1.3.3 (Web)</li>
 <li>10.1.3.3 (Non-web document)</li>
@@ -211,7 +214,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -223,7 +226,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="use-of-color" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-without-color"><strong>1.4.1 Use of Color</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.1.4.1 (Web)</li>
 <li>10.1.4.1 (Non-web document)</li>
@@ -233,7 +236,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -245,7 +248,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="audio-control" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-dis-audio"><strong>1.4.2 Audio Control</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.1.4.2 (Web)</li>
 <li>10.1.4.2 (Non-web document)</li>
@@ -255,7 +258,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -267,7 +270,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="keyboard" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#keyboard-operation-keyboard-operable"><strong>2.1.1 Keyboard</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.1.1.1 (Web)</li>
 <li>10.1.1.1 (Non-web document)</li>
@@ -277,7 +280,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -289,7 +292,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="no-keyboard-trap" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#keyboard-operation-trapping"><strong>2.1.2 No Keyboard Trap</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.2.1.2 (Web)</li>
 <li>10.2.1.2 (Non-web document)</li>
@@ -299,7 +302,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -309,9 +312,9 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
 <tr id="character-key-shortcuts" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#character-key-shortcuts"><strong>2.1.4 Character Key Shortcuts</strong></a> (Level A 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#character-key-shortcuts"><strong>2.1.4 Character Key Shortcuts</strong></a> (Level A 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.2.1.4 (Web)</li>
 <li>10.2.1.4 (Non-web document)</li>
@@ -321,7 +324,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508 - does not apply</em>
+Revised Section 508 - does not apply
 </td>
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
@@ -329,7 +332,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="timing-adjustable" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#time-limits-required-behaviors"><strong>2.2.1 Timing Adjustable</strong></a> (Level A 2.1 only)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.2.2.1 (Web)</li>
 <li>10.2.2.1 (Non-web document)</li>
@@ -339,7 +342,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -351,7 +354,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="pause-stop-hide" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#time-limits-pause"><strong>2.2.2 Pause, Stop, Hide</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.2.2.2 (Web)</li>
 <li>10.2.2.2 (Non-web document)</li>
@@ -361,7 +364,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -373,7 +376,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="three-flashes-or-below-threshold" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#seizure-does-not-violate"><strong>2.3.1 Three Flashes or Below Threshold</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.2.3.1 (Web)</li>
 <li>10.2.3.1 (Non-web document)</li>
@@ -383,7 +386,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -395,7 +398,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="bypass-blocks" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-skip"><strong>2.4.1 Bypass Blocks</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.2.4.1 (Web)</li>
 <li>10.2.4.1 (Non-web document) – Does not apply</li>
@@ -405,7 +408,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software) – Does not apply to non-web software</li>
 <li>504.2 (Authoring Tool)</li>
@@ -417,7 +420,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="page-titled" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-title"><strong>2.4.2 Page Titled</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.2.4.2 (Web)</li>
 <li>10.2.4.2 (Non-web document)</li>
@@ -427,7 +430,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -439,7 +442,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="focus-order" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-order"><strong>2.4.3 Focus Order</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.2.4.3 (Web)</li>
 <li>10.2.4.3 (Non-web document)</li>
@@ -449,7 +452,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -461,7 +464,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="link-purpose-in-context" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-refs"><strong>2.4.4 Link Purpose (In Context)</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.2.4.4 (Web)</li>
 <li>10.2.4.4 (Non-web document)</li>
@@ -471,7 +474,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -481,9 +484,9 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
 <tr id="pointer-gestures" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#pointer-gestures"><strong>2.5.1 Pointer Gestures</strong></a> (Level A 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#pointer-gestures"><strong>2.5.1 Pointer Gestures</strong></a> (Level A 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.2.5.1 (Web)</li>
 <li>10.2.5.1 (Non-web document)</li>
@@ -493,15 +496,15 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508 - does not apply</em>
+Revised Section 508 - does not apply
 </td>
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
 <tr id="pointer-cancellation" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#pointer-gestures"><strong>2.5.2 Pointer Cancellation</strong></a> (Level A 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#pointer-gestures"><strong>2.5.2 Pointer Cancellation</strong></a> (Level A 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.2.5.2 (Web)</li>
 <li>10.2.5.2 (Non-web document)</li>
@@ -511,15 +514,15 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508 - does not apply</em>
+Revised Section 508 - does not apply
 </td>
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
 <tr id="label-in-name" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#label-in-name"><strong>2.5.3 Label in Name</strong></a> (Level A 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#label-in-name"><strong>2.5.3 Label in Name</strong></a> (Level A 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.2.5.3 (Web)</li>
 <li>10.2.5.3 (Non-web document)</li>
@@ -529,15 +532,15 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508 - does not apply</em>
+Revised Section 508 - does not apply
 </td>
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
 <tr id="motion-actuation" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#motion-actuation"><strong>2.5.4 Motion Actuation</strong></a> (Level A 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#motion-actuation"><strong>2.5.4 Motion Actuation</strong></a> (Level A 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.2.5.4 (Web)</li>
 <li>10.2.5.4 (Non-web document)</li>
@@ -547,7 +550,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508 - does not apply</em>
+Revised Section 508 - does not apply
 </td>
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
@@ -555,7 +558,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="language-of-page" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#meaning-doc-lang-id"><strong>3.1.1 Language of Page</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.3.1.1 (Web)</li>
 <li>10.3.1.1 (Non-web document)</li>
@@ -565,7 +568,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -577,7 +580,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="on-focus" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-receive-focus"><strong>3.2.1 On Focus</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.3.2.1 (Web)</li>
 <li>10.3.2.1 (Non-web document)</li>
@@ -587,7 +590,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -599,7 +602,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="on-input" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-unpredictable-change"><strong>3.2.2 On Input</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.3.2.2 (Web)</li>
 <li>10.3.2.2 (Non-web document)</li>
@@ -609,7 +612,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -618,10 +621,18 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
+<tr id="consistent-help" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#consistent-help"><strong>3.2.6 Consistent Help</strong></a> (Level A 2.2 only)
+<br><br>EN 301 549 Criteria – Does not apply<br><br>
+Revised Section 508 – Does not apply
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
 <tr id="error-identification" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-identified"><strong>3.3.1 Error Identification</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.3.3.1 (Web)</li>
 <li>10.3.3.1 (Non-web document)</li>
@@ -631,7 +642,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -643,7 +654,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="labels-or-instructions" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-cues"><strong>3.3.2 Labels or Instructions</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.3.3.2 (Web)</li>
 <li>10.3.3.2 (Non-web document)</li>
@@ -653,7 +664,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -662,10 +673,20 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
+<tr id="redundant-entry" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#redundant-entry"><strong>3.3.7 Redundant Entry</strong></a> (Level A 2.2 only)
+<br><br>EN 301 549 Criteria – Does not apply<br><br>
+Revised Section 508 – Does not apply
+</td>
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
 <tr id="parsing" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#ensure-compat-parses"><strong>4.1.1 Parsing</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+ WCAG 2.0 and 2.1 – Always answer ‘Supports’<br><br>
+ WCAG 2.2 (obsolete and removed) - Does not apply<br><br>  
+EN 301 549 Criteria
 <ul>
 <li>9.4.1.1 (Web)</li>
 <li>10.4.1.1 (Non-web document)</li>
@@ -675,19 +696,19 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
 <td><!-- INSERT CONTENT HERE --></td>
-<td><!-- INSERT CONTENT HERE --></td>
+<td>For WCAG 2.0, 2.1, EN 301 549, and Revised 508 Standards, the September 2023 errata update indicates this criterion is always supported. See the <a href="https://www.w3.org/WAI/WCAG20/errata/#editorial">WCAG 2.0 Editorial Errata</a> and <a href="https://www.w3.org/WAI/WCAG21/errata/#editorial">the WCAG 2.1 Editorial Errata</a>.</td>
 </tr>
 <tr id="name-role-value" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#ensure-compat-rsv"><strong>4.1.2 Name, Role, Value</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.4.1.2 (Web)</li>
 <li>10.4.1.2 (Non-web document)</li>
@@ -697,7 +718,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -723,7 +744,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="captions-live" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-real-time-captions"><strong>1.2.4 Captions (Live)</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.1.2.4 (Web)</li>
 <li>10.1.2.4 (Non-web document)</li>
@@ -733,7 +754,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -745,7 +766,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="audio-description-prerecorded" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#media-equiv-audio-desc-only"><strong>1.2.5 Audio Description (Prerecorded)</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.1.2.5 (Web)</li>
 <li>10.1.2.5 (Non-web document)</li>
@@ -755,7 +776,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -765,9 +786,9 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
 <tr id="orientation" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#orientation"><strong>1.3.4 Orientation</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#orientation"><strong>1.3.4 Orientation</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.1.3.4 (Web)</li>
 <li>10.1.3.4 (Non-web document)</li>
@@ -777,15 +798,15 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508 - does not apply</em>
+Revised Section 508 - does not apply
 </td>
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
 <tr id="identify-input-purpose" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#identify-input-purpose"><strong>1.3.5 Identify Input Purpose</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#identify-input-purpose"><strong>1.3.5 Identify Input Purpose</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.1.3.5 (Web)</li>
 <li>10.1.3.5 (Non-web document)</li>
@@ -795,7 +816,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508 - does not apply</em>
+Revised Section 508 - does not apply
 </td>
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
@@ -803,7 +824,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="contrast-minimum" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast"><strong>1.4.3 Contrast (Minimum)</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.1.4.3 (Web)</li>
 <li>10.1.4.3 (Non-web document)</li>
@@ -813,7 +834,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -825,7 +846,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="resize-text" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale"><strong>1.4.4 Resize text</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.1.4.4 (Web)</li>
 <li>10.1.4.4 (Non-web document)</li>
@@ -835,7 +856,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -847,7 +868,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="images-of-text" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-presentation"><strong>1.4.5 Images of Text</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.1.4.5 (Web)</li>
 <li>10.1.4.5 (Non-web document)</li>
@@ -857,7 +878,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -867,9 +888,9 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
 <tr id="reflow" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#reflow"><strong>1.4.10 Reflow</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#reflow"><strong>1.4.10 Reflow</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.1.4.10 (Web)</li>
 <li>10.1.4.10 (Non-web document)</li>
@@ -879,15 +900,15 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508 - does not apply</em>
+Revised Section 508 - does not apply
 </td>
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
 <tr id="non-text-contrast" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#non-text-contrast"><strong>1.4.11 Non-text Contrast</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#non-text-contrast"><strong>1.4.11 Non-text Contrast</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.1.4.11 (Web)</li>
 <li>10.1.4.11 (Non-web document)</li>
@@ -897,15 +918,15 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508 - does not apply</em>
+Revised Section 508 - does not apply
 </td>
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
 <tr id="text-spacing" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#text-spacing"><strong>1.4.12 Text Spacing</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#text-spacing"><strong>1.4.12 Text Spacing</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.1.4.12 (Web)</li>
 <li>10.1.4.12 (Non-web document)</li>
@@ -915,15 +936,15 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508 - does not apply</em>
+Revised Section 508 - does not apply
 </td>
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
 <tr id="content-on-hover-or-focus" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus"><strong>1.4.13 Content on Hover or Focus</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus"><strong>1.4.13 Content on Hover or Focus</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.1.4.13 (Web)</li>
 <li>10.1.4.13 (Non-web document)</li>
@@ -933,7 +954,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508 - does not apply</em>
+Revised Section 508 - does not apply
 </td>
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
@@ -941,7 +962,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="multiple-ways" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-mult-loc"><strong>2.4.5 Multiple Ways</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.2.4.5 (Web)</li>
 <li>10.2.4.5 (Non-web document) – Does not apply</li>
@@ -951,7 +972,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software) – Does not apply to non-web software</li>
 <li>504.2 (Authoring Tool)</li>
@@ -963,7 +984,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="headings-and-labels" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-descriptive"><strong>2.4.6 Headings and Labels</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.2.4.6  (Web)</li>
 <li>10.2.4.6 (Non-web document)</li>
@@ -973,7 +994,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -985,7 +1006,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="focus-visible" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-visible"><strong>2.4.7 Focus Visible</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.2.4.7 (Web)</li>
 <li>10.2.4.7 (Non-web document)</li>
@@ -995,7 +1016,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -1004,10 +1025,31 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
+<tr id="focus-not-obscured-minimum" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum"><strong>2.4.11 Focus Not Obscured (Minimum)</strong></a> (Level AA 2.2 only)
+<br><br>EN 301 549 Criteria – Does not apply<br><br>
+Revised Section 508 – Does not apply
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
+<tr id="dragging-movements" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#dragging-movements"><strong>2.5.7 Dragging Movements</strong></a> (Level AA 2.2 only)
+<br><br>EN 301 549 Criteria – Does not apply<br><br>
+Revised Section 508 – Does not apply
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
+<tr id="target-size-minimum" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#target-size-minimum"><strong>2.5.8 Target Size (Minimum)</strong></a> (Level AA 2.2 only)
+<br><br>EN 301 549 Criteria – Does not apply<br><br>
+Revised Section 508 – Does not apply
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
 <tr id="language-of-parts" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#meaning-other-lang-id"><strong>3.1.2 Language of Parts</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.3.1.2 (Web)</li>
 <li>10.3.1.2 (Non-web document)</li>
@@ -1017,7 +1059,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -1029,7 +1071,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="consistent-navigation" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-locations"><strong>3.2.3 Consistent Navigation</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.3.2.3 (Web)</li>
 <li>10.3.2.3 (Non-web document) – Does not apply</li>
@@ -1039,7 +1081,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software) – Does not apply to non-web software</li>
 <li>504.2 (Authoring Tool)</li>
@@ -1051,7 +1093,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="consistent-identification" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-functionality"><strong>3.2.4 Consistent Identification</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.3.2.4 (Web)</li>
 <li>10.3.2.4 (Non-web document) – Does not apply</li>
@@ -1061,7 +1103,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software) – Does not apply to non-web software</li>
 <li>504.2 (Authoring Tool)</li>
@@ -1073,7 +1115,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="error-suggestion" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-suggestions"><strong>3.3.3 Error Suggestion</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.3.3.3 (Web)</li>
 <li>10.3.3.3 (Non-web document)</li>
@@ -1083,7 +1125,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -1095,7 +1137,7 @@ Tables 1 and 2 also document conformance with:
 <tr id="error-prevention-legal-financial-data" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-reversible"><strong>3.3.4 Error Prevention (Legal, Financial, Data)</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.3.3.4 (Web)</li>
 <li>10.3.3.4 (Non-web document)</li>
@@ -1105,7 +1147,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508</em>
+Revised Section 508
 <ul>
 <li>501 (Web)(Software)</li>
 <li>504.2 (Authoring Tool)</li>
@@ -1114,10 +1156,17 @@ Tables 1 and 2 also document conformance with:
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
 </tr>
+<tr id="accessible-authentication-minimum" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#accessible-authentication-minimum"><strong>3.3.8 Accessible Authentication (Minimum)</strong></a> (Level AA 2.2 only)
+<br><br>EN 301 549 Criteria – Does not apply<br><br>
+Revised Section 508 – Does not apply
+<td><!-- INSERT CONTENT HERE --></td>
+<td><!-- INSERT CONTENT HERE --></td>
+</tr>
 <tr id="status-messages" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#status-messages"><strong>4.1.3 Status Messages</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#status-messages"><strong>4.1.3 Status Messages</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
-<em>EN 301 549 Criteria</em>
+EN 301 549 Criteria
 <ul>
 <li>9.4.1.3 (Web)</li>
 <li>10.4.1.3 (Non-web document)</li>
@@ -1127,7 +1176,7 @@ Tables 1 and 2 also document conformance with:
 <li>12.1.2 (Product Docs)</li>
 <li>12.2.4 (Support Docs)</li>
 </ul>
-<em>Revised Section 508 - does not apply</em>
+Revised Section 508 - does not apply
 </td>
 <td><!-- INSERT CONTENT HERE --></td>
 <td><!-- INSERT CONTENT HERE --></td>
