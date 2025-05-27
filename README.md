@@ -24,9 +24,26 @@ then add your product to the list below.
 
 ## VPAT version history
 
-> Documents in this repository will conform to VPAT&reg; `Version 1.0`, `Version 2.2`, `Version 2.3`, `Version 2.4` or the newer `Version 2.4 Rev`.  
+> Documents in this repository will conform to VPAT&reg; `Version 1.0`, `Version 2.2`, `Version 2.3`, `Version 2.4`, `Version 2.4 Rev` or the newer `Version 2.5`
 >
->**New documents in this repository should conform to the latest standard (2.4 Rev) using the [template provided](https://github.com/springernature/vpat/blob/master/base-template.md)**
+>**New documents in this repository should conform to the latest standard (2.5) using the [template provided](https://github.com/springernature/vpat/blob/master/base-template.md)**
+
+### VPAT&reg; Version 2.5 (November 2023)
+
+VPAT verson 2.5 has been updated to incorporate the [Web Content Accessibility Guidelines 2.2](https://www.w3.org/TR/WCAG22/) (WCAG 2.2) published in October 2023.
+
+It includes the following standards/guidelines:
+
+* [Web Content Accessibility Guidelines 2.0](https://www.w3.org/TR/2008/REC-WCAG20-20081211/)
+* [Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21/)
+* [Web Content Accessibility Guidelines 2.2](https://www.w3.org/TR/WCAG22/)
+* [Revised Section 508 standards published January 18, 2017 and corrected January 22, 2018](https://www.access-board.gov/ict/)
+* [EN 301 549 Accessibility requirements for ICT products and services - V3.1.1 (2019-11)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf)
+* [EN 301 549 Accessibility requirements for ICT products and services - V3.2.1 (2021-03)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf)
+
+***
+
+<p align="center"><strong>DO NOT USE ANY OF THE VERSIONS BELOW FOR NEW DOCUMENTS.</strong></p>
 
 ### VPAT&reg; Version 2.4 Rev (March 2022)
 
@@ -39,10 +56,6 @@ It includes the following standards/guidelines:
 * [Revised Section 508 standards published January 18, 2017 and corrected January 22, 2018](https://www.access-board.gov/ict/)
 * [EN 301 549 Accessibility requirements for ICT products and services - V3.1.1 (2019-11)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf)
 * [EN 301 549 Accessibility requirements for ICT products and services - V3.2.1 (2021-03)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf)
-
-***
-
-<p align="center"><strong>DO NOT USE ANY OF THE VERSIONS BELOW FOR NEW DOCUMENTS.</strong></p>
 
 ***
 
