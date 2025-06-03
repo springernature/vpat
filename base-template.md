@@ -1,5 +1,5 @@
 # \!INSERT PRODUCT\! Accessibility Conformance Report International Edition
-(Based on VPAT® Version 2.5)
+(Based on VPAT® Version 2.5rev)
 
 **Name of Product/Version**: \!INSERT PRODUCT NAME\! _(we do not version our software)_  
 **Report Date**: \!INSERT DATE LAST EDITED\!  
