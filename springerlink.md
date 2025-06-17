@@ -1,5 +1,5 @@
 # SpringerLink Accessibility Conformance Report International Edition
-(Based on VPAT® Version 2.4Rev)
+(Based on VPAT® Version 2.5Rev)
 
 **Report Date**: 24 August 2023  
 **Name of Product/Version**: SpringerLink _(we do not version our software)_  
@@ -45,15 +45,21 @@ The terms used in the Conformance Level information are defined as follows:
 - **Partially Supports**: Some functionality of the product does not meet the criterion.
 - **Does Not Support**: The majority of product functionality does not meet the criterion.
 - **Not Applicable**: The criterion is not relevant to the product.
-- **Not Evaluated**: The product has not been evaluated against the criterion. This can be used only in WCAG 2.x Level AAA.
+- **Not Evaluated**: The product has not been evaluated against the criterion. This can be used only in WCAG Level AAA.
 
 ## WCAG 2.1 Report
 
 Tables 1 and 2 also document conformance with:
-- EN 301 549:  Chapter 9 - Web, Sections 10.1-10.4 of Chapter 10 - Non-Web documents, and Sections 11.1-11.4 and 11.8.2 of Chapter 11 - Non-Web Software (open and closed functionality), and Sections 12.1.2 and 12.2.4 of Chapter 12 – Documentation
-- Revised Section 508: Chapter 5 – 501.1 Scope, 504.2 Content Creation or Editing, and Chapter 6 – 602.3 Electronic Support Documentation.
+- EN 301 549:
+  - Clause 9 - Web
+  - Clauses 10.1-10.4 of Clause 10 - Non-Web documents
+  - Clauses 11.1-11.4 and 11.8.2 of Clause 11 - Software
+  - Clauses 12.1.2 and 12.2.4 of Clause 12 – Documentation and support services
+- Revised Section 508:
+  - Chapter 5 – 501.1 Scope, 504.2 Content Creation or Editing
+  - Chapter 6 – 602.3 Electronic Support Documentation
 
-**Note**: When reporting on conformance with the WCAG 2.x Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the [WCAG 2.1 Conformance Requirements](https://www.w3.org/TR/WCAG21/#conformance-reqs).
+**Note**: When reporting on conformance with the WCAG 2.1 Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the [WCAG 2.1 Conformance Requirements](https://www.w3.org/TR/WCAG21/#conformance-reqs).
 
 ### Table 1: Success Criteria, Level A
 
@@ -1669,7 +1675,7 @@ Notes: This report covers accessibility conformance for the web product and does
 
 ## EN 301 549 Report
 
-### Chapter 4: [4.2 Functional Performance Statements](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=20) (FPS)
+### Clause 4: [4.2 Functional Performance Statements](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=20) (FPS)
 
 <table>
 <thead>
@@ -1738,15 +1744,15 @@ Notes: This report covers accessibility conformance for the web product and does
 </tbody>
 </table>
 
-### Chapter [5: Generic Requirements](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=23)
+### Clause [5: Generic Requirements](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=23)
 
-Notes: This product supports standard web Assistive Technologies and is therefore not subject to the Closed Functionality criteria described in this chapter.
+Notes: This product supports standard web Assistive Technologies and is therefore not subject to the Closed Functionality criteria described in this clause.
 
-### Chapter [6: ICT with Two-Way Voice Communication](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=30)
+### Clause [6: ICT with Two-Way Voice Communication](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=30)
 
-Notes: This product does not offer two-way voice communication and is therefore not subject to the requirements of this chapter.
+Notes: This product does not offer two-way voice communication and is therefore not subject to the requirements of this clause.
 
-### Chapter [7: ICT with Video Capabilities](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=35)
+### Clause [7: ICT with Video Capabilities](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=35)
 
 Notes: See [WCAG section](#wcag-20-report) for full details.
 
@@ -1800,20 +1806,20 @@ Notes: See [WCAG section](#wcag-20-report) for full details.
 </tbody>
 </table>
 
-### Chapter [8: Hardware](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=37)
+### Clause [8: Hardware](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=37)
 
-Notes: This product is a web software application and is not subject to the requirements of this chapter.
+Notes: This product is a web software application and is not subject to the requirements of this clause.
 
-### Chapter [9: Web](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=45)
+### Clause [9: Web](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=45)
 
 Notes: Please see [WCAG 2.1 section](#WCAG).
 
-### Chapter [10: Non-Web Documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52)
+### Clause [10: Non-Web Documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52)
 
-Notes: This product does not include non-web documents and is therefore not subject to the requirements of this chapter.
+Notes: This product does not include non-web documents and is therefore not subject to the requirements of this clause.
 
 
-### Chapter [11: Software](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=64)
+### Clause [11: Software](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=64)
 
 <table>
 <thead>
@@ -1973,11 +1979,11 @@ Notes: This product does not include non-web documents and is therefore not subj
 </tbody>
 </table>
 
-### Chapter [12: Documentation and Support Services](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=73)
+### Clause [12: Documentation and Support Services](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf#page=73)
 
 Notes: This report covers accessibility conformance for the web product and does not provide Documentation or Support Services.
 
-### Chapter [13: ICT Providing Relay or Emergency Service Access](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=86)
+### Clause [13: ICT Providing Relay or Emergency Service Access](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=86)
 
 Notes: This product does not provide any relay services, or access for Emergency Services.
 
