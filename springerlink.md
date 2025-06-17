@@ -45,7 +45,7 @@ The terms used in the Conformance Level information are defined as follows:
 - **Partially Supports**: Some functionality of the product does not meet the criterion.
 - **Does Not Support**: The majority of product functionality does not meet the criterion.
 - **Not Applicable**: The criterion is not relevant to the product.
-- **Not Evaluated**: The product has not been evaluated against the criterion. This can be used only in WCAG 2.x Level AAA.
+- **Not Evaluated**: The product has not been evaluated against the criterion. This can be used only in WCAG Level AAA.
 
 ## WCAG 2.1 Report
 
