@@ -1,5 +1,5 @@
 # SpringerLink Accessibility Conformance Report International Edition
-(Based on VPAT® Version 2.4Rev)
+(Based on VPAT® Version 2.5Rev)
 
 **Report Date**: 24 August 2023  
 **Name of Product/Version**: SpringerLink _(we do not version our software)_  
