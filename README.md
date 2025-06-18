@@ -60,7 +60,7 @@ It includes the following standards/guidelines:
 
 ### VPAT&reg; Version 2.4 Rev (March 2022)
 
-VPAT verson 2.4 Rev has been updated to cover changes to the European standard EN 301 549 that were finalised and published in 2021.
+VPAT version 2.4 Rev has been updated to cover changes to the European standard EN 301 549 that were finalised and published in 2021.
 
 It includes the following standards/guidelines:
 
