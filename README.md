@@ -28,9 +28,9 @@ then add your product to the list below.
 >
 >**New documents in this repository should conform to the latest version (2.5 Rev) using the [template provided](https://github.com/springernature/vpat/blob/master/base-template.md). **
 
-### VPAT&reg; Version 2.5 (November 2023)
+### VPAT&reg; Version 2.5 Rev (June 2025)
 
-VPAT verson 2.5 has been updated to incorporate the [Web Content Accessibility Guidelines 2.2](https://www.w3.org/TR/WCAG22/) (WCAG 2.2) published in October 2023.
+VPAT version 2.5 Rev has been updated to clarify instructions and correct references to clauses in the European standard EN 301 549.
 
 It includes the following standards/guidelines:
 
