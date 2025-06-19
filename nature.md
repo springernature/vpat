@@ -52,8 +52,14 @@ The terms used in the Conformance Level information are defined as follows:
 ## WCAG 2.1 Report
 
 Tables 1 and 2 also document conformance with:
-- EN 301 549:  Clause 9 - Web, Clauses 10.1-10.4 of Clause 10 - Non-Web documents, and Clauses 11.1-11.4 and 11.8.2 of Clause 11 - Software, and Clauses 12.1.2 and 12.2.4 of Clause 12 – Documentation and support services
-- Revised Section 508: Chapter 5 – 501.1 Scope, 504.2 Content Creation or Editing, and Chapter 6 – 602.3 Electronic Support Documentation.
+- EN 301 549:
+  - Clause 9 - Web
+  - Clauses 10.1-10.4 of Clause 10 - Non-Web documents
+  - Clauses 11.1-11.4 and 11.8.2 of Clause 11 - Software
+  - Clauses 12.1.2 and 12.2.4 of Clause 12 – Documentation and support services
+- Revised Section 508:
+  - Chapter 5 – 501.1 Scope, 504.2 Content Creation or Editing
+  - Chapter 6 – 602.3 Electronic Support Documentation
 
 **Note**: When reporting on conformance with the WCAG 2.x Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the [WCAG 2.1 Conformance Requirements](https://www.w3.org/TR/WCAG21/#conformance-reqs).
 
