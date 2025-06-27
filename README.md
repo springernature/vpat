@@ -24,7 +24,7 @@ then add your product to the list below.
 
 ## VPAT version history
 
-> Documents in this repository will conform to VPAT&reg; `Version 1.0`, or the newer `Version 2.5 Rev`
+> Documents in this repository conform to VPAT&reg; `Version 1.0`, or the newer `Version 2.5 Rev`
 >
 >**New documents in this repository should conform to the latest version (2.5 Rev) using the [template provided](https://github.com/springernature/vpat/blob/master/base-template.md). **
 
