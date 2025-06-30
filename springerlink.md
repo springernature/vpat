@@ -125,7 +125,7 @@ When supplied by authors who publish with us, some complex images may lack adequ
 </ul></td>
 <td>Partially Supports</td>
 <td>
-SpringerLink offers multimedia content through the third party MovingImage platform, or as downloadable video files in various formats.
+This product offers multimedia content through the third party MovingImage platform, or as downloadable video files in various formats.
 <br><br>
 Video-only and audio-only content are generally used to support existing text-based content.
 <br><br>
@@ -153,7 +153,7 @@ We currently have no method of confirming the inclusion of adequate media altern
 </ul></td>
 <td>Partially supports</td>
 <td>
-SpringerLink offers multimedia content through the third party MovingImage platform, or as downloadable video files in various formats.
+This product offers multimedia content through the third party MovingImage platform, or as downloadable video files in various formats.
 <br><br>
 Captions and/or transcripts maybe be provided for some pre-recorded content in journals, books, series, protocols, reference works or proceedings. We currently have no method of confirming the inclusion of transcripts or captions.
 <br><br>
@@ -181,7 +181,7 @@ Captions and/or transcripts maybe be provided for some pre-recorded content in j
 </ul></td>
 <td>Partially Supports</td>
 <td>
-SpringerLink offers multimedia content through the third party MovingImage platform, or as downloadable video files in various formats.
+This product offers multimedia content through the third party MovingImage platform, or as downloadable video files in various formats.
 <br><br>
 Audio description is not generally used across our content, but some media may be presented alongside media alternatives such as text descriptions of video content.
 <br><br>
@@ -209,7 +209,7 @@ We currently have no method of confirming the inclusion of adequate media altern
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) may use unsemantic markup, including inadequate, misleading, or incorrectly-applied landmarks. Some UI controls (e.g. "next" and "previous" pagination controls on search results pages) lack accessible names. Pages may omit level one headings.
 <br><br>
@@ -219,7 +219,7 @@ We make use of WAI-ARIA roles to support landmarks, and use WAI-ARIA roles and p
 <br><br>
 Some complex functionality may omit required WAI-ARIA roles, states, or attributes, or misuse WAI-ARIA markup and techniques. We are actively working to find and repair these problems.
 <br><br>
-The SpringerLink checkout process pages found at order.springer.com use multiple landmarks of the same type without unique labels. The pages use form fields that rely solely on built-in browser error checking, which can lead to error messages being unavailable for users with older browser technology, or Assistive Technology that doesn't support these features.
+The product's checkout process pages found at order.springer.com use multiple landmarks of the same type without unique labels. The pages use form fields that rely solely on built-in browser error checking, which can lead to error messages being unavailable for users with older browser technology, or Assistive Technology that doesn't support these features.
 <br><br>
 Third party scripts may inject content with incorrect or absent information about structure and relationships. These may include content in advertising scripts and the Freshdesk customer services widget, among others.
 </td>
@@ -245,7 +245,7 @@ Third party scripts may inject content with incorrect or absent information abou
 </ul></td>
 <td>Supports</td>
 <td>
-The meaning of the content on the pages of SpringerLink does not depend on the order of the sections.
+The meaning of the content on the product's pages does not depend on the order of the sections.
 </td>
 </tr>
 <tr id="sensory-characteristics" valign="top">
@@ -381,7 +381,7 @@ Third party advertising scripts may inject content that cannot be interacted wit
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Keyboard trapping inside components on SpringerLink pages is rare, and in most cases is managed appropriately, allowing focus to be moved away from any component using standard keystrokes (<kbd>tab</kbd>, <kbd>shift</kbd>, <kbd>esc</kbd>).
+Keyboard trapping inside components on this product's pages is rare, and in most cases is managed appropriately, allowing focus to be moved away from any component using standard keystrokes (<kbd>tab</kbd>, <kbd>shift</kbd>, <kbd>esc</kbd>).
 <br><br>
 Modal dialogs (including those generated by third party scripts) may trap focus and provide inadequate methods of escaping. When we become aware of deficiencies, we actively work on repairs of our own, and with third party vendors where required.
 </td>
@@ -447,7 +447,7 @@ Modal dialogs (including those generated by third party scripts) may trap focus 
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Moving, blinking or scrolling content on SpringerLink pages generally does not start automatically, and is complemented by controls that allow users to pause or otherwise stop the content. When supplied by authors who publish with us, moving images in the form of GIFs may not meet this criterion.
+Moving, blinking or scrolling content on this product's pages generally does not start automatically, and is complemented by controls that allow users to pause or otherwise stop the content. When supplied by authors who publish with us, moving images in the form of GIFs may not meet this criterion.
 <br><br>
 Third party advertising scripts may inject content that automatically moves or blinks and lasts more than five seconds, without providing a mechanism to pause, stop, or hide that content.
 </td>
@@ -521,7 +521,7 @@ Pages located at order.springer.com have landmarks present. Some are duplicated 
 </ul></td>
 <td>Partially Supports</td>
 <td>
-SpringerLink pages mostly have unique page titles that describe the purpose of the page.
+This product's pages mostly have unique page titles that describe the purpose of the page.
 <br><br>
 Where multiple versions of the same content exist (e.g. in original research that has been updated), the page titles do not differentiate between versions.
 </td>
@@ -547,9 +547,9 @@ Where multiple versions of the same content exist (e.g. in original research tha
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The meaning and/or operation of content on SpringerLink is generally unaffected by focus order.
+The meaning and/or operation of content on this product is generally unaffected by focus order.
 <br><br>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
 Some pages rendered in the <strong>older</strong> design may contain components where some items in the focus order do not match the visual order (for example the "date published" filtering on search results pages).
 <br><br>
@@ -779,7 +779,7 @@ Pages located at order.springer.com rely solely on built-in browser error checki
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) generally display visible and appropriately associated labels for input fields. Exceptions include the pagination number field on advanced search results pages and in the main search component in the page banner, both of which omit any label or WAI-ARIA description, and use only placeholder text as instruction. We are actively working to find and repair these problems.  
 <br><br>
@@ -813,7 +813,7 @@ Most of the pages of this product generally use semantically-correct markup that
 <br><br>
 Where errors exist, they are usually minor, such as the presence of invalid `alt` and `src` attributes in SVG image nodes (ignored by user agents). There are some instances of incorrectly-nested elements (e.g. "<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content">flow content</a>" wrapped in "<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Phrasing_content">phrasing content</a>"), also generally ignored by user agents.
 <br><br>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) have a slightly higher volume of parsing errors, which include more problematic errors such as `li` elements outside of `ul` elements and duplicate IDs, that may interfere with the ability of Assistive Technology to correctly identify some components.
 <br><br>
@@ -968,7 +968,7 @@ Other third party scripts, including the Freshdesk customer services widget, may
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) use gradient background images that do not meet minimum contrast requirements between the text and one or more of the gradient background colours.
 <br><br>
@@ -1078,7 +1078,7 @@ Third party advertising scripts may inject non-responsive content that loses or 
 </td>
 <td>Partially Supports</td>
 <td>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) contain user interface icons that do not meet minimum contrast requirements for non-text content.
 <br><br>
@@ -1156,7 +1156,7 @@ Third party content (e.g. advertising, customer services widgets) may inject ele
 <td>
 Users may use the search function or the provided category browsing links to access any part of this product. The main navigation component can also be used to access the main content index pages.
 <br><br>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 </td>
 </tr>
 <tr id="headings-and-labels" valign="top">
@@ -1180,7 +1180,7 @@ The SpringerLink website contains content that is rendered in two separate desig
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) may incorrectly use `label` elements for other purposes (e.g. for error messages on account management pages), omit labels for some functionality (e.g. the pagination number field on advanced search results pages and the text input for the main search component in the page banner).
 <br><br>
@@ -1212,7 +1212,7 @@ Pages rendered in the <strong>newer</strong> design (currently articles, Chapter
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) use default browser focus rings only for interactive components.
 <br><br>
@@ -1272,7 +1272,7 @@ Third party scripts may inject components that use a different language to the p
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The SpringerLink website contains content that is rendered in two separate, inconsistent designs. The designs have different navigation methods, within the same collections of pages. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate, inconsistent designs. The designs have different navigation methods, within the same collections of pages. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
 Pages rendered in the <strong>older</strong> design are currently journals, and ancillary pages such as search, indexes, and account management.
 <br><br>
@@ -1304,7 +1304,7 @@ Pages that deal with sensitive information (for example payment pages) have inte
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The SpringerLink website contains content that is rendered in two separate, inconsistent designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate, inconsistent designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
 Pages rendered in the <strong>older</strong> design are currently journals, and ancillary pages such as search, indexes, and account management.
 <br><br>
@@ -1338,7 +1338,7 @@ Pages that deal with sensitive information (for example payment pages) have inte
 <td>
 Where user input errors are automatically detected by our own software, those errors are identified to the user with warning text adjacent to the input field. Unless it would present a risk to security, the warning text describes the error and what the user should do to correct it.
 <br><br>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) use unsemantic, unassociated `label` elements to mark up errors.
 <br><br>
