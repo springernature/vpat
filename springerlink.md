@@ -219,7 +219,7 @@ We make use of WAI-ARIA roles to support landmarks, and use WAI-ARIA roles and p
 <br><br>
 Some complex functionality may omit required WAI-ARIA roles, states, or attributes, or misuse WAI-ARIA markup and techniques. We are actively working to find and repair these problems.
 <br><br>
-The product's checkout process pages found at order.springer.com use multiple landmarks of the same type without unique labels. The pages use form fields that rely solely on built-in browser error checking, which can lead to error messages being unavailable for users with older browser technology, or Assistive Technology that doesn't support these features.
+The product's checkout process pages found at order.springer.com/public/cart use multiple landmarks of the same type without unique labels. The pages use form fields that rely solely on built-in browser error checking, which can lead to error messages being unavailable for users with older browser technology, or Assistive Technology that doesn't support these features.
 <br><br>
 Third party scripts may inject content with incorrect or absent information about structure and relationships. These may include content in advertising scripts and the Freshdesk customer services widget, among others.
 </td>
@@ -497,7 +497,7 @@ Third party advertising scripts may inject content that automatically moves or b
 <td>
 The pages of this product generally use semantically-correct markup so that Assistive Technology users can recognise elements and move around them accordingly. We make use of WAI-ARIA roles to support landmarks. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
-Pages located at order.springer.com have landmarks present. Some are duplicated without unique labels.
+Pages located at order.springer.com/public/cart have landmarks present. Some are duplicated without unique labels.
 </td>
 </tr>
 <tr id="page-titled" valign="top">
@@ -755,7 +755,7 @@ In some parts of the site, we additionally use an `aria-describedby` property to
 <br><br>
 User account pages located at link.springer.com/account use unsemantic, unassociated, `label` elements to mark up errors.
 <br><br>
-Pages located at order.springer.com rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states.
+Pages located at order.springer.com/public/cart rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states.
 </td>
 </tr>
 <tr id="labels-or-instructions" valign="top">
@@ -819,7 +819,7 @@ Pages rendered in the <strong>older</strong> design (currently journals, and anc
 <br><br>
 Ancillary static pages (e.g. the pages linked to at the footer of each page, such as Terms and Conditions, Legal Information, and Accessibility, among others) are hand-built in HTML, without the use of a dynamic templating system. Hand-built content may contain unclosed or illegally nested elements. When we become aware of content with these problems, we immediately take steps to repair the HTML.
 <br><br>
-Pages located at order.springer.com contain parsing errors that may be problematic for Assistive Technology, including illegally-nested elements (including illegally-nested controls), invalid autocomplete values, and incomplete closing tags.
+Pages located at order.springer.com/public/cart contain parsing errors that may be problematic for Assistive Technology, including illegally-nested elements (including illegally-nested controls), invalid autocomplete values, and incomplete closing tags.
 <br><br>
 Third party advertising scripts may inject content that omits start and end tags, contains duplicate attributes or illegally nested elements. When we become aware of active advertisements with these problems, we immediately take steps to remove those advertisements from our pages.
 </td>
@@ -1218,7 +1218,7 @@ Pages rendered in the <strong>older</strong> design (currently journals, and anc
 <br><br>
 Pages rendered in the <strong>newer</strong> design (currently articles, chapters, books, book series, reference works, reference work entries, and collections) use highly-visible focus styles, including yellow focus rings or yellow backgrounds.
 <br><br>
-Pages found at order.springer.com use default browser focus rings only for interactive components.
+Pages found at order.springer.com/public/cart use default browser focus rings only for interactive components.
 <br><br>
 Third party scripts, including advertising, may inject components that remove focus styles.
 </td>
@@ -1246,7 +1246,7 @@ Third party scripts, including advertising, may inject components that remove fo
 <td>
 Content in journals, books, series, protocols, reference works or proceedings may include or be completely composed of text in languages other than that defined in the HTML `lang` attribute. Mixed language content may be marked up with a separate `lang` attribute that matches the written language, though this is not consistently applied.
 <br><br>
-Titles in the cart at order.springer.com may be published in multiple languages. The correct `lang` attribute for titles in a language different to that of the overall document is omitted.
+Titles in the cart at order.springer.com/public/cart may be published in multiple languages. The correct `lang` attribute for titles in a language different to that of the overall document is omitted.
 <br><br>
 Third party scripts may inject components that use a different language to the page content - for example a targeted advertisement may use the native language of the user, and not be marked up with a separate `lang` attribute.
 </td>
@@ -1342,7 +1342,7 @@ This product contains content that is rendered in two separate designs. We are i
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) use unsemantic, unassociated `label` elements to mark up errors.
 <br><br>
-Pages located at order.springer.com rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states.
+Pages located at order.springer.com/public/cart rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states.
 </td>
 </tr>
 <tr id="error-prevention-legal-financial-data" valign="top">
@@ -1365,7 +1365,7 @@ Pages located at order.springer.com rely solely on built-in browser error checki
 <li>602.3 (Support Docs)</li>
 </ul></td>
 <td>Supports</td>
-<td>Payment pages at order.springer.com have a checkout flow that includes a verification step. There, the user must confirm that their choices are correct before they may enter their payment details. At this stage they may return to a previous step to make corrections, cancel, or abandon the process.</td>
+<td>Payment pages at order.springer.com/public/cart have a checkout flow that includes a verification step. There, the user must confirm that their choices are correct before they may enter their payment details. At this stage they may return to a previous step to make corrections, cancel, or abandon the process.</td>
 </tr>
 <tr id="status-messages" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#status-messages"><strong>4.1.3 Status Messages</strong></a> (Level AA 2.1 only)
