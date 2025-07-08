@@ -1461,7 +1461,7 @@ Notes: This product is a web software application and is not subject to the requ
 
 ### Chapter 5: [Software](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-5-platforms-and-applications)
 
-Notes: See [WCAG section](#wcag-20-report) for full details.
+Notes: See [WCAG section](#wcag-21-report) for full details.
 
 <table>
 <thead>
