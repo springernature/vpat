@@ -1396,7 +1396,7 @@ Notes: This product has not been evaluated for WCAG 2.x Level AAA conformance.
 
 ### Chapter 3: [Functional Performance Criteria](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-3-functional-performance-criteria) (FPC)
 
-Notes: See [WCAG section](#wcag-20-report) for full details.
+Notes: See [WCAG section](#wcag-21-report) for full details.
 
 <table>
 <thead>
@@ -1461,7 +1461,7 @@ Notes: This product is a web software application and is not subject to the requ
 
 ### Chapter 5: [Software](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-5-platforms-and-applications)
 
-Notes: See [WCAG section](#wcag-20-report) for full details.
+Notes: See [WCAG section](#wcag-21-report) for full details.
 
 <table>
 <thead>
@@ -1754,7 +1754,7 @@ Notes: This product does not offer two-way voice communication and is therefore 
 
 ### Clause [7: ICT with Video Capabilities](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=35)
 
-Notes: See [WCAG section](#wcag-20-report) for full details.
+Notes: See [WCAG section](#wcag-21-report) for full details.
 
 <table>
 <thead>
@@ -1812,7 +1812,7 @@ Notes: This product is a web software application and is not subject to the requ
 
 ### Clause [9: Web](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=45)
 
-Notes: Please see [WCAG 2.1 section](#WCAG).
+Notes: Please see [WCAG 2.1 section](#wcag-21-report).
 
 ### Clause [10: Non-Web Documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52)
 
