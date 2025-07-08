@@ -1394,7 +1394,7 @@ Notes: This product has not been evaluated for WCAG 2.x Level AAA conformance.
 
 ## Revised Section 508 Report
 
-### Chapter 3: [Functional Performance Criteria](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-3-functional-performance-criteria) (FPC)
+### Chapter 3: [Functional Performance Criteria](https://www.access-board.gov/ict/#301-general) (FPC)
 
 Notes: See [WCAG section](#wcag-21-report) for full details.
 
@@ -1455,11 +1455,11 @@ Notes: See [WCAG section](#wcag-21-report) for full details.
 </tbody>
 </table>
 
-### Chapter 4: [Hardware](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-4-hardware)
+### Chapter 4: [Hardware](https://www.access-board.gov/ict/#401-general)
 
 Notes: This product is a web software application and is not subject to the requirements of this chapter.
 
-### Chapter 5: [Software](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-5-platforms-and-applications)
+### Chapter 5: [Software](https://www.access-board.gov/ict/#501-general)
 
 Notes: See [WCAG section](#wcag-21-report) for full details.
 
@@ -1483,7 +1483,7 @@ Notes: See [WCAG section](#wcag-21-report) for full details.
 <tr>
 <td headers="502-interop chap-5-criteria">502.2.1 User Control of Accessibility Features</td>
 <td headers="502-interop chap-5-conformance">Not Applicable</td>
-<td headers="502-interop chap-5-remarks">This product is not considered platform software as defined by Section 508. See <a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E103-definitions">E103 Definitions, section E103.4</a>.</td>
+<td headers="502-interop chap-5-remarks">This product is not considered platform software as defined by Section 508. See <a href="https://www.access-board.gov/ict/#E103.4">E103 Definitions, section E103.4</a>.</td>
 </tr>
 <tr>
 <td headers="502-interop chap-5-criteria">502.2.2 No Disruption of Accessibility Features</td>
@@ -1610,7 +1610,7 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 <tr>
 <td headers="502-services chap-5-criteria">502.4 Platform Accessibility Features</td>
 <td headers="502-services chap-5-conformance">Not Applicable</td>
-<td headers="502-services chap-5-remarks">This product is not considered platform software as defined by Section 508. See <a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E103-definitions">E103 Definitions, section E103.4</a>.</td>
+<td headers="502-services chap-5-remarks">This product is not considered platform software as defined by Section 508. See <a href="https://www.access-board.gov/ict/#E103.4">E103 Definitions, section E103.4</a>.</td>
 </tr>
 <tr>
 <th scope="column" colspan="3" id="503-apps"><a href="https://www.access-board.gov/ict/#503-applications">503 Applications</a></th>
@@ -1669,7 +1669,7 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 </tbody>
 </table>
 
-### Chapter 6: [Support Documentation and Services](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-6-documentation-and-support-services)
+### Chapter 6: [Support Documentation and Services](https://www.access-board.gov/ict/#601-general)
 
 Notes: This report covers accessibility conformance for the web product and does not provide Documentation or Support Services.
 
