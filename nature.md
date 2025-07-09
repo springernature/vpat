@@ -1628,43 +1628,43 @@ Notes: This report covers accessibility conformance for the web product and does
 <tbody>
 <tr>
 <td>4.2.1 Usage without vision</td>
-<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.1</td>
-<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.1</td>
+<td>See <a href="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.1</td>
+<td>See <a href="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.1</td>
 </tr>
 <tr>
 <td>4.2.2 Usage with limited vision</td>
-<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.2</td>
-<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.2</td>
+<td>See <a href="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.2</td>
+<td>See <a href="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.2</td>
 </tr>
 <tr>
 <td>4.2.3 Usage without Perception of Color</td>
-<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.3</td>
-<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.3</td>
+<td>See <a href="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.3</td>
+<td>See <a href="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.3</td>
 </tr>
 <tr>
 <td>4.2.4 Usage without hearing</td>
-<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.4</td>
-<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.4</td>
+<td>See <a href="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.4</td>
+<td>See <a href="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.4</td>
 </tr>
 <tr>
 <td>4.2.5 Usage with limited hearing</td>
-<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.5</td>
-<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.5</td>
+<td>See <a href="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.5</td>
+<td>See <a href="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.5</td>
 </tr>
 <tr>
 <td>4.2.6 Usage without vocal capability</td>
-<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.6</td>
-<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.6</td>
+<td>See <a href="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.6</td>
+<td>See <a href="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.6</td>
 </tr>
 <tr>
 <td>4.2.7 Usage with limited manipulation or strength</td>
-<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.7 and 302.8</td>
-<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.7 and 302.8</td>
+<td>See <a href="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.7 and 302.8</td>
+<td>See <a href="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.7 and 302.8</td>
 </tr>
 <tr>
 <td>4.2.8 Usage with limited reach</td>
-<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.8</td>
-<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.8</td>
+<td>See <a href="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.8</td>
+<td>See <a href="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.8</td>
 </tr>
 <tr>
 <td>4.2.9 Minimize photosensitive seizure triggers</td>
@@ -1673,8 +1673,8 @@ Notes: This report covers accessibility conformance for the web product and does
 </tr>
 <tr>
 <td>4.2.10 Usage with limited cognition</td>
-<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.9</td>
-<td>See <a ref="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.9</td>
+<td>See <a href="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.9</td>
+<td>See <a href="#chapter-3-functional-performance-criteria-fpc">Revised Section 508 Report Ch.3</a> 302.9</td>
 </tr>
 <tr>
 <td>4.2.11 Privacy</td>
@@ -1773,7 +1773,7 @@ Notes: This product does not include non-web documents and is therefore not subj
 <th scope="column" colspan="3" id="11-gen">11.0 General (informative)</th>
 </tr>
 <td headers="11-gen chap-11-criteria">11.1.1 through 11.4.1.3</td>
-<td headers "11-gen chap-11-conformance">See <a ref="#WCAG">WCAG 2.x</a> Section</td>
+<td headers "11-gen chap-11-conformance">See <a href="#wcag-21-report">WCAG section</a></td>
 <td headers "11-gen chap-11-remarks">See information in WCAG section</td>
 </tr>
 <tr>
