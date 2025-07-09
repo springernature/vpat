@@ -1876,7 +1876,7 @@ Notes: This product does not include non-web documents and is therefore not subj
 <tr>
 <td headers="11-doc-a11y chap-11-criteria">11.6.1 User control of accessibility features</td>
 <td headers="11-doc-a11y chap-11-conformance">Not Applicable</td>
-<td headers="11-doc-a11y chap-11-remarks">This product is not considered platform software as defined by EN 301 549 V1.1.2. See <a ref="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=15"> 3.1 Definitions</a>.</td>
+<td headers="11-doc-a11y chap-11-remarks">This product is not considered platform software as defined by EN 301 549 V1.1.2. See <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=15">3.1 Definitions</a>.</td>
 </tr>
 <tr>
 <td headers="11-doc-a11y chap-11-criteria">11.6.2 No disruption of accessibility features</td>
