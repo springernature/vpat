@@ -1758,7 +1758,7 @@ Notes: Please see [WCAG 2.1 section](#wcag-21-report).
 
 Notes: This product does not include non-web documents and is therefore not subject to the requirements of this chapter.
 
-### Clause [11: Software](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52)
+### Clause [11: Software](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=64)
 
 <table>
 <thead>
