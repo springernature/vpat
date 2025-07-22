@@ -1,12 +1,12 @@
-# SpringerLink Accessibility Conformance Report International Edition
+# Springer Nature Link Accessibility Conformance Report International Edition
 (Based on VPAT® Version 2.5Rev)
 
-**Report Date**: 24 August 2023  
-**Name of Product/Version**: SpringerLink _(we do not version our software)_  
-**Product Description**: SpringerLink provides researchers with access to scientific documents from journals, books, series, protocols, collections, reference works and proceedings. This report refers entirely to the accessibility of all web documents published at the subdomains link.springer.com and rd.springer.com (both subdomains are referred to as link.springer.com throughout this report), and supporting informational pages such as journal homepages located at the top level domain, springer.com. Also included are all web documents included in the purchasing and subscription process, found at order.springer.com.  
+**Report Date**: 17 July 2025 
+**Name of Product/Version**: Springer Nature Link _(we do not version our software)_  
+**Product Description**: Springer Nature Link provides researchers with access to scientific documents from journals, books, series, protocols, collections, reference works and proceedings. This report refers entirely to the accessibility of all web documents published at the subdomains link.springer.com and rd.springer.com (both subdomains are referred to as link.springer.com throughout this report. Also included are supporting informational pages such as journal homepages located at the top level domain, springer.com, and all web documents included in the purchasing and subscription checkout process.  
  **Contact information**: Please contact your Institutional Sales representative.   
  **Notes**:   
-**Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature's dedicated Accessibility Specialists. We use a combination of static analysis tools (including but not limited to [axe by Deque](https://www.deque.com/axe/), [WAVE by WebAIM](https://wave.webaim.org/extension/), and all of the tools described in our [Frontend Playbook's Accessibility Guide](https://github.com/springernature/frontend-playbook/blob/main/accessibility/tools.md)). Our manual testing uses [WCAG-EM](https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/) as its base strategy, and further details are also described in our Frontend Playbook under the "Manual testing" and "Assistive technology" sections.  
+**Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature's dedicated Accessibility Specialists. We use a combination of static analysis tools (including but not limited to [axe by Deque](https://www.deque.com/axe/), [WAVE by WebAIM](https://wave.webaim.org/extension/), and all of the tools described in our [Frontend Playbook's Accessibility Guide](https://github.com/springernature/frontend-playbook/blob/main/accessibility/01-popular-tools.md#accessibility-tools)). Our manual testing uses [WCAG-EM](https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/) as its base strategy, and further details are also described in our Frontend Playbook under the "Manual testing" and "Assistive technology" sections.  
 
 ## Applicable Standards/Guidelines
 
@@ -78,7 +78,7 @@ Tables 1 and 2 also document conformance with:
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.1.1 (Web)</li>
-<li>10.1.1.1 (non-web document)</li>
+<li>10.1.1.1 (Non-web document)</li>
 <li>11.1.1.1.1 (Open Functionality Software)</li>
 <li>11.1.1.1.2 (Closed Functionality Software)</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -110,7 +110,7 @@ When supplied by authors who publish with us, some complex images may lack adequ
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.2.1 (Web)</li>
-<li>10.1.2.1 (non-web document)</li>
+<li>10.1.2.1 (Non-web document)</li>
 <li>11.1.2.1.1 (Open Functionality Software)</li>
 <li>11.1.2.1.2.1 and 11.1.2.1.2.2 (Closed Software)</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -125,7 +125,7 @@ When supplied by authors who publish with us, some complex images may lack adequ
 </ul></td>
 <td>Partially Supports</td>
 <td>
-SpringerLink offers multimedia content through the third party MovingImage platform, or as downloadable video files in various formats.
+This product offers multimedia content through the third party MovingImage platform, or as downloadable video files in various formats.
 <br><br>
 Video-only and audio-only content are generally used to support existing text-based content.
 <br><br>
@@ -138,7 +138,7 @@ We currently have no method of confirming the inclusion of adequate media altern
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.2.2 (Web)</li>
-<li>10.1.2.2 (non-web document)</li>
+<li>10.1.2.2 (Non-web document)</li>
 <li>11.1.2.2 (Open Functionality Software)</li>
 <li>11.1.2.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -153,7 +153,7 @@ We currently have no method of confirming the inclusion of adequate media altern
 </ul></td>
 <td>Partially supports</td>
 <td>
-SpringerLink offers multimedia content through the third party MovingImage platform, or as downloadable video files in various formats.
+This product offers multimedia content through the third party MovingImage platform, or as downloadable video files in various formats.
 <br><br>
 Captions and/or transcripts maybe be provided for some pre-recorded content in journals, books, series, protocols, reference works or proceedings. We currently have no method of confirming the inclusion of transcripts or captions.
 <br><br>
@@ -166,7 +166,7 @@ Captions and/or transcripts maybe be provided for some pre-recorded content in j
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.2.3 (Web)</li>
-<li>10.1.2.3 (non-web document)</li>
+<li>10.1.2.3 (Non-web document)</li>
 <li>11.1.2.3.1 (Open Functionality Software)</li>
 <li>11.1.2.3.2 (Closed Software)</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -181,7 +181,7 @@ Captions and/or transcripts maybe be provided for some pre-recorded content in j
 </ul></td>
 <td>Partially Supports</td>
 <td>
-SpringerLink offers multimedia content through the third party MovingImage platform, or as downloadable video files in various formats.
+This product offers multimedia content through the third party MovingImage platform, or as downloadable video files in various formats.
 <br><br>
 Audio description is not generally used across our content, but some media may be presented alongside media alternatives such as text descriptions of video content.
 <br><br>
@@ -194,7 +194,7 @@ We currently have no method of confirming the inclusion of adequate media altern
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.3.1 (Web)</li>
-<li>10.1.3.1 (non-web document)</li>
+<li>10.1.3.1 (Non-web document)</li>
 <li>11.1.3.1.1 (Open Functionality Software)</li>
 <li>11.1.3.1.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -209,7 +209,7 @@ We currently have no method of confirming the inclusion of adequate media altern
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) may use unsemantic markup, including inadequate, misleading, or incorrectly-applied landmarks. Some UI controls (e.g. "next" and "previous" pagination controls on search results pages) lack accessible names. Pages may omit level one headings.
 <br><br>
@@ -219,7 +219,7 @@ We make use of WAI-ARIA roles to support landmarks, and use WAI-ARIA roles and p
 <br><br>
 Some complex functionality may omit required WAI-ARIA roles, states, or attributes, or misuse WAI-ARIA markup and techniques. We are actively working to find and repair these problems.
 <br><br>
-The SpringerLink checkout process pages found at order.springer.com use multiple landmarks of the same type without unique labels. The pages use form fields that rely solely on built-in browser error checking, which can lead to error messages being unavailable for users with older browser technology, or Assistive Technology that doesn't support these features.
+Checkout process pages use multiple landmarks of the same type without unique labels. The pages use form fields that rely solely on built-in browser error checking, which can lead to error messages being unavailable for users with older browser technology, or Assistive Technology that doesn't support these features.
 <br><br>
 Third party scripts may inject content with incorrect or absent information about structure and relationships. These may include content in advertising scripts and the Freshdesk customer services widget, among others.
 </td>
@@ -230,7 +230,7 @@ Third party scripts may inject content with incorrect or absent information abou
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.3.2 (Web)</li>
-<li>10.1.3.2 (non-web document)</li>
+<li>10.1.3.2 (Non-web document)</li>
 <li>11.1.3.2.1 (Open Functionality Software)</li>
 <li>11.1.3.2.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -245,7 +245,7 @@ Third party scripts may inject content with incorrect or absent information abou
 </ul></td>
 <td>Supports</td>
 <td>
-The meaning of the content on the pages of SpringerLink does not depend on the order of the sections.
+The meaning of the content on the product's pages does not depend on the order of the sections.
 </td>
 </tr>
 <tr id="sensory-characteristics" valign="top">
@@ -254,7 +254,7 @@ The meaning of the content on the pages of SpringerLink does not depend on the o
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.3.3 (Web)</li>
-<li>10.1.3.3 (non-web document)</li>
+<li>10.1.3.3 (Non-web document)</li>
 <li>11.1.3.3 (Open Functionality Software)</li>
 <li>11.1.3.3 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -282,7 +282,7 @@ When supplied by authors who publish with us, some complex images may rely on se
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.4.1 (Web)</li>
-<li>10.1.4.1 (non-web document)</li>
+<li>10.1.4.1 (Non-web document)</li>
 <li>11.1.4.1 (Open Functionality Software)</li>
 <li>11.1.4.1 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -310,7 +310,7 @@ Some complex images in journals, books, series, protocols, reference works and p
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.4.2 (Web)</li>
-<li>10.1.4.2 (non-web document)</li>
+<li>10.1.4.2 (Non-web document)</li>
 <li>11.1.4.2 (Open Functionality Software)</li>
 <li>11.1.4.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -340,7 +340,7 @@ Third party advertisements may load video and audio that automatically starts, a
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.1.1 (Web)</li>
-<li>10.2.1.1 (non-web document)</li>
+<li>10.2.1.1 (Non-web document)</li>
 <li>11.2.1.1.1 (Open Functionality Software)</li>
 <li>11.2.1.1.2 (Closed Software)</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -366,7 +366,7 @@ Third party advertising scripts may inject content that cannot be interacted wit
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.1.2 (Web)</li>
-<li>10.2.1.2 (non-web document)</li>
+<li>10.2.1.2 (Non-web document)</li>
 <li>11.2.1.2 (Open Functionality Software)</li>
 <li>11.2.1.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -381,7 +381,7 @@ Third party advertising scripts may inject content that cannot be interacted wit
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Keyboard trapping inside components on SpringerLink pages is rare, and in most cases is managed appropriately, allowing focus to be moved away from any component using standard keystrokes (<kbd>tab</kbd>, <kbd>shift</kbd>, <kbd>esc</kbd>).
+Keyboard trapping inside components on this product's pages is rare, and in most cases is managed appropriately, allowing focus to be moved away from any component using standard keystrokes (<kbd>tab</kbd>, <kbd>shift</kbd>, <kbd>esc</kbd>).
 <br><br>
 Modal dialogs (including those generated by third party scripts) may trap focus and provide inadequate methods of escaping. When we become aware of deficiencies, we actively work on repairs of our own, and with third party vendors where required.
 </td>
@@ -392,7 +392,7 @@ Modal dialogs (including those generated by third party scripts) may trap focus 
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.1.4 (Web)</li>
-<li>10.2.1.4 (non-web document)</li>
+<li>10.2.1.4 (Non-web document)</li>
 <li>11.2.1.4.1 (Open Functionality Software)</li>
 <li>11.2.1.4.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -410,7 +410,7 @@ Modal dialogs (including those generated by third party scripts) may trap focus 
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.2.1 (Web)</li>
-<li>10.2.2.1 (non-web document)</li>
+<li>10.2.2.1 (Non-web document)</li>
 <li>11.2.2.1 (Open Functionality Software)</li>
 <li>11.2.2.1 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -432,7 +432,7 @@ Modal dialogs (including those generated by third party scripts) may trap focus 
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.2.2 (Web)</li>
-<li>10.2.2.2 (non-web document)</li>
+<li>10.2.2.2 (Non-web document)</li>
 <li>11.2.2.2 (Open Functionality Software)</li>
 <li>11.2.2.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -447,7 +447,7 @@ Modal dialogs (including those generated by third party scripts) may trap focus 
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Moving, blinking or scrolling content on SpringerLink pages generally does not start automatically, and is complemented by controls that allow users to pause or otherwise stop the content. When supplied by authors who publish with us, moving images in the form of GIFs may not meet this criterion.
+Moving, blinking or scrolling content on this product's pages generally does not start automatically, and is complemented by controls that allow users to pause or otherwise stop the content. When supplied by authors who publish with us, moving images in the form of GIFs may not meet this criterion.
 <br><br>
 Third party advertising scripts may inject content that automatically moves or blinks and lasts more than five seconds, without providing a mechanism to pause, stop, or hide that content.
 </td>
@@ -458,7 +458,7 @@ Third party advertising scripts may inject content that automatically moves or b
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.3.1 (Web)</li>
-<li>10.2.3.1 (non-web document)</li>
+<li>10.2.3.1 (Non-web document)</li>
 <li>11.2.3.1 (Open Functionality Software)</li>
 <li>11.2.3.1 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -480,7 +480,7 @@ Third party advertising scripts may inject content that automatically moves or b
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.4.1 (Web)</li>
-<li>10.2.4.1 (non-web document) – Does not apply</li>
+<li>10.2.4.1 (Non-web document) – Does not apply</li>
 <li>11.2.4.1 (Open Functionality Software) – Does not apply</li>
 <li>11.2.4.1 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -497,7 +497,7 @@ Third party advertising scripts may inject content that automatically moves or b
 <td>
 The pages of this product generally use semantically-correct markup so that Assistive Technology users can recognise elements and move around them accordingly. We make use of WAI-ARIA roles to support landmarks. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
-Pages located at order.springer.com have landmarks present. Some are duplicated without unique labels.
+Checkout process pages have landmarks present. Some are duplicated without unique labels.
 </td>
 </tr>
 <tr id="page-titled" valign="top">
@@ -506,7 +506,7 @@ Pages located at order.springer.com have landmarks present. Some are duplicated 
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.4.2 (Web)</li>
-<li>10.2.4.2 (non-web document)</li>
+<li>10.2.4.2 (Non-web document)</li>
 <li>11.2.4.2 (Open Functionality Software) - Does not apply</li>
 <li>11.2.4.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -521,7 +521,7 @@ Pages located at order.springer.com have landmarks present. Some are duplicated 
 </ul></td>
 <td>Partially Supports</td>
 <td>
-SpringerLink pages mostly have unique page titles that describe the purpose of the page.
+This product's pages mostly have unique page titles that describe the purpose of the page.
 <br><br>
 Where multiple versions of the same content exist (e.g. in original research that has been updated), the page titles do not differentiate between versions.
 </td>
@@ -532,7 +532,7 @@ Where multiple versions of the same content exist (e.g. in original research tha
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.4.3 (Web)</li>
-<li>10.2.4.3 (non-web document)</li>
+<li>10.2.4.3 (Non-web document)</li>
 <li>11.2.4.3 (Open Functionality Software)</li>
 <li>11.2.4.3 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -547,9 +547,9 @@ Where multiple versions of the same content exist (e.g. in original research tha
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The meaning and/or operation of content on SpringerLink is generally unaffected by focus order.
+The meaning and/or operation of content on this product is generally unaffected by focus order.
 <br><br>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
 Some pages rendered in the <strong>older</strong> design may contain components where some items in the focus order do not match the visual order (for example the "date published" filtering on search results pages).
 <br><br>
@@ -564,7 +564,7 @@ Third party scripts including advertising scripts or customer services widgets (
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.4.4 (Web)</li>
-<li>10.2.4.4 (non-web document)</li>
+<li>10.2.4.4 (Non-web document)</li>
 <li>11.2.4.4 (Open Functionality Software)</li>
 <li>11.2.4.4 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -592,7 +592,7 @@ Third party scripts including advertising scripts, the Disqus commenting widget,
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.5.1 (Web)</li>
-<li>10.2.5.1 (non-web document)</li>
+<li>10.2.5.1 (Non-web document)</li>
 <li>11.2.5.1 (Open Functionality Software)</li>
 <li>11.2.5.1 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -610,7 +610,7 @@ Third party scripts including advertising scripts, the Disqus commenting widget,
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.5.2 (Web)</li>
-<li>10.2.5.2 (non-web document)</li>
+<li>10.2.5.2 (Non-web document)</li>
 <li>11.2.5.2 (Open Functionality Software)</li>
 <li>11.2.5.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -628,7 +628,7 @@ Third party scripts including advertising scripts, the Disqus commenting widget,
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.5.3 (Web)</li>
-<li>10.2.5.3 (non-web document)</li>
+<li>10.2.5.3 (Non-web document)</li>
 <li>10.2.5.3 (Open Functionality Software)</li>
 <li>11.2.5.3 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -648,7 +648,7 @@ In most cases where controls contain visible text, that text is also the label f
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.5.4 (Web)</li>
-<li>10.2.5.4 (non-web document)</li>
+<li>10.2.5.4 (Non-web document)</li>
 <li>11.2.5.4 (Open Functionality Software)</li>
 <li>11.2.5.4 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -666,7 +666,7 @@ In most cases where controls contain visible text, that text is also the label f
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.3.1.1 (Web)</li>
-<li>10.3.1.1 (non-web document)</li>
+<li>10.3.1.1 (Non-web document)</li>
 <li>11.3.1.1.1 (Open Functionality Software)</li>
 <li>11.3.1.1.2 (Closed Software)</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -690,7 +690,7 @@ Pages in this product may contain mixed languages, though the primary language o
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.3.2.1 (Web)</li>
-<li>10.3.2.1 (non-web document)</li>
+<li>10.3.2.1 (Non-web document)</li>
 <li>11.3.2.1 (Open Functionality Software)</li>
 <li>11.3.2.1 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -712,7 +712,7 @@ Pages in this product may contain mixed languages, though the primary language o
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.3.2.2 (Web)</li>
-<li>10.3.2.2 (non-web document)</li>
+<li>10.3.2.2 (Non-web document)</li>
 <li>11.3.2.2 (Open Functionality Software)</li>
 <li>11.3.2.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -734,7 +734,7 @@ Pages in this product may contain mixed languages, though the primary language o
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.3.3.1 (Web)</li>
-<li>10.3.3.1 (non-web document)</li>
+<li>10.3.3.1 (Non-web document)</li>
 <li>11.3.3.1.1 (Open Functionality Software)</li>
 <li>11.3.3.1.2 (Closed Software)</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -755,7 +755,7 @@ In some parts of the site, we additionally use an `aria-describedby` property to
 <br><br>
 User account pages located at link.springer.com/account use unsemantic, unassociated, `label` elements to mark up errors.
 <br><br>
-Pages located at order.springer.com rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states.
+Checkout process pages rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states.
 </td>
 </tr>
 <tr id="labels-or-instructions" valign="top">
@@ -764,7 +764,7 @@ Pages located at order.springer.com rely solely on built-in browser error checki
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.3.3.2 (Web)</li>
-<li>10.3.3.2 (non-web document)</li>
+<li>10.3.3.2 (Non-web document)</li>
 <li>11.3.3.2 (Open Functionality Software)</li>
 <li>11.3.3.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -779,7 +779,7 @@ Pages located at order.springer.com rely solely on built-in browser error checki
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) generally display visible and appropriately associated labels for input fields. Exceptions include the pagination number field on advanced search results pages and in the main search component in the page banner, both of which omit any label or WAI-ARIA description, and use only placeholder text as instruction. We are actively working to find and repair these problems.  
 <br><br>
@@ -794,7 +794,7 @@ Instructions such as those that explain mandatory fields may be absent or only p
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.4.1.1 (Web)</li>
-<li>10.4.1.1 (non-web document)</li>
+<li>10.4.1.1 (Non-web document)</li>
 <li>11.4.1.1.1 (Open Functionality Software)</li>
 <li>11.4.1.1.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -813,13 +813,13 @@ Most of the pages of this product generally use semantically-correct markup that
 <br><br>
 Where errors exist, they are usually minor, such as the presence of invalid `alt` and `src` attributes in SVG image nodes (ignored by user agents). There are some instances of incorrectly-nested elements (e.g. "<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content">flow content</a>" wrapped in "<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Phrasing_content">phrasing content</a>"), also generally ignored by user agents.
 <br><br>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) have a slightly higher volume of parsing errors, which include more problematic errors such as `li` elements outside of `ul` elements and duplicate IDs, that may interfere with the ability of Assistive Technology to correctly identify some components.
 <br><br>
 Ancillary static pages (e.g. the pages linked to at the footer of each page, such as Terms and Conditions, Legal Information, and Accessibility, among others) are hand-built in HTML, without the use of a dynamic templating system. Hand-built content may contain unclosed or illegally nested elements. When we become aware of content with these problems, we immediately take steps to repair the HTML.
 <br><br>
-Pages located at order.springer.com contain parsing errors that may be problematic for Assistive Technology, including illegally-nested elements (including illegally-nested controls), invalid autocomplete values, and incomplete closing tags.
+Checkout process pages contain parsing errors that may be problematic for Assistive Technology, including illegally-nested elements (including illegally-nested controls), invalid autocomplete values, and incomplete closing tags.
 <br><br>
 Third party advertising scripts may inject content that omits start and end tags, contains duplicate attributes or illegally nested elements. When we become aware of active advertisements with these problems, we immediately take steps to remove those advertisements from our pages.
 </td>
@@ -830,7 +830,7 @@ Third party advertising scripts may inject content that omits start and end tags
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.4.1.2 (Web)</li>
-<li>10.4.1.2 (non-web document)</li>
+<li>10.4.1.2 (Non-web document)</li>
 <li>11.4.1.2.1 (Open Functionality Software)</li>
 <li>11.4.1.2.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -872,7 +872,7 @@ Other third party scripts, including the Freshdesk customer services widget, may
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.2.4 (Web)</li>
-<li>10.1.2.4 (non-web document)</li>
+<li>10.1.2.4 (Non-web document)</li>
 <li>11.1.2.4 (Open Functionality Software)</li>
 <li>11.1.2.4 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -894,7 +894,7 @@ Other third party scripts, including the Freshdesk customer services widget, may
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.2.5 (Web)</li>
-<li>10.1.2.5 (non-web document)</li>
+<li>10.1.2.5 (Non-web document)</li>
 <li>11.1.2.5 (Open Functionality Software)</li>
 <li>11.1.2.5 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -917,7 +917,7 @@ Other third party scripts, including the Freshdesk customer services widget, may
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.3.4 (Web)</li>
-<li>10.1.3.4 (non-web document)</li>
+<li>10.1.3.4 (Non-web document)</li>
 <li>11.1.3.4 (Open Functionality Software)</li>
 <li>11.1.3.4 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -935,7 +935,7 @@ Other third party scripts, including the Freshdesk customer services widget, may
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.3.5 (Web)</li>
-<li>10.1.3.5 (non-web document)</li>
+<li>10.1.3.5 (Non-web document)</li>
 <li>11.1.3.5 (Open Functionality Software)</li>
 <li>11.1.3.5 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -953,7 +953,7 @@ Other third party scripts, including the Freshdesk customer services widget, may
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.4.3 (Web)</li>
-<li>10.1.4.3 (non-web document)</li>
+<li>10.1.4.3 (Non-web document)</li>
 <li>11.1.4.3 (Open Functionality Software)</li>
 <li>11.1.4.3 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -968,7 +968,7 @@ Other third party scripts, including the Freshdesk customer services widget, may
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) use gradient background images that do not meet minimum contrast requirements between the text and one or more of the gradient background colours.
 <br><br>
@@ -985,7 +985,7 @@ Third party advertising scripts may inject content with insufficient contrast.
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.4.4 (Web)</li>
-<li>10.1.4.4 (non-web document)</li>
+<li>10.1.4.4 (Non-web document)</li>
 <li>11.1.4.4.1 (Open Functionality Software)</li>
 <li>11.1.4.4.2 (Closed Software)</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1011,7 +1011,7 @@ Third party advertising scripts may inject non-responsive content that loses or 
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.4.5 (Web)</li>
-<li>10.1.4.5 (non-web document)</li>
+<li>10.1.4.5 (Non-web document)</li>
 <li>11.1.4.5.1 (Open Functionality Software)</li>
 <li>11.1.4.5.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1046,7 +1046,7 @@ Third party advertising scripts may inject images containing text.
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.4.10 (Web)</li>
-<li>10.1.4.10 (non-web document)</li>
+<li>10.1.4.10 (Non-web document)</li>
 <li>11.1.4.10.1 (Open Functionality Software)</li>
 <li>11.1.4.10.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1067,7 +1067,7 @@ Third party advertising scripts may inject non-responsive content that loses or 
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.4.11 (Web)</li>
-<li>10.1.4.11 (non-web document)</li>
+<li>10.1.4.11 (Non-web document)</li>
 <li>11.1.4.11 (Open Functionality Software)</li>
 <li>11.1.4.11 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1078,7 +1078,7 @@ Third party advertising scripts may inject non-responsive content that loses or 
 </td>
 <td>Partially Supports</td>
 <td>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) contain user interface icons that do not meet minimum contrast requirements for non-text content.
 <br><br>
@@ -1093,7 +1093,7 @@ Third party content (e.g. advertising, customer services widgets) may inject non
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.4.12 (Web)</li>
-<li>10.1.4.12 (non-web document)</li>
+<li>10.1.4.12 (Non-web document)</li>
 <li>11.1.4.12 (Open Functionality Software)</li>
 <li>11.1.4.12 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1104,7 +1104,7 @@ Third party content (e.g. advertising, customer services widgets) may inject non
 </td>
 <td>Partially Supports</td>
 <td>
-No loss of content or functionality occurs by setting the text spacing properties specified by this criterion anywhere in this product, except for the search results page and [homepage](https://link.springer.com) where a collision may occur between some of the filters.
+No loss of content or functionality occurs by setting the text spacing properties specified by this criterion anywhere in this product, except for the search results page and <a href="https://link.springer.com">homepage</a> where a collision may occur between some of the filters.
 <br><br>
 The search results page is rendered in an older design - we are in the process of transferring this content from the older design to the newer design which will pass this criterion.
 </td>
@@ -1115,7 +1115,7 @@ The search results page is rendered in an older design - we are in the process o
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.1.4.13 (Web)</li>
-<li>10.1.4.13 (non-web document)</li>
+<li>10.1.4.13 (Non-web document)</li>
 <li>11.1.4.13 (Open Functionality Software)</li>
 <li>11.1.4.13 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1139,7 +1139,7 @@ Third party content (e.g. advertising, customer services widgets) may inject ele
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.4.5 (Web)</li>
-<li>10.2.4.5 (non-web document) – Does not apply</li>
+<li>10.2.4.5 (Non-web document) – Does not apply</li>
 <li>11.2.4.5 (Open Functionality Software) – Does not apply</li>
 <li>11.2.4.5 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1156,7 +1156,7 @@ Third party content (e.g. advertising, customer services widgets) may inject ele
 <td>
 Users may use the search function or the provided category browsing links to access any part of this product. The main navigation component can also be used to access the main content index pages.
 <br><br>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 </td>
 </tr>
 <tr id="headings-and-labels" valign="top">
@@ -1165,7 +1165,7 @@ The SpringerLink website contains content that is rendered in two separate desig
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.4.6  (Web)</li>
-<li>10.2.4.6 (non-web document)</li>
+<li>10.2.4.6 (Non-web document)</li>
 <li>11.2.4.6 (Open Functionality Software)</li>
 <li>11.2.4.6 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1180,7 +1180,7 @@ The SpringerLink website contains content that is rendered in two separate desig
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) may incorrectly use `label` elements for other purposes (e.g. for error messages on account management pages), omit labels for some functionality (e.g. the pagination number field on advanced search results pages and the text input for the main search component in the page banner).
 <br><br>
@@ -1197,7 +1197,7 @@ Pages rendered in the <strong>newer</strong> design (currently articles, Chapter
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.2.4.7 (Web)</li>
-<li>10.2.4.7 (non-web document)</li>
+<li>10.2.4.7 (Non-web document)</li>
 <li>11.2.4.7 (Open Functionality Software)</li>
 <li>11.2.4.7 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1212,13 +1212,13 @@ Pages rendered in the <strong>newer</strong> design (currently articles, Chapter
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) use default browser focus rings only for interactive components.
 <br><br>
 Pages rendered in the <strong>newer</strong> design (currently articles, chapters, books, book series, reference works, reference work entries, and collections) use highly-visible focus styles, including yellow focus rings or yellow backgrounds.
 <br><br>
-Pages found at order.springer.com use default browser focus rings only for interactive components.
+Checkout process pages use default browser focus rings only for interactive components.
 <br><br>
 Third party scripts, including advertising, may inject components that remove focus styles.
 </td>
@@ -1229,7 +1229,7 @@ Third party scripts, including advertising, may inject components that remove fo
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.3.1.2 (Web)</li>
-<li>10.3.1.2 (non-web document)</li>
+<li>10.3.1.2 (Non-web document)</li>
 <li>11.3.1.2 (Open Functionality Software) – Does not apply</li>
 <li>11.3.1.2 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1246,7 +1246,7 @@ Third party scripts, including advertising, may inject components that remove fo
 <td>
 Content in journals, books, series, protocols, reference works or proceedings may include or be completely composed of text in languages other than that defined in the HTML `lang` attribute. Mixed language content may be marked up with a separate `lang` attribute that matches the written language, though this is not consistently applied.
 <br><br>
-Titles in the cart at order.springer.com may be published in multiple languages. The correct `lang` attribute for titles in a language different to that of the overall document is omitted.
+Titles in the cart on checkout process pages may be published in multiple languages. The correct `lang` attribute for titles in a language different to that of the overall document is omitted.
 <br><br>
 Third party scripts may inject components that use a different language to the page content - for example a targeted advertisement may use the native language of the user, and not be marked up with a separate `lang` attribute.
 </td>
@@ -1257,7 +1257,7 @@ Third party scripts may inject components that use a different language to the p
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.3.2.3 (Web)</li>
-<li>10.3.2.3 (non-web document) – Does not apply</li>
+<li>10.3.2.3 (Non-web document) – Does not apply</li>
 <li>11.3.2.3 (Open Functionality Software) – Does not apply</li>
 <li>11.3.2.3 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1272,7 +1272,7 @@ Third party scripts may inject components that use a different language to the p
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The SpringerLink website contains content that is rendered in two separate, inconsistent designs. The designs have different navigation methods, within the same collections of pages. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate, inconsistent designs. The designs have different navigation methods, within the same collections of pages. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
 Pages rendered in the <strong>older</strong> design are currently journals, and ancillary pages such as search, indexes, and account management.
 <br><br>
@@ -1289,7 +1289,7 @@ Pages that deal with sensitive information (for example payment pages) have inte
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.3.2.4 (Web)</li>
-<li>10.3.2.4 (non-web document) – Does not apply</li>
+<li>10.3.2.4 (Non-web document) – Does not apply</li>
 <li>11.3.2.4 (Open Functionality Software) – Does not apply</li>
 <li>11.3.2.4 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1304,7 +1304,7 @@ Pages that deal with sensitive information (for example payment pages) have inte
 </ul></td>
 <td>Partially Supports</td>
 <td>
-The SpringerLink website contains content that is rendered in two separate, inconsistent designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate, inconsistent designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
 Pages rendered in the <strong>older</strong> design are currently journals, and ancillary pages such as search, indexes, and account management.
 <br><br>
@@ -1321,7 +1321,7 @@ Pages that deal with sensitive information (for example payment pages) have inte
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.3.3.3 (Web)</li>
-<li>10.3.3.3 (non-web document)</li>
+<li>10.3.3.3 (Non-web document)</li>
 <li>11.3.3.3 (Open Functionality Software)</li>
 <li>11.3.3.3 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1338,11 +1338,11 @@ Pages that deal with sensitive information (for example payment pages) have inte
 <td>
 Where user input errors are automatically detected by our own software, those errors are identified to the user with warning text adjacent to the input field. Unless it would present a risk to security, the warning text describes the error and what the user should do to correct it.
 <br><br>
-The SpringerLink website contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
 Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) use unsemantic, unassociated `label` elements to mark up errors.
 <br><br>
-Pages located at order.springer.com rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states.
+Checkout process pages rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states.
 </td>
 </tr>
 <tr id="error-prevention-legal-financial-data" valign="top">
@@ -1351,7 +1351,7 @@ Pages located at order.springer.com rely solely on built-in browser error checki
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.3.3.4 (Web)</li>
-<li>10.3.3.4 (non-web document)</li>
+<li>10.3.3.4 (Non-web document)</li>
 <li>11.3.3.4 (Open Functionality Software)</li>
 <li>11.3.3.4 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1365,7 +1365,7 @@ Pages located at order.springer.com rely solely on built-in browser error checki
 <li>602.3 (Support Docs)</li>
 </ul></td>
 <td>Supports</td>
-<td>Payment pages at order.springer.com have a checkout flow that includes a verification step. There, the user must confirm that their choices are correct before they may enter their payment details. At this stage they may return to a previous step to make corrections, cancel, or abandon the process.</td>
+<td>Checkout process pages include a verification step. There, the user must confirm that their choices are correct before they may enter their payment details. At this stage they may return to a previous step to make corrections, cancel, or abandon the process.</td>
 </tr>
 <tr id="status-messages" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#status-messages"><strong>4.1.3 Status Messages</strong></a> (Level AA 2.1 only)
@@ -1373,7 +1373,7 @@ Pages located at order.springer.com rely solely on built-in browser error checki
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.4.1.3 (Web)</li>
-<li>10.4.1.3 (non-web document)</li>
+<li>10.4.1.3 (Non-web document)</li>
 <li>11.4.1.3 (Open Functionality Software)</li>
 <li>11.4.1.3 (Closed Software) – Does not apply</li>
 <li>11.8.2 (Authoring Tool)</li>
@@ -1394,9 +1394,9 @@ Notes: This product has not been evaluated for WCAG 2.x Level AAA conformance.
 
 ## Revised Section 508 Report
 
-### Chapter 3: [Functional Performance Criteria](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-3-functional-performance-criteria) (FPC)
+### Chapter 3: [Functional Performance Criteria](https://www.access-board.gov/ict/#301-general) (FPC)
 
-Notes: See [WCAG section](#wcag-20-report) for full details.
+Notes: See [WCAG section](#wcag-21-report) for full details.
 
 <table>
 <thead>
@@ -1455,13 +1455,13 @@ Notes: See [WCAG section](#wcag-20-report) for full details.
 </tbody>
 </table>
 
-### Chapter 4: [Hardware](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-4-hardware)
+### Chapter 4: [Hardware](https://www.access-board.gov/ict/#401-general)
 
 Notes: This product is a web software application and is not subject to the requirements of this chapter.
 
-### Chapter 5: [Software](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-5-platforms-and-applications)
+### Chapter 5: [Software](https://www.access-board.gov/ict/#501-general)
 
-Notes: See [WCAG section](#wcag-20-report) for full details.
+Notes: See [WCAG section](#wcag-21-report) for full details.
 
 <table>
 <thead>
@@ -1483,7 +1483,7 @@ Notes: See [WCAG section](#wcag-20-report) for full details.
 <tr>
 <td headers="502-interop chap-5-criteria">502.2.1 User Control of Accessibility Features</td>
 <td headers="502-interop chap-5-conformance">Not Applicable</td>
-<td headers="502-interop chap-5-remarks">This product is not considered platform software as defined by Section 508. See <a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E103-definitions">E103 Definitions, section E103.4</a>.</td>
+<td headers="502-interop chap-5-remarks">This product is not considered platform software as defined by Section 508. See <a href="https://www.access-board.gov/ict/#E103.4">E103 Definitions, section E103.4</a>.</td>
 </tr>
 <tr>
 <td headers="502-interop chap-5-criteria">502.2.2 No Disruption of Accessibility Features</td>
@@ -1610,7 +1610,7 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 <tr>
 <td headers="502-services chap-5-criteria">502.4 Platform Accessibility Features</td>
 <td headers="502-services chap-5-conformance">Not Applicable</td>
-<td headers="502-services chap-5-remarks">This product is not considered platform software as defined by Section 508. See <a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E103-definitions">E103 Definitions, section E103.4</a>.</td>
+<td headers="502-services chap-5-remarks">This product is not considered platform software as defined by Section 508. See <a href="https://www.access-board.gov/ict/#E103.4">E103 Definitions, section E103.4</a>.</td>
 </tr>
 <tr>
 <th scope="column" colspan="3" id="503-apps"><a href="https://www.access-board.gov/ict/#503-applications">503 Applications</a></th>
@@ -1669,7 +1669,7 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 </tbody>
 </table>
 
-### Chapter 6: [Support Documentation and Services](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/draft-rule-2011/chapter-6-documentation-and-support-services)
+### Chapter 6: [Support Documentation and Services](https://www.access-board.gov/ict/#601-general)
 
 Notes: This report covers accessibility conformance for the web product and does not provide Documentation or Support Services.
 
@@ -1754,7 +1754,7 @@ Notes: This product does not offer two-way voice communication and is therefore 
 
 ### Clause [7: ICT with Video Capabilities](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=35)
 
-Notes: See [WCAG section](#wcag-20-report) for full details.
+Notes: See [WCAG section](#wcag-21-report) for full details.
 
 <table>
 <thead>
@@ -1812,7 +1812,7 @@ Notes: This product is a web software application and is not subject to the requ
 
 ### Clause [9: Web](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=45)
 
-Notes: Please see [WCAG 2.1 section](#WCAG).
+Notes: Please see [WCAG 2.1 section](#wcag-21-report).
 
 ### Clause [10: Non-Web Documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52)
 
@@ -1938,7 +1938,7 @@ Notes: This product does not include non-web documents and is therefore not subj
 <tr>
 <td headers="11-doc-a11y chap-11-criteria">11.6.1 User control of accessibility features</td>
 <td headers="11-doc-a11y chap-11-conformance">Not Applicable</td>
-<td headers="11-doc-a11y chap-11-remarks">This product is not considered platform software as defined by EN 301 549 V1.1.2. See <a ref="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=15"> 3.1 Definitions</a>.</td>
+<td headers="11-doc-a11y chap-11-remarks">This product is not considered platform software as defined by EN 301 549 V1.1.2. See <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=15"> 3.1 Definitions</a>.</td>
 </tr>
 <tr>
 <td headers="11-doc-a11y chap-11-criteria">11.6.2 No disruption of accessibility features</td>
