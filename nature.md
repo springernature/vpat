@@ -213,7 +213,7 @@ We generally use progressive enhancement techniques and semantically-correct mar
 <br><br>
 We make use of WAI-ARIA roles to support (named) landmarks, and use WAI-ARIA roles and properties when required for more complex functionality such as popup menus and dialogs. We do not use WAI-ARIA where it is not required.
 <br><br>
-Some parts of the checkout flow and the "My Account" pages contain unsemantic markup, including out-of-sequence headings and incorrectly-applied landmarks. We are actively working to find and repair these problems.
+Some parts of the checkout flow and the account management pages contain unsemantic markup, including out-of-sequence headings and incorrectly-applied landmarks. We are actively working to find and repair these problems.
 <br><br>
 Some functionality may omit required WAI-ARIA roles, states, or attributes, or misuse WAI-ARIA markup and techniques. When we become aware of content with these problems, we immediately take steps to repair the issues.
 <br><br>
@@ -749,7 +749,7 @@ All of the pages in this product use the language attribute on the HTML element 
 <td>
 Where user input errors are automatically detected by our own software, those errors are identified with warning text adjacent to the input field. We do not rely on visual characteristics alone (e.g. colour).
 <br><br>
-Pages located at payment.nature.com rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states.
+Checkout process pages rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states.
 <br><br>
 Third party scripts including the Disqus commenting widget, or other widgets that accept user input, may automatically detect errors but fail to present the errors to users in text. They may rely on visual characteristics alone to indicate user input errors, or place error text in locations that are difficult for screen reader users to access. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
@@ -954,7 +954,7 @@ A limited number of form fields may have autocomplete values that allow the fiel
 <td>
 Generally, all text and images of text supplied by us on the pages of this product have a contrast ratio of at least 4.5:1.
 <br><br>
-Some placeholder text (e.g. on payment pages) may have insufficient contrast. We are actively working to find and repair these problems.
+Some placeholder text (e.g. on checkout process pages) may have insufficient contrast. We are actively working to find and repair these problems.
 <br><br>
 Third party advertising scripts may inject content with insufficient contrast.
 </td>
@@ -1175,7 +1175,7 @@ Other third party scripts, including survey or customer services widgets, may in
 <td>
 Generally, we provide high-visibility yellow focus rings on all focusable elements. Some items (such as links) may use changes in text-decoration to indicate focus in addition to the focus ring.
 <br><br>
-Some pages (e.g. some payment pages) use default focus rings only. On some of these pages, the default focus ring has been removed from input elements and replaced with a different focus style that provides inadequate visibility. Some components on payment pages remove focus styles. We are actively working to repair these problems; the high-visibility focus ring across the majority of this product is intended to be the default.
+Some pages (e.g. some checkout process pages) use default focus rings only. On some of these pages, the default focus ring has been removed from input elements and replaced with a different focus style that provides inadequate visibility. Some components on checkout process pages remove focus styles. We are actively working to repair these problems; the high-visibility focus ring across the majority of this product is intended to be the default.
 <br><br>
 Third party scripts, including advertising, may inject components that remove focus styles.
 </td>
@@ -1232,7 +1232,7 @@ We currently have no method of confirming the inclusion of appropriate <code>lan
 <td>
 Navigational mechanisms that are repeated on multiple Web pages within the this product website occur in the same relative order each time they are repeated. Although some older archive content on this product may be rendered in older design templates, the navigation of each of these sets of pages is internally consistent.
 <br><br>
-Pages that deal with sensitive information (including payment pages and "my account" pages) have intentionally simpler designs, and do not share the same navigation system as the main site. The navigation of each of these sets of pages is internally consistent.
+Pages that deal with sensitive information (including checkout process pages and account management pages) have intentionally simpler designs, and do not share the same navigation system as the main site. The navigation of each of these sets of pages is internally consistent.
 </td>
 </tr>
 <tr valign="top">
@@ -1258,7 +1258,7 @@ Pages that deal with sensitive information (including payment pages and "my acco
 <td>
 Components that have the same functionality within a set of Web pages are identified consistently. Although some older archive content on this product may be rendered in older design templates, the identification of components in each of these sets of pages is internally consistent.
 <br><br>
-Pages that deal with sensitive information (including payment pages and "my account" pages) have intentionally simpler designs. The presentation of each of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site.
+Pages that deal with sensitive information (including checkout process pages and account management pages) have intentionally simpler designs. The presentation of each of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site.
 </td>
 </tr>
 <tr valign="top">
@@ -1307,7 +1307,7 @@ Third party scripts including the Disqus commenting widget, or other widgets tha
 <li>602.3 (Support Docs)</li>
 </ul></td>
 <td>Supports</td>
-<td>The payment pages checkout flow includes a pre-payment verification page. The user must confirm that their choices are correct on the verification page before they may enter their payment details. At this stage they may return to a previous step to make corrections, cancel, or abandon the process.</td>
+<td>The checkout process includes a pre-payment verification page. The user must confirm that their choices are correct on the verification page before they may enter their payment details. At this stage they may return to a previous step to make corrections, cancel, or abandon the process.</td>
 </tr>
 <tr id="status-messages" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#status-messages"><strong>4.1.3 Status Messages</strong></a> (Level AA 2.1 only)
