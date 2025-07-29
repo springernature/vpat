@@ -1,7 +1,7 @@
 # Springer Nature Link Accessibility Conformance Report International Edition
 (Based on VPAT® Version 2.5Rev)
 
-**Report Date**: 17 July 2025 
+**Report Date**: 17 July 2025  
 **Name of Product/Version**: Springer Nature Link _(we do not version our software)_  
 **Product Description**: Springer Nature Link provides researchers with access to scientific documents from journals, books, series, protocols, collections, reference works and proceedings. This report refers entirely to the accessibility of all web documents published at the subdomains link.springer.com and rd.springer.com (both subdomains are referred to as link.springer.com throughout this report. Also included are supporting informational pages such as journal homepages located at the top level domain, springer.com, and all web documents included in the purchasing and subscription checkout process.  
  **Contact information**: Please contact your Institutional Sales representative.   
