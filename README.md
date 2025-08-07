@@ -19,7 +19,7 @@ then add your product to the list below.
 
 - [BioMed Central](./biomedcentral.md)
 - [SpringerOpen](./springeropen.md)
-- [SpringerLink](./springerlink.md)
+- [Springer Nature Link](./springer-nature-link.md)
 - [Nature](./nature.md)
 
 ## VPAT version history
