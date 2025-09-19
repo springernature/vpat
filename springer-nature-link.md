@@ -1245,6 +1245,30 @@ Checkout process pages use default browser focus rings only for interactive comp
 Third party scripts, including advertising, may inject components that remove focus styles.
 </td>
 </tr>
+<tr id="focus-not-obscured-minimum" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum"><strong>2.4.11 Focus Not Obscured (Minimum)</strong></a> (Level AA 2.2 only)
+<br><br><em>EN 301 549 Criteria - Does not apply</em>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr id="dragging-movements" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#dragging-movements"><strong>2.5.7 Dragging Movements</strong></a> (Level AA 2.2 only)
+<br><br><em>EN 301 549 Criteria - Does not apply</em>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr id="target-size-minimum" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#target-size-minimum"><strong>2.5.8 Target Size (Minimum)</strong></a> (Level AA 2.2 only)
+<br><br><em>EN 301 549 Criteria - Does not apply</em>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td></td>
+<td></td>
+</tr>
 <tr id="language-of-parts" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#meaning-other-lang-id"><strong>3.1.2 Language of Parts</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
@@ -1388,6 +1412,14 @@ Checkout process pages rely solely on built-in browser error checking, and do no
 </ul></td>
 <td>Supports</td>
 <td>Checkout process pages include a verification step. There, the user must confirm that their choices are correct before they may enter their payment details. At this stage they may return to a previous step to make corrections, cancel, or abandon the process.</td>
+</tr>
+<tr id="accessible-authentication-minimum" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#accessible-authentication-minimum"><strong>3.3.8 Accessible Authentication (Minimum)</strong></a> (Level AA 2.2 only)
+<br><br><em>EN 301 549 Criteria - Does not apply</em>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td></td>
+<td></td>
 </tr>
 <tr id="status-messages" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#status-messages"><strong>4.1.3 Status Messages</strong></a> (Level AA 2.1 and 2.2)
