@@ -810,7 +810,9 @@ Instructions such as those that explain mandatory fields may be absent or only p
 </tr>
 <tr id="parsing" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#ensure-compat-parses"><strong>4.1.1 Parsing</strong></a> (Level A)
-<br><br>Also applies to:<br><br>
+<br><br>Applies to:<br><br>
+<em>WCAG 2.0 and 2.1 - Supports</em>
+<em>WCAG 2.2 (obsolete and removed) - Does not apply</em><br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.4.1.1 (Web)</li>
