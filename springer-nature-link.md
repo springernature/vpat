@@ -51,7 +51,7 @@ The terms used in the Conformance Level information are defined as follows:
 - **Not Applicable**: The criterion is not relevant to the product.
 - **Not Evaluated**: The product has not been evaluated against the criterion. This can be used only in WCAG Level AAA.
 
-## WCAG 2.1 Report
+## WCAG 2.2 Report
 
 Tables 1 and 2 also document conformance with:
 - EN 301 549:
@@ -63,7 +63,7 @@ Tables 1 and 2 also document conformance with:
   - Chapter 5 – 501.1 Scope, 504.2 Content Creation or Editing
   - Chapter 6 – 602.3 Electronic Support Documentation
 
-**Note**: When reporting on conformance with the WCAG 2.1 Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the [WCAG 2.1 Conformance Requirements](https://www.w3.org/TR/WCAG21/#conformance-reqs).
+**Note**: When reporting on conformance with the WCAG 2.2 Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the [WCAG 2.2 Conformance Requirements](https://www.w3.org/TR/WCAG22/#conformance-reqs).
 
 ### Table 1: Success Criteria, Level A
 
