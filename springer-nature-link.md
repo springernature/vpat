@@ -734,7 +734,7 @@ Pages in this product may contain mixed languages, though the primary language o
 </tr>
 <tr id="consistent-help" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG22/#consistent-help"><strong>3.2.6 Consistent Help</strong></a> (Level A 2.2 only)
-<em>EN 301 549 Criteria - Does not apply</em>
+<br><br><em>EN 301 549 Criteria - Does not apply</em>
 <em>Revised Section 508 - Does not apply</em>
 </td>
 <td></td>
@@ -802,7 +802,7 @@ Instructions such as those that explain mandatory fields may be absent or only p
 </tr>
 <tr id="redundant-entry" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG22/#redundant-entry"><strong>3.3.7 Redundant Entry</strong></a> (Level A 2.2 only)
-<em>EN 301 549 Criteria - Does not apply</em>
+<br><br><em>EN 301 549 Criteria - Does not apply</em>
 <em>Revised Section 508 - Does not apply</em>
 </td>
 <td></td>
