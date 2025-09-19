@@ -732,6 +732,14 @@ Pages in this product may contain mixed languages, though the primary language o
 <td>Supports</td>
 <td>Changing the setting of any user interface component does not automatically cause a change of context on any of the pages of this product.</td>
 </tr>
+<tr id="consistent-help" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#consistent-help"><strong>3.2.6 Consistent Help</strong></a> (Level A 2.2 only)
+<em>EN 301 549 Criteria - Does not apply</em>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td></td>
+<td></td>
+</tr>
 <tr id="error-identification" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-identified"><strong>3.3.1 Error Identification</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
@@ -791,6 +799,14 @@ Pages rendered in the <strong>newer</strong> design (currently articles, chapter
 <br><br>
 Instructions such as those that explain mandatory fields may be absent or only present at the end of forms. (e.g. some payment information pages). Additional instructions for specific input fields may not be adequately associated (e.g. with `aria-describedby`) with the fields they describe. We are actively working to find and repair these problems.
 </td>
+</tr>
+<tr id="redundant-entry" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#redundant-entry"><strong>3.3.7 Redundant Entry</strong></a> (Level A 2.2 only)
+<em>EN 301 549 Criteria - Does not apply</em>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td></td>
+<td></td>
 </tr>
 <tr id="parsing" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#ensure-compat-parses"><strong>4.1.1 Parsing</strong></a> (Level A)
