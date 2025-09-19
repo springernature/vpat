@@ -934,7 +934,7 @@ Other third party scripts, including the Freshdesk customer services widget, may
 </td>
 </tr>
 <tr id="orientation" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#orientation"><strong>1.3.4 Orientation</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#orientation"><strong>1.3.4 Orientation</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -952,7 +952,7 @@ Other third party scripts, including the Freshdesk customer services widget, may
 <td>This product does not contain any content that restricts its view and operation to a single display orientation, such as portrait or landscape.</td>
 </tr>
 <tr id="identify-input-purpose" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#identify-input-purpose"><strong>1.3.5 Identify Input Purpose</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#identify-input-purpose"><strong>1.3.5 Identify Input Purpose</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -1063,7 +1063,7 @@ Third party advertising scripts may inject images containing text.
 </td>
 </tr>
 <tr id="reflow" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#reflow"><strong>1.4.10 Reflow</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#reflow"><strong>1.4.10 Reflow</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -1084,7 +1084,7 @@ Third party advertising scripts may inject non-responsive content that loses or 
 </td>
 </tr>
 <tr id="non-text-contrast" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#non-text-contrast"><strong>1.4.11 Non-text Contrast</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#non-text-contrast"><strong>1.4.11 Non-text Contrast</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -1110,7 +1110,7 @@ Third party content (e.g. advertising, customer services widgets) may inject non
 </td>
 </tr>
 <tr id="text-spacing" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#text-spacing"><strong>1.4.12 Text Spacing</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#text-spacing"><strong>1.4.12 Text Spacing</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -1132,7 +1132,7 @@ The search results page is rendered in an older design - we are in the process o
 </td>
 </tr>
 <tr id="content-on-hover-or-focus" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus"><strong>1.4.13 Content on Hover or Focus</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus"><strong>1.4.13 Content on Hover or Focus</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -1390,7 +1390,7 @@ Checkout process pages rely solely on built-in browser error checking, and do no
 <td>Checkout process pages include a verification step. There, the user must confirm that their choices are correct before they may enter their payment details. At this stage they may return to a previous step to make corrections, cancel, or abandon the process.</td>
 </tr>
 <tr id="status-messages" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#status-messages"><strong>4.1.3 Status Messages</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#status-messages"><strong>4.1.3 Status Messages</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
