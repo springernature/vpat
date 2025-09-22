@@ -731,6 +731,15 @@ All of the pages in this product use the language attribute on the HTML element 
 <td>Changing the setting of any user interface component does not automatically cause a change of context on any of the pages.</td>
 </tr>
 <tr valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#consistent-help"><strong>3.2.6 Consistent Help</strong></a> (Level A 2.2 only)
+<br><br>
+<em>EN 301 549 Criteria - Does not apply</em><br><br>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-identified"><strong>3.3.1 Error Identification</strong></a> (Level A)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -784,6 +793,15 @@ Generally, visible and appropriately associated labels are provided for input fi
 Additional instructions for specific input fields may not be adequately associated (e.g. with WAI-ARIA) with the fields they describe. We are actively working to find and repair these problems.
 <br><br>
 </td>
+</tr>
+<tr valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#redundant-entry"><strong>3.3.7 Redundant Entry</strong></a> (Level A 2.2 only)
+<br><br>
+<em>EN 301 549 Criteria - Does not apply</em><br><br>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td></td>
+<td></td>
 </tr>
 <tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#ensure-compat-parses"><strong>4.1.1 Parsing</strong></a> (Level A)
