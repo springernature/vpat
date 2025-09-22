@@ -1205,6 +1205,33 @@ Third party scripts, including advertising, may inject components that remove fo
 </td>
 </tr>
 <tr valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum"><strong>2.4.11 Focus Not Obscured (Minimum)</strong></a> (Level AA 2.2 only)
+<br><br>
+<em>EN 301 549 Criteria - Does not apply</em><br><br>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#dragging-movements"><strong>2.5.7 Dragging Movements</strong></a> (Level AA 2.2 only)
+<br><br>
+<em>EN 301 549 Criteria - Does not apply</em><br><br>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#target-size-minimum"><strong>2.5.8 Target Size (Minimum)</strong></a> (Level AA 2.2 only)
+<br><br>
+<em>EN 301 549 Criteria - Does not apply</em><br><br>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#meaning-other-lang-id"><strong>3.1.2 Language of Parts</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
@@ -1332,6 +1359,15 @@ Third party scripts including the Disqus commenting widget, or other widgets tha
 </ul></td>
 <td>Supports</td>
 <td>The checkout process includes a pre-payment verification page. The user must confirm that their choices are correct on the verification page before they may enter their payment details. At this stage they may return to a previous step to make corrections, cancel, or abandon the process.</td>
+</tr>
+<tr valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#accessible-authentication-minimum"><strong>3.3.8 Accessible Authentication (Minimum)</strong></a> (Level AA 2.2 only)
+<br><br>
+<em>EN 301 549 Criteria - Does not apply</em><br><br>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td></td>
+<td></td>
 </tr>
 <tr id="status-messages" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#status-messages"><strong>4.1.3 Status Messages</strong></a> (Level AA 2.1 and 2.2)
