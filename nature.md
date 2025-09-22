@@ -389,7 +389,7 @@ Third party content such as survey modal dialogs or the Disqus commenting widget
 </td>
 </tr>
 <tr id="character-key-shortcuts" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#character-key-shortcuts"><strong>2.1.4 Character Key Shortcuts</strong></a> (Level A 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#character-key-shortcuts"><strong>2.1.4 Character Key Shortcuts</strong></a> (Level A 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -585,7 +585,7 @@ Third party scripts including advertising scripts, the Disqus commenting widget,
 </td>
 </tr>
 <tr id="pointer-gestures" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#pointer-gestures"><strong>2.5.1 Pointer Gestures</strong></a> (Level A 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#pointer-gestures"><strong>2.5.1 Pointer Gestures</strong></a> (Level A 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -607,7 +607,7 @@ Special feature content may use multipoint gestures for functionality such as pa
 </td>
 </tr>
 <tr id="pointer-cancellation" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#pointer-cancellation"><strong>2.5.2 Pointer Cancellation</strong></a> (Level A 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#pointer-cancellation"><strong>2.5.2 Pointer Cancellation</strong></a> (Level A 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -625,7 +625,7 @@ Special feature content may use multipoint gestures for functionality such as pa
 <td>All functionality that can be operated using a single pointer can also be cancelled using standard browser and operating system methods.</td>
 </tr>
 <tr id="label-in-name" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#label-in-name"><strong>2.5.3 Label in Name</strong></a> (Level A 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#label-in-name"><strong>2.5.3 Label in Name</strong></a> (Level A 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -645,7 +645,7 @@ In most cases where controls contain visible text, that text is also the label f
 </td>
 </tr>
 <tr id="motion-actuation" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#motion-actuation"><strong>2.5.4 Motion Actuation</strong></a> (Level A 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#motion-actuation"><strong>2.5.4 Motion Actuation</strong></a> (Level A 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
