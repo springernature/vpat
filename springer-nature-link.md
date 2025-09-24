@@ -1866,7 +1866,7 @@ Notes: This product is a web software application and is not subject to the requ
 
 ### Clause [9: Web](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=45)
 
-Notes: Please see [WCAG 2.1 section](#wcag-21-report).
+Notes: Please see [WCAG 2.2 section](#wcag-22-report).
 
 ### Clause [10: Non-Web Documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52)
 
