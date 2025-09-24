@@ -802,7 +802,7 @@ Instructions such as those that explain mandatory fields may be absent or only p
 </tr>
 <tr id="redundant-entry" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG22/#redundant-entry"><strong>3.3.7 Redundant Entry</strong></a> (Level A 2.2 only)
-<br><br><em>EN 301 549 Criteria - Does not apply</em>
+<br><br><em>EN 301 549 Criteria - Does not apply</em><br><br>
 <em>Revised Section 508 - Does not apply</em>
 </td>
 <td></td>
@@ -811,7 +811,7 @@ Instructions such as those that explain mandatory fields may be absent or only p
 <tr id="parsing" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#ensure-compat-parses"><strong>4.1.1 Parsing</strong></a> (Level A)
 <br><br>Applies to:<br><br>
-<em>WCAG 2.0 and 2.1 - Supports</em>
+<em>WCAG 2.0 and 2.1 - Supports</em><br><br>
 <em>WCAG 2.2 (obsolete and removed) - Does not apply</em><br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -1247,7 +1247,7 @@ Third party scripts, including advertising, may inject components that remove fo
 </tr>
 <tr id="focus-not-obscured-minimum" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum"><strong>2.4.11 Focus Not Obscured (Minimum)</strong></a> (Level AA 2.2 only)
-<br><br><em>EN 301 549 Criteria - Does not apply</em>
+<br><br><em>EN 301 549 Criteria - Does not apply</em><br><br>
 <em>Revised Section 508 - Does not apply</em>
 </td>
 <td></td>
@@ -1255,7 +1255,7 @@ Third party scripts, including advertising, may inject components that remove fo
 </tr>
 <tr id="dragging-movements" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG22/#dragging-movements"><strong>2.5.7 Dragging Movements</strong></a> (Level AA 2.2 only)
-<br><br><em>EN 301 549 Criteria - Does not apply</em>
+<br><br><em>EN 301 549 Criteria - Does not apply</em><br><br>
 <em>Revised Section 508 - Does not apply</em>
 </td>
 <td></td>
@@ -1263,7 +1263,7 @@ Third party scripts, including advertising, may inject components that remove fo
 </tr>
 <tr id="target-size-minimum" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG22/#target-size-minimum"><strong>2.5.8 Target Size (Minimum)</strong></a> (Level AA 2.2 only)
-<br><br><em>EN 301 549 Criteria - Does not apply</em>
+<br><br><em>EN 301 549 Criteria - Does not apply</em><br><br>
 <em>Revised Section 508 - Does not apply</em>
 </td>
 <td></td>
@@ -1415,7 +1415,7 @@ Checkout process pages rely solely on built-in browser error checking, and do no
 </tr>
 <tr id="accessible-authentication-minimum" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG22/#accessible-authentication-minimum"><strong>3.3.8 Accessible Authentication (Minimum)</strong></a> (Level AA 2.2 only)
-<br><br><em>EN 301 549 Criteria - Does not apply</em>
+<br><br><em>EN 301 549 Criteria - Does not apply</em><br><br>
 <em>Revised Section 508 - Does not apply</em>
 </td>
 <td></td>
