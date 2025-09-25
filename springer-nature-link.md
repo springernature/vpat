@@ -1124,11 +1124,9 @@ Third party content (e.g. advertising, customer services widgets) may inject non
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
-No loss of content or functionality occurs by setting the text spacing properties specified by this criterion anywhere in this product, except for the search results page and <a href="https://link.springer.com">homepage</a> where a collision may occur between some of the filters.
-<br><br>
-The search results page is rendered in an older design - we are in the process of transferring this content from the older design to the newer design which will pass this criterion.
+No loss of content or functionality occurs by setting the text spacing properties specified by this criterion anywhere in this product.
 </td>
 </tr>
 <tr id="content-on-hover-or-focus" valign="top">
