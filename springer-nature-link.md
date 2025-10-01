@@ -820,21 +820,11 @@ Instructions such as those that explain mandatory fields may be absent or only p
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially Supports</td>
+<td>WCAG 2.0 and 2.1 - Supports
+<br><br>
+WCAG 2.2 (obsolete and removed) - Does not apply
+</td>
 <td>
-Most of the pages of this product generally use semantically-correct markup that meets the HTML5 specification for interface elements.
-<br><br>
-Where errors exist, they are usually minor, such as the presence of invalid `alt` and `src` attributes in SVG image nodes (ignored by user agents). There are some instances of incorrectly-nested elements (e.g. "<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content">flow content</a>" wrapped in "<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Phrasing_content">phrasing content</a>"), also generally ignored by user agents.
-<br><br>
-This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
-<br><br>
-Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) have a slightly higher volume of parsing errors, which include more problematic errors such as `li` elements outside of `ul` elements and duplicate IDs, that may interfere with the ability of Assistive Technology to correctly identify some components.
-<br><br>
-Ancillary static pages (e.g. the pages linked to at the footer of each page, such as Terms and Conditions, Legal Information, and Accessibility, among others) are hand-built in HTML, without the use of a dynamic templating system. Hand-built content may contain unclosed or illegally nested elements. When we become aware of content with these problems, we immediately take steps to repair the HTML.
-<br><br>
-Checkout process pages contain parsing errors that may be problematic for Assistive Technology, including illegally-nested elements (including illegally-nested controls), invalid autocomplete values, and incomplete closing tags.
-<br><br>
-Third party advertising scripts may inject content that omits start and end tags, contains duplicate attributes or illegally nested elements. When we become aware of active advertisements with these problems, we immediately take steps to remove those advertisements from our pages.
 </td>
 </tr>
 <tr id="name-role-value" valign="top">
