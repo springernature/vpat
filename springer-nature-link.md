@@ -213,17 +213,17 @@ We currently have no method of confirming the inclusion of adequate media altern
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the old design to the new design.
 <br><br>
-Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) may use unsemantic markup, including inadequate, misleading, or incorrectly-applied landmarks. Some UI controls (e.g. "next" and "previous" pagination controls on search results pages) lack accessible names. Pages may omit level one headings.
+Pages rendered in the <strong>old</strong> design (currently indexes) may use unsemantic markup, including inadequate, misleading, or incorrectly-applied landmarks. Pages may omit level one headings.
 <br><br>
-On pages rendered in the <strong>newer</strong> design (currently articles, chapters, books, book series, reference works, reference work entries, and collections), we generally use progressive enhancement techniques and semantically-correct markup so that information, structure, and relationships can be understood independently of presentation.
+All pages in this product <strong>except</strong> A-Z index pages are in the new design. We generally use progressive enhancement techniques and semantically-correct markup so that information, structure, and relationships can be understood independently of presentation.
 <br><br>
 We make use of WAI-ARIA roles to support landmarks, and use WAI-ARIA roles and properties when required for more complex functionality such as popup menus and dialogs.
 <br><br>
 Some complex functionality may omit required WAI-ARIA roles, states, or attributes, or misuse WAI-ARIA markup and techniques. We are actively working to find and repair these problems.
 <br><br>
-Checkout process pages use multiple landmarks of the same type without unique labels. The pages use form fields that rely solely on built-in browser error checking, which can lead to error messages being unavailable for users with older browser technology, or Assistive Technology that doesn't support these features.
+Checkout process pages use form fields that rely solely on built-in browser error checking, which can lead to error messages being unavailable for users with older browser technology, or for Assistive Technology that doesn't support these features.
 <br><br>
 Third party scripts may inject content with incorrect or absent information about structure and relationships. These may include content in advertising scripts and the Freshdesk customer services widget, among others.
 </td>
