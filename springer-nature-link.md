@@ -299,11 +299,9 @@ When supplied by authors who publish with us, some complex images may rely on se
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
 Colour alone is generally not used to convey information in the pages of this product.
-<br><br>
-Links and icons may use colour to indicate hover or active states. These are supplemented with visible focus rings and/or background colours and/or text decoration underlines and/or luminosity differences per WAI techniques <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G183">G183</a> and <a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C15">C15</a>.
 <br><br>
 Some complex images in journals, books, series, protocols, reference works and proceedings may rely on colour as the only visual means of understanding information. Examples may include images of charts, graphs, diagrams or maps. Generally, these images are used to supplement text content.
 </td>
