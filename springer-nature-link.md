@@ -1446,7 +1446,7 @@ Notes: This product has not been evaluated for WCAG 2.x Level AAA conformance.
 
 ### Chapter 3: [Functional Performance Criteria](https://www.access-board.gov/ict/#301-general) (FPC)
 
-Notes: See [WCAG section](#wcag-21-report) for full details.
+Notes: See [WCAG section](#wcag-22-report) for full details.
 
 <table>
 <thead>
