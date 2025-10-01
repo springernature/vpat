@@ -629,9 +629,9 @@ Third party scripts including advertising scripts, the Disqus commenting widget,
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
-In most cases where controls contain visible text, that text is also the label for the control. We are continually working to find and repair instances that do not meet this criterion.
+Where controls contain visible text, that text is also the label for the control. When we become aware of deficiencies, we work to repair instances that do not meet this criterion.
 </td>
 </tr>
 <tr id="motion-actuation" valign="top">
