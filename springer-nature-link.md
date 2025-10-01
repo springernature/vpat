@@ -979,7 +979,7 @@ Third party advertising scripts may inject content with insufficient contrast.
 </td>
 </tr>
 <tr id="resize-text" valign="top">
-<td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale"><strong>1.4.4 Resize text</strong></a> (Level AA)
+<td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale"><strong>1.4.4 Resize Text</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -997,9 +997,9 @@ Third party advertising scripts may inject content with insufficient contrast.
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
-The pages of this product can generally be resized without Assistive Technology up to 200 percent without loss of content or functionality.  
+The pages of this product can be resized without Assistive Technology up to 200 percent without loss of content or functionality.  
 </td>
 </tr>
 <tr id="images-of-text" valign="top">
