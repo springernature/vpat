@@ -971,13 +971,9 @@ Other third party scripts, including the Freshdesk customer services widget, may
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
-<br><br>
-Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) use gradient background images that do not meet minimum contrast requirements between the text and one or more of the gradient background colours.
-<br><br>
 Images of product covers (e.g. journals, books displayed on the [homepage](https://link.springer.com)) may contain text that does not meet WCAG AA contrast guidelines. On the homepage, these images are supplemented with visible text labels.
 <br><br>
-Pages rendered in the <strong>newer</strong> design (currently articles, chapters, books, book series, reference works, reference work entries, and collections) meet WCAG AA contrast ratio requirements.
+Checkout process pages have some instances of low text contrast (e.g. where optional fields are indicated in text). We are actively working to repair this problem.
 <br><br>
 Third party advertising scripts may inject content with insufficient contrast.
 </td>
