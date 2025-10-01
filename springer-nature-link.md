@@ -67,7 +67,7 @@ Tables 1 and 2 also document conformance with:
 
 ### Table 1: Success Criteria, Level A
 
-<table id="WCAG">
+<table id="WCAG-A">
 <thead>
 <tr>
 <th><strong>Criteria</strong></th>
@@ -879,7 +879,7 @@ Other third party scripts, including the Freshdesk customer services widget, may
 
 ### Table 2: Success Criteria, Level AA
 
-<table>
+<table id="WCAG-AA">
 <thead>
 <tr>
 <th><strong>Criteria</strong></th>
@@ -1023,8 +1023,6 @@ Third party advertising scripts may inject content with insufficient contrast.
 <td>Partially Supports</td>
 <td>
 The pages of this product can generally be resized without Assistive Technology up to 200 percent without loss of content or functionality.  
-<br><br>
-Third party advertising scripts may inject non-responsive content that loses or obscures information when text is resized or the screen is magnified.
 </td>
 </tr>
 <tr id="images-of-text" valign="top">
