@@ -513,11 +513,9 @@ The pages of this product generally use semantically-correct markup so that Assi
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
 This product's pages mostly have unique page titles that describe the purpose of the page.
-<br><br>
-Where multiple versions of the same content exist (e.g. in original research that has been updated), the page titles do not differentiate between versions.
 </td>
 </tr>
 <tr id="focus-order" valign="top">
