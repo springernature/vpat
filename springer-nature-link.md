@@ -756,7 +756,7 @@ Where user input errors are automatically detected by our own software, those er
 <br><br>
 In some parts of the site, we additionally use an `aria-describedby` property to associate error messages with invalid fields.
 <br><br>
-User account pages located at link.springer.com/account use unsemantic, unassociated, `label` elements to mark up errors.
+User account pages located at my-profile.springernature.com may not consistently identify errors to users due to incorrect ARIA markup.
 <br><br>
 Checkout process pages rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states.
 </td>
