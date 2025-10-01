@@ -1023,8 +1023,8 @@ The pages of this product can be resized without Assistive Technology up to 200 
 </ul></td>
 <td>Partially Supports</td>
 <td>
-With some exceptions, the pages of this product generally do not use images of text to convey information except in the case of <a href="https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">logotypes</a> (considered essential per WCAG 2.1) or when the image is <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration">pure decoration</a>.  
-
+With some exceptions, the pages of this product generally do not use images of text to convey information except in the case of <a href="https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">logotypes</a> (considered essential per WCAG 2.1), or when the image is <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration">pure decoration</a>.  
+<br><br>
 Exceptions where this criterion is not met may include:  
 <ul>
   <li>editorial content managed by a content management system (CMS)</li>
@@ -1032,7 +1032,7 @@ Exceptions where this criterion is not met may include:
   <li>third party scripts</li>
 </ul>
 <br><br>
-CMS content and published books and papers may include complex images that contain images of text. In most cases these images are used to supplement the text content they appear alongside. In some cases (e.g. charts, graphs, or maps, among others), the text content presented alongside may be insufficient to explain the contents of the image. A large-scale and currently-active programme of work to improve alternative text content submitted by our authors is under way to address this.
+CMS content and published books and papers may include complex images that contain images of text. In most cases, these images are used to supplement the text content they appear alongside. In some cases (e.g. charts, graphs, or maps, among others), the text content presented alongside may be insufficient to explain the contents of the image. A large-scale and currently-active programme of work to improve alternative text content submitted by our authors is under way to address this.
 <br><br>
 Third party advertising scripts may inject images containing text.
 </td>
