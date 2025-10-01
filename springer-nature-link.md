@@ -353,11 +353,9 @@ We play audio-only files directly on our pages. Audio files hosted by us are sup
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
 The majority of components in this product can be navigated by keyboard alone. We also provide skip links for bypassing repetitive navigation elements.
-<br><br>
-Third party advertising scripts may inject content that cannot be interacted with easily or at all by keyboard. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr id="no-keyboard-trap" valign="top">
