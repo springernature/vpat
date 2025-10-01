@@ -717,8 +717,11 @@ Pages in this product may contain mixed languages, though the primary language o
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Supports</td>
-<td>Changing the setting of any user interface component does not automatically cause a change of context on any of the pages of this product.</td>
+<td>Partially Supports</td>
+<td>Generally, changing the setting of any user interface component does not automatically cause a change of context on any of the pages of this product.
+<br><br>
+Some user interface components (e.g. quantity box on checkout process pages, filter radio buttons on collections pages) cause the page to reload based on changing their setting.
+</td>
 </tr>
 <tr id="consistent-help" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG22/#consistent-help"><strong>3.2.6 Consistent Help</strong></a> (Level A 2.2 only)
