@@ -782,11 +782,11 @@ Checkout process pages rely solely on built-in browser error checking, and do no
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the old design to the new design.
 <br><br>
-Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) generally display visible and appropriately associated labels for input fields. Exceptions include the pagination number field on advanced search results pages and in the main search component in the page banner, both of which omit any label or WAI-ARIA description, and use only placeholder text as instruction. We are actively working to find and repair these problems.  
+Pages rendered in the <strong>old</strong> design generally display visible and appropriately associated labels for input fields with rare exceptions.
 <br><br>
-Pages rendered in the <strong>newer</strong> design (currently articles, chapters, books, book series, reference works, reference work entries, and collections) generally display visible and appropriately associated labels for input fields.
+All pages in this product <strong>except</strong> A-Z index pages are in the new design and have visible, appropriately associated labels for input fields.
 <br><br>
 Instructions such as those that explain mandatory fields may be absent or only present at the end of forms. (e.g. some payment information pages). Additional instructions for specific input fields may not be adequately associated (e.g. with `aria-describedby`) with the fields they describe. We are actively working to find and repair these problems.
 </td>
