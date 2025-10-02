@@ -1230,8 +1230,12 @@ Third party scripts, including advertising, may inject components that remove fo
 <br><br><em>EN 301 549 Criteria - Does not apply</em><br><br>
 <em>Revised Section 508 - Does not apply</em>
 </td>
-<td></td>
-<td></td>
+<td>Partially Supports</td>
+<td>With rare exceptions, this product has targets that either meet the minimum size or have sufficient spacing around them, as specified by this criterion. 
+<br><br>
+Superscript link targets that are undersized, or have insufficient spacing around them, are considered inline elements and are excempt from this criterion.
+<br><br>
+The footer on Springer Nature Video pages includes undersized targets that do not have sufficient spacing around them. We are actively working to repair this issue.</td>
 </tr>
 <tr id="language-of-parts" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#meaning-other-lang-id"><strong>3.1.2 Language of Parts</strong></a> (Level AA)
