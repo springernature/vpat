@@ -1199,13 +1199,11 @@ We are actively working to find and repair these problems.
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the old design to the new design.
 <br><br>
-Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) use default browser focus rings only for interactive components.
+All pages in this product <strong>except</strong> A-Z index pages are in the new design and use highly-visible focus styles, such as blue focus rings.
 <br><br>
-Pages rendered in the <strong>newer</strong> design (currently articles, chapters, books, book series, reference works, reference work entries, and collections) use highly-visible focus styles, including yellow focus rings or yellow backgrounds.
-<br><br>
-Checkout process pages use default browser focus rings only for interactive components.
+Checkout process pages omit a visible focus style on product image links.
 <br><br>
 Third party scripts, including advertising, may inject components that remove focus styles.
 </td>
