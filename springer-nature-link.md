@@ -1314,13 +1314,9 @@ Pages that deal with sensitive information (e.g. payment pages) have intentional
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product contains content that is rendered in two separate, inconsistent designs. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate, inconsistent designs. We are in the process of transferring all content from the old design to the new design.
 <br><br>
-Pages rendered in the <strong>older</strong> design are currently journals, and ancillary pages such as search, indexes, and account management.
-<br><br>
-Pages rendered in the <strong>newer</strong> design are currently articles, chapters, books, book series, reference works, reference work entries, and collections.
-<br><br>
-When the transfer process is complete, content will use a unified design style with consistent presentation and functionality.
+All pages in this product <strong>except</strong> A-Z index pages are in the new design. When the transfer process is complete, content will use a unified design style with consistent presentation and functionality.
 <br><br>
 Pages that deal with sensitive information (for example payment pages) have intentionally simpler designs. The presentation of each of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site.
 </td>
