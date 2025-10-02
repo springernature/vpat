@@ -1171,13 +1171,11 @@ All pages in this product <strong>except</strong> A-Z index pages are in the new
 <td>
 This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
 <br><br>
-Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) may incorrectly use `label` elements for other purposes (e.g. for error messages on account management pages), omit labels for some functionality (e.g. the pagination number field on advanced search results pages and the text input for the main search component in the page banner).
+All pages in this product <strong>except</strong> A-Z index pages are in the new design. They use correctly-structured headings and generally display visible and appropriately associated labels for input fields.
 <br><br>
-Level one headings are omitted on some pages (e.g. search results pages). Other pages have multiple level one headings (e.g. static ancillary pages such as link.springer.com/termsandconditions). Some informational pages (e.g. Journal updates) do not use correctly-structured heading levels.
+Multiple level one headings are used on some pages (e.g. static ancillary pages such as link.springer.com/termsandconditions). Some informational pages (e.g. Journal updates) do not use correctly-structured heading levels.
 <br><br>
 We are actively working to find and repair these problems.  
-<br><br>
-Pages rendered in the <strong>newer</strong> design (currently articles, Chapters, books, book series, reference works, reference work entries, and collections) use correctly-structured headings and generally display visible and appropriately associated labels for input fields.  
 </td>
 </tr>
 <tr id="focus-visible" valign="top">
