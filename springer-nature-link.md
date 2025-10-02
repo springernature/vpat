@@ -1143,9 +1143,9 @@ Third party content (e.g. advertising, customer services widgets) may inject ele
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Users may use the search function or the provided category browsing links to access any part of this product. The main navigation component can also be used to access the main content index pages.
+This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the old design to the new design.
 <br><br>
-This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+All pages in this product <strong>except</strong> A-Z index pages are in the new design. Users may use the search function or the provided category browsing links to access any part of this product. The main navigation component can also be used to access the main content index pages.
 </td>
 </tr>
 <tr id="headings-and-labels" valign="top">
