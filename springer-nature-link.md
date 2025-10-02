@@ -1529,7 +1529,7 @@ See WCAG sections <a href="#non-text-content">1.1.1 Non-text Content</a>, <a hre
 <td headers="502-services chap-5-criteria">502.3.3 Row, Column, and Headers</td>
 <td headers="502-services chap-5-conformance">Partially Supports</td>
 <td headers="502-services chap-5-remarks">
-Data tables in journals, books, series, protocols, reference works or proceedings may not be marked up with adequate table header information.
+Data tables in journals, books, series, protocols, reference works or proceedings are marked up with marked up with standard HTML `table` elements, with rare exceptions.
 <br><br>
 Data tables in dynamic templates are rare, but where they do appear, they are marked up with standard HTML `table` elements. Row headers are present and associated with rows and columns as necessary.
 </td>
