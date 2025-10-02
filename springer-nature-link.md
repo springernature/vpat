@@ -1113,10 +1113,10 @@ No loss of content or functionality occurs by setting the text spacing propertie
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td>Does Not Support</td>
+<td>Partially Supports</td>
 <td>
 Additional content that becomes visible on hover or focus (for example tooltips) is rare in this product. In cases where content is initially hidden and displayed on interaction, we also trigger that display with the tab key.  
-
+<br><br>
 Content triggered in this way does not meet this criterion's requirements for Dismissable (the content cannot be dismissed without changing focus) or Hoverable (the pointer cannot be moved over the additional content without it disappearing).  
 <br><br>
 Third party content (e.g. advertising, customer services widgets) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
