@@ -1374,8 +1374,8 @@ Checkout process pages rely solely on built-in browser error checking, and do no
 <br><br><em>EN 301 549 Criteria - Does not apply</em><br><br>
 <em>Revised Section 508 - Does not apply</em>
 </td>
-<td></td>
-<td></td>
+<td>Supports</td>
+<td>Account management pages in this product do not rely on memory or transcription alone for authentiction. Alternative login methods such as copy-paste, password managers, and browser autofill are supported in this product.</td>
 </tr>
 <tr id="status-messages" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#status-messages"><strong>4.1.3 Status Messages</strong></a> (Level AA 2.1 and 2.2)
@@ -1393,7 +1393,7 @@ Checkout process pages rely solely on built-in browser error checking, and do no
 <em>Revised Section 508 - does not apply</em>
 </td>
 <td>Partially Supports</td>
-<td>Status messages that do not receive focus are presented in text. Some are marked up with programmatic roles (e.g. `role="alert"` on some error messages), but there is no consistent, single approach to status messages across the multiple designs. ARIA Live Regions are not generally used.</td>
+<td>Status messages that do not receive focus are presented in text. Some are marked up with programmatic roles (e.g. `role="alert"` on some error messages), but there is no consistent, single approach to status messages across the multiple designs. There are instances of ARIA Live Regions on account management pages, but they are not generally used elsewhere.</td>
 </tr>
 </tbody>
 </table>
