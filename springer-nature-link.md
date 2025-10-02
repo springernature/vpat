@@ -1344,10 +1344,6 @@ Pages that deal with sensitive information (for example payment pages) have inte
 <td>
 Where user input errors are automatically detected by our own software, those errors are identified to the user with warning text adjacent to the input field. Unless it would present a risk to security, the warning text describes the error and what the user should do to correct it.
 <br><br>
-This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
-<br><br>
-Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) use unsemantic, unassociated `label` elements to mark up errors.
-<br><br>
 Checkout process pages rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states.
 </td>
 </tr>
