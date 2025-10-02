@@ -1484,7 +1484,7 @@ Notes: See [WCAG section](#wcag-21-report) for full details.
 <tbody>
 <tr>
 <td>501.1 Scope – Incorporation of WCAG 2.1 AA</td>
-<td>See <a href="#WCAG">WCAG 2.1</a> section</td>
+<td>See <a href="#wcag-22-report">WCAG 2.2</a> section</td>
 <td>See information in WCAG section</td>
 </tr>
 <tr>
@@ -1764,7 +1764,7 @@ Notes: This product does not offer two-way voice communication and is therefore 
 
 ### Clause [7: ICT with Video Capabilities](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=35)
 
-Notes: See [WCAG section](#wcag-21-report) for full details.
+Notes: See [WCAG section](#wcag-22-report) for full details.
 
 <table>
 <thead>
@@ -1846,7 +1846,7 @@ Notes: This product does not include non-web documents and is therefore not subj
 <tr>
 <td headers="11-gen chap-11-criteria">11.1.1 through 11.4.1.3</td>
 <td headers="11-gen chap-11-conformance">See <a ref="#WCAG">WCAG 2.x</a> Section</td>
-<td headers="11-gen chap-11-remarks">See information in WCAG section</td>
+<td headers="11-gen chap-11-remarks">See information in [WCAG section](#wcag-22-report).</td>
 </tr>
 <tr>
 <th scope="column" colspan="3" id="11-interop">11.5 Interoperability with assistive technology</th>
