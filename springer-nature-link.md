@@ -1286,15 +1286,11 @@ Third party scripts may inject components that use a different language to the p
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product contains content that is rendered in two separate, inconsistent designs. The designs have different navigation methods, within the same collections of pages. We are in the process of transferring all content from the older design to the newer design.
+This product contains content that is rendered in two separate, inconsistent designs. The designs have different navigation methods, within the same collections of pages. 
 <br><br>
-Pages rendered in the <strong>older</strong> design are currently journals, and ancillary pages such as search, indexes, and account management.
+All pages in this product <strong>except</strong> A-Z index pages are in the new design. We are in the process of transferring all content from the old design to the new design. When the transfer process is complete, the navigation methods across this product will be broadly consistent.
 <br><br>
-Pages rendered in the <strong>newer</strong> design are currently articles, chapters, books, book series, reference works, reference work entries, and collections.
-<br><br>
-When the transfer process is complete, the navigation methods between designs will be broadly consistent.
-<br><br>
-Pages that deal with sensitive information (for example payment pages) have intentionally simpler designs, and do not share the same navigation system as the main site. The navigation of each of these sets of pages is internally consistent.
+Pages that deal with sensitive information (e.g. payment pages) have intentionally simpler designs, and do not share the same navigation system as the main site. The navigation of each of these sets of pages is internally consistent.
 </td>
 </tr>
 <tr id="consistent-identification" valign="top">
