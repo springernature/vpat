@@ -271,7 +271,7 @@ The meaning of the content on the product's pages does not depend on the order o
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
 The pages of this product do not depend solely on sensory characteristics such as shape, size, visual location, orientation, or sound to understand content.
 <br><br>
