@@ -967,7 +967,7 @@ Other third party scripts, including the Freshdesk customer services widget, may
 <td>
 Images of product covers (e.g. journals, books displayed on the [homepage](https://link.springer.com)) may contain text that does not meet WCAG AA contrast guidelines. On the homepage, these images are supplemented with visible text labels.
 <br><br>
-Checkout process pages have some instances of low text contrast (e.g. where optional fields are indicated in text). We are actively working to repair this problem.
+Checkout process pages have some instances of low text contrast (e.g. where optional fields are indicated in text).
 <br><br>
 Third party advertising scripts may inject content with insufficient contrast.
 </td>
