@@ -545,11 +545,7 @@ Where multiple versions of the same content exist (e.g. in original research tha
 <td>
 The meaning and/or operation of content on this product is generally unaffected by focus order.
 <br><br>
-This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the old design to the new design.
-<br><br>
-Some pages rendered in the <strong>old</strong> design may contain components where some items in the focus order do not match the visual order.
-<br><br>
-All pages in this product <strong>except</strong> A-Z index pages are in the new design, and the focus order of page content matches the visual order.
+A-Z index pages for journals and books may contain components where some items in the focus order do not match the visual order.
 <br><br>
 Third party scripts including advertising scripts or customer services widgets (among others), may inject content where the focus order does not match the visual order. The operation and meaning of these components should be unaffected by the focus order.
 </td>
