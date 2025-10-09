@@ -782,12 +782,6 @@ Checkout process pages rely solely on built-in browser error checking, and do no
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the old design to the new design.
-<br><br>
-Pages rendered in the <strong>old</strong> design generally display visible and appropriately associated labels for input fields with rare exceptions.
-<br><br>
-All pages in this product <strong>except</strong> A-Z index pages are in the new design and have visible, appropriately associated labels for input fields.
-<br><br>
 Instructions such as those that explain mandatory fields may be absent or only present at the end of forms. (e.g. some payment information pages). Additional instructions for specific input fields may not be adequately associated (e.g. with `aria-describedby`) with the fields they describe. We are actively working to find and repair these problems.
 </td>
 </tr>
