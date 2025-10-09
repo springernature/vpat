@@ -351,9 +351,11 @@ We play audio-only files directly on our pages. Audio files hosted by us are sup
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Supports</td>
+<td>Partially Supports</td>
 <td>
 The majority of components in this product can be navigated by keyboard alone. We also provide skip links for bypassing repetitive navigation elements.
+<br><br>
+On Springer Nature Video pages, the autoplay button is not accessible by keyboard only. We are working on fixing this issue. We are working on repairing this issue.
 </td>
 </tr>
 <tr id="no-keyboard-trap" valign="top">
