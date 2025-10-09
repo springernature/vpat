@@ -492,6 +492,8 @@ Moving, blinking or scrolling content on this product's pages generally does not
 <td>Partially Supports</td>
 <td>
 The pages of this product generally use semantically-correct markup so that Assistive Technology users can recognise elements and move around them accordingly. We make use of WAI-ARIA roles to support landmarks. We also provide skip links for bypassing repetitive navigation elements.
+<br><br>
+Pages on Springer Nature Video do not include a skip link to bypass repetitive navigation elements. We are actively working to repair this problem.
 </td>
 </tr>
 <tr id="page-titled" valign="top">
