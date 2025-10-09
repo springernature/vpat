@@ -297,7 +297,7 @@ When supplied by authors who publish with us, some complex images may rely on se
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Supports</td>
+<td>Partially Supports</td>
 <td>
 Colour alone is generally not used to convey information in the pages of this product.
 <br><br>
