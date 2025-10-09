@@ -1304,11 +1304,11 @@ Pages that deal with sensitive information (e.g. payment pages) have intentional
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product contains content that is rendered in two separate, inconsistent designs. We are in the process of transferring all content from the old design to the new design.
+Most pages in this product have consistent presentation and functionality.
 <br><br>
-All pages in this product <strong>except</strong> A-Z index pages are in the new design. When the transfer process is complete, content will use a unified design style with consistent presentation and functionality.
+A-Z index pages for journals and books have a different presentation and functionality than most of the site, and do not meet this criterion.
 <br><br>
-Pages that deal with sensitive information (for example payment pages) have intentionally simpler designs. The presentation of each of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site.
+Pages that deal with sensitive information (e.g. payment pages) have intentionally simpler designs. The presentation of each of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site.
 </td>
 </tr>
 <tr id="error-suggestion" valign="top">
