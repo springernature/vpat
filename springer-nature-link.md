@@ -1069,6 +1069,8 @@ Third party advertising scripts may inject images containing text.
 <td>
 When supplied by authors who publish with us, Graphical Objects (e.g. charts, graphs, or maps, among others) may have inadequate contrast.
 <br><br>
+On this product's homepage, the focus ring in the "About Springer Nature Link" section has inadequate contrast against the blue background.
+<br><br>
 Third party content (e.g. advertising, customer services widgets) may inject non-text elements with inadequate contrast. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
 </td>
 </tr>
