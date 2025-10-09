@@ -1165,13 +1165,9 @@ A-Z index pages for journals and books have a search function to access any part
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+Most pages in this product use correctly-structured headings and generally display visible and appropriately associated labels for input fields.
 <br><br>
-All pages in this product <strong>except</strong> A-Z index pages are in the new design. They use correctly-structured headings and generally display visible and appropriately associated labels for input fields.
-<br><br>
-Multiple level one headings are used on some pages (e.g. static ancillary pages such as link.springer.com/termsandconditions). Some informational pages (e.g. Journal updates) do not use correctly-structured heading levels.
-<br><br>
-We are actively working to find and repair these problems.  
+Multiple level one headings are used on some pages (e.g. static ancillary pages such as link.springer.com/termsandconditions). Some informational pages (e.g. Journal updates) do not use correctly-structured heading levels. We are actively working to find and repair these problems.  
 </td>
 </tr>
 <tr id="focus-visible" valign="top">
