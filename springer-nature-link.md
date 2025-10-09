@@ -1191,9 +1191,7 @@ Multiple level one headings are used on some pages (e.g. static ancillary pages 
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the old design to the new design.
-<br><br>
-All pages in this product <strong>except</strong> A-Z index pages are in the new design and use highly-visible focus styles, such as blue focus rings.
+Most pages in this product highly-visible focus styles, such as blue focus rings.
 <br><br>
 Checkout process pages omit a visible focus style on product image links.
 <br><br>
