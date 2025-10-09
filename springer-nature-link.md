@@ -213,11 +213,9 @@ We currently have no method of confirming the inclusion of adequate media altern
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the old design to the new design.
+This product's pages generally use progressive enhancement techniques and semantically-correct markup so that information, structure, and relationships can be understood independently of presentation.
 <br><br>
-Pages rendered in the <strong>old</strong> design (currently indexes) may use unsemantic markup, including inadequate, misleading, or incorrectly-applied landmarks. Pages may omit level one headings.
-<br><br>
-All pages in this product <strong>except</strong> A-Z index pages are in the new design. We generally use progressive enhancement techniques and semantically-correct markup so that information, structure, and relationships can be understood independently of presentation.
+A-Z index pages for journals and books may use unsemantic markup, including inadequate, misleading, or incorrectly-applied landmarks, and may omit level one headings.
 <br><br>
 We make use of WAI-ARIA roles to support landmarks, and use WAI-ARIA roles and properties when required for more complex functionality such as popup menus and dialogs.
 <br><br>
