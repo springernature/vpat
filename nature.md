@@ -69,7 +69,7 @@ Tables 1 and 2 also document conformance with:
 
 ### Table 1: Success Criteria, Level A
 
-<table>
+<table id="WCAG-A">
 <thead>
 <tr>
 <th><strong>Criteria</strong></th>
@@ -864,7 +864,7 @@ Other third party scripts, including the Disqus commenting widget, may present i
 
 ### Table 2: Success Criteria, Level AA
 
-<table>
+<table id="WCAG-AA">
 <thead>
 <tr>
 <th><strong>Criteria</strong></th>
