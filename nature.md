@@ -353,9 +353,9 @@ Partially Supports
 <td>
 All first-party components in this product can be navigated by keyboard alone. Complex elements like flyout menus can be exited with the <kbd>esc</kbd> key. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
-Third party advertising scripts may inject content that cannot be interacted with easily or at all by keyboard.
+Third-party advertising scripts may inject content that cannot be interacted with easily or at all by keyboard.
 <br><br>
-Other types of third party content such as JavaScript-based file viewers (e.g. Figshare), commenting systems (e.g. Disqus), or customer services widgets may be difficult to use with keyboard alone. When we become aware of deficiencies, we contact third party suppliers to request repairs. Additionally, where possible, we aim to provide equivalent alternatives to problematic content.
+Other types of third-party content such as customer services widgets may be difficult to use with keyboard alone. When we become aware of deficiencies, we contact third-party suppliers to request repairs. Additionally, where possible, we aim to provide equivalent alternatives to problematic content.
 </td>
 </tr>
 <tr valign="top">
