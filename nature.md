@@ -1197,11 +1197,11 @@ Other third-party scripts, including survey or customer services widgets, may in
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Generally, we provide high-visibility yellow focus rings on all focusable elements. Some items (such as links) may use changes in text-decoration to indicate focus in addition to the focus ring.
+Generally, we provide high-visibility blue focus rings on all focusable elements. Some items (such as links) may use changes in text-decoration to indicate focus in addition to the focus ring.
 <br><br>
-Some pages (e.g. some checkout process pages) use default focus rings only. On some of these pages, the default focus ring has been removed from input elements and replaced with a different focus style that provides inadequate visibility. Some components on checkout process pages remove focus styles. We are actively working to repair these problems; the high-visibility focus ring across the majority of this product is intended to be the default.
+Some pages (e.g. some checkout process pages) use default focus rings only. On some of these pages, the default focus ring has been removed from input elements and replaced with a different focus style that provides inadequate visibility. Some components on checkout process pages remove focus styles. We are actively working to repair these problems; the high-visibility blue focus ring across the majority of this product is intended to be the default.
 <br><br>
-Third party scripts, including advertising, may inject components that remove focus styles.
+Third-party scripts, including advertising, may inject components that remove focus styles.
 </td>
 </tr>
 <tr valign="top">
