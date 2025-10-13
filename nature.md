@@ -381,7 +381,7 @@ Other types of third-party content such as customer services widgets may be diff
 <td>
 Keyboard trapping inside components on the pages of this product is rare, and in most cases is managed appropriately, allowing focus to be moved away from any component using standard keystrokes (<kbd>tab</kbd>, <kbd>shift</kbd>, <kbd>esc</kbd>).
 <br><br>
-Third party content such as survey modal dialogs or the Disqus commenting widget may trap focus and provide inadequate methods of escaping. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+Third-party content such as survey modal dialogs may trap focus and provide inadequate methods of escaping. When we become aware of deficiencies, we contact third-party suppliers to request repairs.
 </td>
 </tr>
 <tr id="character-key-shortcuts" valign="top">
