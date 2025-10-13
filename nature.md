@@ -796,8 +796,8 @@ Visible and appropriately associated labels are provided for input fields. In li
 <em>EN 301 549 Criteria - Does not apply</em><br><br>
 <em>Revised Section 508 - Does not apply</em>
 </td>
-<td></td>
-<td></td>
+<td>Supports</td>
+<td>This product does not require users to enter information more than once in the process without the information being available for the user to select. Checkout pages include a checkbox to populate inputs with the same values as previously entered (e.g. where the billing address and shipping address is the same).</td>
 </tr>
 <tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#ensure-compat-parses"><strong>4.1.1 Parsing</strong></a> (Level A)
