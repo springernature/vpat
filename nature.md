@@ -1075,11 +1075,13 @@ Third-party scripts (e.g. advertising, customer services widgets) may inject con
 </td>
 <td>Partially Supports</td>
 <td>
-The visual presentation of User Interface Components in this product have a contrast ratio of at least 3:1 against adjacent colours.
+The visual presentation of most User Interface Components in this product have a contrast ratio of at least 3:1 against adjacent colours.
+<br><br>
+The blue focus ring on the Nature Subscription page has inadequate contrast on some elements with a red background colour. We are actively working to repair this problem.
 <br><br>
 When supplied by authors who publish with us, Graphical Objects (e.g. charts, graphs, or maps, among others) may have inadequate contrast.
 <br><br>
-Third party content (e.g. advertising, customer services widgets) may inject non-text elements with inadequate contrast. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
+Third-party content (e.g. advertising, customer services widgets) may inject non-text elements with inadequate contrast. When we become aware of deficiencies, we immediately take steps to request repairs from third-party vendors.
 </td>
 </tr>
 <tr id="text-spacing" valign="top">
