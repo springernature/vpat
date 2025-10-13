@@ -1366,8 +1366,8 @@ Third-party scripts that accept user input may automatically detect errors but f
 <em>EN 301 549 Criteria - Does not apply</em><br><br>
 <em>Revised Section 508 - Does not apply</em>
 </td>
-<td></td>
-<td></td>
+<td>Supports</td>
+<td>Account management pages in this product do not rely on memory or transcription alone for authentication. Alternative login methods such as copy-paste, password managers, and browser autofill are supported in this product.</td>
 </tr>
 <tr id="status-messages" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#status-messages"><strong>4.1.3 Status Messages</strong></a> (Level AA 2.1 and 2.2)
