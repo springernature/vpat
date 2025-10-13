@@ -1048,12 +1048,14 @@ Third-party advertising scripts may inject images containing images of text.
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td>Supports</td>
-<td>All parts of this product are responsive. Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions, except where necessary.
-
+<td>Partially Supports</td>
+<td>Most parts of this product are responsive. Most content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions, except where necessary.
+<br><br>
 Examples of necessary exclusions that are permitted under the guidelines include the display of large tables or figures - in these cases we provide an additional "full screen" view so that more data can be visible at once.
 <br><br>
-Third party scripts (e.g. advertising, customer services widgets) may inject content that fails to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
+The "View all journals" link in this product's header is not available when content has reflowed. We are actively working to repair this problem.
+<br><br>
+Third-party scripts (e.g. advertising, customer services widgets) may inject content that fails to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third-party vendors.
 </td>
 </tr>
 <tr id="non-text-contrast" valign="top">
