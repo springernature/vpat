@@ -133,7 +133,7 @@ When supplied by authors who publish with us, some complex images may lack adequ
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product has a diverse mix of multimedia content, both self-hosted and hosted on third party sites. Video-only content is generally used to support text-based content.
+This product has a diverse mix of multimedia content, both self-hosted and hosted on third-party sites. Video-only content is generally used to support text-based content.
 <br><br>
 Audio-only content may be used to support text-based content. Audio-only content may also be used in Podcasts across various journals. Some but not all podcasts provide transcripts.
 <br><br>
