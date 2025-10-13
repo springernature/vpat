@@ -517,11 +517,9 @@ Some third-party content, for example embedded widgets that provide alternative 
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
-Most of the pages on this product have unique page titles that describe the purpose of the page.
-<br><br>
-Some pages (e.g in checkout flows) do not have unique page titles at every stage in a process. We are actively working to find and repair these problems.
+The pages on this product have unique page titles that describe the purpose of the page.
 </td>
 </tr>
 <tr valign="top">
