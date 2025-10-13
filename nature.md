@@ -721,8 +721,8 @@ All of the pages in this product use the language attribute on the HTML element 
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Supports</td>
-<td>Changing the setting of any user interface component does not automatically cause a change of context on any of the pages.</td>
+<td>Partially Supports</td>
+<td>On search results pages, the sorting radio buttons initiate a change of context when they are selected and without warning. Users with cognitive disabilities or users who rely on Assistive Technology may find the change of context confusing and difficult to process.</td>
 </tr>
 <tr valign="top">
 <td><a href="https://www.w3.org/TR/WCAG22/#consistent-help"><strong>3.2.6 Consistent Help</strong></a> (Level A 2.2 only)
