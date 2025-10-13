@@ -1410,12 +1410,12 @@ Notes: This product has not been evaluated for WCAG 2.x Level AAA conformance.
 <tr>
 <td>302.1 Without Vision</td>
 <td>Partially Supports</td>
-<td>The majority of content is marked up for Assistive Technology. Third party scripts may inject content with inadequate accessible alternatives.</td>
+<td>The majority of content is marked up for Assistive Technology. third-party scripts may inject content with inadequate accessible alternatives.</td>
 </tr>
 <tr>
 <td>302.2 With Limited Vision</td>
 <td>Partially Supports</td>
-<td>Markup is written with support for assistive technology. Text is resizable by the user. Fonts are set as rems and use pixels as a fallback if not supported. The product does not impede the user from zooming into the page. Third party scripts may inject content with inadequate accessibility support.</td>
+<td>Markup is written with support for assistive technology. Text is resizable by the user. Fonts are set as rems and use pixels as a fallback if not supported. The product does not impede the user from zooming into the page. Third-party scripts may inject content with inadequate accessibility support.</td>
 </tr>
 <tr>
 <td>302.3 Without Perception of Color</td>
@@ -1440,17 +1440,17 @@ Notes: This product has not been evaluated for WCAG 2.x Level AAA conformance.
 <tr>
 <td>302.7 With Limited Manipulation</td>
 <td>Partially Supports</td>
-<td>This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Fine motor control and simultaneous actions are not required to operate this product. Third party scripts may inject content that is difficult to use without a pointing device.</td>
+<td>This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Fine motor control and simultaneous actions are not required to operate this product. Third-party scripts may inject content that is difficult to use without a pointing device.</td>
 </tr>
 <tr>
 <td>302.8 With Limited Reach and Strength</td>
 <td>Partially Supports</td>
-<td>This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Third party scripts may inject content that is difficult to use without a pointing device.</td>
+<td>This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Third-party scripts may inject content that is difficult to use without a pointing device.</td>
 </tr>
 <tr>
 <td>302.9 With Limited Language, Cognitive, and Learning Abilities</td>
 <td>Partially Supports</td>
-<td>The pages of this product generally have a consistent presentation with clear labels, titles, and accessible names for controls. Third party scripts may inject content with inconsistent or absent labelling of interface components.</td>
+<td>The pages of this product generally have a consistent presentation with clear labels, titles, and accessible names for controls. Third-party scripts may inject content with inconsistent or absent labelling of interface components.</td>
 </tr>
 </tbody>
 </table>
