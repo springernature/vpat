@@ -635,7 +635,7 @@ Special feature content may use multipoint gestures for functionality such as pa
 </td>
 <td>Partially Supports</td>
 <td>
-In most cases where controls contain visible text, that text is also the label for the control. Some third party scripts may inject content that does not meet this criterion. Supplementary pages (such as special features or marketing pages) may fail to meet this criterion.
+In most cases where controls contain visible text, that text is also the label for the control. Some third-party scripts may inject content that does not meet this criterion. Supplementary pages (such as special features or marketing pages) may fail to meet this criterion.
 </td>
 </tr>
 <tr id="motion-actuation" valign="top">
