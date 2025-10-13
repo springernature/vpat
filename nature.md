@@ -699,8 +699,8 @@ All of the pages in this product use the language attribute on the HTML element 
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Supports</td>
-<td>Components in the interface of the pages that receive focus do not initiate a change of context.</td>
+<td>Partially Supports</td>
+<td>On search results pages, the sorting radio buttons initiate a change of context when they receive focus. This can prevent users who rely on Assistive Technology from moving past the elements without triggering a change of context.</td>
 </tr>
 <tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-unpredictable-change"><strong>3.2.2 On Input</strong></a> (Level A)
