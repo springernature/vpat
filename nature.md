@@ -1493,7 +1493,7 @@ Third-party scripts may inject content that disrupts standard operating system a
 </td>
 </tr>
 <tr>
-<th scope="column" colspan="3" id="502-services">502.3 Accessibility Services</th>
+<th scope="column" colspan="3" id="502-services"><a href="https://www.access-board.gov/ict/#502.3">502.3 Accessibility Services</a></th>
 </tr>
 <tr>
 <td headers="502-services chap-5-criteria">502.3.1 Object Information</td>
@@ -1626,7 +1626,7 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 <td headers="503-apps chap-5-remarks">We do not provide any alternative user interface for this product that functions as assistive technology.</td>
 </tr>
 <tr>
-<th scope="column" colspan="3" id="503-usercon">503.4 User Controls for Captions and Audio Description</th>
+<th scope="column" colspan="3" id="503-usercon"><a href="https://www.access-board.gov/ict/#503.4">503.4 User Controls for Captions and Audio Description</a></th>
 </tr>
 <tr>
 <td headers="503-usercon chap-5-criteria">503.4.1 Caption Controls</td>
