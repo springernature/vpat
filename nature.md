@@ -545,7 +545,9 @@ The pages on this product have unique page titles that describe the purpose of t
 <td>
 The meaning or operation of the pages on this product is generally unaffected by focus order. Additionally, in most cases, the focus order of all page content matches the visual order.
 <br><br>
-Third party scripts including advertising scripts, the Disqus commenting widget, or survey or customer services widgets (among others), may inject content where the focus order does not match the visual order. The operation and meaning of these components should be unaffected by the focus order.
+On Nature Outlook pages built with Shorthand, collapsing the main navigation into a hamburger menu may disrupt the focus order, making it harder for keyboard users to access navigation links.
+<br><br>
+Third-party scripts including advertising scripts or survey or customer services widgets (among others), may inject content where the focus order does not match the visual order. The operation and meaning of these components should be unaffected by the focus order.
 </td>
 </tr>
 <tr id="link-purpose-in-context" valign="top">
