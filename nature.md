@@ -187,7 +187,7 @@ While Nature Magazine generally provides captions and/or transcripts for pre-rec
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product has a diverse mix of multimedia content, both self-hosted and hosted on third party sites. Audio description is not generally used across our content, but some media may provide media alternatives such as text descriptions of video content.
+This product has a diverse mix of multimedia content, both self-hosted and hosted on third-party sites. Audio description is not generally used across our content, but some media may provide media alternatives such as text descriptions of video content.
 <br><br>
 We currently have no method of confirming the inclusion of adequate media alternatives.
 </td>
