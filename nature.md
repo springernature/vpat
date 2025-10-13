@@ -161,7 +161,7 @@ While Nature Magazine generally provides transcripts and/or text descriptions of
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product has a diverse mix of multimedia content, both self-hosted and hosted on third party sites. Captions and/or transcripts may be provided for some pre-recorded content, but we currently have no method of confirming the inclusion of transcripts or captions.
+This product has a diverse mix of multimedia content, both self-hosted and hosted on third-party sites. Captions and/or transcripts may be provided for some pre-recorded content, but we currently have no method of confirming the inclusion of transcripts or captions.
 
 While Nature Magazine generally provides captions and/or transcripts for pre-recorded content in new Magazine articles, they may be absent from older Nature Magazine content and journal content supplied by authors who publish with us. We currently have no method of confirming the inclusion of transcripts or captions.
 </td>
