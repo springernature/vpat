@@ -1210,8 +1210,8 @@ Third-party scripts, including advertising, may inject components that remove fo
 <em>EN 301 549 Criteria - Does not apply</em><br><br>
 <em>Revised Section 508 - Does not apply</em>
 </td>
-<td></td>
-<td></td>
+<td>Supports</td>
+<td>Focused elements in this product are at least partially visible or fully visible, and not obscured or entirely hidden by other elements in the product.</td>
 </tr>
 <tr valign="top">
 <td><a href="https://www.w3.org/TR/WCAG22/#dragging-movements"><strong>2.5.7 Dragging Movements</strong></a> (Level AA 2.2 only)
