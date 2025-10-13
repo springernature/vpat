@@ -980,7 +980,7 @@ Third-party advertising scripts may inject content with insufficient contrast.
 </td>
 </tr>
 <tr valign="top">
-<td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale"><strong>1.4.4 Resize text</strong></a> (Level AA)
+<td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale"><strong>1.4.4 Resize Text</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -1002,7 +1002,7 @@ Third-party advertising scripts may inject content with insufficient contrast.
 <td>
 All first party text on the pages of this product can be resized up to 400% without loss of information or functionality.
 <br><br>
-Third party scripts (for example advertisements) may inject non-responsive content that loses or obscures information when text is resized.
+Third-party scripts (e.g. advertisements) may inject non-responsive content that loses or obscures information when text is resized.
 </td>
 </tr>
 <tr valign="top">
