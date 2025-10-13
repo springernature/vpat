@@ -107,7 +107,7 @@ We mark up some images so that they can be ignored by Assistive Technologies if 
 <br><br>
 The <a href="https://www.nature.com/nature/subscribe">Nature subscription pages</a> currently contain SVG images without text alternatives, and decorative SVG images that are not marked up to be ignored by Assistive Technologies. We are actively working to repair these problems.
 <br><br>
-Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These include images in advertising scripts and in Disqus commenting widgets. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+Third-party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These include images in advertising scripts. When we become aware of deficiencies, we contact third-party suppliers to request repairs.
 <br><br>
 When supplied by authors who publish with us, some complex images may lack adequate alternative text, descriptions, and/or captions. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content. A large-scale and currently-active programme of work to improve alternative text content submitted by our authors is under way to address this.
 </td>
