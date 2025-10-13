@@ -323,11 +323,9 @@ When supplied by authors who publish with us, some complex images may rely on co
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
 Content supplied by us does not play automatically. All audio files supplied by us, either hosted on our own platform or through a third party, have mechanisms for pausing, stopping, and controlling volume.
-<br><br>
-Third party advertisements may load video and audio that automatically starts, and may not provide adequate controls for pausing, stopping, and/or controlling volume. When we become aware of active advertisements with these problems, we immediately take steps to remove those advertisements from our pages.
 </td>
 </tr>
 <tr id="keyboard" valign="top">
