@@ -447,9 +447,7 @@ Third-party content such as survey modal dialogs may trap focus and provide inad
 <td>
 Any moving, blinking or scrolling content on this product generally does not start automatically, and is complemented by controls that allow users to pause or otherwise stop the content. Moving images in the form of gifs may not meet this criterion.  
 <br><br>
-Automatically updating information is rare on this product. The Disqus commenting widget may update new comments on screen automatically. If users are actively interacting with the widget, then new comments may be progressively disclosed to users at their request by activating a "load new comments" button.
-<br><br>
-Third party advertising scripts may inject content that automatically moves or blinks and lasts more than five seconds, without providing a mechanism to pause, stop, or hide that content.
+Automatically updating information is rare on this product. Third-party advertising scripts may inject content that automatically moves or blinks and lasts more than five seconds, without providing a mechanism to pause, stop, or hide that content.
 </td>
 </tr>
 <tr valign="top">
