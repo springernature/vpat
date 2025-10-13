@@ -784,11 +784,9 @@ Third-party scripts that accept user input may automatically detect errors but f
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
-Generally, visible and appropriately associated labels are provided for input fields. In limited cases, a visually-hidden label may be provided instead, but we prefer to avoid this pattern.
-<br><br>
-Additional instructions for specific input fields may not be adequately associated (e.g. with WAI-ARIA) with the fields they describe. We are actively working to find and repair these problems.
+Visible and appropriately associated labels are provided for input fields. In limited cases, a visually-hidden label may be provided instead, but we prefer to avoid this pattern.
 <br><br>
 </td>
 </tr>
