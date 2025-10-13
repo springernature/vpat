@@ -1471,8 +1471,8 @@ Notes: This product is a web software application and is not subject to the requ
 </thead>
 <tbody>
 <tr>
-<td>501.1 Scope – Incorporation of WCAG 2.1 AA</td>
-<td>See <a href="#wcag-21-report">WCAG 2.1</a> section</td>
+<td>501.1 Scope – Incorporation of WCAG 2.2 AA</td>
+<td>See <a href="#wcag-22-report">WCAG 2.2</a> section</td>
 <td>See information in WCAG section</td>
 </tr>
 <tr>
@@ -1754,7 +1754,7 @@ Notes: This product does not offer two-way voice communication and is therefore 
 
 ### Clause [7: ICT with Video Capabilities](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=35)
 
-Notes:
+Notes: See [WCAG section](#wcag-22-report) for full details.
 
 <table>
 <thead>
@@ -1812,7 +1812,7 @@ Notes: This product is a web software application and is not subject to the requ
 
 ### Clause [9: Web](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=45)
 
-Notes: Please see [WCAG 2.2 section](#wcag-22-report).
+Notes: See [WCAG 2.2 section](#wcag-22-report) for full details.
 
 ### Clause [10: Non-Web Documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52)
 
