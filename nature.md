@@ -1489,7 +1489,7 @@ Notes: This product is a web software application and is not subject to the requ
 <td headers="502-interop chap-5-remarks">
 This product has no platform features as defined by Section 508. The product is compatible with operating system and browser accessibility features configured by the user.
 <br><br>
-Third party scripts may inject content that disrupts standard operating system and browser accessibility features. See information in WCAG section for complete details.
+Third-party scripts may inject content that disrupts standard operating system and browser accessibility features. See information in WCAG section for complete details.
 </td>
 </tr>
 <tr>
@@ -1545,7 +1545,7 @@ See WCAG sections <a href="#headings-and-labels">2.4.6 Headings and Labels</a> a
 <td headers="502-services chap-5-criteria">502.3.7 Hierarchical Relationships</td>
 <td headers="502-services chap-5-conformance">Partially Supports</td>
 <td headers="502-services chap-5-remarks">
-The pages of this product generally use standard HTML to express hierarchy. Third party scripts may inject content that obscures the relationships between components.
+The pages of this product generally use standard HTML to express hierarchy. Third-party scripts may inject content that obscures the relationships between components.
 <br><br>
 See WCAG section <a href="#info-and-relationships">1.3.1 Info and Relationships</a> for further detail.
 </td>
@@ -1575,7 +1575,7 @@ Original research or editorial content may contain images of text without adequa
 <td headers="502-services chap-5-remarks">
 The pages of this product use standard HTML or WAI-ARIA object attributes for maximum compatibility with Assistive Technologies.
 <br><br>
-Some third party scripts may inject content that cannot be interacted with easily or at all by keyboard or by some Assistive Technologies.
+Some third-party scripts may inject content that cannot be interacted with easily or at all by keyboard or by some Assistive Technologies.
 <br><br>
 See WCAG section <a href="#keyboard">2.1.1 Keyboard</a> for further detail.
 </td>
@@ -1584,7 +1584,7 @@ See WCAG section <a href="#keyboard">2.1.1 Keyboard</a> for further detail.
 <td headers="502-services chap-5-criteria">502.3.12 Focus Cursor</td>
 <td headers="502-services chap-5-conformance">Partially Supports</td>
 <td headers="502-services chap-5-remarks">
-We provide focus styles on most focusable elements. Third party scripts may inject components that remove focus styles or alter focus in a way that makes them difficult to perceive by all users.
+We provide focus styles on most focusable elements. Third-party scripts may inject components that remove focus styles or alter focus in a way that makes them difficult to perceive by all users.
 <br><br>
 See WCAG sections <a href="#use-of-color">1.4.1 Use of Color</a> and <a href="#focus-visible">2.4.7 Focus Visible</a> for further detail.
 </td>
@@ -1602,7 +1602,7 @@ The pages of this product use standard HTML and WAI-ARIA attributes to describe 
 <br><br>
 Rarely, components may omit or misuse WAI-ARIA attributes in a way that prevents users of some Assistive Technologies from being able to perceive changes in state. We are actively working to find and repair these problems.
 <br><br>
-Some third party scripts may inject content that fails to notify users of changes in state.
+Some third-party scripts may inject content that fails to notify users of changes in state.
 <br><br>
 See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships</a> and <a href="#name-role-value">4.1.2 Name, Role, Value</a> for further detail.
 </td>
