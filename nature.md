@@ -1228,8 +1228,8 @@ Third-party scripts, including advertising, may inject components that remove fo
 <em>EN 301 549 Criteria - Does not apply</em><br><br>
 <em>Revised Section 508 - Does not apply</em>
 </td>
-<td></td>
-<td></td>
+<td>Supports</td>
+<td>This product has targets that either meet the minimum size or have sufficient spacing around them, as specified by this criterion.</td>
 </tr>
 <tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#meaning-other-lang-id"><strong>3.1.2 Language of Parts</strong></a> (Level AA)
