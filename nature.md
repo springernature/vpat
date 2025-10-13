@@ -730,8 +730,12 @@ All of the pages in this product use the language attribute on the HTML element 
 <em>EN 301 549 Criteria - Does not apply</em><br><br>
 <em>Revised Section 508 - Does not apply</em>
 </td>
-<td></td>
-<td></td>
+<td>Partially Supports</td>
+<td>This product generally offers consistent options or information for users to access help, with rare exceptions.
+<br><br>
+A "Contact us" link is consistently available in the Nature.com footer.
+<br><br>
+Nature Outlook pages built on Shorthand may not offer consistent options or information for users to access help.</td>
 </tr>
 <tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-identified"><strong>3.3.1 Error Identification</strong></a> (Level A)
