@@ -1219,8 +1219,8 @@ Third-party scripts, including advertising, may inject components that remove fo
 <em>EN 301 549 Criteria - Does not apply</em><br><br>
 <em>Revised Section 508 - Does not apply</em>
 </td>
-<td></td>
-<td></td>
+<td>Supports</td>
+<td>There is no functionality in this product that requires dragging movements. All interactive elements are operable using single pointer actions.</td>
 </tr>
 <tr valign="top">
 <td><a href="https://www.w3.org/TR/WCAG22/#target-size-minimum"><strong>2.5.8 Target Size (Minimum)</strong></a> (Level AA 2.2 only)
