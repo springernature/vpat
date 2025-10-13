@@ -820,12 +820,10 @@ Visible and appropriately associated labels are provided for input fields. In li
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially Supports</td>
-<td>
-The pages of this product generally use semantically-correct markup that meets the HTML5 specification for interface elements. Some very old archived content may occasionally contain unclosed or illegally nested elements.
+<td>WCAG 2.0 and 2.1 - Supports
 <br><br>
-Third party advertising scripts may inject content that omits start and end tags, contains duplicate attributes or contains illegally nested elements. When we become aware of active advertisements with these problems, we immediately take steps to remove those advertisements from our pages.
-</td>
+WCAG 2.2 (obsolete and removed) - Does not apply</td>
+<td></td>
 </tr>
 <tr id="name-role-value" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#ensure-compat-rsv"><strong>4.1.2 Name, Role, Value</strong></a> (Level A)
