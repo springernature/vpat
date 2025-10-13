@@ -571,11 +571,11 @@ Third-party scripts including advertising scripts or survey or customer services
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Generally, the purpose of first party links can be determined by their descriptive text labels. Links that are not primarily text-based (e.g. images or icons) have alternative accessible text or supplementary text labels.
+Generally, the purpose of first-party links can be determined by their descriptive text labels. Links that are not primarily text-based (e.g. images or icons) have alternative accessible text or supplementary text labels.
 <br><br>
 In submitted articles, anchor links that refer to supplementary figures or tables may have insufficient context in their link text (e.g. figure numbers only). In limited cases we may support inadequate link text with the use of WAI-ARIA techniques. We are actively working to repair these problems.
 <br><br>
-Third party scripts including advertising scripts, the Disqus commenting widget, survey or customer services widgets (among others), may inject content that includes links with no accessible text, or poorly-named accessible text. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+Third-party scripts including advertising scripts, survey or customer services widgets (among others), may inject content that includes links with no accessible text, or poorly-named accessible text. When we become aware of deficiencies, we contact third-party suppliers to request repairs.
 </td>
 </tr>
 <tr id="pointer-gestures" valign="top">
