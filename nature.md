@@ -974,7 +974,9 @@ Generally, all text and images of text supplied by us on the pages of this produ
 <br><br>
 Some placeholder text (e.g. on checkout process pages) may have insufficient contrast. We are actively working to find and repair these problems.
 <br><br>
-Third party advertising scripts may inject content with insufficient contrast.
+On Nature Outlook pages built with Shorthand, some text may have insufficient contrast. When we become aware of deficiencies, we immediately take steps to repair these problems. 
+<br><br>
+Third-party advertising scripts may inject content with insufficient contrast.
 </td>
 </tr>
 <tr valign="top">
