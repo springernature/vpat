@@ -1123,7 +1123,7 @@ Third-party content (e.g. advertising, customer services widgets) may inject ele
 <td>Partially Supports</td>
 <td>Additional content that becomes visible on hover or focus (for example tooltips) is extremely rare in this product. In all cases where content is initially hidden and displayed on interaction, we trigger that display with explicit, unambiguous input such as a click or keypress. Content is persistently visible until dismissed by a similarly unambiguous interaction. We never rely on hover alone.  
 <br><br>
-Third party content (e.g. advertising, customer services widgets) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
+Third-party content (e.g. advertising, customer services widgets) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third-party vendors.
 </td>
 </tr>
 <tr valign="top">
