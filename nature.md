@@ -850,7 +850,7 @@ The pages of this product generally use standard HTML and WAI-ARIA attributes to
 <br><br>
 WAI-ARIA attributes may be omitted where they would be useful, for example to support HTML5 features that are not widely supported by client technology. In other cases WAI-ARIA roles or attributes may be misused in ways that cause elements to have misleading semantics. We are actively working to find and repair these problems.
 <br><br>
-Other third party scripts, including the Disqus commenting widget, may present interactive elements such as tooltips that lack adequate names and roles, making them difficult for screen reader users to access. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+Third-party advertising scripts may inject elements that lack adequate names and roles, making them difficult for screen reader users to access. When we become aware of deficiencies, we contact third-party suppliers to request repairs.
 </td>
 </tr>
 </tbody>
