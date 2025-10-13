@@ -1335,7 +1335,7 @@ Pages that deal with sensitive information (including checkout process pages and
 <td>
 Where user input errors are automatically detected by our own software, those errors are identified with warning text adjacent to the input field. Unless it would present a risk to security, the warning text describes the error and what the user should do to correct it.
 <br><br>
-Third party scripts including the Disqus commenting widget, or other widgets that accept user input, may automatically detect errors but fail to present the errors to users in ways that they can perceive. They may rely on visual characteristics alone to indicate user input errors, or place error text in locations that are difficult for screen reader users to access. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+Third-party scripts that accept user input may automatically detect errors but fail to present the errors to users in ways that they can perceive. They may rely on visual characteristics alone to indicate user input errors, or place error text in locations that are difficult for screen reader users to access. When we become aware of deficiencies, we contact third-party suppliers to request repairs.
 </td>
 </tr>
 <tr valign="top">
