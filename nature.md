@@ -1102,7 +1102,7 @@ Third-party content (e.g. advertising, customer services widgets) may inject non
 <td>Supports</td>
 <td>No loss of content or functionality occurs by setting the text spacing properties specified by this criterion anywhere in this product.
 <br><br>
-Third party content (e.g. advertising, customer services widgets) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
+Third-party content (e.g. advertising, customer services widgets) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third-party vendors.
 </td>
 </tr>
 <tr id="content-on-hover-or-focus" valign="top">
