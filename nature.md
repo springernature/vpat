@@ -1053,7 +1053,7 @@ Third-party advertising scripts may inject images containing images of text.
 <br><br>
 Examples of necessary exclusions that are permitted under the guidelines include the display of large tables or figures - in these cases we provide an additional "full screen" view so that more data can be visible at once.
 <br><br>
-The "View all journals" link in this product's header is not available when content has reflowed. We are actively working to repair this problem.
+The "View all journals" link in this product's header is not available when content has reflowed to a width equivalent to 655 CSS pixels. We are actively working to repair this problem.
 <br><br>
 Third-party scripts (e.g. advertising, customer services widgets) may inject content that fails to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third-party vendors.
 </td>
