@@ -970,6 +970,8 @@ Some placeholder text (e.g. on checkout process pages) may have insufficient con
 <br><br>
 On some immersive special feature pages (e.g. Nature Outlook), some text may have insufficient contrast. When we become aware of deficiencies, we immediately take steps to repair these problems. 
 <br><br>
+When supplied by authors who publish with us, some images may contain text with insufficient contrast. While we offer guidelines for authors on high contrast text, we currently have no way to verify its use in supplied images.
+<br><br>
 Third-party advertising scripts may inject content with insufficient contrast.
 </td>
 </tr>
