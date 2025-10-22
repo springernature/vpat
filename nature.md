@@ -219,7 +219,7 @@ We make use of WAI-ARIA roles to support (named) landmarks, and use WAI-ARIA rol
 <br><br>
 Some functionality may omit required WAI-ARIA roles, states, or attributes, or misuse WAI-ARIA markup and techniques. When we become aware of content with these problems, we immediately take steps to repair the issues.
 <br><br>
-Third-party scripts may inject content with incorrect or absent information about structure and relationships. These include content in advertising scripts, among others.
+Third-party scripts may inject content with incorrect or absent information about structure and relationships. These include content in advertising scripts and in the ReadCube enhanced PDF viewer (used to share, preview and purchase individual articles).
 </td>
 </tr>
 <tr valign="top">
