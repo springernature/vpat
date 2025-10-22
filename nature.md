@@ -1404,7 +1404,7 @@ Notes: This product has not been evaluated for WCAG 2.x Level AAA conformance.
 <tr>
 <td>302.1 Without Vision</td>
 <td>Partially Supports</td>
-<td>The majority of content is marked up for Assistive Technology. third-party scripts may inject content with inadequate accessible alternatives.</td>
+<td>The majority of content is marked up for Assistive Technology. Third-party scripts may inject content with inadequate accessible alternatives.</td>
 </tr>
 <tr>
 <td>302.2 With Limited Vision</td>
