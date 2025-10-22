@@ -968,7 +968,7 @@ Generally, all text and images of text supplied by us on the pages of this produ
 <br><br>
 Some placeholder text (e.g. on checkout process pages) may have insufficient contrast. We are actively working to find and repair these problems.
 <br><br>
-On some immersive special feature pages (e.g. Nature Outlook), some text may have insufficient contrast. When we become aware of deficiencies, we immediately take steps to repair these problems. 
+On some immersive special feature pages (e.g. Nature Outlook), some text may have insufficient contrast. 
 <br><br>
 When supplied by authors who publish with us, some images may contain text with insufficient contrast. While we offer guidelines for authors on high contrast text, we currently have no way to verify its use in supplied images.
 <br><br>
