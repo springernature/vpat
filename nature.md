@@ -354,8 +354,6 @@ Partially Supports
 All first-party components in this product can be navigated by keyboard alone. Complex elements like flyout menus can be exited with the <kbd>esc</kbd> key. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
 Third-party advertising scripts may inject content that cannot be interacted with easily or at all by keyboard.
-<br><br>
-Other types of third-party content such as customer services widgets may be difficult to use with keyboard alone. When we become aware of deficiencies, we contact third-party suppliers to request repairs. Additionally, where possible, we aim to provide equivalent alternatives to problematic content.
 </td>
 </tr>
 <tr valign="top">
@@ -380,8 +378,6 @@ Other types of third-party content such as customer services widgets may be diff
 <td>Partially Supports</td>
 <td>
 Keyboard trapping inside components on the pages of this product is rare, and in most cases is managed appropriately, allowing focus to be moved away from any component using standard keystrokes (<kbd>tab</kbd>, <kbd>shift</kbd>, <kbd>esc</kbd>).
-<br><br>
-Third-party content such as survey modal dialogs may trap focus and provide inadequate methods of escaping. When we become aware of deficiencies, we contact third-party suppliers to request repairs.
 </td>
 </tr>
 <tr id="character-key-shortcuts" valign="top">
@@ -547,7 +543,7 @@ The meaning or operation of the pages on this product is generally unaffected by
 <br><br>
 On Nature Outlook pages built with Shorthand, collapsing the main navigation into a hamburger menu may disrupt the focus order, making it harder for keyboard users to access navigation links.
 <br><br>
-Third-party scripts including advertising scripts or survey or customer services widgets (among others), may inject content where the focus order does not match the visual order. The operation and meaning of these components should be unaffected by the focus order.
+Third-party scripts including advertising scripts may inject content where the focus order does not match the visual order. The operation and meaning of these components should be unaffected by the focus order.
 </td>
 </tr>
 <tr id="link-purpose-in-context" valign="top">
@@ -575,7 +571,7 @@ Generally, the purpose of first-party links can be determined by their descripti
 <br><br>
 In submitted articles, anchor links that refer to supplementary figures or tables may have insufficient context in their link text (e.g. figure numbers only). In limited cases we may support inadequate link text with the use of WAI-ARIA techniques. We are actively working to repair these problems.
 <br><br>
-Third-party scripts including advertising scripts, survey or customer services widgets (among others), may inject content that includes links with no accessible text, or poorly-named accessible text. When we become aware of deficiencies, we contact third-party suppliers to request repairs.
+Third-party scripts including advertising scripts may inject content that includes links with no accessible text, or poorly-named accessible text. When we become aware of deficiencies, we contact third-party suppliers to request repairs.
 </td>
 </tr>
 <tr id="pointer-gestures" valign="top">
@@ -761,8 +757,6 @@ Nature Outlook pages built on Shorthand may not offer consistent options or info
 Where user input errors are automatically detected by our own software, those errors are identified with warning text adjacent to the input field. We do not rely on visual characteristics alone (e.g. colour).
 <br><br>
 Checkout process pages rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states.
-<br><br>
-Third-party scripts that accept user input may automatically detect errors but fail to present the errors to users in text. They may rely on visual characteristics alone to indicate user input errors, or place error text in locations that are difficult for screen reader users to access. When we become aware of deficiencies, we contact third-party suppliers to request repairs.
 </td>
 </tr>
 <tr id="labels-or-instructions" valign="top">
@@ -1055,7 +1049,7 @@ Examples of necessary exclusions that are permitted under the guidelines include
 <br><br>
 The "View all journals" link in this product's header is not available when content has reflowed. We are actively working to repair this problem.
 <br><br>
-Third-party scripts (e.g. advertising, customer services widgets) may inject content that fails to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third-party vendors.
+Third-party scripts (e.g. advertising) may inject content that fails to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third-party vendors.
 </td>
 </tr>
 <tr id="non-text-contrast" valign="top">
@@ -1081,7 +1075,7 @@ The blue focus ring on the Nature Subscription page has inadequate contrast on s
 <br><br>
 When supplied by authors who publish with us, Graphical Objects (e.g. charts, graphs, or maps, among others) may have inadequate contrast.
 <br><br>
-Third-party content (e.g. advertising, customer services widgets) may inject non-text elements with inadequate contrast. When we become aware of deficiencies, we immediately take steps to request repairs from third-party vendors.
+Third-party content (e.g. advertising) may inject non-text elements with inadequate contrast. When we become aware of deficiencies, we immediately take steps to request repairs from third-party vendors.
 </td>
 </tr>
 <tr id="text-spacing" valign="top">
@@ -1102,7 +1096,7 @@ Third-party content (e.g. advertising, customer services widgets) may inject non
 <td>Supports</td>
 <td>No loss of content or functionality occurs by setting the text spacing properties specified by this criterion anywhere in this product.
 <br><br>
-Third-party content (e.g. advertising, customer services widgets) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third-party vendors.
+Third-party content (e.g. advertising) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third-party vendors.
 </td>
 </tr>
 <tr id="content-on-hover-or-focus" valign="top">
@@ -1123,7 +1117,7 @@ Third-party content (e.g. advertising, customer services widgets) may inject ele
 <td>Partially Supports</td>
 <td>Additional content that becomes visible on hover or focus (for example tooltips) is extremely rare in this product. In all cases where content is initially hidden and displayed on interaction, we trigger that display with explicit, unambiguous input such as a click or keypress. Content is persistently visible until dismissed by a similarly unambiguous interaction. We never rely on hover alone.  
 <br><br>
-Third-party content (e.g. advertising, customer services widgets) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third-party vendors.
+Third-party content (e.g. advertising) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third-party vendors.
 </td>
 </tr>
 <tr valign="top">
@@ -1172,8 +1166,6 @@ Third-party content (e.g. advertising, customer services widgets) may inject ele
 Our document structure is semantically marked up using headings to create a sequential hierarchy of content. Rarely, headings or labels may be visually hidden but available to Assistive Technologies, though we prefer to keep this pattern to a minimum.
 <br><br>
 Nature magazine and a limited number of journals publish editorial content from a content management system (CMS). Content generated by CMS may occasionally lack appropriate headings (e.g. using bold text as implicit headings instead of semantically-marked up heading elements).
-<br><br>
-Other third-party scripts, including survey or customer services widgets, may inject content with inadequate or inappropriate headings or labels. When we become aware of deficiencies, we contact third-party suppliers to request repairs.
 </td>
 </tr>
 <tr id="focus-visible" valign="top">
