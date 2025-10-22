@@ -1051,7 +1051,7 @@ Examples of necessary exclusions that are permitted under the guidelines include
 <br><br>
 The "View all journals" link in this product's header is not available when content has reflowed to a width equivalent to 655 CSS pixels. We are actively working to repair this problem.
 <br><br>
-Third-party scripts (e.g. advertising) may inject content that fails to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third-party vendors.
+Third-party scripts (e.g. advertising) may inject content that fails to meet this criterion. 
 </td>
 </tr>
 <tr id="non-text-contrast" valign="top">
