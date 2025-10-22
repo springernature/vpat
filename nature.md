@@ -375,9 +375,9 @@ Third-party advertising scripts may inject content that cannot be interacted wit
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
-Keyboard trapping inside components on the pages of this product is rare, and in most cases is managed appropriately, allowing focus to be moved away from any component using standard keystrokes (<kbd>tab</kbd>, <kbd>shift</kbd>, <kbd>esc</kbd>).
+Keyboard trapping inside components on the pages of this product is rare and is managed appropriately, allowing focus to be moved away from any component using standard keystrokes (<kbd>tab</kbd>, <kbd>shift</kbd>, <kbd>esc</kbd>).
 </td>
 </tr>
 <tr id="character-key-shortcuts" valign="top">
