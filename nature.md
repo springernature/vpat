@@ -541,7 +541,7 @@ The pages on this product have unique page titles that describe the purpose of t
 <td>
 The meaning or operation of the pages on this product is generally unaffected by focus order. Additionally, in most cases, the focus order of all page content matches the visual order.
 <br><br>
-On Nature Outlook pages built with Shorthand, collapsing the main navigation into a hamburger menu may disrupt the focus order, making it harder for keyboard users to access navigation links.
+On some immersive special feature pages (e.g. Nature Outlook), collapsing the main navigation into a hamburger menu may disrupt the focus order, making it harder for keyboard users to access navigation links.
 <br><br>
 Third-party scripts including advertising scripts may inject content where the focus order does not match the visual order. The operation and meaning of these components should be unaffected by the focus order.
 </td>
@@ -731,7 +731,7 @@ All of the pages in this product use the language attribute on the HTML element 
 <br><br>
 A "Contact us" link is consistently available in the Nature.com footer.
 <br><br>
-Nature Outlook pages built on Shorthand may not offer consistent options or information for users to access help.</td>
+Some immersive special feature pages (e.g. Nature Outlook, Nature Milestones) may not offer consistent options or information for users to access help.</td>
 </tr>
 <tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-identified"><strong>3.3.1 Error Identification</strong></a> (Level A)
@@ -968,7 +968,7 @@ Generally, all text and images of text supplied by us on the pages of this produ
 <br><br>
 Some placeholder text (e.g. on checkout process pages) may have insufficient contrast. We are actively working to find and repair these problems.
 <br><br>
-On Nature Outlook pages built with Shorthand, some text may have insufficient contrast. When we become aware of deficiencies, we immediately take steps to repair these problems. 
+On some immersive special feature pages (e.g. Nature Outlook), some text may have insufficient contrast. When we become aware of deficiencies, we immediately take steps to repair these problems. 
 <br><br>
 Third-party advertising scripts may inject content with insufficient contrast.
 </td>
