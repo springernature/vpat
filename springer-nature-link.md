@@ -215,7 +215,7 @@ We currently have no method of confirming the inclusion of adequate media altern
 <td>
 This product's pages generally use progressive enhancement techniques and semantically-correct markup so that information, structure, and relationships can be understood independently of presentation.
 <br><br>
-A-Z index pages for journals and books may use unsemantic markup, including inadequate, misleading, or incorrectly-applied landmarks, and may omit level one headings.
+A-Z index pages for journals and books use unsemantic markup including inadequate, misleading, or incorrectly-applied landmarks, and have an illogical heading order.
 <br><br>
 We make use of WAI-ARIA roles to support landmarks, and use WAI-ARIA roles and properties when required for more complex functionality such as popup menus and dialogs.
 <br><br>
