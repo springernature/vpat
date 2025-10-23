@@ -355,7 +355,7 @@ We play audio-only files directly on our pages. Audio files hosted by us are sup
 <td>
 The majority of components in this product can be navigated by keyboard alone. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
-On Springer Nature Video pages, the autoplay button is not accessible by keyboard only. We are working on fixing this issue. We are working on repairing this issue.
+On Springer Nature Video pages, the autoplay button is not accessible by keyboard only. We are working on fixing this issue.
 </td>
 </tr>
 <tr id="no-keyboard-trap" valign="top">
