@@ -1221,7 +1221,7 @@ Third party scripts, including advertising, may inject components that remove fo
 <td>Partially Supports</td>
 <td>With rare exceptions, this product has targets that either meet the minimum size or have sufficient spacing around them, as specified by this criterion. 
 <br><br>
-Superscript link targets that are undersized, or have insufficient spacing around them, are considered inline elements and are excempt from this criterion.
+Superscript link targets that are undersized, or have insufficient spacing around them, are considered inline elements and are exempt from this criterion.
 <br><br>
 The footer on Springer Nature Video pages includes undersized targets that do not have sufficient spacing around them. We are actively working to repair this issue.</td>
 </tr>
