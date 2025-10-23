@@ -1,12 +1,12 @@
 # Nature Accessibility Conformance Report International Edition
 (Based on VPAT® Version 2.5Rev)
 
-**Report Date**: 29 July 2025  
+**Report Date**: 23 October 2025  
 **Name of Product/Version**: Nature.com _(we do not version our software)_  
 **Product Description**:
 Nature.com publishes peer-reviewed research, reviews and news across a number of journals. This report refers entirely to the accessibility of editorial, journal, and magazine web documents published at the top level domain of <a href="http://www.nature.com">www.nature.com</a>, including informational pages, and to all web documents included in account management pages, and the purchasing and subscription process.  
 **Contact information**: Please contact your Institutional Sales representative.  
-**Notes**:  
+**Notes**: The Library Accessibility Alliance (LAA) performs independent audits of suppliers’ websites and has completed an [evaluation of Nature](https://libraryaccessibility.org/evaluation/springer-nature). The WebAIM Million also independently reports on the accessibility of the top 1,000,000 home pages and has placed [Nature in the top 5%](https://webaim.org/projects/million/lookup?homepage=nature.com) of all home pages with 0 accessibility errors detected.  
 **Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature's dedicated Accessibility Specialists. We use a combination of static analysis tools (including but not limited to [axe by Deque](https://www.deque.com/axe/), [WAVE by WebAIM](https://wave.webaim.org/extension/), and all of the tools described in our [Frontend Playbook's Accessibility Guide](https://github.com/springernature/frontend-playbook/blob/main/accessibility/01-popular-tools.md#accessibility-tools)). Our manual testing uses [WCAG-EM](https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/) as its base strategy, and further details are also described in our Frontend Playbook under the "Manual testing" and "Assistive technology" sections.
 
 
@@ -26,6 +26,10 @@ This report covers the degree of conformance for the following accessibility sta
 </tr>
 <tr>
 <td><a href="https://www.w3.org/TR/WCAG21">Web Content Accessibility Guidelines 2.1</a></td>
+<td nowrap>Level A &nbsp; – &nbsp; <strong>Yes</strong><br>Level AA &nbsp; – &nbsp; <strong>Yes</strong><br>Level AAA &nbsp; – &nbsp; <strong>No</strong></td>
+</tr>
+<tr>
+<td><a href="https://www.w3.org/TR/WCAG22">Web Content Accessibility Guidelines 2.2</a></td>
 <td nowrap>Level A &nbsp; – &nbsp; <strong>Yes</strong><br>Level AA &nbsp; – &nbsp; <strong>Yes</strong><br>Level AAA &nbsp; – &nbsp; <strong>No</strong></td>
 </tr>
 <tr>
@@ -49,7 +53,7 @@ The terms used in the Conformance Level information are defined as follows:
 - **Not Applicable**: The criterion is not relevant to the product.
 - **Not Evaluated**: The product has not been evaluated against the criterion. This can be used only in WCAG Level AAA.
 
-## WCAG 2.1 Report
+## WCAG 2.2 Report
 
 Tables 1 and 2 also document conformance with:
 - EN 301 549:
@@ -61,11 +65,11 @@ Tables 1 and 2 also document conformance with:
   - Chapter 5 – 501.1 Scope, 504.2 Content Creation or Editing
   - Chapter 6 – 602.3 Electronic Support Documentation
 
-**Note**: When reporting on conformance with the WCAG 2.1 Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the [WCAG 2.1 Conformance Requirements](https://www.w3.org/TR/WCAG21/#conformance-reqs).
+**Note**: When reporting on conformance with the WCAG 2.1 Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the [WCAG 2.2 Conformance Requirements](https://www.w3.org/TR/WCAG22/#conformance-to-wcag-2-2).
 
 ### Table 1: Success Criteria, Level A
 
-<table>
+<table id="WCAG-A">
 <thead>
 <tr>
 <th><strong>Criteria</strong></th>
@@ -103,7 +107,7 @@ We mark up some images so that they can be ignored by Assistive Technologies if 
 <br><br>
 The <a href="https://www.nature.com/nature/subscribe">Nature subscription pages</a> currently contain SVG images without text alternatives, and decorative SVG images that are not marked up to be ignored by Assistive Technologies. We are actively working to repair these problems.
 <br><br>
-Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These include images in advertising scripts and in Disqus commenting widgets. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+Third-party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These include images in advertising scripts. When we become aware of deficiencies, we contact third-party suppliers to request repairs.
 <br><br>
 When supplied by authors who publish with us, some complex images may lack adequate alternative text, descriptions, and/or captions. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content. A large-scale and currently-active programme of work to improve alternative text content submitted by our authors is under way to address this.
 </td>
@@ -129,7 +133,7 @@ When supplied by authors who publish with us, some complex images may lack adequ
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product has a diverse mix of multimedia content, both self-hosted and hosted on third party sites. Video-only content is generally used to support text-based content.
+This product has a diverse mix of multimedia content, both self-hosted and hosted on third-party sites. Video-only content is generally used to support text-based content.
 <br><br>
 Audio-only content may be used to support text-based content. Audio-only content may also be used in Podcasts across various journals. Some but not all podcasts provide transcripts.
 <br><br>
@@ -157,7 +161,7 @@ While Nature Magazine generally provides transcripts and/or text descriptions of
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product has a diverse mix of multimedia content, both self-hosted and hosted on third party sites. Captions and/or transcripts may be provided for some pre-recorded content, but we currently have no method of confirming the inclusion of transcripts or captions.
+This product has a diverse mix of multimedia content, both self-hosted and hosted on third-party sites. Captions and/or transcripts may be provided for some pre-recorded content, but we currently have no method of confirming the inclusion of transcripts or captions.
 
 While Nature Magazine generally provides captions and/or transcripts for pre-recorded content in new Magazine articles, they may be absent from older Nature Magazine content and journal content supplied by authors who publish with us. We currently have no method of confirming the inclusion of transcripts or captions.
 </td>
@@ -183,7 +187,7 @@ While Nature Magazine generally provides captions and/or transcripts for pre-rec
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product has a diverse mix of multimedia content, both self-hosted and hosted on third party sites. Audio description is not generally used across our content, but some media may provide media alternatives such as text descriptions of video content.
+This product has a diverse mix of multimedia content, both self-hosted and hosted on third-party sites. Audio description is not generally used across our content, but some media may provide media alternatives such as text descriptions of video content.
 <br><br>
 We currently have no method of confirming the inclusion of adequate media alternatives.
 </td>
@@ -213,11 +217,9 @@ We generally use progressive enhancement techniques and semantically-correct mar
 <br><br>
 We make use of WAI-ARIA roles to support (named) landmarks, and use WAI-ARIA roles and properties when required for more complex functionality such as popup menus and dialogs. We do not use WAI-ARIA where it is not required.
 <br><br>
-Some parts of the checkout flow and the account management pages contain unsemantic markup, including out-of-sequence headings and incorrectly-applied landmarks. We are actively working to find and repair these problems.
-<br><br>
 Some functionality may omit required WAI-ARIA roles, states, or attributes, or misuse WAI-ARIA markup and techniques. When we become aware of content with these problems, we immediately take steps to repair the issues.
 <br><br>
-Third party scripts may inject content with incorrect or absent information about structure and relationships. These include content in advertising scripts and in Disqus commenting widgets, among others.
+Third-party scripts may inject content with incorrect or absent information about structure and relationships. These include content in advertising scripts and in the ReadCube enhanced PDF viewer (used to share, preview and purchase individual articles).
 </td>
 </tr>
 <tr valign="top">
@@ -321,11 +323,9 @@ When supplied by authors who publish with us, some complex images may rely on co
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
 Content supplied by us does not play automatically. All audio files supplied by us, either hosted on our own platform or through a third party, have mechanisms for pausing, stopping, and controlling volume.
-<br><br>
-Third party advertisements may load video and audio that automatically starts, and may not provide adequate controls for pausing, stopping, and/or controlling volume. When we become aware of active advertisements with these problems, we immediately take steps to remove those advertisements from our pages.
 </td>
 </tr>
 <tr id="keyboard" valign="top">
@@ -353,9 +353,7 @@ Partially Supports
 <td>
 All first-party components in this product can be navigated by keyboard alone. Complex elements like flyout menus can be exited with the <kbd>esc</kbd> key. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
-Third party advertising scripts may inject content that cannot be interacted with easily or at all by keyboard.
-<br><br>
-Other types of third party content such as JavaScript-based file viewers (e.g. Figshare), commenting systems (e.g. Disqus), or customer services widgets may be difficult to use with keyboard alone. When we become aware of deficiencies, we contact third party suppliers to request repairs. Additionally, where possible, we aim to provide equivalent alternatives to problematic content.
+Third-party advertising scripts may inject content that cannot be interacted with easily or at all by keyboard.
 </td>
 </tr>
 <tr valign="top">
@@ -377,15 +375,13 @@ Other types of third party content such as JavaScript-based file viewers (e.g. F
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
-Keyboard trapping inside components on the pages of this product is rare, and in most cases is managed appropriately, allowing focus to be moved away from any component using standard keystrokes (<kbd>tab</kbd>, <kbd>shift</kbd>, <kbd>esc</kbd>).
-<br><br>
-Third party content such as survey modal dialogs or the Disqus commenting widget may trap focus and provide inadequate methods of escaping. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+Keyboard trapping inside components on the pages of this product is rare and is managed appropriately, allowing focus to be moved away from any component using standard keystrokes (<kbd>tab</kbd>, <kbd>shift</kbd>, <kbd>esc</kbd>).
 </td>
 </tr>
 <tr id="character-key-shortcuts" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#character-key-shortcuts"><strong>2.1.4 Character Key Shortcuts</strong></a> (Level A 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#character-key-shortcuts"><strong>2.1.4 Character Key Shortcuts</strong></a> (Level A 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -447,9 +443,7 @@ Third party content such as survey modal dialogs or the Disqus commenting widget
 <td>
 Any moving, blinking or scrolling content on this product generally does not start automatically, and is complemented by controls that allow users to pause or otherwise stop the content. Moving images in the form of gifs may not meet this criterion.  
 <br><br>
-Automatically updating information is rare on this product. The Disqus commenting widget may update new comments on screen automatically. If users are actively interacting with the widget, then new comments may be progressively disclosed to users at their request by activating a "load new comments" button.
-<br><br>
-Third party advertising scripts may inject content that automatically moves or blinks and lasts more than five seconds, without providing a mechanism to pause, stop, or hide that content.
+Automatically updating information is rare on this product. Third-party advertising scripts may inject content that automatically moves or blinks and lasts more than five seconds, without providing a mechanism to pause, stop, or hide that content.
 </td>
 </tr>
 <tr valign="top">
@@ -496,8 +490,6 @@ Third party advertising scripts may inject content that automatically moves or b
 <td>Partially Supports</td>
 <td>
 We use semantically-correct markup so that Assistive Technology users can recognise elements and move around them accordingly. We make use of HTML and WAI-ARIA roles to support landmarks. We also provide skip links for bypassing repetitive navigation elements.
-<br><br>
-Some third party content, for example embedded widgets that provide alternative means of exploring data, may prevent users from being able to bypass repetitive information. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr valign="top">
@@ -519,11 +511,9 @@ Some third party content, for example embedded widgets that provide alternative 
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
-Most of the pages on this product have unique page titles that describe the purpose of the page.
-<br><br>
-Some pages (e.g in checkout flows) do not have unique page titles at every stage in a process. We are actively working to find and repair these problems.
+The pages on this product have unique page titles that describe the purpose of the page.
 </td>
 </tr>
 <tr valign="top">
@@ -549,7 +539,9 @@ Some pages (e.g in checkout flows) do not have unique page titles at every stage
 <td>
 The meaning or operation of the pages on this product is generally unaffected by focus order. Additionally, in most cases, the focus order of all page content matches the visual order.
 <br><br>
-Third party scripts including advertising scripts, the Disqus commenting widget, or survey or customer services widgets (among others), may inject content where the focus order does not match the visual order. The operation and meaning of these components should be unaffected by the focus order.
+On some immersive special feature pages (e.g. Nature Outlook), collapsing the main navigation into a hamburger menu may disrupt the focus order, making it harder for keyboard users to access navigation links.
+<br><br>
+Third-party scripts including advertising scripts may inject content where the focus order does not match the visual order. The operation and meaning of these components should be unaffected by the focus order.
 </td>
 </tr>
 <tr id="link-purpose-in-context" valign="top">
@@ -573,15 +565,15 @@ Third party scripts including advertising scripts, the Disqus commenting widget,
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Generally, the purpose of first party links can be determined by their descriptive text labels. Links that are not primarily text-based (e.g. images or icons) have alternative accessible text or supplementary text labels.
+Generally, the purpose of first-party links can be determined by their descriptive text labels. Links that are not primarily text-based (e.g. images or icons) have alternative accessible text or supplementary text labels.
 <br><br>
 In submitted articles, anchor links that refer to supplementary figures or tables may have insufficient context in their link text (e.g. figure numbers only). In limited cases we may support inadequate link text with the use of WAI-ARIA techniques. We are actively working to repair these problems.
 <br><br>
-Third party scripts including advertising scripts, the Disqus commenting widget, survey or customer services widgets (among others), may inject content that includes links with no accessible text, or poorly-named accessible text. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+Third-party scripts including advertising scripts may inject content that includes links with no accessible text, or poorly-named accessible text. When we become aware of deficiencies, we contact third-party suppliers to request repairs.
 </td>
 </tr>
 <tr id="pointer-gestures" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#pointer-gestures"><strong>2.5.1 Pointer Gestures</strong></a> (Level A 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#pointer-gestures"><strong>2.5.1 Pointer Gestures</strong></a> (Level A 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -603,7 +595,7 @@ Special feature content may use multipoint gestures for functionality such as pa
 </td>
 </tr>
 <tr id="pointer-cancellation" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#pointer-cancellation"><strong>2.5.2 Pointer Cancellation</strong></a> (Level A 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#pointer-cancellation"><strong>2.5.2 Pointer Cancellation</strong></a> (Level A 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -621,7 +613,7 @@ Special feature content may use multipoint gestures for functionality such as pa
 <td>All functionality that can be operated using a single pointer can also be cancelled using standard browser and operating system methods.</td>
 </tr>
 <tr id="label-in-name" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#label-in-name"><strong>2.5.3 Label in Name</strong></a> (Level A 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#label-in-name"><strong>2.5.3 Label in Name</strong></a> (Level A 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -637,11 +629,11 @@ Special feature content may use multipoint gestures for functionality such as pa
 </td>
 <td>Partially Supports</td>
 <td>
-In most cases where controls contain visible text, that text is also the label for the control. Some third party scripts may inject content that does not meet this criterion. Supplementary pages (such as special features or marketing pages) may fail to meet this criterion.
+In most cases where controls contain visible text, that text is also the label for the control. Some third-party scripts may inject content that does not meet this criterion. Supplementary pages (such as special features or marketing pages) may fail to meet this criterion.
 </td>
 </tr>
 <tr id="motion-actuation" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#motion-actuation"><strong>2.5.4 Motion Actuation</strong></a> (Level A 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#motion-actuation"><strong>2.5.4 Motion Actuation</strong></a> (Level A 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -701,8 +693,8 @@ All of the pages in this product use the language attribute on the HTML element 
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Supports</td>
-<td>Components in the interface of the pages that receive focus do not initiate a change of context.</td>
+<td>Partially Supports</td>
+<td>On search results pages, the sorting radio buttons initiate a change of context when they receive focus. This can prevent users who rely on Assistive Technology from moving past the elements without triggering a change of context.</td>
 </tr>
 <tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-unpredictable-change"><strong>3.2.2 On Input</strong></a> (Level A)
@@ -723,8 +715,21 @@ All of the pages in this product use the language attribute on the HTML element 
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Supports</td>
-<td>Changing the setting of any user interface component does not automatically cause a change of context on any of the pages.</td>
+<td>Partially Supports</td>
+<td>On search results pages, the sorting radio buttons initiate a change of context when they are selected and without warning. Users with cognitive disabilities or users who rely on Assistive Technology may find the change of context confusing and difficult to process.</td>
+</tr>
+<tr valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#consistent-help"><strong>3.2.6 Consistent Help</strong></a> (Level A 2.2 only)
+<br><br>
+<em>EN 301 549 Criteria - Does not apply</em><br><br>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td>Partially Supports</td>
+<td>This product generally offers consistent options or information for users to access help, with rare exceptions.
+<br><br>
+A "Contact us" link is consistently available in the Nature.com footer.
+<br><br>
+Some immersive special feature pages (e.g. Nature Outlook, Nature Milestones) may not offer consistent options or information for users to access help.</td>
 </tr>
 <tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-identified"><strong>3.3.1 Error Identification</strong></a> (Level A)
@@ -750,8 +755,6 @@ All of the pages in this product use the language attribute on the HTML element 
 Where user input errors are automatically detected by our own software, those errors are identified with warning text adjacent to the input field. We do not rely on visual characteristics alone (e.g. colour).
 <br><br>
 Checkout process pages rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states.
-<br><br>
-Third party scripts including the Disqus commenting widget, or other widgets that accept user input, may automatically detect errors but fail to present the errors to users in text. They may rely on visual characteristics alone to indicate user input errors, or place error text in locations that are difficult for screen reader users to access. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr id="labels-or-instructions" valign="top">
@@ -773,17 +776,26 @@ Third party scripts including the Disqus commenting widget, or other widgets tha
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
-Generally, visible and appropriately associated labels are provided for input fields. In limited cases, a visually-hidden label may be provided instead, but we prefer to avoid this pattern.
-<br><br>
-Additional instructions for specific input fields may not be adequately associated (e.g. with WAI-ARIA) with the fields they describe. We are actively working to find and repair these problems.
+Visible and appropriately associated labels are provided for input fields. In limited cases, a visually-hidden label may be provided instead, but we prefer to avoid this pattern.
 <br><br>
 </td>
 </tr>
 <tr valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#redundant-entry"><strong>3.3.7 Redundant Entry</strong></a> (Level A 2.2 only)
+<br><br>
+<em>EN 301 549 Criteria - Does not apply</em><br><br>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td>Supports</td>
+<td>This product does not require users to enter information more than once in the process without the information being available for the user to select. Checkout pages include a checkbox to populate inputs with the same values as previously entered (e.g. where the billing address and shipping address is the same).</td>
+</tr>
+<tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#ensure-compat-parses"><strong>4.1.1 Parsing</strong></a> (Level A)
-<br><br>Also applies to:<br><br>
+<br><br>Applies to:<br><br>
+<em>WCAG 2.0 and 2.1 - Supports</em><br><br>
+<em>WCAG 2.2 (obsolete and removed) - Does not apply</em><br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.4.1.1 (Web)</li>
@@ -800,12 +812,10 @@ Additional instructions for specific input fields may not be adequately associat
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially Supports</td>
-<td>
-The pages of this product generally use semantically-correct markup that meets the HTML5 specification for interface elements. Some very old archived content may occasionally contain unclosed or illegally nested elements.
+<td>WCAG 2.0 and 2.1 - Supports
 <br><br>
-Third party advertising scripts may inject content that omits start and end tags, contains duplicate attributes or contains illegally nested elements. When we become aware of active advertisements with these problems, we immediately take steps to remove those advertisements from our pages.
-</td>
+WCAG 2.2 (obsolete and removed) - Does not apply</td>
+<td></td>
 </tr>
 <tr id="name-role-value" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#ensure-compat-rsv"><strong>4.1.2 Name, Role, Value</strong></a> (Level A)
@@ -832,7 +842,7 @@ The pages of this product generally use standard HTML and WAI-ARIA attributes to
 <br><br>
 WAI-ARIA attributes may be omitted where they would be useful, for example to support HTML5 features that are not widely supported by client technology. In other cases WAI-ARIA roles or attributes may be misused in ways that cause elements to have misleading semantics. We are actively working to find and repair these problems.
 <br><br>
-Other third party scripts, including the Disqus commenting widget, may present interactive elements such as tooltips that lack adequate names and roles, making them difficult for screen reader users to access. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+Third-party advertising scripts may inject elements that lack adequate names and roles, making them difficult for screen reader users to access. When we become aware of deficiencies, we contact third-party suppliers to request repairs.
 </td>
 </tr>
 </tbody>
@@ -840,7 +850,7 @@ Other third party scripts, including the Disqus commenting widget, may present i
 
 ### Table 2: Success Criteria, Level AA
 
-<table>
+<table id="WCAG-AA">
 <thead>
 <tr>
 <th><strong>Criteria</strong></th>
@@ -894,7 +904,7 @@ Other third party scripts, including the Disqus commenting widget, may present i
 <td>We do not generally provide audio description for prerecorded video. A limited form of audio description may be provided for some pre-recorded content, but we currently have no method of confirming the inclusion of audio description. </td>
 </tr>
 <tr id="orientation" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#orientation"><strong>1.3.4 Orientation</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#orientation"><strong>1.3.4 Orientation</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -912,7 +922,7 @@ Other third party scripts, including the Disqus commenting widget, may present i
 <td>This product does not contain any content that restricts its view and operation to a single display orientation, such as portrait or landscape.</td>
 </tr>
 <tr id="identify-input-purpose" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#identify-input-purpose"><strong>1.3.5 Identify Input Purpose</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#identify-input-purpose"><strong>1.3.5 Identify Input Purpose</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -956,11 +966,15 @@ Generally, all text and images of text supplied by us on the pages of this produ
 <br><br>
 Some placeholder text (e.g. on checkout process pages) may have insufficient contrast. We are actively working to find and repair these problems.
 <br><br>
-Third party advertising scripts may inject content with insufficient contrast.
+On some immersive special feature pages (e.g. Nature Outlook), some text may have insufficient contrast. 
+<br><br>
+When supplied by authors who publish with us, some images may contain text with insufficient contrast. While we offer guidelines for authors on high contrast text, we currently have no way to verify its use in supplied images.
+<br><br>
+Third-party advertising scripts may inject content with insufficient contrast.
 </td>
 </tr>
 <tr valign="top">
-<td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale"><strong>1.4.4 Resize text</strong></a> (Level AA)
+<td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale"><strong>1.4.4 Resize Text</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -982,7 +996,7 @@ Third party advertising scripts may inject content with insufficient contrast.
 <td>
 All first party text on the pages of this product can be resized up to 400% without loss of information or functionality.
 <br><br>
-Third party scripts (for example advertisements) may inject non-responsive content that loses or obscures information when text is resized.
+Third-party scripts (e.g. advertisements) may inject non-responsive content that loses or obscures information when text is resized.
 </td>
 </tr>
 <tr valign="top">
@@ -1006,15 +1020,15 @@ Third party scripts (for example advertisements) may inject non-responsive conte
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Outside of editorial content managed by content management system (CMS), the contents of author-submitted published books and papers, and third party scripts, the pages of this product do not use images of text to convey information except in the case of <a href="https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">logotypes</a> (considered essential per WCAG 2.1) or when the image is <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration">pure decoration</a>.
+Outside of editorial content managed by content management system (CMS), the contents of author-submitted published books and papers, and third-party scripts, the pages of this product do not use images of text to convey information except in the case of <a href="https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">logotypes</a> (considered essential per WCAG 2.1) or when the image is <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration">pure decoration</a>.
 <br><br>
 CMS content and published books and papers may include complex images that contain images of text. In most cases these images are used to supplement the text content they appear alongside. In some cases (e.g. charts, graphs, or maps, among others), the text content presented alongside may be insufficient to explain the contents of the image. A large-scale and currently-active programme of work to improve alternative text content submitted by our authors is under way to address this.
 <br><br>
-Third party advertising scripts may inject images containing images of text.
+Third-party advertising scripts may inject images containing images of text.
 </td>
 </tr>
 <tr id="reflow" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#reflow"><strong>1.4.10 Reflow</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#reflow"><strong>1.4.10 Reflow</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -1028,16 +1042,18 @@ Third party advertising scripts may inject images containing images of text.
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td>Supports</td>
-<td>All parts of this product are responsive. Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions, except where necessary.
-
+<td>Partially Supports</td>
+<td>Most parts of this product are responsive. Most content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions, except where necessary.
+<br><br>
 Examples of necessary exclusions that are permitted under the guidelines include the display of large tables or figures - in these cases we provide an additional "full screen" view so that more data can be visible at once.
 <br><br>
-Third party scripts (e.g. advertising, customer services widgets) may inject content that fails to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
+The "View all journals" link in this product's header is not available when content has reflowed to a width equivalent to 655 CSS pixels. We are actively working to repair this problem.
+<br><br>
+Third-party scripts (e.g. advertising) may inject content that fails to meet this criterion. 
 </td>
 </tr>
 <tr id="non-text-contrast" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#non-text-contrast"><strong>1.4.11 Non-text Contrast</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#non-text-contrast"><strong>1.4.11 Non-text Contrast</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -1053,15 +1069,17 @@ Third party scripts (e.g. advertising, customer services widgets) may inject con
 </td>
 <td>Partially Supports</td>
 <td>
-The visual presentation of User Interface Components in this product have a contrast ratio of at least 3:1 against adjacent colours.
+The visual presentation of most User Interface Components in this product have a contrast ratio of at least 3:1 against adjacent colours.
+<br><br>
+The blue focus ring on the Nature Subscription page has inadequate contrast on some elements with a red background colour. We are actively working to repair this problem.
 <br><br>
 When supplied by authors who publish with us, Graphical Objects (e.g. charts, graphs, or maps, among others) may have inadequate contrast.
 <br><br>
-Third party content (e.g. advertising, customer services widgets) may inject non-text elements with inadequate contrast. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
+Third-party content (e.g. advertising) may inject non-text elements with inadequate contrast. When we become aware of deficiencies, we immediately take steps to request repairs from third-party vendors.
 </td>
 </tr>
 <tr id="text-spacing" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#text-spacing"><strong>1.4.12 Text Spacing</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#text-spacing"><strong>1.4.12 Text Spacing</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -1078,11 +1096,11 @@ Third party content (e.g. advertising, customer services widgets) may inject non
 <td>Supports</td>
 <td>No loss of content or functionality occurs by setting the text spacing properties specified by this criterion anywhere in this product.
 <br><br>
-Third party content (e.g. advertising, customer services widgets) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
+Third-party content (e.g. advertising) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third-party vendors.
 </td>
 </tr>
 <tr id="content-on-hover-or-focus" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus"><strong>1.4.13 Content on Hover or Focus</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus"><strong>1.4.13 Content on Hover or Focus</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -1099,7 +1117,7 @@ Third party content (e.g. advertising, customer services widgets) may inject ele
 <td>Partially Supports</td>
 <td>Additional content that becomes visible on hover or focus (for example tooltips) is extremely rare in this product. In all cases where content is initially hidden and displayed on interaction, we trigger that display with explicit, unambiguous input such as a click or keypress. Content is persistently visible until dismissed by a similarly unambiguous interaction. We never rely on hover alone.  
 <br><br>
-Third party content (e.g. advertising, customer services widgets) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
+Third-party content (e.g. advertising) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third-party vendors.
 </td>
 </tr>
 <tr valign="top">
@@ -1148,8 +1166,6 @@ Third party content (e.g. advertising, customer services widgets) may inject ele
 Our document structure is semantically marked up using headings to create a sequential hierarchy of content. Rarely, headings or labels may be visually hidden but available to Assistive Technologies, though we prefer to keep this pattern to a minimum.
 <br><br>
 Nature magazine and a limited number of journals publish editorial content from a content management system (CMS). Content generated by CMS may occasionally lack appropriate headings (e.g. using bold text as implicit headings instead of semantically-marked up heading elements).
-<br><br>
-Other third party scripts, including survey or customer services widgets, may inject content with inadequate or inappropriate headings or labels. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr id="focus-visible" valign="top">
@@ -1173,12 +1189,39 @@ Other third party scripts, including survey or customer services widgets, may in
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Generally, we provide high-visibility yellow focus rings on all focusable elements. Some items (such as links) may use changes in text-decoration to indicate focus in addition to the focus ring.
+Generally, we provide high-visibility blue focus rings on all focusable elements. Some items (such as links) may use changes in text-decoration to indicate focus in addition to the focus ring.
 <br><br>
-Some pages (e.g. some checkout process pages) use default focus rings only. On some of these pages, the default focus ring has been removed from input elements and replaced with a different focus style that provides inadequate visibility. Some components on checkout process pages remove focus styles. We are actively working to repair these problems; the high-visibility focus ring across the majority of this product is intended to be the default.
+Some pages (e.g. some checkout process pages) use default focus rings only. On some of these pages, the default focus ring has been removed from input elements and replaced with a different focus style that provides inadequate visibility. Some components on checkout process pages remove focus styles. We are actively working to repair these problems; the high-visibility blue focus ring across the majority of this product is intended to be the default.
 <br><br>
-Third party scripts, including advertising, may inject components that remove focus styles.
+Third-party scripts, including advertising, may inject components that remove focus styles.
 </td>
+</tr>
+<tr valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum"><strong>2.4.11 Focus Not Obscured (Minimum)</strong></a> (Level AA 2.2 only)
+<br><br>
+<em>EN 301 549 Criteria - Does not apply</em><br><br>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td>Supports</td>
+<td>Focused elements in this product are at least partially visible or fully visible, and not obscured or entirely hidden by other elements in the product.</td>
+</tr>
+<tr valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#dragging-movements"><strong>2.5.7 Dragging Movements</strong></a> (Level AA 2.2 only)
+<br><br>
+<em>EN 301 549 Criteria - Does not apply</em><br><br>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td>Supports</td>
+<td>There is no functionality in this product that requires dragging movements. All interactive elements are operable using single pointer actions.</td>
+</tr>
+<tr valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#target-size-minimum"><strong>2.5.8 Target Size (Minimum)</strong></a> (Level AA 2.2 only)
+<br><br>
+<em>EN 301 549 Criteria - Does not apply</em><br><br>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td>Supports</td>
+<td>This product has targets that either meet the minimum size or have sufficient spacing around them, as specified by this criterion.</td>
 </tr>
 <tr valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#meaning-other-lang-id"><strong>3.1.2 Language of Parts</strong></a> (Level AA)
@@ -1204,7 +1247,7 @@ Third party scripts, including advertising, may inject components that remove fo
 <br><br>
 Editorial content or published papers may be written in or include text in languages other than English. Article content may be marked up with a separate <code>lang</code> attribute that matches the written language, though this is not consistently applied.
 <br><br>
-Third party scripts may inject components with non-English text - for example a targeted advertisement or file presented in a file viewer (e.g. Figshare) may use a different language to the main document. These may not be marked up with a separate <code>lang</code> attribute.
+Third-party scripts may inject components with non-English text - for example, a targeted advertisement or file presented in a file viewer (e.g. ReadCube) may use a different language to the main document. These may not be marked up with a separate <code>lang</code> attribute.
 <br><br>
 We currently have no method of confirming the inclusion of appropriate <code>lang</code> attributes for pieces of text in content that may use a different language to the main document.
 </td>
@@ -1283,8 +1326,6 @@ Pages that deal with sensitive information (including checkout process pages and
 <td>Partially Supports</td>
 <td>
 Where user input errors are automatically detected by our own software, those errors are identified with warning text adjacent to the input field. Unless it would present a risk to security, the warning text describes the error and what the user should do to correct it.
-<br><br>
-Third party scripts including the Disqus commenting widget, or other widgets that accept user input, may automatically detect errors but fail to present the errors to users in ways that they can perceive. They may rely on visual characteristics alone to indicate user input errors, or place error text in locations that are difficult for screen reader users to access. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr valign="top">
@@ -1309,8 +1350,17 @@ Third party scripts including the Disqus commenting widget, or other widgets tha
 <td>Supports</td>
 <td>The checkout process includes a pre-payment verification page. The user must confirm that their choices are correct on the verification page before they may enter their payment details. At this stage they may return to a previous step to make corrections, cancel, or abandon the process.</td>
 </tr>
+<tr valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#accessible-authentication-minimum"><strong>3.3.8 Accessible Authentication (Minimum)</strong></a> (Level AA 2.2 only)
+<br><br>
+<em>EN 301 549 Criteria - Does not apply</em><br><br>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td>Supports</td>
+<td>Account management pages in this product do not rely on memory or transcription alone for authentication. Alternative login methods such as copy-paste, password managers, and browser autofill are supported in this product.</td>
+</tr>
 <tr id="status-messages" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#status-messages"><strong>4.1.3 Status Messages</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#status-messages"><strong>4.1.3 Status Messages</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -1350,12 +1400,12 @@ Notes: This product has not been evaluated for WCAG 2.x Level AAA conformance.
 <tr>
 <td>302.1 Without Vision</td>
 <td>Partially Supports</td>
-<td>The majority of content is marked up for Assistive Technology. Third party scripts may inject content with inadequate accessible alternatives.</td>
+<td>The majority of content is marked up for Assistive Technology. Third-party scripts may inject content with inadequate accessible alternatives.</td>
 </tr>
 <tr>
 <td>302.2 With Limited Vision</td>
 <td>Partially Supports</td>
-<td>Markup is written with support for assistive technology. Text is resizable by the user. Fonts are set as rems and use pixels as a fallback if not supported. The product does not impede the user from zooming into the page. Third party scripts may inject content with inadequate accessibility support.</td>
+<td>Markup is written with support for assistive technology. Text is resizable by the user. Fonts are set as rems and use pixels as a fallback if not supported. The product does not impede the user from zooming into the page. Third-party scripts may inject content with inadequate accessibility support.</td>
 </tr>
 <tr>
 <td>302.3 Without Perception of Color</td>
@@ -1380,17 +1430,17 @@ Notes: This product has not been evaluated for WCAG 2.x Level AAA conformance.
 <tr>
 <td>302.7 With Limited Manipulation</td>
 <td>Partially Supports</td>
-<td>This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Fine motor control and simultaneous actions are not required to operate this product. Third party scripts may inject content that is difficult to use without a pointing device.</td>
+<td>This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Fine motor control and simultaneous actions are not required to operate this product. Third-party scripts may inject content that is difficult to use without a pointing device.</td>
 </tr>
 <tr>
 <td>302.8 With Limited Reach and Strength</td>
 <td>Partially Supports</td>
-<td>This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Third party scripts may inject content that is difficult to use without a pointing device.</td>
+<td>This product supports standard input mechanisms such as keyboards, pointing devices, and speech input. Third-party scripts may inject content that is difficult to use without a pointing device.</td>
 </tr>
 <tr>
 <td>302.9 With Limited Language, Cognitive, and Learning Abilities</td>
 <td>Partially Supports</td>
-<td>The pages of this product generally have a consistent presentation with clear labels, titles, and accessible names for controls. Third party scripts may inject content with inconsistent or absent labelling of interface components.</td>
+<td>The pages of this product generally have a consistent presentation with clear labels, titles, and accessible names for controls. Third-party scripts may inject content with inconsistent or absent labelling of interface components.</td>
 </tr>
 </tbody>
 </table>
@@ -1411,8 +1461,8 @@ Notes: This product is a web software application and is not subject to the requ
 </thead>
 <tbody>
 <tr>
-<td>501.1 Scope – Incorporation of WCAG 2.1 AA</td>
-<td>See <a href="#wcag-21-report">WCAG 2.1</a> section</td>
+<td>501.1 Scope – Incorporation of WCAG 2.2 AA</td>
+<td>See <a href="#wcag-22-report">WCAG 2.2</a> section</td>
 <td>See information in WCAG section</td>
 </tr>
 <tr>
@@ -1429,11 +1479,11 @@ Notes: This product is a web software application and is not subject to the requ
 <td headers="502-interop chap-5-remarks">
 This product has no platform features as defined by Section 508. The product is compatible with operating system and browser accessibility features configured by the user.
 <br><br>
-Third party scripts may inject content that disrupts standard operating system and browser accessibility features. See information in WCAG section for complete details.
+Third-party scripts may inject content that disrupts standard operating system and browser accessibility features. See information in WCAG section for complete details.
 </td>
 </tr>
 <tr>
-<th scope="column" colspan="3" id="502-services">502.3 Accessibility Services</th>
+<th scope="column" colspan="3" id="502-services"><a href="https://www.access-board.gov/ict/#502.3">502.3 Accessibility Services</a></th>
 </tr>
 <tr>
 <td headers="502-services chap-5-criteria">502.3.1 Object Information</td>
@@ -1485,7 +1535,7 @@ See WCAG sections <a href="#headings-and-labels">2.4.6 Headings and Labels</a> a
 <td headers="502-services chap-5-criteria">502.3.7 Hierarchical Relationships</td>
 <td headers="502-services chap-5-conformance">Partially Supports</td>
 <td headers="502-services chap-5-remarks">
-The pages of this product generally use standard HTML to express hierarchy. Third party scripts may inject content that obscures the relationships between components.
+The pages of this product generally use standard HTML to express hierarchy. Third-party scripts may inject content that obscures the relationships between components.
 <br><br>
 See WCAG section <a href="#info-and-relationships">1.3.1 Info and Relationships</a> for further detail.
 </td>
@@ -1515,7 +1565,7 @@ Original research or editorial content may contain images of text without adequa
 <td headers="502-services chap-5-remarks">
 The pages of this product use standard HTML or WAI-ARIA object attributes for maximum compatibility with Assistive Technologies.
 <br><br>
-Some third party scripts may inject content that cannot be interacted with easily or at all by keyboard or by some Assistive Technologies.
+Some third-party scripts may inject content that cannot be interacted with easily or at all by keyboard or by some Assistive Technologies.
 <br><br>
 See WCAG section <a href="#keyboard">2.1.1 Keyboard</a> for further detail.
 </td>
@@ -1524,7 +1574,7 @@ See WCAG section <a href="#keyboard">2.1.1 Keyboard</a> for further detail.
 <td headers="502-services chap-5-criteria">502.3.12 Focus Cursor</td>
 <td headers="502-services chap-5-conformance">Partially Supports</td>
 <td headers="502-services chap-5-remarks">
-We provide focus styles on most focusable elements. Third party scripts may inject components that remove focus styles or alter focus in a way that makes them difficult to perceive by all users.
+We provide focus styles on most focusable elements. Third-party scripts may inject components that remove focus styles or alter focus in a way that makes them difficult to perceive by all users.
 <br><br>
 See WCAG sections <a href="#use-of-color">1.4.1 Use of Color</a> and <a href="#focus-visible">2.4.7 Focus Visible</a> for further detail.
 </td>
@@ -1542,7 +1592,7 @@ The pages of this product use standard HTML and WAI-ARIA attributes to describe 
 <br><br>
 Rarely, components may omit or misuse WAI-ARIA attributes in a way that prevents users of some Assistive Technologies from being able to perceive changes in state. We are actively working to find and repair these problems.
 <br><br>
-Some third party scripts may inject content that fails to notify users of changes in state.
+Some third-party scripts may inject content that fails to notify users of changes in state.
 <br><br>
 See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships</a> and <a href="#name-role-value">4.1.2 Name, Role, Value</a> for further detail.
 </td>
@@ -1566,7 +1616,7 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 <td headers="503-apps chap-5-remarks">We do not provide any alternative user interface for this product that functions as assistive technology.</td>
 </tr>
 <tr>
-<th scope="column" colspan="3" id="503-usercon">503.4 User Controls for Captions and Audio Description</th>
+<th scope="column" colspan="3" id="503-usercon"><a href="https://www.access-board.gov/ict/#503.4">503.4 User Controls for Captions and Audio Description</a></th>
 </tr>
 <tr>
 <td headers="503-usercon chap-5-criteria">503.4.1 Caption Controls</td>
@@ -1694,7 +1744,7 @@ Notes: This product does not offer two-way voice communication and is therefore 
 
 ### Clause [7: ICT with Video Capabilities](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=35)
 
-Notes:
+Notes: See [WCAG section](#wcag-22-report) for full details.
 
 <table>
 <thead>
@@ -1752,7 +1802,7 @@ Notes: This product is a web software application and is not subject to the requ
 
 ### Clause [9: Web](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=45)
 
-Notes: Please see [WCAG 2.1 section](#wcag-21-report).
+Notes: See [WCAG 2.2 section](#wcag-22-report) for full details.
 
 ### Clause [10: Non-Web Documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52)
 
