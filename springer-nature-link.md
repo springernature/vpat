@@ -1,11 +1,11 @@
 # Springer Nature Link Accessibility Conformance Report International Edition
 (Based on VPAT® Version 2.5Rev)
 
-**Report Date**: 17 July 2025  
+**Report Date**: 23 October 2025  
 **Name of Product/Version**: Springer Nature Link _(we do not version our software)_  
 **Product Description**: Springer Nature Link provides researchers with access to scientific documents from journals, books, series, protocols, collections, reference works and proceedings. This report refers entirely to the accessibility of all web documents published at the subdomains link.springer.com and rd.springer.com (both subdomains are referred to as link.springer.com throughout this report. Also included are supporting informational pages such as journal homepages located at the top level domain, springer.com, and all web documents included in the purchasing and subscription checkout process.  
  **Contact information**: Please contact your Institutional Sales representative.   
- **Notes**:   
+ **Notes**: The Library Accessibility Alliance (LAA) performs independent audits of suppliers’ websites and has completed an [evaluation of Springer Nature Link](https://libraryaccessibility.org/evaluation/springerlink).  
 **Evaluation Methods Used**: Conformance to the listed accessibility standards has been evaluated by Springer Nature's dedicated Accessibility Specialists. We use a combination of static analysis tools (including but not limited to [axe by Deque](https://www.deque.com/axe/), [WAVE by WebAIM](https://wave.webaim.org/extension/), and all of the tools described in our [Frontend Playbook's Accessibility Guide](https://github.com/springernature/frontend-playbook/blob/main/accessibility/01-popular-tools.md#accessibility-tools)). Our manual testing uses [WCAG-EM](https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/) as its base strategy, and further details are also described in our Frontend Playbook under the "Manual testing" and "Assistive technology" sections.  
 
 ## Applicable Standards/Guidelines
@@ -24,6 +24,10 @@ This report covers the degree of conformance for the following accessibility sta
 </tr>
 <tr>
 <td><a href="https://www.w3.org/TR/WCAG21">Web Content Accessibility Guidelines 2.1</a></td>
+<td nowrap>Level A &nbsp; – &nbsp; <strong>Yes</strong><br>Level AA &nbsp; – &nbsp; <strong>Yes</strong><br>Level AAA &nbsp; – &nbsp; <strong>No</strong></td>
+</tr>
+<tr>
+<td><a href="https://www.w3.org/TR/WCAG22/">Web Content Accessibility Guidelines 2.2</a></td>
 <td nowrap>Level A &nbsp; – &nbsp; <strong>Yes</strong><br>Level AA &nbsp; – &nbsp; <strong>Yes</strong><br>Level AAA &nbsp; – &nbsp; <strong>No</strong></td>
 </tr>
 <tr>
@@ -47,7 +51,7 @@ The terms used in the Conformance Level information are defined as follows:
 - **Not Applicable**: The criterion is not relevant to the product.
 - **Not Evaluated**: The product has not been evaluated against the criterion. This can be used only in WCAG Level AAA.
 
-## WCAG 2.1 Report
+## WCAG 2.2 Report
 
 Tables 1 and 2 also document conformance with:
 - EN 301 549:
@@ -59,11 +63,11 @@ Tables 1 and 2 also document conformance with:
   - Chapter 5 – 501.1 Scope, 504.2 Content Creation or Editing
   - Chapter 6 – 602.3 Electronic Support Documentation
 
-**Note**: When reporting on conformance with the WCAG 2.1 Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the [WCAG 2.1 Conformance Requirements](https://www.w3.org/TR/WCAG21/#conformance-reqs).
+**Note**: When reporting on conformance with the WCAG 2.2 Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the [WCAG 2.2 Conformance Requirements](https://www.w3.org/TR/WCAG22/#conformance-reqs).
 
 ### Table 1: Success Criteria, Level A
 
-<table id="WCAG">
+<table id="WCAG-A">
 <thead>
 <tr>
 <th><strong>Criteria</strong></th>
@@ -95,11 +99,11 @@ Tables 1 and 2 also document conformance with:
 <td>
 With rare exceptions, most images supplied by Springer Nature provide alternative text, or descriptions, or figure captions. We may use WAI-ARIA techniques to link some complex images with their descriptions if alternative text is unable to provide adequate context.
 <br><br>
-Images such as icons on user interface elements may be identified with visible text labels, visually-hidden text, or WAI-ARIA techniques. Some icons (e.g. "next" and "previous" pagination controls on search results pages) are known to have inadequate or missing text alternatives. We are actively working to find and repair these problems.
+Images such as icons on user interface elements may be identified with visible text labels, visually-hidden text, or WAI-ARIA techniques. Some icons are known to have inadequate or missing text alternatives (e.g. the chevron icon in dropdowns). We are actively working to repair this problem.
 <br><br>
 We mark up some images so that they can be ignored by Assistive Technologies if they are <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration"><i>pure decoration</i></a> (as defined by WCAG 2.1).
 <br><br>
-Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These include the Freshdesk customer services widget, and may include images in advertising scripts. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These may include images in advertising scripts. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 <br><br>
 When supplied by authors who publish with us, some complex images may lack adequate alternative text, descriptions, and/or captions. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content. A large-scale and currently-active programme of work to improve alternative text content submitted by our authors is under way to address this.
 </td>
@@ -209,19 +213,17 @@ We currently have no method of confirming the inclusion of adequate media altern
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+This product's pages generally use progressive enhancement techniques and semantically-correct markup so that information, structure, and relationships can be understood independently of presentation.
 <br><br>
-Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) may use unsemantic markup, including inadequate, misleading, or incorrectly-applied landmarks. Some UI controls (e.g. "next" and "previous" pagination controls on search results pages) lack accessible names. Pages may omit level one headings.
-<br><br>
-On pages rendered in the <strong>newer</strong> design (currently articles, chapters, books, book series, reference works, reference work entries, and collections), we generally use progressive enhancement techniques and semantically-correct markup so that information, structure, and relationships can be understood independently of presentation.
+A-Z index pages for journals and books use unsemantic markup including inadequate, misleading, or incorrectly-applied landmarks, and have an illogical heading order.
 <br><br>
 We make use of WAI-ARIA roles to support landmarks, and use WAI-ARIA roles and properties when required for more complex functionality such as popup menus and dialogs.
 <br><br>
 Some complex functionality may omit required WAI-ARIA roles, states, or attributes, or misuse WAI-ARIA markup and techniques. We are actively working to find and repair these problems.
 <br><br>
-Checkout process pages use multiple landmarks of the same type without unique labels. The pages use form fields that rely solely on built-in browser error checking, which can lead to error messages being unavailable for users with older browser technology, or Assistive Technology that doesn't support these features.
+Checkout process pages use form fields that rely solely on built-in browser error checking, which can lead to error messages being unavailable for users with older browser technology, or for Assistive Technology that doesn't support these features.
 <br><br>
-Third party scripts may inject content with incorrect or absent information about structure and relationships. These may include content in advertising scripts and the Freshdesk customer services widget, among others.
+Third party scripts may inject content with incorrect or absent information about structure and relationships. These may include content in advertising scripts.
 </td>
 </tr>
 <tr id="meaningful-sequence" valign="top">
@@ -299,8 +301,6 @@ When supplied by authors who publish with us, some complex images may rely on se
 <td>
 Colour alone is generally not used to convey information in the pages of this product.
 <br><br>
-Links and icons may use colour to indicate hover or active states. These are supplemented with visible focus rings and/or background colours and/or text decoration underlines and/or luminosity differences per WAI techniques <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G183">G183</a> and <a href="https://www.w3.org/WAI/WCAG21/Techniques/css/C15">C15</a>.
-<br><br>
 Some complex images in journals, books, series, protocols, reference works and proceedings may rely on colour as the only visual means of understanding information. Examples may include images of charts, graphs, diagrams or maps. Generally, these images are used to supplement text content.
 </td>
 </tr>
@@ -323,15 +323,13 @@ Some complex images in journals, books, series, protocols, reference works and p
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
 Content supplied by us does not play automatically.
 <br><br>
 All video with audio hosted through the third party MovingImage platform has a mechanism for pausing, stopping, and controlling volume.
 <br><br>
 We play audio-only files directly on our pages. Audio files hosted by us are supplied as downloadable files only, for use in the users' own media player.
-<br><br>
-Third party advertisements may load video and audio that automatically starts, and may not provide adequate controls for pausing, stopping, and/or controlling volume. When we become aware of active advertisements with these problems, we immediately take steps to remove those advertisements from our pages.
 </td>
 </tr>
 <tr id="keyboard" valign="top">
@@ -357,7 +355,7 @@ Third party advertisements may load video and audio that automatically starts, a
 <td>
 The majority of components in this product can be navigated by keyboard alone. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
-Third party advertising scripts may inject content that cannot be interacted with easily or at all by keyboard. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+On Springer Nature Video pages, the autoplay button is not accessible by keyboard only. We are working on fixing this issue.
 </td>
 </tr>
 <tr id="no-keyboard-trap" valign="top">
@@ -379,15 +377,15 @@ Third party advertising scripts may inject content that cannot be interacted wit
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
 Keyboard trapping inside components on this product's pages is rare, and in most cases is managed appropriately, allowing focus to be moved away from any component using standard keystrokes (<kbd>tab</kbd>, <kbd>shift</kbd>, <kbd>esc</kbd>).
 <br><br>
-Modal dialogs (including those generated by third party scripts) may trap focus and provide inadequate methods of escaping. When we become aware of deficiencies, we actively work on repairs of our own, and with third party vendors where required.
+Modal dialogs generated by third party scripts may trap focus and provide inadequate methods of escaping. When we become aware of deficiencies, we actively work on repairs with third party vendors where required.
 </td>
 </tr>
 <tr id="character-key-shortcuts" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#character-key-shortcuts"><strong>2.1.4 Character Key Shortcuts</strong></a> (Level A 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#character-key-shortcuts"><strong>2.1.4 Character Key Shortcuts</strong></a> (Level A 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -448,8 +446,6 @@ Modal dialogs (including those generated by third party scripts) may trap focus 
 <td>Partially Supports</td>
 <td>
 Moving, blinking or scrolling content on this product's pages generally does not start automatically, and is complemented by controls that allow users to pause or otherwise stop the content. When supplied by authors who publish with us, moving images in the form of GIFs may not meet this criterion.
-<br><br>
-Third party advertising scripts may inject content that automatically moves or blinks and lasts more than five seconds, without providing a mechanism to pause, stop, or hide that content.
 </td>
 </tr>
 <tr id="three-flashes-or-below-threshold" valign="top">
@@ -497,7 +493,7 @@ Third party advertising scripts may inject content that automatically moves or b
 <td>
 The pages of this product generally use semantically-correct markup so that Assistive Technology users can recognise elements and move around them accordingly. We make use of WAI-ARIA roles to support landmarks. We also provide skip links for bypassing repetitive navigation elements.
 <br><br>
-Checkout process pages have landmarks present. Some are duplicated without unique labels.
+Pages on Springer Nature Video do not include a skip link to bypass repetitive navigation elements. We are actively working to repair this problem.
 </td>
 </tr>
 <tr id="page-titled" valign="top">
@@ -521,7 +517,7 @@ Checkout process pages have landmarks present. Some are duplicated without uniqu
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product's pages mostly have unique page titles that describe the purpose of the page.
+Most pages in this product have unique page titles that describe the purpose of the page.
 <br><br>
 Where multiple versions of the same content exist (e.g. in original research that has been updated), the page titles do not differentiate between versions.
 </td>
@@ -549,13 +545,7 @@ Where multiple versions of the same content exist (e.g. in original research tha
 <td>
 The meaning and/or operation of content on this product is generally unaffected by focus order.
 <br><br>
-This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
-<br><br>
-Some pages rendered in the <strong>older</strong> design may contain components where some items in the focus order do not match the visual order (for example the "date published" filtering on search results pages).
-<br><br>
-On pages rendered in the <strong>newer</strong> design (currently articles, chapters, books, book series, reference works, reference work entries, and collections), the focus order of page content matches the visual order.
-<br><br>
-Third party scripts including advertising scripts or customer services widgets (among others), may inject content where the focus order does not match the visual order. The operation and meaning of these components should be unaffected by the focus order.
+Third party scripts, including advertising scripts, may inject content where the focus order does not match the visual order. The operation and meaning of these components should be unaffected by the focus order.
 </td>
 </tr>
 <tr id="link-purpose-in-context" valign="top">
@@ -583,11 +573,11 @@ Generally, the purpose of each link in this product can be determined by its des
 <br><br>
 In submitted articles, anchor links that refer to supplementary figures or tables may have insufficient context in their link text (e.g. figure numbers only). In limited cases we may support inadequate link text with the use of WAI-ARIA techniques. We are actively working to repair these problems.
 <br><br>
-Third party scripts including advertising scripts, the Disqus commenting widget, survey or customer services widgets (among others), may inject content that includes links with no accessible text, or poorly-named accessible text. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+Third party scripts (e.g. advertising) may inject content that includes links with no accessible text, or poorly-named accessible text. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr id="pointer-gestures" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#pointer-gestures"><strong>2.5.1 Pointer Gestures</strong></a> (Level A 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#pointer-gestures"><strong>2.5.1 Pointer Gestures</strong></a> (Level A 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -605,7 +595,7 @@ Third party scripts including advertising scripts, the Disqus commenting widget,
 <td>This product does not contain any functionality that uses multipoint or path-based gestures for operation.</td>
 </tr>
 <tr id="pointer-cancellation" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#pointer-gestures"><strong>2.5.2 Pointer Cancellation</strong></a> (Level A 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#pointer-gestures"><strong>2.5.2 Pointer Cancellation</strong></a> (Level A 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -623,7 +613,7 @@ Third party scripts including advertising scripts, the Disqus commenting widget,
 <td>All functionality that can be operated using a single pointer can also be cancelled using standard browser and operating system methods.</td>
 </tr>
 <tr id="label-in-name" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#label-in-name"><strong>2.5.3 Label in Name</strong></a> (Level A 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#label-in-name"><strong>2.5.3 Label in Name</strong></a> (Level A 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -637,13 +627,13 @@ Third party scripts including advertising scripts, the Disqus commenting widget,
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
-In most cases where controls contain visible text, that text is also the label for the control. We are continually working to find and repair instances that do not meet this criterion.
+Where controls contain visible text, that text is also the label for the control. When we become aware of deficiencies, we work to repair instances that do not meet this criterion.
 </td>
 </tr>
 <tr id="motion-actuation" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#motion-actuation"><strong>2.5.4 Motion Actuation</strong></a> (Level A 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#motion-actuation"><strong>2.5.4 Motion Actuation</strong></a> (Level A 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -725,8 +715,19 @@ Pages in this product may contain mixed languages, though the primary language o
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Supports</td>
-<td>Changing the setting of any user interface component does not automatically cause a change of context on any of the pages of this product.</td>
+<td>Partially Supports</td>
+<td>Generally, changing the setting of any user interface component does not automatically cause a change of context on any of the pages of this product.
+<br><br>
+Some user interface components (e.g. quantity box on checkout process pages, filter radio buttons on collections pages) cause the page to reload based on changing their setting.
+</td>
+</tr>
+<tr id="consistent-help" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#consistent-help"><strong>3.2.6 Consistent Help</strong></a> (Level A 2.2 only)
+<br><br><em>EN 301 549 Criteria - Does not apply</em>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td></td>
+<td></td>
 </tr>
 <tr id="error-identification" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-identified"><strong>3.3.1 Error Identification</strong></a> (Level A)
@@ -753,8 +754,6 @@ Where user input errors are automatically detected by our own software, those er
 <br><br>
 In some parts of the site, we additionally use an `aria-describedby` property to associate error messages with invalid fields.
 <br><br>
-User account pages located at link.springer.com/account use unsemantic, unassociated, `label` elements to mark up errors.
-<br><br>
 Checkout process pages rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states.
 </td>
 </tr>
@@ -779,18 +778,22 @@ Checkout process pages rely solely on built-in browser error checking, and do no
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
-<br><br>
-Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) generally display visible and appropriately associated labels for input fields. Exceptions include the pagination number field on advanced search results pages and in the main search component in the page banner, both of which omit any label or WAI-ARIA description, and use only placeholder text as instruction. We are actively working to find and repair these problems.  
-<br><br>
-Pages rendered in the <strong>newer</strong> design (currently articles, chapters, books, book series, reference works, reference work entries, and collections) generally display visible and appropriately associated labels for input fields.
-<br><br>
 Instructions such as those that explain mandatory fields may be absent or only present at the end of forms. (e.g. some payment information pages). Additional instructions for specific input fields may not be adequately associated (e.g. with `aria-describedby`) with the fields they describe. We are actively working to find and repair these problems.
 </td>
 </tr>
+<tr id="redundant-entry" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#redundant-entry"><strong>3.3.7 Redundant Entry</strong></a> (Level A 2.2 only)
+<br><br><em>EN 301 549 Criteria - Does not apply</em><br><br>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td>Supports</td>
+<td>This product does not require users to enter information more than once in the process without the information being available for the user to select. Checkout pages include a checkbox to populate inputs with the same values as previously entered (e.g. where the billing address and shipping address is the same).</td>
+</tr>
 <tr id="parsing" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#ensure-compat-parses"><strong>4.1.1 Parsing</strong></a> (Level A)
-<br><br>Also applies to:<br><br>
+<br><br>Applies to:<br><br>
+<em>WCAG 2.0 and 2.1 - Supports</em><br><br>
+<em>WCAG 2.2 (obsolete and removed) - Does not apply</em><br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
 <li>9.4.1.1 (Web)</li>
@@ -807,21 +810,11 @@ Instructions such as those that explain mandatory fields may be absent or only p
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially Supports</td>
+<td>WCAG 2.0 and 2.1 - Supports
+<br><br>
+WCAG 2.2 (obsolete and removed) - Does not apply
+</td>
 <td>
-Most of the pages of this product generally use semantically-correct markup that meets the HTML5 specification for interface elements.
-<br><br>
-Where errors exist, they are usually minor, such as the presence of invalid `alt` and `src` attributes in SVG image nodes (ignored by user agents). There are some instances of incorrectly-nested elements (e.g. "<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content">flow content</a>" wrapped in "<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Phrasing_content">phrasing content</a>"), also generally ignored by user agents.
-<br><br>
-This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
-<br><br>
-Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) have a slightly higher volume of parsing errors, which include more problematic errors such as `li` elements outside of `ul` elements and duplicate IDs, that may interfere with the ability of Assistive Technology to correctly identify some components.
-<br><br>
-Ancillary static pages (e.g. the pages linked to at the footer of each page, such as Terms and Conditions, Legal Information, and Accessibility, among others) are hand-built in HTML, without the use of a dynamic templating system. Hand-built content may contain unclosed or illegally nested elements. When we become aware of content with these problems, we immediately take steps to repair the HTML.
-<br><br>
-Checkout process pages contain parsing errors that may be problematic for Assistive Technology, including illegally-nested elements (including illegally-nested controls), invalid autocomplete values, and incomplete closing tags.
-<br><br>
-Third party advertising scripts may inject content that omits start and end tags, contains duplicate attributes or illegally nested elements. When we become aware of active advertisements with these problems, we immediately take steps to remove those advertisements from our pages.
 </td>
 </tr>
 <tr id="name-role-value" valign="top">
@@ -847,9 +840,7 @@ Third party advertising scripts may inject content that omits start and end tags
 <td>
 The pages of this product generally use standard HTML and WAI-ARIA attributes to describe the identity, operation, and state of user interface elements to Assistive Technologies.
 <br><br>
-In some cases, WAI-ARIA attributes have been omitted where they would be helpful (e.g. progress indicators are not marked up as step counters in the checkout flow). In other cases WAI-ARIA roles or attributes may be misused in ways that cause elements to have misleading semantics. We are actively working to find and repair these problems.
-<br><br>
-Other third party scripts, including the Freshdesk customer services widget, may present elements that lack adequate names and roles, making them difficult for screen reader users to access. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+In some cases, WAI-ARIA attributes have been omitted where they would be helpful (e.g. progress indicators are not marked up as step counters in the checkout flow). In other cases, WAI-ARIA roles or attributes may be misused in ways that cause elements to have misleading semantics. We are actively working to find and repair these problems.
 </td>
 </tr>
 </tbody>
@@ -857,7 +848,7 @@ Other third party scripts, including the Freshdesk customer services widget, may
 
 ### Table 2: Success Criteria, Level AA
 
-<table>
+<table id="WCAG-AA">
 <thead>
 <tr>
 <th><strong>Criteria</strong></th>
@@ -912,7 +903,7 @@ Other third party scripts, including the Freshdesk customer services widget, may
 </td>
 </tr>
 <tr id="orientation" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#orientation"><strong>1.3.4 Orientation</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#orientation"><strong>1.3.4 Orientation</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -930,7 +921,7 @@ Other third party scripts, including the Freshdesk customer services widget, may
 <td>This product does not contain any content that restricts its view and operation to a single display orientation, such as portrait or landscape.</td>
 </tr>
 <tr id="identify-input-purpose" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#identify-input-purpose"><strong>1.3.5 Identify Input Purpose</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#identify-input-purpose"><strong>1.3.5 Identify Input Purpose</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -945,7 +936,7 @@ Other third party scripts, including the Freshdesk customer services widget, may
 <em>Revised Section 508 - does not apply</em>
 </td>
 <td>Partially Supports</td>
-<td>Some form fields (for example checkout flows) have autocomplete values that allow the field purpose to be determined programmatically, though this functionality is not universal across this product.</td>
+<td>Some form fields (e.g. checkout flows) have autocomplete values that allow the field purpose to be determined programmatically, though this functionality is not universal across this product.</td>
 </tr>
 <tr id="contrast-minimum" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast"><strong>1.4.3 Contrast (Minimum)</strong></a> (Level AA)
@@ -968,19 +959,15 @@ Other third party scripts, including the Freshdesk customer services widget, may
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+Images of product covers (e.g. journals, books displayed on the [homepage](https://link.springer.com)) may contain text that does not meet WCAG AA contrast guidelines. These images are supplemented with visible text labels.
 <br><br>
-Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) use gradient background images that do not meet minimum contrast requirements between the text and one or more of the gradient background colours.
-<br><br>
-Images of product covers (e.g. journals, books displayed on the [homepage](https://link.springer.com)) may contain text that does not meet WCAG AA contrast guidelines. On the homepage, these images are supplemented with visible text labels.
-<br><br>
-Pages rendered in the <strong>newer</strong> design (currently articles, chapters, books, book series, reference works, reference work entries, and collections) meet WCAG AA contrast ratio requirements.
+Checkout process pages have some instances of low text contrast (e.g. where optional fields are indicated in text).
 <br><br>
 Third party advertising scripts may inject content with insufficient contrast.
 </td>
 </tr>
 <tr id="resize-text" valign="top">
-<td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale"><strong>1.4.4 Resize text</strong></a> (Level AA)
+<td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale"><strong>1.4.4 Resize Text</strong></a> (Level AA)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -998,11 +985,9 @@ Third party advertising scripts may inject content with insufficient contrast.
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
-The pages of this product can generally be resized without Assistive Technology up to 200 percent without loss of content or functionality.  
-<br><br>
-Third party advertising scripts may inject non-responsive content that loses or obscures information when text is resized or the screen is magnified.
+The pages of this product can be resized without Assistive Technology up to 200 percent without loss of content or functionality.  
 </td>
 </tr>
 <tr id="images-of-text" valign="top">
@@ -1026,8 +1011,8 @@ Third party advertising scripts may inject non-responsive content that loses or 
 </ul></td>
 <td>Partially Supports</td>
 <td>
-With some exceptions, the pages of this product generally do not use images of text to convey information except in the case of <a href="https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">logotypes</a> (considered essential per WCAG 2.1) or when the image is <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration">pure decoration</a>.  
-
+With some exceptions, the pages of this product generally do not use images of text to convey information except in the case of <a href="https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html">logotypes</a> (considered essential per WCAG 2.1), or when the image is <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration">pure decoration</a>.  
+<br><br>
 Exceptions where this criterion is not met may include:  
 <ul>
   <li>editorial content managed by a content management system (CMS)</li>
@@ -1035,13 +1020,13 @@ Exceptions where this criterion is not met may include:
   <li>third party scripts</li>
 </ul>
 <br><br>
-CMS content and published books and papers may include complex images that contain images of text. In most cases these images are used to supplement the text content they appear alongside. In some cases (e.g. charts, graphs, or maps, among others), the text content presented alongside may be insufficient to explain the contents of the image. A large-scale and currently-active programme of work to improve alternative text content submitted by our authors is under way to address this.
+CMS content and published books and papers may include complex images that contain images of text. In most cases, these images are used to supplement the text content they appear alongside. In some cases (e.g. charts, graphs, or maps, among others), the text content presented alongside may be insufficient to explain the contents of the image. A large-scale and currently-active programme of work to improve alternative text content submitted by our authors is under way to address this.
 <br><br>
 Third party advertising scripts may inject images containing text.
 </td>
 </tr>
 <tr id="reflow" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#reflow"><strong>1.4.10 Reflow</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#reflow"><strong>1.4.10 Reflow</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -1055,14 +1040,12 @@ Third party advertising scripts may inject images containing text.
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>Most parts of this product are responsive. Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions, except where necessary. Examples of necessary exclusions that are permitted under the guidelines include the display of large tables or figures - in these cases we provide an additional "full screen" view so that more data can be visible at once.
-<br><br>
-Third party advertising scripts may inject non-responsive content that loses or obscures information when text is resized or the screen is magnified.
 </td>
 </tr>
 <tr id="non-text-contrast" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#non-text-contrast"><strong>1.4.11 Non-text Contrast</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#non-text-contrast"><strong>1.4.11 Non-text Contrast</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -1078,17 +1061,13 @@ Third party advertising scripts may inject non-responsive content that loses or 
 </td>
 <td>Partially Supports</td>
 <td>
-This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
-<br><br>
-Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) contain user interface icons that do not meet minimum contrast requirements for non-text content.
-<br><br>
 When supplied by authors who publish with us, Graphical Objects (e.g. charts, graphs, or maps, among others) may have inadequate contrast.
 <br><br>
-Third party content (e.g. advertising, customer services widgets) may inject non-text elements with inadequate contrast. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
+Third party content (e.g. advertising) may inject non-text elements with inadequate contrast. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
 </td>
 </tr>
 <tr id="text-spacing" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#text-spacing"><strong>1.4.12 Text Spacing</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#text-spacing"><strong>1.4.12 Text Spacing</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -1102,15 +1081,13 @@ Third party content (e.g. advertising, customer services widgets) may inject non
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>
-No loss of content or functionality occurs by setting the text spacing properties specified by this criterion anywhere in this product, except for the search results page and <a href="https://link.springer.com">homepage</a> where a collision may occur between some of the filters.
-<br><br>
-The search results page is rendered in an older design - we are in the process of transferring this content from the older design to the newer design which will pass this criterion.
+No loss of content or functionality occurs by setting the text spacing properties specified by this criterion anywhere in this product.
 </td>
 </tr>
 <tr id="content-on-hover-or-focus" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus"><strong>1.4.13 Content on Hover or Focus</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus"><strong>1.4.13 Content on Hover or Focus</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -1124,13 +1101,13 @@ The search results page is rendered in an older design - we are in the process o
 </ul>
 <em>Revised Section 508 - does not apply</em>
 </td>
-<td>Does Not Support</td>
+<td>Partially Supports</td>
 <td>
 Additional content that becomes visible on hover or focus (for example tooltips) is rare in this product. In cases where content is initially hidden and displayed on interaction, we also trigger that display with the tab key.  
-
+<br><br>
 Content triggered in this way does not meet this criterion's requirements for Dismissable (the content cannot be dismissed without changing focus) or Hoverable (the pointer cannot be moved over the additional content without it disappearing).  
 <br><br>
-Third party content (e.g. advertising, customer services widgets) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
+Third party content (e.g. advertising) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
 </td>
 </tr>
 <tr id="multiple-ways" valign="top">
@@ -1154,9 +1131,9 @@ Third party content (e.g. advertising, customer services widgets) may inject ele
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Users may use the search function or the provided category browsing links to access any part of this product. The main navigation component can also be used to access the main content index pages.
+On most pages of this product, users may use the search function or the provided category browsing links to access any part of this product. The main navigation component can also be used to access the main content index pages.
 <br><br>
-This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+A-Z index pages for journals and books have a search function to access any part of this product but do not provide other ways to navigate this product, and do not meet this criterion.
 </td>
 </tr>
 <tr id="headings-and-labels" valign="top">
@@ -1180,15 +1157,9 @@ This product contains content that is rendered in two separate designs. We are i
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+Most pages in this product use correctly-structured headings and generally display visible and appropriately associated labels for input fields.
 <br><br>
-Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) may incorrectly use `label` elements for other purposes (e.g. for error messages on account management pages), omit labels for some functionality (e.g. the pagination number field on advanced search results pages and the text input for the main search component in the page banner).
-<br><br>
-Level one headings are omitted on some pages (e.g. search results pages). Other pages have multiple level one headings (e.g. static ancillary pages such as link.springer.com/termsandconditions). Some informational pages (e.g. Journal updates) do not use correctly-structured heading levels.
-<br><br>
-We are actively working to find and repair these problems.  
-<br><br>
-Pages rendered in the <strong>newer</strong> design (currently articles, Chapters, books, book series, reference works, reference work entries, and collections) use correctly-structured headings and generally display visible and appropriately associated labels for input fields.  
+Multiple level one headings are used on some pages (e.g. static ancillary pages such as link.springer.com/termsandconditions). Some informational pages (e.g. Journal updates) do not use correctly-structured heading levels. We are actively working to find and repair these problems.  
 </td>
 </tr>
 <tr id="focus-visible" valign="top">
@@ -1212,16 +1183,41 @@ Pages rendered in the <strong>newer</strong> design (currently articles, Chapter
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
+Most pages in this product highly-visible focus styles, such as blue focus rings.
 <br><br>
-Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) use default browser focus rings only for interactive components.
-<br><br>
-Pages rendered in the <strong>newer</strong> design (currently articles, chapters, books, book series, reference works, reference work entries, and collections) use highly-visible focus styles, including yellow focus rings or yellow backgrounds.
-<br><br>
-Checkout process pages use default browser focus rings only for interactive components.
+Checkout process pages omit a visible focus style on product image links.
 <br><br>
 Third party scripts, including advertising, may inject components that remove focus styles.
 </td>
+</tr>
+<tr id="focus-not-obscured-minimum" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum"><strong>2.4.11 Focus Not Obscured (Minimum)</strong></a> (Level AA 2.2 only)
+<br><br><em>EN 301 549 Criteria - Does not apply</em><br><br>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td>Supports</td>
+<td>There are no instances of obscured focus as specified by this criterion anywhere in this product.
+</td>
+</tr>
+<tr id="dragging-movements" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#dragging-movements"><strong>2.5.7 Dragging Movements</strong></a> (Level AA 2.2 only)
+<br><br><em>EN 301 549 Criteria - Does not apply</em><br><br>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td>Supports</td>
+<td>There is no functionality in this product that requires dragging movements. All interactive elements are operable using single pointer actions.</td>
+</tr>
+<tr id="target-size-minimum" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#target-size-minimum"><strong>2.5.8 Target Size (Minimum)</strong></a> (Level AA 2.2 only)
+<br><br><em>EN 301 549 Criteria - Does not apply</em><br><br>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td>Partially Supports</td>
+<td>With rare exceptions, this product has targets that either meet the minimum size or have sufficient spacing around them, as specified by this criterion. 
+<br><br>
+Superscript link targets that are undersized, or have insufficient spacing around them, are considered inline elements and are exempt from this criterion.
+<br><br>
+The footer on Springer Nature Video pages includes undersized targets that do not have sufficient spacing around them. We are actively working to repair this issue.</td>
 </tr>
 <tr id="language-of-parts" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#meaning-other-lang-id"><strong>3.1.2 Language of Parts</strong></a> (Level AA)
@@ -1272,15 +1268,11 @@ Third party scripts may inject components that use a different language to the p
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product contains content that is rendered in two separate, inconsistent designs. The designs have different navigation methods, within the same collections of pages. We are in the process of transferring all content from the older design to the newer design.
+Most pages in this product have consistent navigation methods across collections of pages.
 <br><br>
-Pages rendered in the <strong>older</strong> design are currently journals, and ancillary pages such as search, indexes, and account management.
+A-Z index pages for journals and books have different navigation methods than the majority of the site. We are working on making the navigation methods on these pages consistent with the wider site.
 <br><br>
-Pages rendered in the <strong>newer</strong> design are currently articles, chapters, books, book series, reference works, reference work entries, and collections.
-<br><br>
-When the transfer process is complete, the navigation methods between designs will be broadly consistent.
-<br><br>
-Pages that deal with sensitive information (for example payment pages) have intentionally simpler designs, and do not share the same navigation system as the main site. The navigation of each of these sets of pages is internally consistent.
+Pages that deal with sensitive information (e.g. payment pages) have intentionally simpler designs, and do not share the same navigation system as the main site. The navigation of each of these sets of pages is internally consistent.
 </td>
 </tr>
 <tr id="consistent-identification" valign="top">
@@ -1304,15 +1296,11 @@ Pages that deal with sensitive information (for example payment pages) have inte
 </ul></td>
 <td>Partially Supports</td>
 <td>
-This product contains content that is rendered in two separate, inconsistent designs. We are in the process of transferring all content from the older design to the newer design.
+Most pages in this product have consistent presentation and functionality.
 <br><br>
-Pages rendered in the <strong>older</strong> design are currently journals, and ancillary pages such as search, indexes, and account management.
+A-Z index pages for journals and books have a different presentation and functionality than most of the site, and do not meet this criterion.
 <br><br>
-Pages rendered in the <strong>newer</strong> design are currently articles, chapters, books, book series, reference works, reference work entries, and collections.
-<br><br>
-When the transfer process is complete, content will use a unified design style with consistent presentation and functionality.
-<br><br>
-Pages that deal with sensitive information (for example payment pages) have intentionally simpler designs. The presentation of each of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site.
+Pages that deal with sensitive information (e.g. payment pages) have intentionally simpler designs. The presentation of each of these sets of pages is internally consistent, and the tasks performed are unlike those performed elsewhere on the site.
 </td>
 </tr>
 <tr id="error-suggestion" valign="top">
@@ -1337,10 +1325,6 @@ Pages that deal with sensitive information (for example payment pages) have inte
 <td>Partially Supports</td>
 <td>
 Where user input errors are automatically detected by our own software, those errors are identified to the user with warning text adjacent to the input field. Unless it would present a risk to security, the warning text describes the error and what the user should do to correct it.
-<br><br>
-This product contains content that is rendered in two separate designs. We are in the process of transferring all content from the older design to the newer design.
-<br><br>
-Pages rendered in the <strong>older</strong> design (currently journals, and ancillary pages such as search, indexes, and account management) use unsemantic, unassociated `label` elements to mark up errors.
 <br><br>
 Checkout process pages rely solely on built-in browser error checking, and do not identify errors in text. Some users with and without Assistive Technology may be unable to access these error states.
 </td>
@@ -1367,8 +1351,16 @@ Checkout process pages rely solely on built-in browser error checking, and do no
 <td>Supports</td>
 <td>Checkout process pages include a verification step. There, the user must confirm that their choices are correct before they may enter their payment details. At this stage they may return to a previous step to make corrections, cancel, or abandon the process.</td>
 </tr>
+<tr id="accessible-authentication-minimum" valign="top">
+<td><a href="https://www.w3.org/TR/WCAG22/#accessible-authentication-minimum"><strong>3.3.8 Accessible Authentication (Minimum)</strong></a> (Level AA 2.2 only)
+<br><br><em>EN 301 549 Criteria - Does not apply</em><br><br>
+<em>Revised Section 508 - Does not apply</em>
+</td>
+<td>Supports</td>
+<td>Account management pages in this product do not rely on memory or transcription alone for authentication. Alternative login methods such as copy-paste, password managers, and browser autofill are supported in this product.</td>
+</tr>
 <tr id="status-messages" valign="top">
-<td><a href="https://www.w3.org/TR/WCAG21/#status-messages"><strong>4.1.3 Status Messages</strong></a> (Level AA 2.1 only)
+<td><a href="https://www.w3.org/TR/WCAG21/#status-messages"><strong>4.1.3 Status Messages</strong></a> (Level AA 2.1 and 2.2)
 <br><br>Also applies to:<br><br>
 <em>EN 301 549 Criteria</em>
 <ul>
@@ -1383,7 +1375,7 @@ Checkout process pages rely solely on built-in browser error checking, and do no
 <em>Revised Section 508 - does not apply</em>
 </td>
 <td>Partially Supports</td>
-<td>Status messages that do not receive focus are presented in text. Some are marked up with programmatic roles (e.g. `role="alert"` on some error messages), but there is no consistent, single approach to status messages across the multiple designs. ARIA Live Regions are not generally used.</td>
+<td>Status messages that do not receive focus are presented in text. Some are marked up with programmatic roles (e.g. `role="alert"` on some error messages), but there is no consistent, single approach to status messages across the multiple designs. There are instances of ARIA Live Regions on account management and advanced search pages, but they are not generally used elsewhere.</td>
 </tr>
 </tbody>
 </table>
@@ -1396,7 +1388,7 @@ Notes: This product has not been evaluated for WCAG 2.x Level AAA conformance.
 
 ### Chapter 3: [Functional Performance Criteria](https://www.access-board.gov/ict/#301-general) (FPC)
 
-Notes: See [WCAG section](#wcag-21-report) for full details.
+Notes: See [WCAG section](#wcag-22-report) for full details.
 
 <table>
 <thead>
@@ -1474,7 +1466,7 @@ Notes: See [WCAG section](#wcag-21-report) for full details.
 <tbody>
 <tr>
 <td>501.1 Scope – Incorporation of WCAG 2.1 AA</td>
-<td>See <a href="#WCAG">WCAG 2.1</a> section</td>
+<td>See <a href="#wcag-22-report">WCAG 2.2</a> section</td>
 <td>See information in WCAG section</td>
 </tr>
 <tr>
@@ -1495,7 +1487,7 @@ Third party scripts may inject content that disrupts standard operating system a
 </td>
 </tr>
 <tr>
-<th scope="column" colspan="3" id="502-services">502.3 Accessibility Services</th>
+<th scope="column" colspan="3" id="502-services"><a href="https://www.access-board.gov/ict/#502.3">502.3 Accessibility Services</a></th>
 </tr>
 <tr>
 <td headers="502-services chap-5-criteria">502.3.1 Object Information</td>
@@ -1503,7 +1495,7 @@ Third party scripts may inject content that disrupts standard operating system a
 <td headers="502-services chap-5-remarks">
 Object role, state(s), properties, boundary, name, and description are generally programmatically determinable, with some exceptions.
 <br><br>
-See WCAG sections <a href="#non-text-content">1.1.1 Non-text Content</a>, <a href="#info-and-relationships">1.3.1 Info and Relationships</a>, <a href="#sensory-characteristics">1.3.3 Sensory Characteristics</a>, <a href="#link-purpose-in-context">2.4.4 Link Purpose (In Context)</a>, <a href="#labels-or-instructions">3.3.2 Labels or Instructions</a>, <a href="#parsing">4.1.1 Parsing</a>, <a href="#name-role-value">4.1.2 Name, Role, Value</a>, <a href="#contrast-minimum">1.4.3 Contrast (Minimum)</a>, and <a href="#headings-and-labels">2.4.6 Headings and Labels</a> for further detail.
+See WCAG sections <a href="#non-text-content">1.1.1 Non-text Content</a>, <a href="#info-and-relationships">1.3.1 Info and Relationships</a>, <a href="#sensory-characteristics">1.3.3 Sensory Characteristics</a>, <a href="#link-purpose-in-context">2.4.4 Link Purpose (In Context)</a>, <a href="#labels-or-instructions">3.3.2 Labels or Instructions</a>, <a href="#name-role-value">4.1.2 Name, Role, Value</a>, <a href="#contrast-minimum">1.4.3 Contrast (Minimum)</a>, and <a href="#headings-and-labels">2.4.6 Headings and Labels</a> for further detail.
 </td>
 </tr>
 <tr>
@@ -1512,14 +1504,14 @@ See WCAG sections <a href="#non-text-content">1.1.1 Non-text Content</a>, <a hre
 <td headers="502-services chap-5-remarks">
 The pages of this product use standard HTML or WAI-ARIA object roles for maximum compatibility with Assistive Technologies, with some exceptions.
 <br><br>
-See WCAG sections <a href="#non-text-content">1.1.1 Non-text Content</a>, <a href="#info-and-relationships">1.3.1 Info and Relationships</a>, <a href="#sensory-characteristics">1.3.3 Sensory Characteristics</a>, <a href="#link-purpose-in-context">2.4.4 Link Purpose (In Context)</a>, <a href="#labels-or-instructions">3.3.2 Labels or Instructions</a>, <a href="#parsing">4.1.1 Parsing</a>, <a href="#name-role-value">4.1.2 Name, Role, Value</a>, <a href="#contrast-minimum">1.4.3 Contrast (Minimum)</a>, and <a href="#headings-and-labels">2.4.6 Headings and Labels</a> for further detail.
+See WCAG sections <a href="#non-text-content">1.1.1 Non-text Content</a>, <a href="#info-and-relationships">1.3.1 Info and Relationships</a>, <a href="#sensory-characteristics">1.3.3 Sensory Characteristics</a>, <a href="#link-purpose-in-context">2.4.4 Link Purpose (In Context)</a>, <a href="#labels-or-instructions">3.3.2 Labels or Instructions</a>, <a href="#name-role-value">4.1.2 Name, Role, Value</a>, <a href="#contrast-minimum">1.4.3 Contrast (Minimum)</a>, and <a href="#headings-and-labels">2.4.6 Headings and Labels</a> for further detail.
 </td>
 </tr>
 <tr>
 <td headers="502-services chap-5-criteria">502.3.3 Row, Column, and Headers</td>
 <td headers="502-services chap-5-conformance">Partially Supports</td>
 <td headers="502-services chap-5-remarks">
-Data tables in journals, books, series, protocols, reference works or proceedings may not be marked up with adequate table header information.
+Data tables in journals, books, series, protocols, reference works or proceedings are marked up with marked up with standard HTML `table` elements, with rare exceptions.
 <br><br>
 Data tables in dynamic templates are rare, but where they do appear, they are marked up with standard HTML `table` elements. Row headers are present and associated with rows and columns as necessary.
 </td>
@@ -1626,7 +1618,7 @@ See WCAG sections <a href="#info-and-relationships">1.3.1 Info and Relationships
 <td headers="503-apps chap-5-remarks">We do not provide any alternative user interface for this product that functions as Assistive Technology.</td>
 </tr>
 <tr>
-<th scope="column" colspan="3" id="503-usercon">503.4 User Controls for Captions and Audio Description</th>
+<th scope="column" colspan="3" id="503-usercon"><a href="https://www.access-board.gov/ict/#503.4">503.4 User Controls for Captions and Audio Description</a></th>
 </tr>
 <tr>
 <td headers="503-usercon chap-5-criteria">503.4.1 Caption Controls</td>
@@ -1754,7 +1746,7 @@ Notes: This product does not offer two-way voice communication and is therefore 
 
 ### Clause [7: ICT with Video Capabilities](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=35)
 
-Notes: See [WCAG section](#wcag-21-report) for full details.
+Notes: See [WCAG section](#wcag-22-report) for full details.
 
 <table>
 <thead>
@@ -1812,7 +1804,7 @@ Notes: This product is a web software application and is not subject to the requ
 
 ### Clause [9: Web](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=45)
 
-Notes: Please see [WCAG 2.1 section](#wcag-21-report).
+Notes: Please see [WCAG 2.2 section](#wcag-22-report).
 
 ### Clause [10: Non-Web Documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52)
 
@@ -1836,7 +1828,7 @@ Notes: This product does not include non-web documents and is therefore not subj
 <tr>
 <td headers="11-gen chap-11-criteria">11.1.1 through 11.4.1.3</td>
 <td headers="11-gen chap-11-conformance">See <a ref="#WCAG">WCAG 2.x</a> Section</td>
-<td headers="11-gen chap-11-remarks">See information in WCAG section</td>
+<td headers="11-gen chap-11-remarks">See information in [WCAG section](#wcag-22-report).</td>
 </tr>
 <tr>
 <th scope="column" colspan="3" id="11-interop">11.5 Interoperability with assistive technology</th>
