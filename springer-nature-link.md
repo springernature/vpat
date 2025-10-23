@@ -959,7 +959,7 @@ In some cases, WAI-ARIA attributes have been omitted where they would be helpful
 </ul></td>
 <td>Partially Supports</td>
 <td>
-Images of product covers (e.g. journals, books displayed on the [homepage](https://link.springer.com)) may contain text that does not meet WCAG AA contrast guidelines. On the homepage, these images are supplemented with visible text labels.
+Images of product covers (e.g. journals, books displayed on the [homepage](https://link.springer.com)) may contain text that does not meet WCAG AA contrast guidelines. These images are supplemented with visible text labels.
 <br><br>
 Checkout process pages have some instances of low text contrast (e.g. where optional fields are indicated in text).
 <br><br>
