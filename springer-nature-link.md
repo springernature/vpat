@@ -103,7 +103,7 @@ Images such as icons on user interface elements may be identified with visible t
 <br><br>
 We mark up some images so that they can be ignored by Assistive Technologies if they are <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration"><i>pure decoration</i></a> (as defined by WCAG 2.1).
 <br><br>
-Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These include the Freshdesk customer services widget, and may include images in advertising scripts. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+Third party scripts may inject non-text content without text alternatives, or with inadequate text alternatives. These may include images in advertising scripts. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 <br><br>
 When supplied by authors who publish with us, some complex images may lack adequate alternative text, descriptions, and/or captions. Examples may include images of charts, graphs, or maps. Generally, these images are used to supplement text content. A large-scale and currently-active programme of work to improve alternative text content submitted by our authors is under way to address this.
 </td>
@@ -223,7 +223,7 @@ Some complex functionality may omit required WAI-ARIA roles, states, or attribut
 <br><br>
 Checkout process pages use form fields that rely solely on built-in browser error checking, which can lead to error messages being unavailable for users with older browser technology, or for Assistive Technology that doesn't support these features.
 <br><br>
-Third party scripts may inject content with incorrect or absent information about structure and relationships. These may include content in advertising scripts and the Freshdesk customer services widget, among others.
+Third party scripts may inject content with incorrect or absent information about structure and relationships. These may include content in advertising scripts, among others.
 </td>
 </tr>
 <tr id="meaningful-sequence" valign="top">
@@ -547,7 +547,7 @@ The meaning and/or operation of content on this product is generally unaffected 
 <br><br>
 A-Z index pages for journals and books may contain components where some items in the focus order do not match the visual order.
 <br><br>
-Third party scripts including advertising scripts or customer services widgets (among others), may inject content where the focus order does not match the visual order. The operation and meaning of these components should be unaffected by the focus order.
+Third party scripts including advertising scripts (among others), may inject content where the focus order does not match the visual order. The operation and meaning of these components should be unaffected by the focus order.
 </td>
 </tr>
 <tr id="link-purpose-in-context" valign="top">
@@ -575,7 +575,7 @@ Generally, the purpose of each link in this product can be determined by its des
 <br><br>
 In submitted articles, anchor links that refer to supplementary figures or tables may have insufficient context in their link text (e.g. figure numbers only). In limited cases we may support inadequate link text with the use of WAI-ARIA techniques. We are actively working to repair these problems.
 <br><br>
-Third party scripts including advertising scripts, the Disqus commenting widget, survey or customer services widgets (among others), may inject content that includes links with no accessible text, or poorly-named accessible text. When we become aware of deficiencies, we contact third party suppliers to request repairs.
+Third party scripts (e.g. advertising) may inject content that includes links with no accessible text, or poorly-named accessible text. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 <tr id="pointer-gestures" valign="top">
@@ -843,8 +843,6 @@ WCAG 2.2 (obsolete and removed) - Does not apply
 The pages of this product generally use standard HTML and WAI-ARIA attributes to describe the identity, operation, and state of user interface elements to Assistive Technologies.
 <br><br>
 In some cases, WAI-ARIA attributes have been omitted where they would be helpful (e.g. progress indicators are not marked up as step counters in the checkout flow). In other cases, WAI-ARIA roles or attributes may be misused in ways that cause elements to have misleading semantics. We are actively working to find and repair these problems.
-<br><br>
-Other third party scripts, including the Freshdesk customer services widget, may present elements that lack adequate names and roles, making them difficult for screen reader users to access. When we become aware of deficiencies, we contact third party suppliers to request repairs.
 </td>
 </tr>
 </tbody>
@@ -1069,7 +1067,7 @@ When supplied by authors who publish with us, Graphical Objects (e.g. charts, gr
 <br><br>
 On this product's homepage, the focus ring in the "About Springer Nature Link" section has inadequate contrast against the blue background.
 <br><br>
-Third party content (e.g. advertising, customer services widgets) may inject non-text elements with inadequate contrast. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
+Third party content (e.g. advertising) may inject non-text elements with inadequate contrast. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
 </td>
 </tr>
 <tr id="text-spacing" valign="top">
@@ -1113,7 +1111,7 @@ Additional content that becomes visible on hover or focus (for example tooltips)
 <br><br>
 Content triggered in this way does not meet this criterion's requirements for Dismissable (the content cannot be dismissed without changing focus) or Hoverable (the pointer cannot be moved over the additional content without it disappearing).  
 <br><br>
-Third party content (e.g. advertising, customer services widgets) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
+Third party content (e.g. advertising) may inject elements that fail to meet this criterion. When we become aware of deficiencies, we immediately take steps to request repairs from third party vendors.
 </td>
 </tr>
 <tr id="multiple-ways" valign="top">
