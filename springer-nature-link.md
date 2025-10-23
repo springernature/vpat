@@ -223,7 +223,7 @@ Some complex functionality may omit required WAI-ARIA roles, states, or attribut
 <br><br>
 Checkout process pages use form fields that rely solely on built-in browser error checking, which can lead to error messages being unavailable for users with older browser technology, or for Assistive Technology that doesn't support these features.
 <br><br>
-Third party scripts may inject content with incorrect or absent information about structure and relationships. These may include content in advertising scripts, among others.
+Third party scripts may inject content with incorrect or absent information about structure and relationships. These may include content in advertising scripts.
 </td>
 </tr>
 <tr id="meaningful-sequence" valign="top">
@@ -545,7 +545,7 @@ Where multiple versions of the same content exist (e.g. in original research tha
 <td>
 The meaning and/or operation of content on this product is generally unaffected by focus order.
 <br><br>
-Third party scripts including advertising scripts (among others), may inject content where the focus order does not match the visual order. The operation and meaning of these components should be unaffected by the focus order.
+Third party scripts, including advertising scripts, may inject content where the focus order does not match the visual order. The operation and meaning of these components should be unaffected by the focus order.
 </td>
 </tr>
 <tr id="link-purpose-in-context" valign="top">
