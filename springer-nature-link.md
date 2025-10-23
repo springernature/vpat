@@ -1381,7 +1381,7 @@ Checkout process pages rely solely on built-in browser error checking, and do no
 <em>Revised Section 508 - does not apply</em>
 </td>
 <td>Partially Supports</td>
-<td>Status messages that do not receive focus are presented in text. Some are marked up with programmatic roles (e.g. `role="alert"` on some error messages), but there is no consistent, single approach to status messages across the multiple designs. There are instances of ARIA Live Regions on account management pages, but they are not generally used elsewhere.</td>
+<td>Status messages that do not receive focus are presented in text. Some are marked up with programmatic roles (e.g. `role="alert"` on some error messages), but there is no consistent, single approach to status messages across the multiple designs. There are instances of ARIA Live Regions on account management and advanced search pages, but they are not generally used elsewhere.</td>
 </tr>
 </tbody>
 </table>
