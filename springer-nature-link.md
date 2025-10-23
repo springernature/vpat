@@ -545,8 +545,6 @@ Where multiple versions of the same content exist (e.g. in original research tha
 <td>
 The meaning and/or operation of content on this product is generally unaffected by focus order.
 <br><br>
-A-Z index pages for journals and books may contain components where some items in the focus order do not match the visual order.
-<br><br>
 Third party scripts including advertising scripts (among others), may inject content where the focus order does not match the visual order. The operation and meaning of these components should be unaffected by the focus order.
 </td>
 </tr>
